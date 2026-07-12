@@ -203,7 +203,6 @@ export interface HealthResponse {
   services: {
     database: boolean;
     redis: boolean;
-    mlService: boolean;
     llm: boolean;
   };
 }

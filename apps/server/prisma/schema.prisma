@@ -1,0 +1,60 @@
+// =============================================================================
+// Prisma Schema — IncidentIQ AI
+// =============================================================================
+// Maps to the existing PostgreSQL schema defined in docker/init.sql.
+//
+// Note: document_embeddings is intentionally omitted — it contains a vector(768)
+// column not supported natively by Prisma. It is managed via raw pg / pgvector.
+//
+// Generate client: npx prisma generate --schema apps/server/prisma/schema.prisma
+// =============================================================================
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../../../node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Incidents
+// ---------------------------------------------------------------------------
+model Incident {
+  id               String    @id @default(uuid()) @db.Uuid
+  incidentId       String    @unique @map("incident_id")
+  title            String
+  description      String?
+  severity         String
+  status           String    @default("open")
+  affectedServices String[]  @map("affected_services")
+  rootCause        String?   @map("root_cause")
+  resolution       String?
+  createdAt        DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt        DateTime  @updatedAt @map("updated_at") @db.Timestamptz
+  resolvedAt       DateTime? @map("resolved_at") @db.Timestamptz
+  metadata         Json      @default("{}")
+
+  @@map("incidents")
+}
+
+
+// ---------------------------------------------------------------------------
+// Service Metrics
+// ---------------------------------------------------------------------------
+model ServiceMetric {
+  id           BigInt   @id @default(autoincrement())
+  timestamp    DateTime @db.Timestamptz
+  service      String
+  cpuPct       Float    @map("cpu_pct")
+  memoryPct    Float    @map("memory_pct")
+  errorRate    Float    @map("error_rate")
+  latencyP99   Float    @map("latency_p99")
+  requestCount Int      @map("request_count")
+  severity     String   @default("normal")
+
+  @@map("service_metrics")
+}
+

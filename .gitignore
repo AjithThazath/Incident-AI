@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*/node_modules/*
+
+# Build outputs
+dist/
+build/
+tmp/
+.nx/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Generated data (large files)
+data/logs/
+data/metrics/
+data/incidents/
+data/runbooks/
+*.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+
+# Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+
+# LangGraph API
+.langgraph_api
+
+docker-compose.yml

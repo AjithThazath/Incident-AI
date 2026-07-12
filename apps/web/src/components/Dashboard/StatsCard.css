@@ -1,0 +1,51 @@
+.stats-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: clamp(12px, 2vw, 20px);
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(10px, 1.5vw, 16px);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.stats-card:hover {
+  border-color: var(--accent-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.stats-card__icon {
+  font-size: clamp(22px, 2.5vw, 28px);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.stats-card__content {
+  min-width: 0;
+}
+
+.stats-card__value {
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+.stats-card--danger .stats-card__value { color: var(--accent-danger); }
+.stats-card--warning .stats-card__value { color: var(--accent-warning); }
+.stats-card--success .stats-card__value { color: var(--accent-success); }
+.stats-card--info .stats-card__value { color: var(--accent-info); }
+
+.stats-card__title {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.stats-card__subtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}

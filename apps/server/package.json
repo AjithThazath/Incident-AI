@@ -1,0 +1,9 @@
+{
+  "name": "@incidentiq/server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "../../dist/apps/server/index.js",
+  "dependencies": {
+    "@langchain/langgraph-checkpoint-postgres": "^1.0.2"
+  }
+}

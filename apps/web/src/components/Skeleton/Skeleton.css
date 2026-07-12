@@ -1,0 +1,71 @@
+/* Facebook-style shimmer skeleton loader */
+.skeleton {
+  background: var(--bg-card-hover);
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--skeleton-shimmer, rgba(0, 0, 0, 0.04)) 50%,
+    transparent 100%
+  );
+  animation: skeleton-shimmer 1.5s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton-card {
+  pointer-events: none;
+}
+
+.skeleton-mt-4 {
+  margin-top: 4px;
+}
+
+.skeleton-mt-8 {
+  margin-top: 8px;
+}
+
+.skeleton-mb-16 {
+  margin-bottom: 16px;
+}
+
+/* Skeleton bars for MetricsChart */
+.skeleton-bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 120px;
+  padding-top: 16px;
+}
+
+/* Skeleton table rows */
+.skeleton-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0;
+}
+
+.skeleton-table-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+}

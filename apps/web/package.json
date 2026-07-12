@@ -1,0 +1,8 @@
+{
+  "name": "@incidentiq/web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "marked": "^18.0.5"
+  }
+}

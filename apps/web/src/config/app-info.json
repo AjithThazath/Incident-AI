@@ -1,0 +1,19 @@
+{
+  "projectName": "IncidentIQ AI",
+  "tagline": "AI-Powered Incident Management Demo",
+  "intro": "IncidentIQ is a full-stack AI incident management platform that demonstrates how modern LLM orchestration can transform IT operations. It uses a multi-agent architecture powered by LangGraph to automatically triage, correlate, and diagnose production incidents — with a human-in-the-loop for critical decisions.",
+  "features": [
+    "Real-time incident dashboard with severity tracking",
+    "AI-powered root cause analysis (RCA) using LangGraph agents",
+    "RAG-based knowledge retrieval from runbooks & past incidents",
+    "Conversational AI assistant with CopilotKit integration",
+    "Human-in-the-loop approvals via LangGraph interrupts",
+    "Automated incident triage & correlation"
+  ],
+  "techStack": "React, LangGraph, CopilotKit, PostgreSQL, Prisma",
+  "developer": {
+    "name": "Ajith Thazath",
+    "linkedIn": "https://www.linkedin.com/in/ajith-thazath",
+    "github": "https://github.com/ajiththazath"
+  }
+}

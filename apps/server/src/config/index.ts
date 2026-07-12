@@ -124,7 +124,7 @@ export const config = {
   // Server Configuration
   // ---------------------------------------------------------------------------
   server: {
-    port: envInt('SERVER_PORT', 3001),
+    port: envInt('PORT', 3001),
     host: env('SERVER_HOST', '0.0.0.0'),
     corsOrigin: env('CORS_ORIGIN', 'http://localhost:5173'),
     nodeEnv: env('NODE_ENV', 'development'),

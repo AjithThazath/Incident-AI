@@ -1,22 +1,20 @@
 import { Router, Request, Response } from 'express';
 import type { HealthResponse } from '@incidentiq/shared-types';
-import { createClient } from 'redis';
-import { config } from '../config';
 export const healthRouter = Router();
 import { prisma } from "../config/prisma";
 import { getRedisClient } from '../config/providers';
-import { AnyARecord } from 'node:dns';
+import logger from '../observability';
 
 
 async function checkRedis(): Promise<boolean> {
   const _redisClient = await getRedisClient();
   return _redisClient.ping()
   .then((res: any) => {
-    console.log('✅ Redis is healthy:', res);
+    logger.info('✅ Redis is healthy:', res);
     return true;
   })
   .catch((err: any) => {
-    console.error('❌ Redis check failed:', err);
+    logger.error('❌ Redis check failed:', err);
     return false;
   })
 
@@ -25,11 +23,11 @@ async function checkRedis(): Promise<boolean> {
 async function checkDatabase(): Promise<boolean> {
   return prisma.$queryRaw`SELECT 1`
   .then(() => {
-    console.log('✅ Database is healthy');
+    logger.info('✅ Database is healthy');
     return true;
   })
   .catch((err) => {
-    console.error('❌ Database check failed:', err);
+    logger.error('❌ Database check failed:', err);
     return false;
   });
 }

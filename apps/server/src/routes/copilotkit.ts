@@ -18,7 +18,7 @@ import { LangGraphHttpAgent } from "@ag-ui/langgraph";
 const handler = createCopilotExpressHandler({
   runtime,
   basePath: "/api/copilotkit",
-  cors: false,
+  cors: true,
   mode: "single-route",
 });
 

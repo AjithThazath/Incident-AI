@@ -11,10 +11,6 @@ import { getCheckPointer, getPool } from './config/providers';
 import { handler } from './routes/copilotkit';
 import copilotKitHandler from './routes/langgraphHandler';
 
-
-
-
-
 const app = express();
 
 // ---------------------------------------------------------------------------

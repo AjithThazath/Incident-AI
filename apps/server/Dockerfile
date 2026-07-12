@@ -1,4 +1,4 @@
-FROM node:20-alpine AS builder
+FROM node:20-slim AS builder
 WORKDIR /app
 COPY package.json ./
 RUN npm install
@@ -6,7 +6,7 @@ COPY . .
 RUN npx prisma generate --schema=apps/server/prisma/schema.prisma
 RUN npx nx build server
 
-FROM node:20-alpine
+FROM node:20-slim
 WORKDIR /app
 COPY --from=builder /app/dist/apps/server ./
 COPY --from=builder /app/node_modules ./node_modules

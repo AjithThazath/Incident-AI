@@ -22,7 +22,6 @@ const app = express();
 // ---------------------------------------------------------------------------
 app.use(helmet());
 //mounting copilotkit handler before compression to avoid issues with SSE streaming endpoints
-app.use('/api/copilotkit', handler);
 app.use(cors({ origin: config.server.corsOrigin, credentials: true }));
 app.use(express.json({ limit: '50mb' })); // Large limit for base64 attachments
 app.use(morgan('combined', { stream: { write: (msg) => logger.info(msg.trim()) } }));
@@ -30,6 +29,7 @@ app.use(morgan('combined', { stream: { write: (msg) => logger.info(msg.trim()) }
 // ---------------------------------------------------------------------------
 // Routes
 // ---------------------------------------------------------------------------
+app.use('/api/copilotkit', handler);
 app.use('/api/health', healthRouter);
 app.use('/api/incidents', incidentRouter);
 app.use ('/api/invokeGraph', copilotKitHandler);

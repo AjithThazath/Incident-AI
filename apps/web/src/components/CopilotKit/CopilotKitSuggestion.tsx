@@ -5,7 +5,7 @@ export function StaticSuggestions() {
     suggestions: [
       { title: "Show me incident 40", message: "Navigate to incident 40" },
       { title: "I am facing an issue", message: "I am facing an issue with db" },
-      { title: "Summarize analytics-engine  Cache Thrashing", message: "Summarize analytics-engine — Cache Thrashing Runbook" },
+      { title: "Summarize reporting-service High Cpu", message: "Summarize reporting-service — High CPU Usage Runbook" },
     ],
   });
   return null;

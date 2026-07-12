@@ -4,23 +4,25 @@ import { createClient } from 'redis';
 import { config } from '../config';
 export const healthRouter = Router();
 import { prisma } from "../config/prisma";
+import { getRedisClient } from '../config/providers';
+import { AnyARecord } from 'node:dns';
 
 
-function checkRedis(): Promise<boolean> {
-  const _redisClient = createClient({ url: config.redis.url })
+async function checkRedis(): Promise<boolean> {
+  const _redisClient = await getRedisClient();
   return _redisClient.ping()
-  .then((res) => {
+  .then((res: any) => {
     console.log('✅ Redis is healthy:', res);
     return true;
   })
-  .catch((err) => {
+  .catch((err: any) => {
     console.error('❌ Redis check failed:', err);
     return false;
   })
 
 }
 
-function checkDatabase(): Promise<boolean> {
+async function checkDatabase(): Promise<boolean> {
   return prisma.$queryRaw`SELECT 1`
   .then(() => {
     console.log('✅ Database is healthy');

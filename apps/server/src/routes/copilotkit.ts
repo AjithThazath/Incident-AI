@@ -9,7 +9,7 @@ import { LangGraphHttpAgent } from "@ag-ui/langgraph";
   const runtime = new CopilotRuntime({
     agents: {
       default: new LangGraphHttpAgent({
-        url: `${process.env.API_BASE_URL}/api/invokeGraph`
+        url: `/api/invokeGraph`
       }),
     },
   });

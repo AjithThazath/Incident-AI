@@ -83,8 +83,6 @@ export function useIncidentDetail(id: string | undefined) {
     getIncident(id)
       .then(setIncident)
       .catch(() => {
-        const mock = mockIncidents.find(i => i.incidentId === id || i.id === id);
-        setIncident(mock || null);
       })
       .finally(() => setLoading(false));
   }, [id]);

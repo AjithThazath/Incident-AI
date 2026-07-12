@@ -2,7 +2,6 @@
 import { createLLM } from "../config/providers";
 import type { IncidentStateType } from "../state";
 import { query_metric_data } from "./tools";
-import { dispatchCustomEvent } from "@langchain/core/callbacks/dispatch";
 import { getFromCache, setInCache } from "../cache";
 import logger from "../observability";
 import { AgentStatus } from "@incidentiq/shared-types";

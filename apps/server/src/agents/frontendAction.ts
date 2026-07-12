@@ -1,5 +1,5 @@
 import { tool } from "@langchain/core/tools";
-import { createLLM } from "../config/providers";
+import { createClassifierModel } from "../config/providers";
 import { IncidentStateType } from "../state";
 import { AIMessage } from "@langchain/core/messages";
 import z from "zod";
@@ -50,7 +50,7 @@ function copilotKitActionsToTools(actions: any[]) {
 }
 
 export async function frontendActionAgent(_state: IncidentStateType) {
-  const llm =  createLLM();
+  const llm =  createClassifierModel();
   const normalizedActions = Array.isArray(_state.copilotkit?.actions)
     ? _state.copilotkit.actions
     : [];

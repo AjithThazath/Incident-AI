@@ -6,7 +6,6 @@ import {
 } from "@langchain/core/runnables";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { Document } from "@langchain/core/documents";
-import { dispatchCustomEvent } from "@langchain/core/callbacks/dispatch";
 
 // Formats retrieved Document objects into a single context string
 const formatDocs = (docs: Document[]) =>
@@ -22,11 +21,6 @@ export async function createRAGChain(): Promise<any> {
   const llm = createLLM();
   const vectorStore = await createVectorStore();
   const retriever = vectorStore.asRetriever(5);
-
-  await dispatchCustomEvent("agent_lifecycle", {
-    agent: "Knowledge",
-    status: "started",
-  });
 
   // Create prompt template that instructs the LLM to use retrieved context
   const prompt = ChatPromptTemplate.fromTemplate(`
@@ -52,10 +46,5 @@ export async function createRAGChain(): Promise<any> {
     llm,
     new StringOutputParser(),
   ]);
-
-  await dispatchCustomEvent("agent_lifecycle", {
-    agent: "Knowledge",
-    status: "completed",
-  });
   return ragChain;
 }

@@ -9,18 +9,10 @@ import { LangGraphHttpAgent } from "@ag-ui/langgraph";
   const runtime = new CopilotRuntime({
     agents: {
       default: new LangGraphHttpAgent({
-        url: "http://localhost:3001/api/invokeGraph"
+        url: `${process.env.API_BASE_URL}/api/invokeGraph`
       }),
     },
   });
-  // const runtime = new CopilotRuntime({
-  //   agents: {
-  //     default: new LangGraphAgent({
-  //       deploymentUrl: "http://localhost:2024",
-  //       graphId: "orchestrator",
-  //     }),
-  //   },
-  // });
 
 
 const handler = createCopilotExpressHandler({

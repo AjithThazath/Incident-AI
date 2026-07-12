@@ -2,7 +2,6 @@ import { Finding } from "@incidentiq/shared-types";
 import { createLLM } from "../config/providers";
 import { retrieveDocuments } from "../rag/retriever";
 import z from "zod";
-import { dispatchCustomEvent } from "@langchain/core/callbacks/dispatch";
 import { getFromCache, setInCache } from "../cache";
 import { rerankResults } from "../rag/reranker";
 import { logger } from "../observability";

@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import type { ChatMessage, ChatRequest } from '@incidentiq/shared-types';
-import { sendMessage, streamMessage } from '../api/client';
+// import { sendMessage, streamMessage } from '../api/client';
 import { useAppContext } from '../context/AppContext';
 import { v4 as uuid } from 'uuid';
 
@@ -13,10 +13,6 @@ export function useChat() {
   const { state, dispatch } = useAppContext();
   const [inputValue, setInputValue] = useState('');
 
-  const loadMockMessages = useCallback(() => {
-    dispatch({ type: 'SET_MESSAGES', payload: mockMessages });
-    dispatch({ type: 'SET_CONVERSATION', payload: 'conv-1' });
-  }, [dispatch]);
 
   const sendUserMessage = useCallback(async (
     content: string,
@@ -67,14 +63,7 @@ export function useChat() {
         };
         dispatch({ type: 'ADD_MESSAGE', payload: placeholderMessage });
 
-        await streamMessage(
-          request,
-          (token) => dispatch({ type: 'APPEND_TO_LAST_MESSAGE', payload: token }),
-          (message) => dispatch({ type: 'FINALIZE_MESSAGE', payload: message }),
-          (agent, status) => dispatch({ type: 'UPDATE_AGENT_STATUS', payload: { agent, status } }),
-          (error) => dispatch({ type: 'SET_ERROR', payload: error }),
-        );
-      }
+      
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : 'Unknown error';
       dispatch({ type: 'SET_ERROR', payload: errorMessage });
@@ -97,7 +86,6 @@ export function useChat() {
     inputValue,
     setInputValue,
     sendUserMessage,
-    loadMockMessages,
     resetChat,
     agentStates: state.agentStates,
   };

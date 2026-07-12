@@ -1,6 +1,6 @@
 ﻿import z from "zod";
 import type { IncidentStateType } from "../state";
-import { createClassifierModel } from "../config/providers";
+import { createLLM } from "../config/providers";
 import { logger } from "../observability";
 import { AgentStatus } from "@incidentiq/shared-types";
 import { AIMessage } from "@langchain/core/messages";
@@ -33,7 +33,7 @@ interface queryRouterResult {
 
 export async function queryRouter(_state: IncidentStateType): Promise<any> {
   try {
-    const llm = createClassifierModel();
+    const llm = createLLM();
     const prompt = `You are query router expert. Given the conversation history and user query, determine how to answer it.
     If the query is a follow-up question about a previous response (e.g., asking for details from prior analysis), route to common_chat.
     If the query is requesting NEW incident analysis or reporting a NEW system issue, route to incident.

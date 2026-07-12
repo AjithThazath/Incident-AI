@@ -23,4 +23,14 @@ export function useFrontendTools() {
       return `Navigated to ${incidentId}`;
     },
   });
+
+  useFrontendTool({
+    name: "navigate_to_dashboard",
+    description: "Navigate the user to the dashboard where he can see all the incidents",
+    followUp: false,
+    handler: async ({  }) => {
+      navigate(`/dashboard`);
+      return `Navigated to dashboard`;
+    },
+  });
 }

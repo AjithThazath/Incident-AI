@@ -174,6 +174,7 @@ export const config = {
     apiKey: env('COHERE_API_KEY'),
   },
   COPILOTKIT_TELEMETRY_DISABLED: envBool('COPILOTKIT_TELEMETRY_DISABLED', true),
+  API_BASE_URL: env('API_BASE_URL', 'http://localhost:3001'),
 
 } as const;
 

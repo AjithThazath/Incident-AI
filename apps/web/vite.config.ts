@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 
@@ -20,11 +20,11 @@ export default defineConfig({
     },
     proxy: {
       "/api": {
-        target: "http://localhost:3001",
+        target: `${process.env.API_BASE_URL}`,
         changeOrigin: true,
       },
       "/copilotkit": {
-        target: "http://localhost:3001",
+        target: `${process.env.API_BASE_URL}`,
         // These are critical for streaming:
         ws: true,
         configure: (proxy) => {

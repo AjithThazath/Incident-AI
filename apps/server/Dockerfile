@@ -3,6 +3,7 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install
 COPY . .
+RUN npx prisma generate --schema=apps/server/prisma/schema.prisma
 RUN npx nx build server
 
 FROM node:20-alpine

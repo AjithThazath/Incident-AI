@@ -5,7 +5,6 @@ import { readdir, readFile } from "fs/promises";
 import path from "path";
 import { z } from "zod";
 import { logger } from "../observability";
-import { getFromCache, setInCache } from "../cache";
 
 // Shared connection pool — managed by providers.ts, fetched lazily
 const pool = getPool;
@@ -31,14 +30,7 @@ const getTimeRangeFilter = (timeRange?: string): { startTime: Date | null; endTi
 
 const searchRunbooksTool = tool(
   async (input: { query: string; topK?: number }) => {
-    const cacheKey = `knowledge:${input.query}:${input.topK ?? 5}`;
-    const cachedResult = await getFromCache(cacheKey);
-    if (cachedResult) {
-      logger.info(`Search runbooks cache hit for query "${input.query}" >>> ${cachedResult}`);
-      return cachedResult;
-    }
     const doc = await retrieveDocuments(input.query, { topK: input.topK ?? 5 });
-    await setInCache(cacheKey, doc, 3600); // Cache for 1 hour
     return doc.map((d: any) => `[${d.metadata.source}] ${d.content}`).join('\n---\n');
   },
   {
@@ -53,13 +45,6 @@ const searchRunbooksTool = tool(
 
 export const searchLogsTool = tool(
   async (input: { pattern: string; service?: string; affectedServices?: string[]; timeRange?: string }) => {
-    logger.info("Search logs called with params ==> ",  input);
-    const cacheKey = `logs:${input.pattern}:${input.service ?? 'all'}:${input.affectedServices?.join(',') ?? 'none'}:${input.timeRange ?? 'all'}`;
-    const cachedResult = await getFromCache(cacheKey);
-    if (cachedResult) {
-      logger.info(`Search logs cache hit for pattern "${input.pattern}" >>> ${cachedResult}`);
-      return cachedResult;
-    }
     const { startTime, endTime } = getTimeRangeFilter(input.timeRange);
     const normalizedPattern = input.pattern.trim().toLowerCase();
     const normalizedServices = [input.service, ...(input.affectedServices ?? [])]
@@ -104,8 +89,7 @@ export const searchLogsTool = tool(
 
       const allMatches = (await Promise.all(readPromises)).flat();
       if (allMatches.length === 0) return 'No matching log lines found';
-      logger.info("search logs completed");
-      await setInCache(cacheKey, allMatches.slice(0, 200).join('\n'), 3600); // Cache for 1 hour
+      logger.info(`Found ${allMatches.length} matching log lines for pattern "${input.pattern}" and services [${normalizedServices.join(', ')}]`);
       return allMatches.slice(0, 200).join('\n');
     } catch (err: any) {
       logger.error('Error reading log files:', err);
@@ -131,12 +115,6 @@ export const query_metric_data = tool(
     }
 
     const { startTime, endTime } = getTimeRangeFilter(input.timeRange);
-    const cacheKey = `metrics:${input.service}:${input.metric}:${input.timeRange ?? 'all'}`;
-    const cachedResult = await getFromCache(cacheKey);
-    if (cachedResult) {
-      logger.info(`Query metrics cache hit for service "${input.service}" and metric "${input.metric}" >>> ${cachedResult}`);
-      return cachedResult;
-    }
 
     // Columns to aggregate — 'all' expands to every metric column
     const allColumns = ['cpu_pct', 'memory_pct', 'error_rate', 'latency_p99', 'request_count'] as const;
@@ -165,7 +143,7 @@ export const query_metric_data = tool(
         `${k}: min=${parseFloat(r[`${k}_min`]).toFixed(2)} max=${parseFloat(r[`${k}_max`]).toFixed(2)} avg=${parseFloat(r[`${k}_avg`]).toFixed(2)} p95=${parseFloat(r[`${k}_p95`]).toFixed(2)}`
       );
       const resultString = `Service: ${input.service} | Rows: ${r.row_count}\n${summary.join('\n')}`;
-      await setInCache(cacheKey, resultString, 3600); // Cache for 1 hour
+      logger.info(`Queried metrics for service "${input.service}" and metric "${input.metric}" with time range "${input.timeRange ?? 'all'}":\n${resultString}`);
       return resultString;
     } catch (err: any) {
       logger.error('Error querying metrics:', err);

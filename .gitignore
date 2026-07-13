@@ -18,10 +18,9 @@ tmp/
 .env.*.local
 
 # Generated data (large files)
-data/logs/
 data/metrics/
-data/incidents/
 data/runbooks/
+data/incidents/
 *.db
 
 # IDE
@@ -31,10 +30,6 @@ data/runbooks/
 # OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-logs/
 
 
 # Python

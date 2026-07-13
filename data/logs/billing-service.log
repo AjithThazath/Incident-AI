@@ -1,0 +1,1000 @@
+2026-05-11 10:03:00.879 WARN  [billing-service] Connection pool utilization at 90%
+2026-05-11 10:21:00.124 FATAL [billing-service] Process killed by OOM killer: RSS=1196MB, limit=6720MB
+2026-05-11 11:29:00.066 ERROR [billing-service] Database query failed: ConnectionTimeout on table=payments
+2026-05-11 11:34:00.430 INFO  [billing-service] Processed 6432 messages from topic=payments
+2026-05-11 13:18:00.942 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-05-11 15:31:00.790 DEBUG [billing-service] Cache lookup: key=session:1234 result=MISS
+2026-05-11 19:10:00.368 DEBUG [billing-service] Processing request: method=PUT path=/api/v1/analytics
+2026-05-11 19:20:00.635 ERROR [billing-service] Timeout waiting for response from api-gateway after 5000ms
+2026-05-11 19:27:00.970 INFO  [billing-service] Health check passed: status=UP, uptime=58715s
+2026-05-11 22:22:00.990 INFO  [billing-service] Health check passed: status=UP, uptime=81646s
+2026-05-12 01:07:00.458 ERROR [billing-service] Database query failed: ConnectionTimeout on table=sessions
+2026-05-12 02:49:00.027 INFO  [billing-service] Cache hit ratio: 73% (last 5min)
+2026-05-12 03:27:00.714 INFO  [billing-service] Cache hit ratio: 73% (last 5min)
+2026-05-12 05:52:00.746 INFO  [billing-service] JWT token validated for user_id=usr_65270
+2026-05-12 07:12:00.795 ERROR [billing-service] HTTP 503 from nginx-ingress: Permission denied
+2026-05-12 09:46:00.333 DEBUG [billing-service] SQL: SELECT * FROM sessions WHERE id = usr_83996 LIMIT 1
+2026-05-12 12:16:00.734 INFO  [billing-service] Health check passed: status=UP, uptime=59585s
+2026-05-12 12:37:00.453 ERROR [billing-service] Database query failed: ConnectionTimeout on table=payments
+2026-05-12 13:01:00.726 WARN  [billing-service] Connection pool utilization at 82%
+2026-05-12 15:57:00.562 INFO  [billing-service] Query executed in 8828ms: SELECT * FROM users
+2026-05-12 16:00:00.512 WARN  [billing-service] Memory usage at 89% — approaching threshold
+2026-05-12 18:39:00.127 INFO  [billing-service] Cache hit ratio: 94% (last 5min)
+2026-05-13 03:02:47.534 ERROR [billing-service] Redis eviction rate elevated on redis-cache
+2026-05-13 03:58:40.418 ERROR [billing-service] Cache hit ratio dropped to 54%
+2026-05-13 04:35:55.423 ERROR [billing-service] Redis eviction rate elevated on postgres-replica
+2026-05-13 05:08:58.454 FATAL [billing-service] Redis eviction rate elevated on redis-cache
+2026-05-13 05:23:54.422 WARN  [billing-service] Retry attempt 3/3 for api-gateway
+2026-05-13 10:03:00.122 DEBUG [billing-service] SQL: SELECT * FROM users WHERE id = usr_80510 LIMIT 1
+2026-05-13 10:05:39.592 ERROR [billing-service] Slow query detected: 13939ms on sessions
+2026-05-13 10:12:25.796 ERROR [billing-service] Slow query detected: 1673ms on sessions
+2026-05-13 11:02:00.835 DEBUG [billing-service] Processing request: method=PUT path=/health
+2026-05-13 11:08:00.572 INFO  [billing-service] Request processed successfully in 2903ms
+2026-05-13 12:52:00.323 FATAL [billing-service] Process killed by OOM killer: RSS=2654MB, limit=5173MB
+2026-05-13 13:24:00.822 DEBUG [billing-service] Processing request: method=PUT path=/api/v1/users
+2026-05-13 14:02:14.522 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-05-13 14:05:47.329 FATAL [billing-service] Circuit breaker opened for redis-cache
+2026-05-13 14:07:03.037 WARN  [billing-service] Memory usage at 51% — approaching threshold
+2026-05-13 14:19:34.729 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-05-13 14:27:00.692 FATAL [billing-service] Process killed by OOM killer: RSS=2459MB, limit=2317MB
+2026-05-13 14:32:09.792 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-05-13 14:33:50.321 FATAL [billing-service] Circuit breaker opened for postgres-replica
+2026-05-13 14:40:31.157 ERROR [billing-service] Retry storm detected: 205 retries/min to postgres-replica
+2026-05-13 14:42:28.068 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-05-13 20:15:00.429 INFO  [billing-service] Cache hit ratio: 62% (last 5min)
+2026-05-14 01:32:08.058 ERROR [billing-service] Circuit breaker opened for kafka
+2026-05-14 01:41:41.587 ERROR [billing-service] Timeout waiting for response from analytics-engine after 5000ms
+2026-05-14 01:43:53.732 ERROR [billing-service] Connection refused to kafka:443 after 5 retries
+2026-05-14 01:54:23.127 ERROR [billing-service] Circuit breaker opened for postgres-primary
+2026-05-14 01:55:52.210 ERROR [billing-service] Connection refused to notification-service:9092 after 2 retries
+2026-05-14 02:07:53.364 WARN  [billing-service] Retry attempt 2/3 for search-service
+2026-05-14 02:09:17.865 ERROR [billing-service] Circuit breaker opened for nginx-ingress
+2026-05-14 02:11:18.267 WARN  [billing-service] Certificate expires in 15 days for auth.nexora.io
+2026-05-14 02:53:00.585 INFO  [billing-service] JWT token validated for user_id=usr_92074
+2026-05-14 03:06:00.400 INFO  [billing-service] JWT token validated for user_id=usr_19868
+2026-05-14 03:27:00.773 WARN  [billing-service] Slow query detected: 13486ms on payments
+2026-05-14 05:46:00.265 INFO  [billing-service] Processed 2081 messages from topic=auth-events
+2026-05-14 05:47:00.404 WARN  [billing-service] Certificate expires in 1 days for auth.nexora.io
+2026-05-14 13:02:00.220 INFO  [billing-service] Request processed successfully in 5403ms
+2026-05-14 13:51:00.658 INFO  [billing-service] JWT token validated for user_id=usr_40446
+2026-05-14 16:54:14.313 WARN  [billing-service] Connection pool utilization at 53%
+2026-05-14 18:20:35.193 FATAL [billing-service] Migration lock held longer than expected
+2026-05-14 18:42:10.087 ERROR [billing-service] Schema validation error: column not found
+2026-05-14 19:59:00.827 WARN  [billing-service] Slow query detected: 13787ms on users
+2026-05-14 20:28:00.653 INFO  [billing-service] Request processed successfully in 2761ms
+2026-05-14 22:25:00.289 WARN  [billing-service] Kafka consumer lag: 18351 messages on topic=notifications
+2026-05-14 22:51:00.802 INFO  [billing-service] Request processed successfully in 7509ms
+2026-05-14 23:43:00.371 WARN  [billing-service] Retry attempt 4/3 for auth-service
+2026-05-15 01:32:00.052 INFO  [billing-service] Connected to api-gateway successfully
+2026-05-15 02:36:00.864 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-05-15 02:41:01.132 ERROR [billing-service] Database connection failed: password authentication failed
+2026-05-15 02:47:52.276 ERROR [billing-service] Database connection failed: password authentication failed
+2026-05-15 02:50:23.807 ERROR [billing-service] Authentication failed for user_id=usr_73922: SchemaValidationError
+2026-05-15 02:52:37.666 WARN  [billing-service] Connection pool utilization at 63%
+2026-05-15 02:53:01.604 FATAL [billing-service] Secret version mismatch detected
+2026-05-15 02:54:15.385 FATAL [billing-service] Database connection failed: password authentication failed
+2026-05-15 03:00:31.963 FATAL [billing-service] Database connection failed: password authentication failed
+2026-05-15 03:06:45.737 ERROR [billing-service] Secret version mismatch detected
+2026-05-15 03:45:00.842 WARN  [billing-service] Kafka consumer lag: 60759 messages on topic=analytics
+2026-05-15 04:01:00.891 ERROR [billing-service] HTTP 504 from postgres-replica: Host is unreachable
+2026-05-15 04:32:00.719 FATAL [billing-service] Process killed by OOM killer: RSS=2266MB, limit=2042MB
+2026-05-15 07:01:00.507 INFO  [billing-service] Cache hit ratio: 84% (last 5min)
+2026-05-15 08:37:00.951 WARN  [billing-service] Retry attempt 1/3 for auth-service
+2026-05-15 10:52:00.512 INFO  [billing-service] Connected to api-gateway successfully
+2026-05-15 12:08:55.084 WARN  [billing-service] Memory usage at 62% — approaching threshold
+2026-05-15 12:17:37.400 WARN  [billing-service] Retry attempt 3/3 for nginx-ingress
+2026-05-15 12:24:32.533 WARN  [billing-service] Slow query detected: 8979ms on orders
+2026-05-15 12:30:56.685 ERROR [billing-service] WAL replay stalled on standby
+2026-05-15 12:39:43.114 ERROR [billing-service] Slow query detected: 12711ms on orders
+2026-05-15 15:38:00.903 ERROR [billing-service] HTTP 504 from postgres-primary: No route to host
+2026-05-15 18:11:00.489 DEBUG [billing-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-05-15 20:35:32.496 ERROR [billing-service] Timeout waiting for response from notification-service after 10000ms
+2026-05-15 20:35:35.371 ERROR [billing-service] Circuit breaker opened for redis-cache
+2026-05-15 20:37:08.088 WARN  [billing-service] Retry attempt 5/3 for redis-cache
+2026-05-15 20:43:45.417 ERROR [billing-service] Connection refused to elasticsearch:443 after 3 retries
+2026-05-15 20:55:10.946 ERROR [billing-service] Circuit breaker opened for postgres-replica
+2026-05-15 20:59:45.020 ERROR [billing-service] Circuit breaker opened for api-gateway
+2026-05-15 21:00:32.636 ERROR [billing-service] Connection refused to postgres-primary:9092 after 3 retries
+2026-05-15 21:02:33.521 WARN  [billing-service] Certificate expires in 15 days for api.nexora.io
+2026-05-16 02:32:00.775 FATAL [billing-service] Unable to connect to elasticsearch: all 5 retries exhausted
+2026-05-16 03:45:00.126 WARN  [billing-service] Retry attempt 4/3 for api-gateway
+2026-05-16 05:32:00.999 ERROR [billing-service] Timeout waiting for response from search-service after 5000ms
+2026-05-16 16:46:07.835 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-05-16 17:25:35.322 WARN  [billing-service] Slow query detected: 4290ms on sessions
+2026-05-16 17:26:00.120 INFO  [billing-service] Query executed in 5971ms: SELECT * FROM events
+2026-05-16 17:31:31.459 ERROR [billing-service] Circuit breaker opened for analytics-engine
+2026-05-16 19:01:00.459 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-05-16 23:23:56.156 ERROR [billing-service] Event loop lag: 6006ms — possible blocking operation
+2026-05-16 23:38:10.957 ERROR [billing-service] Slow request handling, thread pool saturated
+2026-05-17 00:32:04.256 WARN  [billing-service] Memory usage at 83% — approaching threshold
+2026-05-17 04:30:00.493 INFO  [billing-service] Cache hit ratio: 90% (last 5min)
+2026-05-17 04:33:00.784 ERROR [billing-service] Connection refused to nginx-ingress:6379 after 4 retries
+2026-05-17 05:58:09.119 WARN  [billing-service] Kafka consumer lag: 6754 messages on topic=analytics
+2026-05-17 06:43:45.246 ERROR [billing-service] Configuration checksum mismatch across replicas
+2026-05-17 06:47:00.761 INFO  [billing-service] Connected to notification-service successfully
+2026-05-17 07:25:00.347 ERROR [billing-service] Timeout waiting for response from analytics-engine after 5000ms
+2026-05-17 07:53:25.195 ERROR [billing-service] Configuration checksum mismatch across replicas
+2026-05-17 09:52:00.069 DEBUG [billing-service] SQL: SELECT * FROM sessions WHERE id = usr_80282 LIMIT 1
+2026-05-17 11:24:00.554 INFO  [billing-service] Health check passed: status=UP, uptime=6874s
+2026-05-17 15:11:00.043 INFO  [billing-service] Health check passed: status=UP, uptime=55701s
+2026-05-17 16:18:00.541 INFO  [billing-service] Query executed in 9498ms: SELECT * FROM metrics
+2026-05-17 16:27:00.192 INFO  [billing-service] JWT token validated for user_id=usr_54051
+2026-05-17 20:42:00.290 INFO  [billing-service] JWT token validated for user_id=usr_73160
+2026-05-18 04:42:54.012 WARN  [billing-service] Connection pool utilization at 67%
+2026-05-18 05:29:16.024 FATAL [billing-service] CPU throttling detected: 51% of periods throttled
+2026-05-18 07:04:00.953 ERROR [billing-service] Timeout waiting for response from search-service after 5000ms
+2026-05-18 09:34:04.231 FATAL [billing-service] Region mismatch: expected production received alternate region
+2026-05-18 10:03:00.278 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-05-18 10:22:45.711 ERROR [billing-service] Region mismatch: expected production received alternate region
+2026-05-18 11:20:48.557 FATAL [billing-service] Connection refused to auth-service:8080 after 4 retries
+2026-05-18 11:45:34.290 ERROR [billing-service] DNS resolution failed for search-service
+2026-05-18 14:39:00.907 INFO  [billing-service] Health check passed: status=UP, uptime=85941s
+2026-05-18 20:27:35.553 WARN  [billing-service] Retry attempt 2/3 for redis-cache
+2026-05-18 20:46:46.339 FATAL [billing-service] Region mismatch: expected staging received alternate region
+2026-05-18 20:56:17.428 ERROR [billing-service] Region mismatch: expected production received alternate region
+2026-05-18 21:51:00.275 WARN  [billing-service] Connection pool utilization at 76%
+2026-05-18 23:26:00.311 WARN  [billing-service] Retry attempt 4/3 for search-service
+2026-05-18 23:43:00.719 FATAL [billing-service] Process killed by OOM killer: RSS=971MB, limit=6644MB
+2026-05-19 08:58:00.453 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-05-19 10:14:19.548 ERROR [billing-service] Secret version mismatch detected
+2026-05-19 10:27:05.038 WARN  [billing-service] Retry attempt 5/3 for postgres-replica
+2026-05-19 16:56:00.332 INFO  [billing-service] Request processed successfully in 4251ms
+2026-05-19 23:45:00.884 WARN  [billing-service] Connection pool utilization at 52%
+2026-05-19 23:45:00.719 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-05-20 01:44:00.517 INFO  [billing-service] Connected to api-gateway successfully
+2026-05-20 01:49:00.036 INFO  [billing-service] Request processed successfully in 7370ms
+2026-05-20 02:01:00.798 ERROR [billing-service] Timeout waiting for response from nginx-ingress after 5000ms
+2026-05-20 02:46:38.755 ERROR [billing-service] Failed to process message: offset=962587, topic=auth-events
+2026-05-20 03:00:06.287 FATAL [billing-service] Authentication failed for user_id=usr_98884: DeadlockDetected
+2026-05-20 03:02:01.848 FATAL [billing-service] Failed to process message: offset=704608, topic=analytics
+2026-05-20 03:07:48.293 WARN  [billing-service] Retry attempt 5/3 for search-service
+2026-05-20 03:24:26.160 ERROR [billing-service] Failed to process message: offset=982982, topic=user-updates
+2026-05-20 12:04:00.130 INFO  [billing-service] Connected to elasticsearch successfully
+2026-05-20 13:25:26.528 ERROR [billing-service] Certificate expires in 9 days for auth.nexora.io
+2026-05-20 13:39:24.701 ERROR [billing-service] Certificate expires in 25 days for auth.nexora.io
+2026-05-20 14:33:00.782 WARN  [billing-service] Memory usage at 82% — approaching threshold
+2026-05-20 14:58:00.054 INFO  [billing-service] Processed 1801 messages from topic=analytics
+2026-05-20 15:32:00.647 INFO  [billing-service] Connected to api-gateway successfully
+2026-05-20 16:05:00.811 DEBUG [billing-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-05-20 21:40:00.114 INFO  [billing-service] Request processed successfully in 6545ms
+2026-05-20 22:23:00.522 ERROR [billing-service] HTTP 503 from nginx-ingress: Connection timed out
+2026-05-21 04:17:00.510 INFO  [billing-service] Query executed in 729ms: SELECT * FROM users
+2026-05-21 04:35:39.822 FATAL [billing-service] Pod scheduling failed: insufficient resources
+2026-05-21 04:35:59.153 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-21 04:59:11.182 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-21 04:59:33.760 FATAL [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-21 05:04:50.519 WARN  [billing-service] Memory usage at 98% — approaching threshold
+2026-05-21 05:13:25.322 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-21 05:15:48.401 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-21 05:17:59.570 ERROR [billing-service] Request queue depth exceeded capacity
+2026-05-21 06:02:00.287 WARN  [billing-service] Kafka consumer lag: 12367 messages on topic=user-updates
+2026-05-21 11:38:00.245 INFO  [billing-service] Health check passed: status=UP, uptime=64052s
+2026-05-21 11:39:00.999 WARN  [billing-service] Slow query detected: 3463ms on payments
+2026-05-21 12:32:50.117 FATAL [billing-service] HTTP 502 from kafka: Connection timed out
+2026-05-21 12:37:01.831 ERROR [billing-service] HTTP 502 from kafka: No route to host
+2026-05-21 16:32:00.730 WARN  [billing-service] Connection pool utilization at 76%
+2026-05-21 16:35:00.911 DEBUG [billing-service] SQL: SELECT * FROM sessions WHERE id = usr_72108 LIMIT 1
+2026-05-21 18:22:00.510 WARN  [billing-service] Kafka consumer lag: 91281 messages on topic=user-updates
+2026-05-21 21:29:43.990 FATAL [billing-service] Request rejected: clock skew exceeds tolerance
+2026-05-21 21:50:22.019 ERROR [billing-service] NTP sync failed, offset=12882ms
+2026-05-21 22:16:08.117 FATAL [billing-service] Token validation failed: timestamp out of allowed skew for user_id=usr_71341
+2026-05-21 22:27:09.132 ERROR [billing-service] NTP sync failed, offset=6262ms
+2026-05-21 22:36:13.524 ERROR [billing-service] NTP sync failed, offset=4313ms
+2026-05-22 03:29:00.242 INFO  [billing-service] JWT token validated for user_id=usr_56983
+2026-05-22 03:42:00.304 INFO  [billing-service] Cache hit ratio: 96% (last 5min)
+2026-05-22 04:18:00.501 INFO  [billing-service] Cache hit ratio: 82% (last 5min)
+2026-05-22 11:37:00.126 ERROR [billing-service] HTTP 502 from postgres-replica: Permission denied
+2026-05-22 11:45:00.073 INFO  [billing-service] Cache hit ratio: 77% (last 5min)
+2026-05-22 13:46:00.628 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-05-22 14:41:00.235 ERROR [billing-service] HTTP 502 from kafka: Too many open files
+2026-05-22 16:55:00.909 INFO  [billing-service] Request processed successfully in 5017ms
+2026-05-22 20:27:00.294 WARN  [billing-service] Kafka consumer lag: 50637 messages on topic=auth-events
+2026-05-22 21:51:00.023 FATAL [billing-service] Process killed by OOM killer: RSS=1769MB, limit=2233MB
+2026-05-23 03:46:00.953 INFO  [billing-service] Query executed in 10967ms: SELECT * FROM events
+2026-05-23 04:56:00.845 INFO  [billing-service] Request processed successfully in 9798ms
+2026-05-23 05:57:00.177 INFO  [billing-service] Health check passed: status=UP, uptime=44847s
+2026-05-23 08:24:00.909 INFO  [billing-service] Query executed in 9155ms: SELECT * FROM users
+2026-05-23 13:44:00.293 WARN  [billing-service] Retry attempt 3/3 for api-gateway
+2026-05-23 16:03:00.713 INFO  [billing-service] Query executed in 6562ms: SELECT * FROM events
+2026-05-23 22:16:00.874 INFO  [billing-service] Cache hit ratio: 65% (last 5min)
+2026-05-24 01:17:11.611 ERROR [billing-service] Too many open files
+2026-05-24 01:44:37.727 ERROR [billing-service] Process killed by OOM killer: RSS=1875MB, limit=3463MB
+2026-05-24 02:24:00.458 WARN  [billing-service] Memory usage at 61% — approaching threshold
+2026-05-24 02:38:43.899 WARN  [billing-service] Slow query detected: 5086ms on payments
+2026-05-24 02:40:33.877 FATAL [billing-service] Too many open files
+2026-05-24 03:10:22.498 WARN  [billing-service] Kafka consumer lag: 90353 messages on topic=auth-events
+2026-05-24 03:42:00.684 WARN  [billing-service] Memory usage at 63% — approaching threshold
+2026-05-24 08:35:50.672 FATAL [billing-service] DNS resolution failed for elasticsearch
+2026-05-24 08:41:02.025 WARN  [billing-service] Kafka consumer lag: 640 messages on topic=user-updates
+2026-05-24 09:06:49.470 ERROR [billing-service] DNS resolution failed for search-service
+2026-05-24 09:40:00.891 WARN  [billing-service] Retry attempt 3/3 for analytics-engine
+2026-05-24 10:05:50.388 ERROR [billing-service] No route to host
+2026-05-24 10:20:13.321 FATAL [billing-service] Connection refused to reporting-service:443 after 4 retries
+2026-05-24 12:05:00.277 FATAL [billing-service] Unable to connect to redis-cache: all 4 retries exhausted
+2026-05-24 12:44:00.372 INFO  [billing-service] JWT token validated for user_id=usr_86807
+2026-05-24 12:54:00.574 INFO  [billing-service] Connected to postgres-replica successfully
+2026-05-24 13:58:00.160 ERROR [billing-service] Database query failed: NullPointerException on table=orders
+2026-05-24 15:27:00.351 INFO  [billing-service] Processed 3614 messages from topic=auth-events
+2026-05-24 18:11:00.054 INFO  [billing-service] Query executed in 1406ms: SELECT * FROM metrics
+2026-05-24 21:38:00.811 WARN  [billing-service] Retry attempt 4/3 for nginx-ingress
+2026-05-25 04:26:00.354 DEBUG [billing-service] Processing request: method=GET path=/health
+2026-05-25 08:27:00.733 INFO  [billing-service] Connected to analytics-engine successfully
+2026-05-25 12:19:54.414 ERROR [billing-service] TLS handshake failed: certificate verify failed
+2026-05-25 12:22:37.380 FATAL [billing-service] x509: certificate has expired or is not yet valid
+2026-05-25 12:25:51.281 WARN  [billing-service] Retry attempt 4/3 for notification-service
+2026-05-25 12:35:37.998 FATAL [billing-service] x509: certificate has expired or is not yet valid
+2026-05-25 12:37:23.535 WARN  [billing-service] Memory usage at 93% — approaching threshold
+2026-05-25 12:38:45.515 ERROR [billing-service] Certificate expires in 5 days for billing.nexora.io
+2026-05-25 12:44:18.228 FATAL [billing-service] Certificate expires in 25 days for auth.nexora.io
+2026-05-25 13:07:50.424 ERROR [billing-service] x509: certificate has expired or is not yet valid
+2026-05-25 13:39:00.826 INFO  [billing-service] Request processed successfully in 4047ms
+2026-05-25 13:43:00.859 INFO  [billing-service] JWT token validated for user_id=usr_51164
+2026-05-25 16:15:00.888 ERROR [billing-service] HTTP 502 from reporting-service: Too many open files
+2026-05-25 16:16:00.411 INFO  [billing-service] Connected to kafka successfully
+2026-05-25 19:44:46.488 ERROR [billing-service] Configuration checksum mismatch across replicas
+2026-05-25 19:46:00.051 ERROR [billing-service] HTTP 500 from postgres-primary: Too many open files
+2026-05-25 19:55:11.310 WARN  [billing-service] Connection pool utilization at 73%
+2026-05-25 19:56:56.732 WARN  [billing-service] Slow query detected: 8499ms on sessions
+2026-05-25 19:57:17.485 FATAL [billing-service] Unexpected config value for key=timeout_ms
+2026-05-25 19:59:48.414 WARN  [billing-service] Memory usage at 66% — approaching threshold
+2026-05-25 20:03:38.325 WARN  [billing-service] Kafka consumer lag: 43165 messages on topic=user-updates
+2026-05-25 20:13:00.331 INFO  [billing-service] Connected to auth-service successfully
+2026-05-25 20:14:00.210 INFO  [billing-service] Processed 6737 messages from topic=auth-events
+2026-05-25 20:20:08.237 ERROR [billing-service] Deployed version v2.14.2 to production
+2026-05-25 20:21:45.128 ERROR [billing-service] Configuration checksum mismatch across replicas
+2026-05-25 21:32:00.172 INFO  [billing-service] Query executed in 2119ms: SELECT * FROM events
+2026-05-26 01:38:00.966 INFO  [billing-service] Cache hit ratio: 79% (last 5min)
+2026-05-26 09:27:00.306 INFO  [billing-service] Health check passed: status=UP, uptime=6378s
+2026-05-26 09:48:00.314 INFO  [billing-service] Health check passed: status=UP, uptime=66605s
+2026-05-26 09:49:00.280 ERROR [billing-service] Timeout waiting for response from nginx-ingress after 5000ms
+2026-05-26 10:37:00.477 WARN  [billing-service] Certificate expires in 7 days for billing.nexora.io
+2026-05-26 12:32:00.692 WARN  [billing-service] Certificate expires in 6 days for billing.nexora.io
+2026-05-26 14:53:00.741 INFO  [billing-service] Connected to search-service successfully
+2026-05-26 16:33:06.387 FATAL [billing-service] HTTP 504 from api-gateway: Broken pipe
+2026-05-26 16:35:00.647 INFO  [billing-service] Request processed successfully in 14816ms
+2026-05-26 16:47:48.742 ERROR [billing-service] Timeout waiting for response from nginx-ingress after 5000ms
+2026-05-26 17:03:52.001 FATAL [billing-service] Timeout waiting for response from postgres-replica after 10000ms
+2026-05-26 17:06:30.925 FATAL [billing-service] Vendor status page reports degraded performance
+2026-05-26 17:15:28.964 ERROR [billing-service] HTTP 504 from redis-cache: Resource temporarily unavailable
+2026-05-26 18:01:00.840 INFO  [billing-service] Connected to user-service successfully
+2026-05-26 19:26:00.335 WARN  [billing-service] Retry attempt 3/3 for api-gateway
+2026-05-26 19:29:00.592 ERROR [billing-service] Timeout waiting for response from postgres-primary after 30000ms
+2026-05-26 20:17:00.916 INFO  [billing-service] Request processed successfully in 12815ms
+2026-05-27 01:04:31.353 ERROR [billing-service] Health check failed: status=DOWN
+2026-05-27 02:18:00.682 ERROR [billing-service] HTTP 503 from analytics-engine: Broken pipe
+2026-05-27 03:05:20.685 FATAL [billing-service] Health check failed: status=DOWN
+2026-05-27 05:23:00.701 DEBUG [billing-service] SQL: SELECT * FROM orders WHERE id = usr_46924 LIMIT 1
+2026-05-27 06:29:00.455 DEBUG [billing-service] Processing request: method=GET path=/api/v1/users
+2026-05-27 06:44:00.942 INFO  [billing-service] Query executed in 1800ms: SELECT * FROM events
+2026-05-27 11:09:00.221 WARN  [billing-service] Memory usage at 81% — approaching threshold
+2026-05-27 14:39:00.718 ERROR [billing-service] Connection refused to reporting-service:6379 after 3 retries
+2026-05-27 18:03:00.897 ERROR [billing-service] Timeout waiting for response from nginx-ingress after 10000ms
+2026-05-27 18:36:00.265 ERROR [billing-service] Connection refused to redis-cache:443 after 3 retries
+2026-05-27 21:57:00.969 WARN  [billing-service] Retry attempt 5/3 for postgres-primary
+2026-05-27 22:48:00.640 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-05-27 23:18:31.539 ERROR [billing-service] Stale endpoint resolved for elasticsearch, expected updated IP
+2026-05-27 23:32:07.167 ERROR [billing-service] Stale endpoint resolved for auth-service, expected updated IP
+2026-05-27 23:34:02.769 WARN  [billing-service] Memory usage at 52% — approaching threshold
+2026-05-27 23:40:59.409 FATAL [billing-service] Stale endpoint resolved for api-gateway, expected updated IP
+2026-05-27 23:51:47.771 FATAL [billing-service] Connection refused to api-gateway:9092 after 1 retries
+2026-05-28 04:17:00.019 INFO  [billing-service] Cache hit ratio: 75% (last 5min)
+2026-05-28 05:46:00.938 INFO  [billing-service] Cache hit ratio: 61% (last 5min)
+2026-05-28 09:10:00.722 WARN  [billing-service] Kafka consumer lag: 96092 messages on topic=user-updates
+2026-05-28 09:38:00.340 FATAL [billing-service] Process killed by OOM killer: RSS=1927MB, limit=5975MB
+2026-05-28 10:31:00.529 INFO  [billing-service] Cache hit ratio: 72% (last 5min)
+2026-05-28 12:28:21.053 ERROR [billing-service] Region mismatch: expected staging received alternate region
+2026-05-28 12:34:00.594 WARN  [billing-service] Certificate expires in 21 days for auth.nexora.io
+2026-05-28 12:37:00.341 INFO  [billing-service] Request processed successfully in 7705ms
+2026-05-28 13:31:00.306 INFO  [billing-service] Request processed successfully in 3123ms
+2026-05-28 13:42:28.073 ERROR [billing-service] Region mismatch: expected staging received alternate region
+2026-05-28 14:56:55.261 WARN  [billing-service] Certificate expires in 15 days for auth.nexora.io
+2026-05-28 15:42:00.589 INFO  [billing-service] JWT token validated for user_id=usr_47999
+2026-05-28 16:39:51.195 ERROR [billing-service] p99 latency exceeded SLO threshold
+2026-05-28 16:54:10.388 WARN  [billing-service] Memory usage at 61% — approaching threshold
+2026-05-28 17:57:37.597 ERROR [billing-service] p99 latency exceeded SLO threshold
+2026-05-28 18:07:16.103 FATAL [billing-service] p99 latency exceeded SLO threshold
+2026-05-28 18:09:36.897 WARN  [billing-service] Retry attempt 3/3 for notification-service
+2026-05-28 21:20:00.964 FATAL [billing-service] Unable to connect to nginx-ingress: all 3 retries exhausted
+2026-05-28 21:53:00.587 INFO  [billing-service] JWT token validated for user_id=usr_38764
+2026-05-29 00:23:00.769 FATAL [billing-service] Process killed by OOM killer: RSS=1211MB, limit=4152MB
+2026-05-29 01:15:00.317 ERROR [billing-service] HTTP 502 from postgres-primary: Resource temporarily unavailable
+2026-05-29 01:25:00.388 INFO  [billing-service] JWT token validated for user_id=usr_11708
+2026-05-29 01:46:00.736 INFO  [billing-service] JWT token validated for user_id=usr_87613
+2026-05-29 01:49:00.620 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-05-29 06:09:00.489 INFO  [billing-service] JWT token validated for user_id=usr_39650
+2026-05-29 07:03:00.563 WARN  [billing-service] Certificate expires in 25 days for billing.nexora.io
+2026-05-29 07:12:00.299 ERROR [billing-service] Timeout waiting for response from reporting-service after 30000ms
+2026-05-29 08:17:00.239 INFO  [billing-service] Cache hit ratio: 62% (last 5min)
+2026-05-29 10:39:49.883 WARN  [billing-service] Certificate expires in 6 days for auth.nexora.io
+2026-05-29 10:43:52.286 ERROR [billing-service] Event loop lag: 5453ms — possible blocking operation
+2026-05-29 11:44:18.005 ERROR [billing-service] Event loop lag: 6683ms — possible blocking operation
+2026-05-29 11:59:27.715 ERROR [billing-service] Event loop lag: 4053ms — possible blocking operation
+2026-05-29 12:12:46.373 ERROR [billing-service] CPU throttling detected: 69% of periods throttled
+2026-05-29 13:06:00.789 DEBUG [billing-service] Processing request: method=GET path=/health
+2026-05-29 15:28:00.812 WARN  [billing-service] Connection pool utilization at 61%
+2026-05-29 15:35:00.896 WARN  [billing-service] Slow query detected: 3609ms on orders
+2026-05-29 18:11:00.448 WARN  [billing-service] Memory usage at 54% — approaching threshold
+2026-05-29 20:07:00.127 WARN  [billing-service] Kafka consumer lag: 63512 messages on topic=auth-events
+2026-05-29 20:12:00.100 INFO  [billing-service] Connected to notification-service successfully
+2026-05-30 01:22:41.067 FATAL [billing-service] Request queue depth exceeded capacity
+2026-05-30 01:33:07.858 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-30 01:35:45.565 ERROR [billing-service] Pod scheduling failed: insufficient resources
+2026-05-30 01:39:12.242 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-30 01:39:18.970 WARN  [billing-service] Certificate expires in 10 days for billing.nexora.io
+2026-05-30 01:39:42.697 FATAL [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-30 01:42:22.528 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-30 01:42:41.331 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-05-30 02:04:45.184 FATAL [billing-service] Suspicious request pattern flagged for review
+2026-05-30 02:09:00.609 ERROR [billing-service] HTTP 500 from analytics-engine: Permission denied
+2026-05-30 02:14:46.033 ERROR [billing-service] Rate limit exceeded: 8322/2381 requests from single source
+2026-05-30 03:53:00.241 FATAL [billing-service] Unable to connect to search-service: all 1 retries exhausted
+2026-05-30 05:00:00.784 FATAL [billing-service] Process killed by OOM killer: RSS=2340MB, limit=3841MB
+2026-05-30 05:34:00.073 INFO  [billing-service] Request processed successfully in 7405ms
+2026-05-30 06:12:00.975 WARN  [billing-service] Connection pool utilization at 91%
+2026-05-30 08:36:00.374 DEBUG [billing-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-05-30 09:52:00.569 INFO  [billing-service] Connected to api-gateway successfully
+2026-05-30 09:55:00.477 FATAL [billing-service] Process killed by OOM killer: RSS=3133MB, limit=4647MB
+2026-05-30 12:10:00.394 DEBUG [billing-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-05-30 12:46:00.526 INFO  [billing-service] Cache hit ratio: 81% (last 5min)
+2026-05-30 12:46:00.850 ERROR [billing-service] Database query failed: DeadlockDetected on table=metrics
+2026-05-30 12:53:00.011 WARN  [billing-service] Connection pool utilization at 54%
+2026-05-30 14:13:00.394 INFO  [billing-service] Processed 8241 messages from topic=analytics
+2026-05-30 15:14:10.365 WARN  [billing-service] Slow query detected: 5023ms on events
+2026-05-30 15:48:00.807 ERROR [billing-service] Connection refused to analytics-engine:6379 after 4 retries
+2026-05-30 16:02:36.626 ERROR [billing-service] HTTP 502 from kafka: No route to host
+2026-05-30 16:18:25.210 FATAL [billing-service] HTTP 503 from elasticsearch: Connection timed out
+2026-05-31 06:06:00.677 WARN  [billing-service] Retry attempt 4/3 for auth-service
+2026-05-31 06:28:00.313 WARN  [billing-service] Connection pool utilization at 62%
+2026-05-31 08:21:00.396 INFO  [billing-service] Query executed in 4122ms: SELECT * FROM users
+2026-05-31 10:25:00.694 FATAL [billing-service] Process killed by OOM killer: RSS=2776MB, limit=8070MB
+2026-05-31 12:45:00.580 INFO  [billing-service] Processed 3994 messages from topic=auth-events
+2026-05-31 13:49:00.734 WARN  [billing-service] Certificate expires in 26 days for billing.nexora.io
+2026-05-31 16:31:00.885 DEBUG [billing-service] SQL: SELECT * FROM metrics WHERE id = usr_76467 LIMIT 1
+2026-05-31 17:15:00.996 WARN  [billing-service] Slow query detected: 2342ms on orders
+2026-05-31 17:31:00.680 INFO  [billing-service] Query executed in 3386ms: SELECT * FROM orders
+2026-05-31 20:28:00.032 INFO  [billing-service] Request processed successfully in 9060ms
+2026-06-01 13:14:00.753 WARN  [billing-service] Connection pool utilization at 74%
+2026-06-01 14:20:00.702 ERROR [billing-service] Timeout waiting for response from postgres-replica after 30000ms
+2026-06-01 14:20:00.253 WARN  [billing-service] Retry attempt 2/3 for analytics-engine
+2026-06-01 19:16:00.609 INFO  [billing-service] Processed 4960 messages from topic=auth-events
+2026-06-01 19:49:34.212 ERROR [billing-service] HTTP 502 from kafka: Permission denied
+2026-06-01 20:22:12.315 WARN  [billing-service] Certificate expires in 7 days for billing.nexora.io
+2026-06-01 20:23:18.722 ERROR [billing-service] Timeout waiting for response from user-service after 30000ms
+2026-06-01 20:32:27.276 ERROR [billing-service] Timeout waiting for response from auth-service after 30000ms
+2026-06-01 20:33:33.298 ERROR [billing-service] HTTP 504 from kafka: Broken pipe
+2026-06-02 02:22:00.562 INFO  [billing-service] Processed 6090 messages from topic=user-updates
+2026-06-02 02:26:00.489 INFO  [billing-service] Query executed in 4924ms: SELECT * FROM users
+2026-06-02 04:32:05.292 WARN  [billing-service] Slow query detected: 5753ms on metrics
+2026-06-02 06:08:55.380 FATAL [billing-service] Pod scheduling failed: insufficient resources
+2026-06-02 08:41:10.326 ERROR [billing-service] Vendor status page reports degraded performance
+2026-06-02 08:43:01.180 WARN  [billing-service] Retry attempt 2/3 for search-service
+2026-06-02 08:43:20.479 ERROR [billing-service] Vendor status page reports degraded performance
+2026-06-02 11:15:00.131 WARN  [billing-service] Connection pool utilization at 52%
+2026-06-02 11:46:00.764 FATAL [billing-service] Process killed by OOM killer: RSS=1532MB, limit=4260MB
+2026-06-02 13:32:00.215 INFO  [billing-service] Health check passed: status=UP, uptime=56921s
+2026-06-02 13:40:00.840 INFO  [billing-service] Request processed successfully in 1934ms
+2026-06-02 14:00:52.310 WARN  [billing-service] Memory usage at 53% — approaching threshold
+2026-06-02 14:46:00.200 WARN  [billing-service] Kafka consumer lag: 48510 messages on topic=payments
+2026-06-02 15:37:43.014 ERROR [billing-service] x509: certificate has expired or is not yet valid
+2026-06-02 15:53:43.682 FATAL [billing-service] x509: certificate has expired or is not yet valid
+2026-06-02 17:31:00.028 ERROR [billing-service] HTTP 500 from search-service: Permission denied
+2026-06-02 18:31:00.055 WARN  [billing-service] Certificate expires in 26 days for billing.nexora.io
+2026-06-02 18:34:58.092 ERROR [billing-service] Connection refused to elasticsearch:5432 after 4 retries
+2026-06-02 18:37:09.261 FATAL [billing-service] Circuit breaker opened for postgres-primary
+2026-06-02 18:42:55.011 ERROR [billing-service] Circuit breaker opened for nginx-ingress
+2026-06-02 18:44:03.783 ERROR [billing-service] Circuit breaker opened for analytics-engine
+2026-06-02 18:56:47.123 ERROR [billing-service] Kafka consumer lag: 34645 messages on topic=auth-events
+2026-06-02 18:57:40.821 FATAL [billing-service] Connection refused to analytics-engine:6379 after 3 retries
+2026-06-02 18:57:55.317 ERROR [billing-service] Failed to process message: offset=544686, topic=payments
+2026-06-02 18:58:22.027 ERROR [billing-service] Connection refused to notification-service:443 after 5 retries
+2026-06-02 19:01:52.516 WARN  [billing-service] Certificate expires in 22 days for api.nexora.io
+2026-06-02 19:09:47.093 ERROR [billing-service] Rebalance in progress, partitions revoked
+2026-06-02 19:45:39.730 ERROR [billing-service] Kafka consumer lag: 9370 messages on topic=auth-events
+2026-06-02 19:54:26.066 ERROR [billing-service] Failed to process message: offset=651973, topic=analytics
+2026-06-02 20:41:00.145 INFO  [billing-service] Connected to user-service successfully
+2026-06-02 23:20:00.719 INFO  [billing-service] Health check passed: status=UP, uptime=14640s
+2026-06-02 23:29:00.342 INFO  [billing-service] JWT token validated for user_id=usr_12328
+2026-06-03 04:41:00.487 WARN  [billing-service] Memory usage at 79% — approaching threshold
+2026-06-03 08:50:00.971 FATAL [billing-service] Unable to connect to search-service: all 3 retries exhausted
+2026-06-03 09:24:00.923 DEBUG [billing-service] Processing request: method=GET path=/api/v1/payments
+2026-06-03 11:04:00.107 INFO  [billing-service] Connected to postgres-primary successfully
+2026-06-03 11:58:00.716 WARN  [billing-service] Kafka consumer lag: 8356 messages on topic=analytics
+2026-06-03 12:11:00.715 WARN  [billing-service] Connection pool utilization at 50%
+2026-06-03 15:20:00.345 INFO  [billing-service] Request processed successfully in 4983ms
+2026-06-03 15:26:00.970 WARN  [billing-service] Connection pool utilization at 56%
+2026-06-03 17:39:00.340 ERROR [billing-service] Connection refused to reporting-service:6379 after 3 retries
+2026-06-03 19:34:00.294 INFO  [billing-service] Request processed successfully in 14639ms
+2026-06-03 19:50:17.074 WARN  [billing-service] Certificate expires in 29 days for auth.nexora.io
+2026-06-03 19:51:32.124 ERROR [billing-service] Timeout waiting for response from postgres-replica after 10000ms
+2026-06-03 19:52:25.833 ERROR [billing-service] Slow query detected: 14167ms on sessions
+2026-06-03 19:52:25.819 FATAL [billing-service] Timeout waiting for response from kafka after 10000ms
+2026-06-03 19:53:33.977 WARN  [billing-service] Retry attempt 3/3 for postgres-replica
+2026-06-03 19:58:02.640 ERROR [billing-service] Slow query detected: 10600ms on events
+2026-06-03 19:59:04.620 FATAL [billing-service] Timeout waiting for response from search-service after 30000ms
+2026-06-03 20:10:06.870 ERROR [billing-service] p99 latency exceeded SLO threshold
+2026-06-03 20:13:00.132 DEBUG [billing-service] Cache lookup: key=session:1234 result=MISS
+2026-06-03 20:25:00.542 INFO  [billing-service] Health check passed: status=UP, uptime=47425s
+2026-06-03 20:30:00.840 FATAL [billing-service] Unable to connect to postgres-replica: all 3 retries exhausted
+2026-06-03 21:31:00.963 WARN  [billing-service] Retry attempt 4/3 for search-service
+2026-06-03 21:52:00.422 INFO  [billing-service] Cache hit ratio: 86% (last 5min)
+2026-06-04 01:53:55.373 WARN  [billing-service] Connection pool utilization at 50%
+2026-06-04 03:05:52.213 ERROR [billing-service] No route to host
+2026-06-04 09:03:00.705 WARN  [billing-service] Memory usage at 54% — approaching threshold
+2026-06-04 16:36:00.992 DEBUG [billing-service] Processing request: method=GET path=/health
+2026-06-04 16:47:00.943 WARN  [billing-service] Slow query detected: 7823ms on users
+2026-06-04 17:03:42.612 ERROR [billing-service] Failed to process message: offset=342040, topic=payments
+2026-06-04 18:54:45.411 ERROR [billing-service] Kafka consumer lag: 14582 messages on topic=user-updates
+2026-06-04 20:00:40.746 WARN  [billing-service] Memory usage at 76% — approaching threshold
+2026-06-04 20:06:08.663 ERROR [billing-service] Timeout waiting for response from postgres-replica after 5000ms
+2026-06-04 20:12:35.138 ERROR [billing-service] HTTP 500 from search-service: Host is unreachable
+2026-06-04 20:13:25.141 ERROR [billing-service] HTTP 502 from elasticsearch: Broken pipe
+2026-06-04 20:14:39.035 FATAL [billing-service] Vendor status page reports degraded performance
+2026-06-04 20:18:57.972 WARN  [billing-service] Kafka consumer lag: 24998 messages on topic=auth-events
+2026-06-04 20:20:54.148 FATAL [billing-service] Vendor status page reports degraded performance
+2026-06-04 20:25:18.653 ERROR [billing-service] HTTP 500 from api-gateway: Connection reset by peer
+2026-06-04 20:56:00.904 WARN  [billing-service] Connection pool utilization at 62%
+2026-06-05 00:48:00.727 INFO  [billing-service] Request processed successfully in 12810ms
+2026-06-05 05:00:00.144 INFO  [billing-service] Connected to reporting-service successfully
+2026-06-05 08:36:00.659 FATAL [billing-service] Unable to connect to redis-cache: all 4 retries exhausted
+2026-06-05 09:27:00.965 ERROR [billing-service] Connection refused to elasticsearch:6379 after 4 retries
+2026-06-05 14:59:00.139 ERROR [billing-service] HTTP 503 from analytics-engine: No route to host
+2026-06-05 15:23:11.459 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-05 15:30:27.644 ERROR [billing-service] Write failed: No space left on device
+2026-06-05 16:52:00.082 WARN  [billing-service] Kafka consumer lag: 76791 messages on topic=user-updates
+2026-06-05 18:34:00.415 INFO  [billing-service] Request processed successfully in 3785ms
+2026-06-05 19:42:00.446 INFO  [billing-service] Connected to reporting-service successfully
+2026-06-05 20:48:00.002 INFO  [billing-service] Query executed in 4342ms: SELECT * FROM metrics
+2026-06-05 20:56:00.646 INFO  [billing-service] JWT token validated for user_id=usr_25984
+2026-06-05 21:54:00.521 INFO  [billing-service] Health check passed: status=UP, uptime=59582s
+2026-06-05 23:13:00.007 INFO  [billing-service] Request processed successfully in 12829ms
+2026-06-06 01:27:00.846 FATAL [billing-service] Process killed by OOM killer: RSS=1180MB, limit=3921MB
+2026-06-06 03:10:05.401 WARN  [billing-service] Retry attempt 3/3 for postgres-primary
+2026-06-06 03:11:00.281 INFO  [billing-service] Query executed in 10645ms: SELECT * FROM metrics
+2026-06-06 03:34:00.107 ERROR [billing-service] HTTP 503 from reporting-service: Broken pipe
+2026-06-06 03:41:55.302 ERROR [billing-service] Duplicate record written for key=session:1234
+2026-06-06 03:51:05.796 WARN  [billing-service] Certificate expires in 2 days for auth.nexora.io
+2026-06-06 04:04:12.032 ERROR [billing-service] Record checksum mismatch detected for id=usr_58345
+2026-06-06 04:19:26.653 FATAL [billing-service] Reconciliation job found 2100 mismatched rows
+2026-06-06 05:31:00.073 INFO  [billing-service] Processed 2393 messages from topic=notifications
+2026-06-06 07:35:00.512 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-06 09:30:00.268 DEBUG [billing-service] SQL: SELECT * FROM metrics WHERE id = usr_13520 LIMIT 1
+2026-06-06 10:11:00.711 INFO  [billing-service] JWT token validated for user_id=usr_69587
+2026-06-06 12:23:00.588 WARN  [billing-service] Slow query detected: 5805ms on payments
+2026-06-06 16:48:00.535 WARN  [billing-service] Memory usage at 76% — approaching threshold
+2026-06-06 21:29:00.883 INFO  [billing-service] Health check passed: status=UP, uptime=29918s
+2026-06-07 01:08:00.305 ERROR [billing-service] Database query failed: SchemaValidationError on table=sessions
+2026-06-07 03:44:00.790 WARN  [billing-service] Certificate expires in 10 days for billing.nexora.io
+2026-06-07 06:39:00.618 INFO  [billing-service] Query executed in 1944ms: SELECT * FROM orders
+2026-06-07 07:37:00.988 INFO  [billing-service] Processed 9211 messages from topic=notifications
+2026-06-07 08:50:00.103 INFO  [billing-service] Processed 1569 messages from topic=payments
+2026-06-07 09:07:00.986 WARN  [billing-service] Memory usage at 59% — approaching threshold
+2026-06-07 09:10:00.818 WARN  [billing-service] Kafka consumer lag: 50573 messages on topic=analytics
+2026-06-07 09:13:00.007 WARN  [billing-service] Connection pool utilization at 60%
+2026-06-07 12:50:00.912 ERROR [billing-service] Connection refused to postgres-primary:6379 after 4 retries
+2026-06-07 13:12:00.759 INFO  [billing-service] Processed 5076 messages from topic=user-updates
+2026-06-07 14:01:00.193 INFO  [billing-service] Processed 7790 messages from topic=auth-events
+2026-06-07 16:47:00.407 INFO  [billing-service] Cache hit ratio: 85% (last 5min)
+2026-06-07 17:20:00.288 INFO  [billing-service] Query executed in 4726ms: SELECT * FROM metrics
+2026-06-07 17:59:00.271 ERROR [billing-service] Connection refused to nginx-ingress:8080 after 5 retries
+2026-06-07 22:26:00.782 WARN  [billing-service] Retry attempt 2/3 for reporting-service
+2026-06-08 01:46:00.203 INFO  [billing-service] Connected to analytics-engine successfully
+2026-06-08 02:11:00.776 INFO  [billing-service] Cache hit ratio: 77% (last 5min)
+2026-06-08 03:02:31.775 FATAL [billing-service] Disk usage at 79% on /data volume
+2026-06-08 03:03:07.150 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-08 03:06:05.169 WARN  [billing-service] Retry attempt 2/3 for analytics-engine
+2026-06-08 03:07:41.063 WARN  [billing-service] Connection pool utilization at 50%
+2026-06-08 03:15:01.037 ERROR [billing-service] Disk usage at 63% on /data volume
+2026-06-08 03:59:00.282 INFO  [billing-service] Cache hit ratio: 93% (last 5min)
+2026-06-08 04:19:00.468 WARN  [billing-service] Connection pool utilization at 92%
+2026-06-08 05:12:00.512 WARN  [billing-service] Connection pool utilization at 70%
+2026-06-08 05:42:00.797 INFO  [billing-service] Query executed in 5969ms: SELECT * FROM sessions
+2026-06-08 05:56:43.619 ERROR [billing-service] Health check failed: status=DOWN
+2026-06-08 06:14:44.490 ERROR [billing-service] No route to host
+2026-06-08 06:19:43.241 ERROR [billing-service] Health check failed: status=DOWN
+2026-06-08 06:22:04.175 FATAL [billing-service] Health check failed: status=DOWN
+2026-06-08 06:24:39.508 ERROR [billing-service] Request routed to unexpected upstream nginx-ingress
+2026-06-08 06:30:22.372 ERROR [billing-service] Region mismatch: expected production received alternate region
+2026-06-08 07:23:54.065 FATAL [billing-service] Connection refused to user-service:443 after 5 retries
+2026-06-08 08:06:59.931 ERROR [billing-service] DNS resolution failed for analytics-engine
+2026-06-08 09:43:00.537 INFO  [billing-service] JWT token validated for user_id=usr_68624
+2026-06-08 11:05:00.576 INFO  [billing-service] Cache hit ratio: 67% (last 5min)
+2026-06-08 11:14:00.258 INFO  [billing-service] Request processed successfully in 13565ms
+2026-06-08 12:47:46.977 ERROR [billing-service] Authentication failed for user_id=usr_78216: NullPointerException
+2026-06-08 12:49:05.973 ERROR [billing-service] Authentication failed for user_id=usr_30111: NullPointerException
+2026-06-08 12:49:07.392 ERROR [billing-service] Suspicious request pattern flagged for review
+2026-06-08 12:52:33.880 WARN  [billing-service] Kafka consumer lag: 74122 messages on topic=analytics
+2026-06-08 12:52:45.134 ERROR [billing-service] Rate limit exceeded: 2420/2878 requests from single source
+2026-06-08 12:54:58.062 FATAL [billing-service] Rate limit exceeded: 8063/7445 requests from single source
+2026-06-08 12:55:46.328 ERROR [billing-service] Suspicious request pattern flagged for review
+2026-06-08 12:58:09.806 ERROR [billing-service] Rate limit exceeded: 8011/6677 requests from single source
+2026-06-08 17:37:00.179 DEBUG [billing-service] Processing request: method=PUT path=/api/v1/users
+2026-06-08 17:39:00.111 INFO  [billing-service] Connected to search-service successfully
+2026-06-09 00:19:00.368 INFO  [billing-service] Request processed successfully in 11062ms
+2026-06-09 01:40:00.364 INFO  [billing-service] JWT token validated for user_id=usr_56156
+2026-06-09 02:06:00.428 WARN  [billing-service] Connection pool utilization at 62%
+2026-06-09 02:26:00.013 DEBUG [billing-service] SQL: SELECT * FROM users WHERE id = usr_33406 LIMIT 1
+2026-06-09 03:54:00.981 ERROR [billing-service] HTTP 502 from api-gateway: Connection reset by peer
+2026-06-09 10:32:00.648 ERROR [billing-service] HTTP 500 from api-gateway: Host is unreachable
+2026-06-09 11:10:00.802 INFO  [billing-service] Connected to search-service successfully
+2026-06-09 12:47:00.257 INFO  [billing-service] Request processed successfully in 7212ms
+2026-06-09 13:02:00.588 ERROR [billing-service] Connection refused to user-service:8080 after 3 retries
+2026-06-09 13:11:00.934 WARN  [billing-service] Memory usage at 61% — approaching threshold
+2026-06-09 18:15:00.026 INFO  [billing-service] Query executed in 607ms: SELECT * FROM orders
+2026-06-09 20:33:00.714 INFO  [billing-service] Health check passed: status=UP, uptime=29330s
+2026-06-09 21:06:00.855 ERROR [billing-service] Timeout waiting for response from notification-service after 10000ms
+2026-06-09 21:09:00.562 WARN  [billing-service] Slow query detected: 1411ms on payments
+2026-06-09 21:25:00.929 WARN  [billing-service] Memory usage at 76% — approaching threshold
+2026-06-09 23:50:00.631 ERROR [billing-service] Connection refused to redis-cache:9092 after 2 retries
+2026-06-10 02:11:00.106 ERROR [billing-service] Database query failed: ConnectionTimeout on table=metrics
+2026-06-10 02:49:00.141 INFO  [billing-service] Processed 1954 messages from topic=user-updates
+2026-06-10 04:02:00.137 INFO  [billing-service] Request processed successfully in 1087ms
+2026-06-10 04:43:00.240 WARN  [billing-service] Slow query detected: 12183ms on events
+2026-06-10 06:11:00.925 INFO  [billing-service] Cache hit ratio: 93% (last 5min)
+2026-06-10 06:45:00.656 FATAL [billing-service] Unable to connect to search-service: all 1 retries exhausted
+2026-06-10 06:45:00.677 INFO  [billing-service] Request processed successfully in 11197ms
+2026-06-10 09:48:00.937 INFO  [billing-service] Cache hit ratio: 71% (last 5min)
+2026-06-10 10:19:00.462 DEBUG [billing-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-10 10:21:00.736 INFO  [billing-service] Query executed in 9675ms: SELECT * FROM payments
+2026-06-10 11:39:00.183 INFO  [billing-service] Request processed successfully in 1169ms
+2026-06-10 13:24:00.430 ERROR [billing-service] HTTP 500 from user-service: Host is unreachable
+2026-06-10 13:41:00.573 WARN  [billing-service] Retry attempt 3/3 for user-service
+2026-06-10 14:07:45.449 WARN  [billing-service] Retry attempt 1/3 for analytics-engine
+2026-06-10 14:26:00.460 WARN  [billing-service] Memory usage at 94% — approaching threshold
+2026-06-10 14:35:44.334 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-10 14:38:32.495 FATAL [billing-service] Disk usage at 67% on /data volume
+2026-06-10 14:46:19.000 ERROR [billing-service] Write failed: No space left on device
+2026-06-10 15:01:50.936 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-10 15:02:15.494 WARN  [billing-service] Connection pool utilization at 65%
+2026-06-10 15:03:33.975 WARN  [billing-service] Slow query detected: 6877ms on users
+2026-06-10 15:11:55.636 FATAL [billing-service] Log rotation failed, disk nearly full
+2026-06-10 17:02:38.353 ERROR [billing-service] Process killed by OOM killer: RSS=1826MB, limit=2893MB
+2026-06-10 17:32:55.369 FATAL [billing-service] Heap usage growing steadily, GC pause 11397ms
+2026-06-10 17:36:29.235 WARN  [billing-service] Certificate expires in 29 days for billing.nexora.io
+2026-06-10 17:39:35.747 ERROR [billing-service] Heap usage growing steadily, GC pause 13018ms
+2026-06-10 17:39:51.575 FATAL [billing-service] Memory usage at 62% — approaching threshold
+2026-06-10 17:41:43.437 WARN  [billing-service] Retry attempt 1/3 for postgres-primary
+2026-06-10 18:03:11.809 WARN  [billing-service] Retry attempt 2/3 for nginx-ingress
+2026-06-10 18:03:15.313 FATAL [billing-service] Memory usage at 56% — approaching threshold
+2026-06-10 19:24:00.229 FATAL [billing-service] Process killed by OOM killer: RSS=3040MB, limit=4672MB
+2026-06-11 01:22:00.003 INFO  [billing-service] Processed 2886 messages from topic=analytics
+2026-06-11 01:38:00.370 INFO  [billing-service] Query executed in 7266ms: SELECT * FROM payments
+2026-06-11 03:14:00.671 WARN  [billing-service] Certificate expires in 30 days for billing.nexora.io
+2026-06-11 05:34:00.539 WARN  [billing-service] Kafka consumer lag: 30292 messages on topic=notifications
+2026-06-11 06:11:00.711 INFO  [billing-service] JWT token validated for user_id=usr_89877
+2026-06-11 06:26:00.317 DEBUG [billing-service] SQL: SELECT * FROM users WHERE id = usr_69646 LIMIT 1
+2026-06-11 08:29:00.141 WARN  [billing-service] Memory usage at 58% — approaching threshold
+2026-06-11 12:04:00.147 INFO  [billing-service] Query executed in 8626ms: SELECT * FROM payments
+2026-06-11 14:00:00.687 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-06-11 14:30:00.783 DEBUG [billing-service] Cache lookup: key=session:1234 result=HIT
+2026-06-11 18:14:00.794 DEBUG [billing-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-11 18:54:34.385 ERROR [billing-service] Too many open files
+2026-06-11 21:19:24.162 ERROR [billing-service] Too many open files
+2026-06-12 02:51:00.145 WARN  [billing-service] Certificate expires in 19 days for billing.nexora.io
+2026-06-12 05:03:00.825 INFO  [billing-service] Processed 6272 messages from topic=analytics
+2026-06-12 07:00:00.199 INFO  [billing-service] Processed 9276 messages from topic=notifications
+2026-06-12 10:52:03.372 WARN  [billing-service] Kafka consumer lag: 98627 messages on topic=notifications
+2026-06-12 11:01:20.458 WARN  [billing-service] Kafka consumer lag: 94165 messages on topic=notifications
+2026-06-12 11:27:08.019 FATAL [billing-service] HTTP 504 from api-gateway: Host is unreachable
+2026-06-12 11:56:09.706 ERROR [billing-service] HTTP 503 from user-service: Too many open files
+2026-06-12 12:00:59.563 ERROR [billing-service] Timeout waiting for response from kafka after 10000ms
+2026-06-12 12:08:00.083 DEBUG [billing-service] Cache lookup: key=session:1234 result=HIT
+2026-06-12 12:37:00.212 INFO  [billing-service] Query executed in 4866ms: SELECT * FROM payments
+2026-06-12 13:56:16.200 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-12 14:02:43.736 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-12 14:13:36.745 FATAL [billing-service] Write failed: No space left on device
+2026-06-12 21:06:00.426 INFO  [billing-service] Processed 8629 messages from topic=payments
+2026-06-13 00:27:00.104 INFO  [billing-service] Connected to user-service successfully
+2026-06-13 00:33:00.289 ERROR [billing-service] HTTP 500 from kafka: Connection timed out
+2026-06-13 02:42:04.141 ERROR [billing-service] Flag evaluation error, falling back to default
+2026-06-13 03:09:41.636 WARN  [billing-service] Memory usage at 72% — approaching threshold
+2026-06-13 03:28:29.185 WARN  [billing-service] Certificate expires in 8 days for api.nexora.io
+2026-06-13 03:30:00.370 ERROR [billing-service] Connection refused to api-gateway:6379 after 5 retries
+2026-06-13 05:33:00.675 INFO  [billing-service] Connected to redis-cache successfully
+2026-06-13 05:48:00.184 INFO  [billing-service] Request processed successfully in 10107ms
+2026-06-13 06:37:10.116 ERROR [billing-service] Request routed to unexpected upstream redis-cache
+2026-06-13 06:44:00.220 WARN  [billing-service] Retry attempt 5/3 for nginx-ingress
+2026-06-13 06:51:09.583 ERROR [billing-service] Request routed to unexpected upstream api-gateway
+2026-06-13 06:51:32.433 ERROR [billing-service] Request routed to unexpected upstream notification-service
+2026-06-13 07:01:25.749 WARN  [billing-service] Memory usage at 64% — approaching threshold
+2026-06-13 07:21:21.084 ERROR [billing-service] Request routed to unexpected upstream analytics-engine
+2026-06-13 07:56:00.582 WARN  [billing-service] Retry attempt 5/3 for auth-service
+2026-06-13 09:09:00.342 DEBUG [billing-service] SQL: SELECT * FROM orders WHERE id = usr_99541 LIMIT 1
+2026-06-13 10:53:00.274 INFO  [billing-service] Health check passed: status=UP, uptime=36617s
+2026-06-13 12:48:00.348 DEBUG [billing-service] SQL: SELECT * FROM users WHERE id = usr_65538 LIMIT 1
+2026-06-13 12:52:00.785 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-13 13:09:20.531 ERROR [billing-service] DNS resolution failed for elasticsearch
+2026-06-13 13:24:46.793 ERROR [billing-service] DNS resolution failed for notification-service
+2026-06-13 13:26:28.283 WARN  [billing-service] Kafka consumer lag: 83984 messages on topic=notifications
+2026-06-13 13:29:57.166 FATAL [billing-service] Connection refused to redis-cache:8080 after 4 retries
+2026-06-13 14:05:07.424 WARN  [billing-service] Connection pool utilization at 99%
+2026-06-13 20:11:00.437 WARN  [billing-service] Connection pool utilization at 73%
+2026-06-13 23:18:00.514 INFO  [billing-service] Cache hit ratio: 80% (last 5min)
+2026-06-14 06:56:00.052 FATAL [billing-service] Process killed by OOM killer: RSS=2649MB, limit=1372MB
+2026-06-14 11:53:00.108 INFO  [billing-service] Connected to postgres-replica successfully
+2026-06-14 12:57:00.081 ERROR [billing-service] HTTP 504 from notification-service: No route to host
+2026-06-14 13:40:00.676 WARN  [billing-service] Kafka consumer lag: 48129 messages on topic=user-updates
+2026-06-14 16:55:00.570 INFO  [billing-service] JWT token validated for user_id=usr_81065
+2026-06-14 17:44:00.447 INFO  [billing-service] Health check passed: status=UP, uptime=30666s
+2026-06-14 20:10:00.925 INFO  [billing-service] Query executed in 12034ms: SELECT * FROM orders
+2026-06-14 21:39:00.580 INFO  [billing-service] Query executed in 13733ms: SELECT * FROM orders
+2026-06-14 22:09:30.575 FATAL [billing-service] Process killed by OOM killer: RSS=1235MB, limit=1768MB
+2026-06-14 23:34:29.984 ERROR [billing-service] Process killed by OOM killer: RSS=2667MB, limit=5242MB
+2026-06-15 00:11:00.606 INFO  [billing-service] JWT token validated for user_id=usr_48305
+2026-06-15 07:34:00.699 INFO  [billing-service] Query executed in 1515ms: SELECT * FROM payments
+2026-06-15 13:27:00.529 INFO  [billing-service] Query executed in 13929ms: SELECT * FROM events
+2026-06-15 14:22:00.239 INFO  [billing-service] Cache hit ratio: 97% (last 5min)
+2026-06-15 18:35:00.304 INFO  [billing-service] Connected to analytics-engine successfully
+2026-06-15 20:03:10.664 ERROR [billing-service] Request queue depth exceeded capacity
+2026-06-15 21:33:04.010 ERROR [billing-service] Request queue depth exceeded capacity
+2026-06-15 22:01:00.142 FATAL [billing-service] Process killed by OOM killer: RSS=4056MB, limit=1299MB
+2026-06-15 23:05:00.640 INFO  [billing-service] Query executed in 2946ms: SELECT * FROM metrics
+2026-06-16 00:03:00.252 INFO  [billing-service] Request processed successfully in 12884ms
+2026-06-16 03:55:00.057 WARN  [billing-service] Retry attempt 1/3 for nginx-ingress
+2026-06-16 05:48:00.400 WARN  [billing-service] Kafka consumer lag: 6494 messages on topic=user-updates
+2026-06-16 06:41:00.253 WARN  [billing-service] Connection pool utilization at 71%
+2026-06-16 07:16:24.453 FATAL [billing-service] Timeout waiting for response from api-gateway after 10000ms
+2026-06-16 07:28:38.767 ERROR [billing-service] Connection refused to elasticsearch:8080 after 5 retries
+2026-06-16 07:28:42.755 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-16 07:30:02.589 FATAL [billing-service] Write failed: No space left on device
+2026-06-16 07:38:53.211 WARN  [billing-service] Retry attempt 5/3 for redis-cache
+2026-06-16 07:40:10.600 FATAL [billing-service] Connection refused to elasticsearch:5432 after 1 retries
+2026-06-16 07:50:06.247 WARN  [billing-service] Certificate expires in 15 days for billing.nexora.io
+2026-06-16 07:56:05.194 ERROR [billing-service] Timeout waiting for response from auth-service after 30000ms
+2026-06-16 07:57:58.825 FATAL [billing-service] Circuit breaker opened for search-service
+2026-06-16 08:04:29.470 WARN  [billing-service] Connection pool utilization at 95%
+2026-06-16 08:14:34.885 FATAL [billing-service] Disk usage at 58% on /data volume
+2026-06-16 08:16:04.688 ERROR [billing-service] Log rotation failed, disk nearly full
+2026-06-16 08:44:31.502 ERROR [billing-service] Write failed: No space left on device
+2026-06-16 11:00:00.919 FATAL [billing-service] Process killed by OOM killer: RSS=3756MB, limit=8049MB
+2026-06-16 11:17:00.767 WARN  [billing-service] Slow query detected: 12277ms on metrics
+2026-06-16 11:35:00.358 FATAL [billing-service] Process killed by OOM killer: RSS=1037MB, limit=3760MB
+2026-06-16 12:46:13.903 FATAL [billing-service] Thread pool exhausted, rejecting new requests
+2026-06-16 13:08:11.240 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-06-16 13:44:59.915 ERROR [billing-service] Retry storm detected: 7671 retries/min to reporting-service
+2026-06-16 13:45:38.088 WARN  [billing-service] Slow query detected: 3685ms on sessions
+2026-06-16 13:51:45.005 WARN  [billing-service] Kafka consumer lag: 29224 messages on topic=user-updates
+2026-06-16 14:12:59.278 ERROR [billing-service] Timeout waiting for response from auth-service after 30000ms
+2026-06-16 14:15:30.027 FATAL [billing-service] Timeout waiting for response from api-gateway after 5000ms
+2026-06-16 14:24:00.487 WARN  [billing-service] Memory usage at 85% — approaching threshold
+2026-06-16 14:26:07.498 WARN  [billing-service] Certificate expires in 18 days for billing.nexora.io
+2026-06-16 14:59:03.659 ERROR [billing-service] Timeout waiting for response from notification-service after 10000ms
+2026-06-16 14:59:40.281 FATAL [billing-service] HTTP 504 from reporting-service: No route to host
+2026-06-16 19:20:00.115 INFO  [billing-service] Health check passed: status=UP, uptime=37573s
+2026-06-16 21:02:00.473 DEBUG [billing-service] SQL: SELECT * FROM payments WHERE id = usr_69847 LIMIT 1
+2026-06-16 21:36:00.958 FATAL [billing-service] Unable to connect to nginx-ingress: all 4 retries exhausted
+2026-06-16 22:24:00.605 DEBUG [billing-service] Processing request: method=GET path=/api/v1/analytics
+2026-06-17 02:15:00.805 INFO  [billing-service] Request processed successfully in 10582ms
+2026-06-17 03:25:00.608 INFO  [billing-service] Request processed successfully in 13592ms
+2026-06-17 05:04:00.281 INFO  [billing-service] Health check passed: status=UP, uptime=38809s
+2026-06-17 07:11:00.472 WARN  [billing-service] Slow query detected: 9150ms on events
+2026-06-17 07:22:00.327 DEBUG [billing-service] SQL: SELECT * FROM metrics WHERE id = usr_50171 LIMIT 1
+2026-06-17 11:27:00.481 INFO  [billing-service] Query executed in 14200ms: SELECT * FROM sessions
+2026-06-17 14:29:00.855 INFO  [billing-service] Health check passed: status=UP, uptime=27655s
+2026-06-17 14:41:00.287 INFO  [billing-service] Connected to kafka successfully
+2026-06-17 16:49:00.628 INFO  [billing-service] Connected to api-gateway successfully
+2026-06-18 03:11:00.161 INFO  [billing-service] Cache hit ratio: 89% (last 5min)
+2026-06-18 04:07:00.981 INFO  [billing-service] Health check passed: status=UP, uptime=25758s
+2026-06-18 10:40:00.654 INFO  [billing-service] Request processed successfully in 5348ms
+2026-06-18 15:07:00.069 WARN  [billing-service] Slow query detected: 9160ms on payments
+2026-06-19 04:48:00.344 INFO  [billing-service] Connected to elasticsearch successfully
+2026-06-19 05:55:51.806 ERROR [billing-service] HTTP 503 from postgres-replica: Too many open files
+2026-06-19 06:09:22.574 FATAL [billing-service] Timeout waiting for response from redis-cache after 30000ms
+2026-06-19 06:15:40.494 ERROR [billing-service] Vendor status page reports degraded performance
+2026-06-19 06:18:11.867 WARN  [billing-service] Kafka consumer lag: 71495 messages on topic=user-updates
+2026-06-19 06:19:04.565 ERROR [billing-service] Timeout waiting for response from postgres-primary after 5000ms
+2026-06-19 07:42:00.687 ERROR [billing-service] Connection refused to postgres-replica:443 after 5 retries
+2026-06-19 10:54:00.686 INFO  [billing-service] Health check passed: status=UP, uptime=54889s
+2026-06-19 12:22:00.027 DEBUG [billing-service] SQL: SELECT * FROM sessions WHERE id = usr_83436 LIMIT 1
+2026-06-19 13:55:00.476 ERROR [billing-service] Database query failed: NullPointerException on table=metrics
+2026-06-19 17:52:00.909 INFO  [billing-service] JWT token validated for user_id=usr_81534
+2026-06-19 20:22:00.346 INFO  [billing-service] JWT token validated for user_id=usr_62325
+2026-06-20 02:16:00.500 ERROR [billing-service] HTTP 504 from notification-service: No route to host
+2026-06-20 04:12:00.113 WARN  [billing-service] Kafka consumer lag: 84165 messages on topic=user-updates
+2026-06-20 04:18:00.671 INFO  [billing-service] Query executed in 7448ms: SELECT * FROM orders
+2026-06-20 07:27:00.069 WARN  [billing-service] Retry attempt 3/3 for reporting-service
+2026-06-20 07:56:00.385 INFO  [billing-service] JWT token validated for user_id=usr_95099
+2026-06-20 12:34:17.122 FATAL [billing-service] Request routed to unexpected upstream postgres-replica
+2026-06-20 12:43:38.334 FATAL [billing-service] Request routed to unexpected upstream reporting-service
+2026-06-20 12:52:48.266 ERROR [billing-service] Request routed to unexpected upstream postgres-primary
+2026-06-20 12:54:30.850 ERROR [billing-service] Region mismatch: expected staging received alternate region
+2026-06-20 13:01:33.499 ERROR [billing-service] Request routed to unexpected upstream postgres-primary
+2026-06-20 16:46:00.799 WARN  [billing-service] Connection pool utilization at 64%
+2026-06-20 16:57:00.940 INFO  [billing-service] Connected to user-service successfully
+2026-06-20 16:58:00.222 INFO  [billing-service] Query executed in 379ms: SELECT * FROM metrics
+2026-06-20 17:43:41.413 WARN  [billing-service] Kafka consumer lag: 42174 messages on topic=payments
+2026-06-20 17:47:49.014 WARN  [billing-service] Slow query detected: 371ms on payments
+2026-06-20 17:50:26.044 ERROR [billing-service] Suspicious request pattern flagged for review
+2026-06-20 17:56:55.957 ERROR [billing-service] Retry storm detected: 6884 retries/min to elasticsearch
+2026-06-20 18:01:02.833 ERROR [billing-service] Suspicious request pattern flagged for review
+2026-06-20 18:07:22.239 ERROR [billing-service] Suspicious request pattern flagged for review
+2026-06-20 18:19:42.646 ERROR [billing-service] Circuit breaker opened for reporting-service
+2026-06-20 18:31:02.742 ERROR [billing-service] Retry storm detected: 9966 retries/min to auth-service
+2026-06-20 19:43:00.064 ERROR [billing-service] HTTP 503 from reporting-service: Broken pipe
+2026-06-21 01:24:00.354 ERROR [billing-service] HTTP 503 from auth-service: Broken pipe
+2026-06-21 01:29:00.728 INFO  [billing-service] Connected to auth-service successfully
+2026-06-21 05:45:00.387 INFO  [billing-service] Query executed in 556ms: SELECT * FROM users
+2026-06-21 12:01:00.565 INFO  [billing-service] Query executed in 1983ms: SELECT * FROM events
+2026-06-21 15:21:00.688 ERROR [billing-service] Database query failed: SchemaValidationError on table=payments
+2026-06-21 15:26:00.471 INFO  [billing-service] Health check passed: status=UP, uptime=82843s
+2026-06-21 15:48:00.453 INFO  [billing-service] Health check passed: status=UP, uptime=84815s
+2026-06-21 16:12:00.769 INFO  [billing-service] Query executed in 175ms: SELECT * FROM sessions
+2026-06-21 16:17:00.938 DEBUG [billing-service] SQL: SELECT * FROM payments WHERE id = usr_44530 LIMIT 1
+2026-06-21 16:24:44.104 ERROR [billing-service] Retry storm detected: 9898 retries/min to kafka
+2026-06-21 16:42:00.575 INFO  [billing-service] Processed 9822 messages from topic=analytics
+2026-06-21 16:49:00.593 ERROR [billing-service] Connection refused to api-gateway:6379 after 2 retries
+2026-06-21 18:35:25.697 FATAL [billing-service] Retry storm detected: 1054 retries/min to elasticsearch
+2026-06-21 20:42:00.854 DEBUG [billing-service] Cache lookup: key=session:1234 result=MISS
+2026-06-21 21:58:00.705 WARN  [billing-service] Connection pool utilization at 64%
+2026-06-21 23:07:32.012 ERROR [billing-service] Authentication failed for user_id=usr_32204: NullPointerException
+2026-06-21 23:11:50.629 FATAL [billing-service] Authentication failed for user_id=usr_15939: SchemaValidationError
+2026-06-21 23:24:46.106 WARN  [billing-service] Kafka consumer lag: 38642 messages on topic=analytics
+2026-06-21 23:31:00.206 WARN  [billing-service] Certificate expires in 2 days for billing.nexora.io
+2026-06-22 02:22:26.811 FATAL [billing-service] Migration lock held longer than expected
+2026-06-22 02:35:12.374 WARN  [billing-service] Kafka consumer lag: 64803 messages on topic=notifications
+2026-06-22 02:35:24.684 WARN  [billing-service] Connection pool utilization at 98%
+2026-06-22 02:43:16.265 ERROR [billing-service] Database query failed: DeadlockDetected on table=events
+2026-06-22 02:47:16.741 ERROR [billing-service] Database query failed: NullPointerException on table=events
+2026-06-22 03:42:00.962 INFO  [billing-service] Health check passed: status=UP, uptime=75608s
+2026-06-22 08:05:00.339 FATAL [billing-service] Process killed by OOM killer: RSS=1936MB, limit=3698MB
+2026-06-22 09:04:00.773 INFO  [billing-service] Health check passed: status=UP, uptime=37459s
+2026-06-22 09:53:00.556 ERROR [billing-service] Database query failed: NullPointerException on table=users
+2026-06-22 10:49:26.463 ERROR [billing-service] Token validation failed: timestamp out of allowed skew for user_id=usr_84644
+2026-06-22 12:43:44.370 ERROR [billing-service] Token validation failed: timestamp out of allowed skew for user_id=usr_25066
+2026-06-22 13:06:00.146 INFO  [billing-service] JWT token validated for user_id=usr_70468
+2026-06-22 14:19:00.730 WARN  [billing-service] Connection pool utilization at 57%
+2026-06-22 14:58:00.538 WARN  [billing-service] Memory usage at 58% — approaching threshold
+2026-06-23 05:11:00.286 DEBUG [billing-service] Processing request: method=PUT path=/health
+2026-06-23 10:01:00.092 INFO  [billing-service] Processed 6419 messages from topic=analytics
+2026-06-23 10:49:00.345 WARN  [billing-service] Memory usage at 96% — approaching threshold
+2026-06-23 15:27:00.318 ERROR [billing-service] Database query failed: ConnectionTimeout on table=metrics
+2026-06-23 15:50:00.719 INFO  [billing-service] Request processed successfully in 12537ms
+2026-06-23 20:48:26.093 WARN  [billing-service] Certificate expires in 15 days for auth.nexora.io
+2026-06-23 21:40:42.900 FATAL [billing-service] Stale endpoint resolved for redis-cache, expected updated IP
+2026-06-24 01:15:00.264 INFO  [billing-service] Request processed successfully in 612ms
+2026-06-24 08:41:00.790 INFO  [billing-service] Health check passed: status=UP, uptime=50531s
+2026-06-24 12:07:36.254 ERROR [billing-service] Health check failed: status=DOWN
+2026-06-24 12:33:03.276 ERROR [billing-service] Region mismatch: expected production received alternate region
+2026-06-24 13:11:29.892 WARN  [billing-service] Certificate expires in 23 days for auth.nexora.io
+2026-06-24 14:03:53.910 FATAL [billing-service] Request routed to unexpected upstream auth-service
+2026-06-24 14:15:10.395 ERROR [billing-service] Request routed to unexpected upstream elasticsearch
+2026-06-24 14:48:00.429 WARN  [billing-service] Certificate expires in 27 days for auth.nexora.io
+2026-06-24 16:48:59.731 ERROR [billing-service] Cache hit ratio dropped to 72%
+2026-06-24 16:55:50.548 ERROR [billing-service] Cache hit ratio dropped to 94%
+2026-06-24 17:21:41.037 WARN  [billing-service] Connection pool utilization at 96%
+2026-06-24 17:23:32.728 ERROR [billing-service] Redis eviction rate elevated on elasticsearch
+2026-06-24 17:31:57.439 ERROR [billing-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-24 22:41:00.828 INFO  [billing-service] Health check passed: status=UP, uptime=84572s
+2026-06-24 23:39:00.601 INFO  [billing-service] Cache hit ratio: 73% (last 5min)
+2026-06-25 01:21:00.940 INFO  [billing-service] Cache hit ratio: 96% (last 5min)
+2026-06-25 04:19:00.135 WARN  [billing-service] Certificate expires in 3 days for api.nexora.io
+2026-06-25 05:48:00.883 WARN  [billing-service] Kafka consumer lag: 18383 messages on topic=auth-events
+2026-06-25 11:35:00.734 INFO  [billing-service] JWT token validated for user_id=usr_63312
+2026-06-25 13:58:00.468 WARN  [billing-service] Slow query detected: 9005ms on orders
+2026-06-25 16:44:39.762 WARN  [billing-service] Memory usage at 64% — approaching threshold
+2026-06-25 16:52:00.090 WARN  [billing-service] Connection pool utilization at 88%
+2026-06-25 17:25:39.909 WARN  [billing-service] Connection pool utilization at 91%
+2026-06-25 17:41:36.043 WARN  [billing-service] Slow query detected: 4561ms on metrics
+2026-06-25 17:44:02.397 FATAL [billing-service] Authentication failed for user_id=usr_20731: SchemaValidationError
+2026-06-25 18:00:08.672 FATAL [billing-service] Retry storm detected: 2877 retries/min to elasticsearch
+2026-06-25 18:07:54.511 FATAL [billing-service] Circuit breaker opened for notification-service
+2026-06-25 18:12:00.535 INFO  [billing-service] JWT token validated for user_id=usr_87966
+2026-06-25 18:39:17.131 FATAL [billing-service] Circuit breaker opened for reporting-service
+2026-06-25 18:41:38.825 FATAL [billing-service] Rate limit exceeded: 5850/7897 requests from single source
+2026-06-25 21:59:00.505 INFO  [billing-service] Query executed in 4308ms: SELECT * FROM sessions
+2026-06-25 22:17:00.756 ERROR [billing-service] Timeout waiting for response from nginx-ingress after 10000ms
+2026-06-25 23:12:00.980 INFO  [billing-service] Cache hit ratio: 87% (last 5min)
+2026-06-26 02:24:00.385 INFO  [billing-service] Health check passed: status=UP, uptime=11361s
+2026-06-26 03:19:00.223 FATAL [billing-service] Unable to connect to api-gateway: all 5 retries exhausted
+2026-06-26 04:53:00.657 INFO  [billing-service] Processed 2701 messages from topic=notifications
+2026-06-26 05:02:00.107 WARN  [billing-service] Certificate expires in 26 days for billing.nexora.io
+2026-06-26 05:35:00.734 INFO  [billing-service] JWT token validated for user_id=usr_31942
+2026-06-26 06:20:00.887 ERROR [billing-service] Timeout waiting for response from postgres-primary after 5000ms
+2026-06-26 07:31:00.672 INFO  [billing-service] Health check passed: status=UP, uptime=77734s
+2026-06-26 09:49:00.582 INFO  [billing-service] Cache hit ratio: 75% (last 5min)
+2026-06-26 11:41:00.740 INFO  [billing-service] JWT token validated for user_id=usr_54314
+2026-06-26 12:38:10.677 ERROR [billing-service] Retry storm detected: 2502 retries/min to api-gateway
+2026-06-26 13:01:35.489 ERROR [billing-service] Thread pool exhausted, rejecting new requests
+2026-06-26 13:09:13.364 WARN  [billing-service] Memory usage at 76% — approaching threshold
+2026-06-26 13:10:32.464 FATAL [billing-service] Thread pool exhausted, rejecting new requests
+2026-06-26 13:16:45.850 ERROR [billing-service] Circuit breaker opened for search-service
+2026-06-26 13:45:00.823 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-06-26 14:07:00.390 INFO  [billing-service] Processed 8793 messages from topic=analytics
+2026-06-26 14:11:00.895 WARN  [billing-service] Kafka consumer lag: 14730 messages on topic=payments
+2026-06-26 14:40:00.814 WARN  [billing-service] Certificate expires in 19 days for billing.nexora.io
+2026-06-26 15:20:00.063 INFO  [billing-service] Health check passed: status=UP, uptime=69927s
+2026-06-26 20:22:22.227 ERROR [billing-service] Unexpected code path triggered: legacy_handler
+2026-06-26 20:27:34.287 WARN  [billing-service] Certificate expires in 26 days for auth.nexora.io
+2026-06-26 20:52:00.361 INFO  [billing-service] JWT token validated for user_id=usr_76303
+2026-06-26 21:35:28.324 ERROR [billing-service] Flag evaluation error, falling back to default
+2026-06-26 22:25:00.326 INFO  [billing-service] Query executed in 12360ms: SELECT * FROM sessions
+2026-06-26 22:50:00.393 WARN  [billing-service] Slow query detected: 11094ms on events
+2026-06-27 01:44:00.664 INFO  [billing-service] Request processed successfully in 4323ms
+2026-06-27 12:07:36.803 WARN  [billing-service] Retry attempt 2/3 for postgres-primary
+2026-06-27 12:41:25.587 ERROR [billing-service] HPA unable to fetch metrics for billing-service
+2026-06-27 12:42:00.784 ERROR [billing-service] Pod scheduling failed: insufficient resources
+2026-06-27 15:44:00.934 INFO  [billing-service] Request processed successfully in 5601ms
+2026-06-27 16:50:00.025 INFO  [billing-service] Connected to api-gateway successfully
+2026-06-27 17:46:00.133 WARN  [billing-service] Connection pool utilization at 58%
+2026-06-27 17:52:00.784 WARN  [billing-service] Certificate expires in 18 days for billing.nexora.io
+2026-06-27 19:50:00.091 INFO  [billing-service] Query executed in 14258ms: SELECT * FROM users
+2026-06-27 20:23:00.423 INFO  [billing-service] Query executed in 14333ms: SELECT * FROM orders
+2026-06-27 20:25:00.127 ERROR [billing-service] HTTP 504 from kafka: Permission denied
+2026-06-28 01:04:00.099 FATAL [billing-service] Unable to connect to user-service: all 5 retries exhausted
+2026-06-28 03:19:00.323 INFO  [billing-service] Query executed in 6917ms: SELECT * FROM orders
+2026-06-28 04:20:00.229 ERROR [billing-service] Connection refused to auth-service:443 after 3 retries
+2026-06-28 05:11:00.510 INFO  [billing-service] Request processed successfully in 12550ms
+2026-06-28 06:23:00.535 INFO  [billing-service] Connected to notification-service successfully
+2026-06-28 08:45:00.871 WARN  [billing-service] Slow query detected: 10195ms on users
+2026-06-28 17:02:00.656 INFO  [billing-service] Health check passed: status=UP, uptime=24019s
+2026-06-28 18:44:00.377 DEBUG [billing-service] SQL: SELECT * FROM sessions WHERE id = usr_44024 LIMIT 1
+2026-06-28 20:16:00.219 INFO  [billing-service] Query executed in 9387ms: SELECT * FROM payments
+2026-06-29 03:12:00.221 WARN  [billing-service] Kafka consumer lag: 30759 messages on topic=auth-events
+2026-06-29 05:01:12.579 ERROR [billing-service] Timeout waiting for response from nginx-ingress after 5000ms
+2026-06-29 05:03:31.533 ERROR [billing-service] Slow query detected: 11087ms on metrics
+2026-06-29 05:12:25.200 ERROR [billing-service] Slow query detected: 8310ms on orders
+2026-06-29 05:32:48.786 WARN  [billing-service] Memory usage at 51% — approaching threshold
+2026-06-29 06:07:38.221 FATAL [billing-service] Slow query detected: 7979ms on orders
+2026-06-29 06:23:00.013 INFO  [billing-service] Cache hit ratio: 62% (last 5min)
+2026-06-29 06:48:00.913 ERROR [billing-service] Database query failed: ConnectionTimeout on table=orders
+2026-06-29 08:01:00.453 WARN  [billing-service] Memory usage at 90% — approaching threshold
+2026-06-29 09:37:00.962 INFO  [billing-service] Query executed in 12690ms: SELECT * FROM sessions
+2026-06-29 10:32:00.427 INFO  [billing-service] Request processed successfully in 2433ms
+2026-06-29 13:11:04.829 ERROR [billing-service] Deployed version v2.20.2 to staging
+2026-06-29 13:18:56.541 FATAL [billing-service] Unexpected config value for key=timeout_ms
+2026-06-29 13:21:31.819 ERROR [billing-service] Unexpected config value for key=timeout_ms
+2026-06-29 13:21:33.033 FATAL [billing-service] Unexpected config value for key=timeout_ms
+2026-06-29 13:24:00.556 WARN  [billing-service] Certificate expires in 1 days for billing.nexora.io
+2026-06-29 13:26:43.488 ERROR [billing-service] Configuration checksum mismatch across replicas
+2026-06-29 13:46:32.458 FATAL [billing-service] Configuration checksum mismatch across replicas
+2026-06-29 13:48:09.957 ERROR [billing-service] Unexpected config value for key=timeout_ms
+2026-06-29 15:22:00.126 ERROR [billing-service] HTTP 502 from api-gateway: Permission denied
+2026-06-29 15:48:00.469 INFO  [billing-service] Processed 924 messages from topic=notifications
+2026-06-29 19:10:00.633 INFO  [billing-service] Request processed successfully in 14204ms
+2026-06-29 20:36:00.835 INFO  [billing-service] Processed 7048 messages from topic=notifications
+2026-06-29 21:48:00.840 WARN  [billing-service] Slow query detected: 12198ms on users
+2026-06-29 22:56:00.985 INFO  [billing-service] Query executed in 10725ms: SELECT * FROM users
+2026-06-30 01:49:00.992 WARN  [billing-service] Slow query detected: 14210ms on events
+2026-06-30 03:02:00.627 INFO  [billing-service] Health check passed: status=UP, uptime=52988s
+2026-06-30 08:03:00.376 WARN  [billing-service] Connection pool utilization at 52%
+2026-06-30 08:43:00.822 INFO  [billing-service] Cache hit ratio: 78% (last 5min)
+2026-06-30 11:06:00.756 INFO  [billing-service] JWT token validated for user_id=usr_59678
+2026-06-30 16:11:04.515 WARN  [billing-service] Slow query detected: 11629ms on metrics
+2026-06-30 16:14:00.336 INFO  [billing-service] Cache hit ratio: 96% (last 5min)
+2026-06-30 16:17:41.681 WARN  [billing-service] Retry attempt 4/3 for elasticsearch
+2026-06-30 21:17:00.925 INFO  [billing-service] Cache hit ratio: 71% (last 5min)
+2026-06-30 22:48:00.071 INFO  [billing-service] Request processed successfully in 14797ms
+2026-07-01 03:08:00.657 FATAL [billing-service] Process killed by OOM killer: RSS=743MB, limit=7542MB
+2026-07-01 06:15:00.761 INFO  [billing-service] Health check passed: status=UP, uptime=7166s
+2026-07-01 07:45:00.294 INFO  [billing-service] Cache hit ratio: 73% (last 5min)
+2026-07-01 13:44:15.251 ERROR [billing-service] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-07-01 13:50:25.323 ERROR [billing-service] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-07-01 13:58:12.669 WARN  [billing-service] Certificate expires in 11 days for billing.nexora.io
+2026-07-01 14:01:00.436 INFO  [billing-service] Connected to elasticsearch successfully
+2026-07-01 14:07:58.807 WARN  [billing-service] Kafka consumer lag: 68117 messages on topic=auth-events
+2026-07-01 14:17:14.676 WARN  [billing-service] Connection pool utilization at 78%
+2026-07-01 14:24:37.241 ERROR [billing-service] Flag evaluation error, falling back to default
+2026-07-01 14:26:58.348 ERROR [billing-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-07-01 14:30:02.563 ERROR [billing-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-07-01 15:18:00.083 INFO  [billing-service] Health check passed: status=UP, uptime=61907s
+2026-07-01 16:22:00.297 INFO  [billing-service] Connected to postgres-replica successfully
+2026-07-01 16:31:00.563 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-07-01 19:11:00.760 WARN  [billing-service] Slow query detected: 5474ms on metrics
+2026-07-01 20:07:00.142 INFO  [billing-service] Health check passed: status=UP, uptime=4460s
+2026-07-01 20:16:00.532 INFO  [billing-service] Health check passed: status=UP, uptime=68024s
+2026-07-01 21:05:32.194 ERROR [billing-service] Schema validation error: column not found
+2026-07-01 21:36:46.682 WARN  [billing-service] Memory usage at 93% — approaching threshold
+2026-07-01 22:57:00.539 INFO  [billing-service] Cache hit ratio: 89% (last 5min)
+2026-07-01 23:05:00.816 INFO  [billing-service] Cache hit ratio: 81% (last 5min)
+2026-07-01 23:09:00.097 INFO  [billing-service] Processed 3164 messages from topic=auth-events
+2026-07-02 01:18:00.820 INFO  [billing-service] Request processed successfully in 14833ms
+2026-07-02 02:45:00.783 INFO  [billing-service] Processed 9974 messages from topic=user-updates
+2026-07-02 03:06:00.757 INFO  [billing-service] Cache hit ratio: 64% (last 5min)
+2026-07-02 03:35:00.118 WARN  [billing-service] Connection pool utilization at 87%
+2026-07-02 04:47:00.982 INFO  [billing-service] Query executed in 13659ms: SELECT * FROM events
+2026-07-02 06:59:00.274 ERROR [billing-service] HTTP 503 from analytics-engine: Resource temporarily unavailable
+2026-07-02 11:02:00.033 INFO  [billing-service] Cache hit ratio: 91% (last 5min)
+2026-07-02 12:44:00.487 INFO  [billing-service] Health check passed: status=UP, uptime=2149s
+2026-07-02 19:11:00.950 WARN  [billing-service] Retry attempt 3/3 for elasticsearch
+2026-07-02 21:29:00.011 INFO  [billing-service] Query executed in 10646ms: SELECT * FROM users
+2026-07-02 21:36:00.997 INFO  [billing-service] JWT token validated for user_id=usr_54163
+2026-07-02 23:09:00.890 INFO  [billing-service] Connected to notification-service successfully
+2026-07-02 23:31:00.062 FATAL [billing-service] Process killed by OOM killer: RSS=3961MB, limit=5702MB
+2026-07-03 01:39:32.947 WARN  [billing-service] Kafka consumer lag: 71006 messages on topic=payments
+2026-07-03 01:49:34.282 ERROR [billing-service] Certificate expires in 13 days for auth.nexora.io
+2026-07-03 01:49:36.827 ERROR [billing-service] TLS handshake failed: certificate verify failed
+2026-07-03 01:51:38.480 FATAL [billing-service] TLS handshake failed: certificate verify failed
+2026-07-03 01:52:15.637 ERROR [billing-service] TLS handshake failed: certificate verify failed
+2026-07-03 01:53:52.211 ERROR [billing-service] TLS handshake failed: certificate verify failed
+2026-07-03 01:59:49.086 WARN  [billing-service] Kafka consumer lag: 24836 messages on topic=auth-events
+2026-07-03 02:01:58.481 ERROR [billing-service] Certificate expires in 17 days for api.nexora.io
+2026-07-03 03:31:18.527 WARN  [billing-service] Memory usage at 81% — approaching threshold
+2026-07-03 04:30:53.308 ERROR [billing-service] Flag evaluation error, falling back to default
+2026-07-03 04:40:27.530 ERROR [billing-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-07-03 06:10:00.797 WARN  [billing-service] Slow query detected: 905ms on users
+2026-07-03 06:11:00.814 FATAL [billing-service] Process killed by OOM killer: RSS=2244MB, limit=7388MB
+2026-07-03 07:35:00.581 INFO  [billing-service] Query executed in 13709ms: SELECT * FROM payments
+2026-07-03 09:18:50.098 ERROR [billing-service] Rate limit exceeded: 4289/5102 requests from single source
+2026-07-03 09:29:45.823 FATAL [billing-service] Suspicious request pattern flagged for review
+2026-07-03 10:06:02.638 WARN  [billing-service] Memory usage at 72% — approaching threshold
+2026-07-03 10:10:54.576 FATAL [billing-service] Authentication failed for user_id=usr_99600: DeadlockDetected
+2026-07-03 10:15:49.467 ERROR [billing-service] Authentication failed for user_id=usr_76055: DeadlockDetected
+2026-07-03 21:14:00.434 WARN  [billing-service] Memory usage at 64% — approaching threshold
+2026-07-03 23:03:00.073 INFO  [billing-service] Health check passed: status=UP, uptime=9037s
+2026-07-04 03:05:00.143 INFO  [billing-service] Cache hit ratio: 99% (last 5min)
+2026-07-04 03:12:00.869 ERROR [billing-service] Database query failed: DeadlockDetected on table=metrics
+2026-07-04 12:36:00.617 INFO  [billing-service] Query executed in 8270ms: SELECT * FROM users
+2026-07-04 15:12:00.610 INFO  [billing-service] JWT token validated for user_id=usr_67802
+2026-07-05 04:31:00.145 ERROR [billing-service] Connection refused to nginx-ingress:5432 after 3 retries
+2026-07-05 05:29:00.887 ERROR [billing-service] Connection refused to notification-service:9092 after 3 retries
+2026-07-05 05:58:00.786 WARN  [billing-service] Slow query detected: 7866ms on sessions
+2026-07-05 06:04:00.800 INFO  [billing-service] Request processed successfully in 12428ms
+2026-07-05 06:15:00.876 INFO  [billing-service] JWT token validated for user_id=usr_22631
+2026-07-05 08:35:00.597 WARN  [billing-service] Retry attempt 5/3 for postgres-primary
+2026-07-05 09:59:00.015 INFO  [billing-service] JWT token validated for user_id=usr_14918
+2026-07-05 10:45:00.268 FATAL [billing-service] Process killed by OOM killer: RSS=1624MB, limit=7066MB
+2026-07-05 11:50:04.765 ERROR [billing-service] Request routed to unexpected upstream nginx-ingress
+2026-07-05 12:03:34.253 ERROR [billing-service] Region mismatch: expected staging received alternate region
+2026-07-05 12:07:30.047 ERROR [billing-service] Request routed to unexpected upstream auth-service
+2026-07-05 13:22:00.820 DEBUG [billing-service] SQL: SELECT * FROM sessions WHERE id = usr_11845 LIMIT 1
+2026-07-05 17:51:00.102 INFO  [billing-service] Request processed successfully in 8168ms
+2026-07-05 20:01:00.252 DEBUG [billing-service] SQL: SELECT * FROM events WHERE id = usr_14391 LIMIT 1
+2026-07-05 22:20:36.844 ERROR [billing-service] Circuit breaker opened for api-gateway
+2026-07-05 22:23:49.549 FATAL [billing-service] Connection refused to search-service:6379 after 5 retries
+2026-07-05 22:26:17.132 ERROR [billing-service] Connection refused to user-service:6379 after 1 retries
+2026-07-05 22:27:18.459 ERROR [billing-service] Timeout waiting for response from search-service after 5000ms
+2026-07-05 22:32:49.526 ERROR [billing-service] Timeout waiting for response from postgres-replica after 30000ms
+2026-07-05 22:33:49.135 FATAL [billing-service] Circuit breaker opened for elasticsearch
+2026-07-05 22:34:47.945 FATAL [billing-service] Timeout waiting for response from notification-service after 10000ms
+2026-07-05 22:34:58.606 ERROR [billing-service] Timeout waiting for response from kafka after 10000ms
+2026-07-06 00:17:00.978 INFO  [billing-service] Request processed successfully in 6047ms
+2026-07-06 01:57:00.882 INFO  [billing-service] Health check passed: status=UP, uptime=49286s
+2026-07-06 04:08:00.631 DEBUG [billing-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-07-06 10:12:00.380 INFO  [billing-service] Connected to search-service successfully
+2026-07-06 10:27:28.970 WARN  [billing-service] Certificate expires in 4 days for billing.nexora.io
+2026-07-06 10:30:44.771 FATAL [billing-service] HPA unable to fetch metrics for billing-service
+2026-07-06 10:41:52.007 WARN  [billing-service] Memory usage at 80% — approaching threshold
+2026-07-06 11:03:42.011 ERROR [billing-service] Request queue depth exceeded capacity
+2026-07-06 11:05:29.461 WARN  [billing-service] Slow query detected: 12727ms on metrics
+2026-07-06 13:08:00.322 ERROR [billing-service] Database query failed: DeadlockDetected on table=payments
+2026-07-06 13:50:00.995 INFO  [billing-service] Request processed successfully in 5341ms
+2026-07-06 23:09:00.232 WARN  [billing-service] Retry attempt 3/3 for search-service
+2026-07-07 00:35:00.089 INFO  [billing-service] Health check passed: status=UP, uptime=45822s
+2026-07-07 09:21:00.907 DEBUG [billing-service] SQL: SELECT * FROM payments WHERE id = usr_28516 LIMIT 1
+2026-07-07 09:25:00.985 INFO  [billing-service] Connected to nginx-ingress successfully
+2026-07-07 10:08:00.188 WARN  [billing-service] Retry attempt 2/3 for nginx-ingress
+2026-07-07 17:16:00.293 INFO  [billing-service] JWT token validated for user_id=usr_22224
+2026-07-07 17:27:00.123 INFO  [billing-service] JWT token validated for user_id=usr_20776
+2026-07-07 17:37:00.041 INFO  [billing-service] Request processed successfully in 12600ms
+2026-07-08 01:12:50.715 ERROR [billing-service] TLS handshake failed: certificate verify failed
+2026-07-08 02:40:09.106 FATAL [billing-service] Certificate expires in 30 days for api.nexora.io
+2026-07-08 02:42:28.231 WARN  [billing-service] Kafka consumer lag: 25896 messages on topic=user-updates
+2026-07-08 03:56:00.302 WARN  [billing-service] Kafka consumer lag: 59887 messages on topic=notifications
+2026-07-08 04:58:00.462 WARN  [billing-service] Retry attempt 3/3 for reporting-service
+2026-07-08 05:42:00.605 INFO  [billing-service] JWT token validated for user_id=usr_21510
+2026-07-08 06:16:00.546 INFO  [billing-service] Query executed in 9431ms: SELECT * FROM metrics
+2026-07-08 06:31:00.938 INFO  [billing-service] Health check passed: status=UP, uptime=80721s
+2026-07-08 06:44:02.790 FATAL [billing-service] Unexpected code path triggered: legacy_handler
+2026-07-08 06:47:52.993 ERROR [billing-service] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-07-08 06:51:22.197 ERROR [billing-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-07-08 08:23:00.374 DEBUG [billing-service] Processing request: method=DELETE path=/api/v1/payments
+2026-07-08 08:40:00.277 INFO  [billing-service] Request processed successfully in 12828ms
+2026-07-08 12:37:39.346 ERROR [billing-service] Health check failed: status=DOWN
+2026-07-08 15:06:44.579 ERROR [billing-service] Process killed by OOM killer: RSS=2412MB, limit=7176MB
+2026-07-08 15:13:49.174 ERROR [billing-service] Health check failed: status=DOWN
+2026-07-08 17:31:00.377 INFO  [billing-service] Request processed successfully in 10389ms
+2026-07-08 20:07:00.165 INFO  [billing-service] Health check passed: status=UP, uptime=8061s
+2026-07-09 00:24:00.119 INFO  [billing-service] JWT token validated for user_id=usr_27519
+2026-07-09 13:13:00.486 INFO  [billing-service] Cache hit ratio: 67% (last 5min)
+2026-07-09 13:23:00.694 INFO  [billing-service] Request processed successfully in 12592ms
+2026-07-09 13:54:00.837 DEBUG [billing-service] SQL: SELECT * FROM events WHERE id = usr_20907 LIMIT 1
+2026-07-09 16:17:00.201 WARN  [billing-service] Connection pool utilization at 54%
+2026-07-09 19:31:00.989 WARN  [billing-service] Kafka consumer lag: 85044 messages on topic=user-updates
+2026-07-09 22:25:00.982 INFO  [billing-service] Query executed in 10635ms: SELECT * FROM metrics
+2026-07-09 22:46:00.791 INFO  [billing-service] Request processed successfully in 1701ms
+2026-07-09 22:53:00.365 INFO  [billing-service] Processed 8811 messages from topic=auth-events
+2026-07-09 23:43:00.526 WARN  [billing-service] Kafka consumer lag: 20407 messages on topic=payments
+2026-07-09 23:59:00.835 WARN  [billing-service] Connection pool utilization at 64%
+2026-07-10 00:42:00.729 INFO  [billing-service] Cache hit ratio: 76% (last 5min)
+2026-07-10 02:17:00.955 INFO  [billing-service] Request processed successfully in 10745ms
+2026-07-10 03:40:00.502 INFO  [billing-service] JWT token validated for user_id=usr_15907
+2026-07-10 08:47:00.245 INFO  [billing-service] Processed 1463 messages from topic=notifications

@@ -1,0 +1,1000 @@
+2026-05-11 09:52:00.583 FATAL [notification-service] Process killed by OOM killer: RSS=1040MB, limit=4464MB
+2026-05-11 09:53:00.325 DEBUG [notification-service] Processing request: method=GET path=/api/v1/users
+2026-05-11 10:43:00.197 INFO  [notification-service] Connected to redis-cache successfully
+2026-05-11 19:53:00.075 INFO  [notification-service] Connected to nginx-ingress successfully
+2026-05-12 04:33:27.348 WARN  [notification-service] Retry attempt 1/3 for elasticsearch
+2026-05-12 04:44:53.996 FATAL [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_91441
+2026-05-12 04:48:29.807 FATAL [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_38208
+2026-05-12 04:57:14.375 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_77154
+2026-05-12 04:59:10.913 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_24351
+2026-05-12 08:21:00.308 INFO  [notification-service] Connected to reporting-service successfully
+2026-05-12 08:29:00.509 INFO  [notification-service] Query executed in 11125ms: SELECT * FROM orders
+2026-05-12 09:44:00.188 ERROR [notification-service] Database query failed: SchemaValidationError on table=events
+2026-05-12 16:10:00.917 INFO  [notification-service] JWT token validated for user_id=usr_89197
+2026-05-12 17:10:00.699 INFO  [notification-service] Request processed successfully in 12563ms
+2026-05-12 22:24:00.678 INFO  [notification-service] JWT token validated for user_id=usr_52664
+2026-05-12 23:05:00.312 INFO  [notification-service] JWT token validated for user_id=usr_74449
+2026-05-13 01:41:00.611 INFO  [notification-service] Connected to api-gateway successfully
+2026-05-13 04:07:00.899 INFO  [notification-service] JWT token validated for user_id=usr_42370
+2026-05-13 05:12:35.583 ERROR [notification-service] TLS handshake failed: certificate verify failed
+2026-05-13 05:15:16.458 ERROR [notification-service] x509: certificate has expired or is not yet valid
+2026-05-13 06:09:34.433 ERROR [notification-service] Certificate expires in 30 days for api.nexora.io
+2026-05-13 06:35:49.831 FATAL [notification-service] TLS handshake failed: certificate verify failed
+2026-05-13 07:21:48.557 ERROR [notification-service] x509: certificate has expired or is not yet valid
+2026-05-13 07:43:00.844 ERROR [notification-service] Timeout waiting for response from redis-cache after 10000ms
+2026-05-13 08:46:00.845 INFO  [notification-service] Connected to postgres-primary successfully
+2026-05-13 13:27:00.503 WARN  [notification-service] Certificate expires in 16 days for auth.nexora.io
+2026-05-13 17:06:00.100 WARN  [notification-service] Slow query detected: 3399ms on sessions
+2026-05-13 17:32:00.186 INFO  [notification-service] Processed 6512 messages from topic=analytics
+2026-05-13 18:06:00.920 INFO  [notification-service] Health check passed: status=UP, uptime=78467s
+2026-05-13 20:03:00.578 ERROR [notification-service] Connection refused to billing-service:8080 after 2 retries
+2026-05-13 22:02:00.046 INFO  [notification-service] Cache hit ratio: 63% (last 5min)
+2026-05-13 23:25:00.188 WARN  [notification-service] Slow query detected: 7161ms on orders
+2026-05-14 01:37:30.784 WARN  [notification-service] Retry attempt 2/3 for search-service
+2026-05-14 01:51:11.451 ERROR [notification-service] Timeout waiting for response from api-gateway after 30000ms
+2026-05-14 01:56:14.612 WARN  [notification-service] Kafka consumer lag: 37781 messages on topic=notifications
+2026-05-14 01:57:06.318 ERROR [notification-service] Connection refused to billing-service:6379 after 4 retries
+2026-05-14 02:01:06.163 ERROR [notification-service] Circuit breaker opened for user-service
+2026-05-14 02:13:22.805 FATAL [notification-service] Connection refused to analytics-engine:5432 after 5 retries
+2026-05-14 02:24:49.264 WARN  [notification-service] Retry attempt 3/3 for postgres-replica
+2026-05-14 03:31:33.876 FATAL [notification-service] Slow request handling, thread pool saturated
+2026-05-14 03:51:46.553 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-05-14 04:15:40.116 ERROR [notification-service] CPU throttling detected: 90% of periods throttled
+2026-05-14 04:36:00.139 ERROR [notification-service] Timeout waiting for response from api-gateway after 30000ms
+2026-05-14 05:54:17.030 FATAL [notification-service] Stale endpoint resolved for postgres-primary, expected updated IP
+2026-05-14 06:07:20.931 WARN  [notification-service] Connection pool utilization at 87%
+2026-05-14 06:10:28.891 FATAL [notification-service] DNS resolution failed for auth-service
+2026-05-14 06:23:16.434 ERROR [notification-service] Connection refused to api-gateway:9092 after 2 retries
+2026-05-14 06:33:00.729 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_56146 LIMIT 1
+2026-05-14 07:18:04.826 ERROR [notification-service] Stale endpoint resolved for redis-cache, expected updated IP
+2026-05-14 09:01:00.260 INFO  [notification-service] Health check passed: status=UP, uptime=34759s
+2026-05-14 11:41:48.113 ERROR [notification-service] Record checksum mismatch detected for id=usr_63939
+2026-05-14 12:17:00.277 FATAL [notification-service] Process killed by OOM killer: RSS=1816MB, limit=5676MB
+2026-05-14 13:40:49.871 ERROR [notification-service] Reconciliation job found 7398 mismatched rows
+2026-05-14 17:25:55.677 ERROR [notification-service] Migration lock held longer than expected
+2026-05-14 17:43:42.191 ERROR [notification-service] Database query failed: SchemaValidationError on table=metrics
+2026-05-14 18:13:32.844 ERROR [notification-service] Schema validation error: column not found
+2026-05-14 20:29:00.931 INFO  [notification-service] Query executed in 12282ms: SELECT * FROM metrics
+2026-05-14 20:33:00.679 WARN  [notification-service] Slow query detected: 6288ms on sessions
+2026-05-14 21:41:00.923 INFO  [notification-service] Health check passed: status=UP, uptime=1753s
+2026-05-14 21:55:00.555 DEBUG [notification-service] SQL: SELECT * FROM metrics WHERE id = usr_77398 LIMIT 1
+2026-05-15 02:15:00.892 INFO  [notification-service] Query executed in 1886ms: SELECT * FROM events
+2026-05-15 02:38:43.415 FATAL [notification-service] Database connection failed: password authentication failed
+2026-05-15 02:50:56.218 ERROR [notification-service] Secret version mismatch detected
+2026-05-15 02:51:18.782 WARN  [notification-service] Retry attempt 4/3 for search-service
+2026-05-15 02:51:39.591 FATAL [notification-service] Authentication failed for user_id=usr_49897: ConnectionTimeout
+2026-05-15 02:52:08.291 ERROR [notification-service] Authentication failed for user_id=usr_62047: SchemaValidationError
+2026-05-15 02:56:00.925 ERROR [notification-service] Authentication failed for user_id=usr_77605: ConnectionTimeout
+2026-05-15 02:57:12.198 ERROR [notification-service] Database connection failed: password authentication failed
+2026-05-15 04:10:00.239 ERROR [notification-service] Database query failed: NullPointerException on table=orders
+2026-05-15 05:30:00.176 FATAL [notification-service] Unable to connect to elasticsearch: all 4 retries exhausted
+2026-05-15 07:27:00.398 WARN  [notification-service] Kafka consumer lag: 36898 messages on topic=notifications
+2026-05-15 09:41:00.986 INFO  [notification-service] JWT token validated for user_id=usr_37452
+2026-05-15 10:37:00.697 INFO  [notification-service] Query executed in 14246ms: SELECT * FROM sessions
+2026-05-15 17:48:00.176 FATAL [notification-service] Unable to connect to user-service: all 2 retries exhausted
+2026-05-15 23:11:00.529 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-16 03:20:00.217 INFO  [notification-service] Request processed successfully in 7918ms
+2026-05-16 04:14:00.803 WARN  [notification-service] Retry attempt 3/3 for auth-service
+2026-05-16 07:11:00.652 ERROR [notification-service] HTTP 504 from postgres-primary: Resource temporarily unavailable
+2026-05-16 08:33:00.427 INFO  [notification-service] Health check passed: status=UP, uptime=21412s
+2026-05-16 09:04:00.066 ERROR [notification-service] Database query failed: SchemaValidationError on table=orders
+2026-05-16 09:17:00.311 INFO  [notification-service] Cache hit ratio: 87% (last 5min)
+2026-05-16 11:12:00.692 INFO  [notification-service] JWT token validated for user_id=usr_55350
+2026-05-16 12:04:00.633 INFO  [notification-service] Query executed in 13264ms: SELECT * FROM payments
+2026-05-16 13:22:00.977 INFO  [notification-service] Cache hit ratio: 66% (last 5min)
+2026-05-16 15:32:00.770 FATAL [notification-service] Unable to connect to billing-service: all 2 retries exhausted
+2026-05-16 16:28:00.874 WARN  [notification-service] Kafka consumer lag: 39640 messages on topic=payments
+2026-05-16 18:34:53.057 ERROR [notification-service] Region mismatch: expected production received alternate region
+2026-05-16 19:36:45.560 ERROR [notification-service] Region mismatch: expected staging received alternate region
+2026-05-16 20:07:23.197 FATAL [notification-service] Request routed to unexpected upstream redis-cache
+2026-05-16 20:29:00.244 DEBUG [notification-service] SQL: SELECT * FROM payments WHERE id = usr_87799 LIMIT 1
+2026-05-17 04:57:00.521 INFO  [notification-service] Query executed in 7410ms: SELECT * FROM payments
+2026-05-17 10:04:00.840 WARN  [notification-service] Connection pool utilization at 99%
+2026-05-17 10:22:00.363 ERROR [notification-service] Connection refused to elasticsearch:8080 after 1 retries
+2026-05-17 14:12:00.504 INFO  [notification-service] Connected to search-service successfully
+2026-05-17 16:24:14.016 ERROR [notification-service] Too many open files
+2026-05-17 16:26:34.357 WARN  [notification-service] Kafka consumer lag: 59499 messages on topic=user-updates
+2026-05-17 16:32:38.146 WARN  [notification-service] Kafka consumer lag: 98287 messages on topic=auth-events
+2026-05-17 16:35:51.334 ERROR [notification-service] Process killed by OOM killer: RSS=2720MB, limit=7270MB
+2026-05-17 16:37:38.192 FATAL [notification-service] Process killed by OOM killer: RSS=2845MB, limit=6089MB
+2026-05-17 16:45:12.278 ERROR [notification-service] Too many open files
+2026-05-17 16:48:42.707 ERROR [notification-service] Process killed by OOM killer: RSS=3251MB, limit=7815MB
+2026-05-17 19:12:00.117 INFO  [notification-service] Cache hit ratio: 64% (last 5min)
+2026-05-17 21:18:00.212 WARN  [notification-service] Retry attempt 4/3 for elasticsearch
+2026-05-18 06:11:00.937 INFO  [notification-service] Processed 3809 messages from topic=payments
+2026-05-18 06:42:00.248 WARN  [notification-service] Certificate expires in 18 days for billing.nexora.io
+2026-05-18 07:48:00.192 DEBUG [notification-service] Processing request: method=DELETE path=/api/v1/users
+2026-05-18 10:55:00.051 INFO  [notification-service] Connected to search-service successfully
+2026-05-18 11:32:00.839 ERROR [notification-service] Timeout waiting for response from billing-service after 5000ms
+2026-05-18 14:24:00.271 WARN  [notification-service] Retry attempt 4/3 for reporting-service
+2026-05-18 14:48:00.723 WARN  [notification-service] Kafka consumer lag: 16490 messages on topic=user-updates
+2026-05-18 15:27:00.548 INFO  [notification-service] Query executed in 7367ms: SELECT * FROM events
+2026-05-18 15:52:00.604 INFO  [notification-service] Processed 483 messages from topic=analytics
+2026-05-18 17:22:00.490 WARN  [notification-service] Certificate expires in 22 days for api.nexora.io
+2026-05-18 17:30:00.155 INFO  [notification-service] JWT token validated for user_id=usr_20885
+2026-05-18 18:04:00.227 DEBUG [notification-service] SQL: SELECT * FROM events WHERE id = usr_34066 LIMIT 1
+2026-05-19 00:15:00.624 INFO  [notification-service] Request processed successfully in 9783ms
+2026-05-19 00:29:00.429 INFO  [notification-service] Cache hit ratio: 99% (last 5min)
+2026-05-19 02:48:00.863 INFO  [notification-service] Cache hit ratio: 67% (last 5min)
+2026-05-19 05:31:00.769 FATAL [notification-service] Unable to connect to kafka: all 4 retries exhausted
+2026-05-19 08:23:00.512 INFO  [notification-service] Cache hit ratio: 62% (last 5min)
+2026-05-19 09:07:48.035 FATAL [notification-service] CPU throttling detected: 81% of periods throttled
+2026-05-19 10:56:31.589 ERROR [notification-service] Event loop lag: 14343ms — possible blocking operation
+2026-05-19 11:59:00.961 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_46607 LIMIT 1
+2026-05-19 12:09:00.190 INFO  [notification-service] Connected to analytics-engine successfully
+2026-05-19 12:12:00.259 INFO  [notification-service] Health check passed: status=UP, uptime=31419s
+2026-05-19 16:48:00.298 FATAL [notification-service] Unable to connect to elasticsearch: all 4 retries exhausted
+2026-05-19 17:13:00.695 INFO  [notification-service] Processed 1397 messages from topic=analytics
+2026-05-19 17:43:00.490 INFO  [notification-service] Request processed successfully in 1640ms
+2026-05-19 20:29:00.890 WARN  [notification-service] Slow query detected: 7934ms on sessions
+2026-05-20 00:22:00.861 INFO  [notification-service] Request processed successfully in 14310ms
+2026-05-20 02:03:00.380 WARN  [notification-service] Kafka consumer lag: 3303 messages on topic=user-updates
+2026-05-20 03:11:00.688 WARN  [notification-service] Memory usage at 66% — approaching threshold
+2026-05-20 06:55:00.364 DEBUG [notification-service] Processing request: method=GET path=/api/v1/users
+2026-05-20 08:04:00.307 WARN  [notification-service] Slow query detected: 8428ms on orders
+2026-05-20 16:06:00.204 ERROR [notification-service] Database query failed: SchemaValidationError on table=users
+2026-05-20 18:58:00.555 INFO  [notification-service] Connected to search-service successfully
+2026-05-20 19:36:22.942 ERROR [notification-service] Health check failed: status=DOWN
+2026-05-20 19:52:06.816 WARN  [notification-service] Kafka consumer lag: 454 messages on topic=user-updates
+2026-05-20 20:00:39.994 FATAL [notification-service] Request routed to unexpected upstream elasticsearch
+2026-05-20 21:15:37.690 WARN  [notification-service] Connection pool utilization at 99%
+2026-05-20 21:28:26.586 FATAL [notification-service] Region mismatch: expected staging received alternate region
+2026-05-20 22:12:00.919 ERROR [notification-service] Connection refused to kafka:443 after 4 retries
+2026-05-20 23:34:00.688 INFO  [notification-service] Query executed in 10923ms: SELECT * FROM orders
+2026-05-21 00:59:00.643 INFO  [notification-service] Processed 7267 messages from topic=notifications
+2026-05-21 01:59:00.013 INFO  [notification-service] Request processed successfully in 9908ms
+2026-05-21 03:06:00.011 DEBUG [notification-service] SQL: SELECT * FROM events WHERE id = usr_82998 LIMIT 1
+2026-05-21 06:17:00.204 INFO  [notification-service] Query executed in 12164ms: SELECT * FROM events
+2026-05-21 07:41:00.234 WARN  [notification-service] Kafka consumer lag: 35187 messages on topic=analytics
+2026-05-21 09:30:00.939 INFO  [notification-service] Connected to elasticsearch successfully
+2026-05-21 09:57:00.034 INFO  [notification-service] Health check passed: status=UP, uptime=77271s
+2026-05-21 15:22:17.807 ERROR [notification-service] No route to host
+2026-05-21 15:31:11.467 WARN  [notification-service] Connection pool utilization at 60%
+2026-05-21 15:36:35.050 ERROR [notification-service] No route to host
+2026-05-21 15:40:31.176 WARN  [notification-service] Memory usage at 83% — approaching threshold
+2026-05-21 15:52:38.054 WARN  [notification-service] Memory usage at 71% — approaching threshold
+2026-05-21 15:56:20.222 FATAL [notification-service] DNS resolution failed for nginx-ingress
+2026-05-21 15:56:25.358 WARN  [notification-service] Certificate expires in 11 days for api.nexora.io
+2026-05-21 15:59:57.117 FATAL [notification-service] No route to host
+2026-05-21 16:06:25.815 ERROR [notification-service] No route to host
+2026-05-21 16:06:28.744 ERROR [notification-service] DNS resolution failed for search-service
+2026-05-21 18:35:54.100 FATAL [notification-service] Request routed to unexpected upstream kafka
+2026-05-21 19:05:31.004 FATAL [notification-service] Health check failed: status=DOWN
+2026-05-21 20:28:27.407 ERROR [notification-service] CPU throttling detected: 83% of periods throttled
+2026-05-21 20:35:16.245 ERROR [notification-service] Event loop lag: 7114ms — possible blocking operation
+2026-05-21 20:52:22.473 ERROR [notification-service] CPU throttling detected: 57% of periods throttled
+2026-05-21 20:57:26.461 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-05-21 21:00:35.010 ERROR [notification-service] Event loop lag: 4168ms — possible blocking operation
+2026-05-21 21:48:11.316 ERROR [notification-service] Health check failed: status=DOWN
+2026-05-21 21:53:31.212 ERROR [notification-service] Heap usage growing steadily, GC pause 1162ms
+2026-05-21 22:09:00.629 FATAL [notification-service] Process killed by OOM killer: RSS=770MB, limit=3974MB
+2026-05-21 22:23:34.742 WARN  [notification-service] Kafka consumer lag: 48358 messages on topic=auth-events
+2026-05-21 22:25:33.774 ERROR [notification-service] Process killed by OOM killer: RSS=3065MB, limit=4132MB
+2026-05-22 03:29:50.943 ERROR [notification-service] Retry storm detected: 5963 retries/min to postgres-primary
+2026-05-22 04:00:08.560 ERROR [notification-service] Circuit breaker opened for postgres-primary
+2026-05-22 04:30:00.383 DEBUG [notification-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-05-22 04:41:05.488 ERROR [notification-service] Circuit breaker opened for auth-service
+2026-05-22 05:42:00.131 WARN  [notification-service] Memory usage at 59% — approaching threshold
+2026-05-22 07:17:00.406 WARN  [notification-service] Connection pool utilization at 64%
+2026-05-22 07:49:00.157 INFO  [notification-service] Request processed successfully in 12033ms
+2026-05-22 11:59:00.984 INFO  [notification-service] Processed 6847 messages from topic=analytics
+2026-05-22 12:46:00.039 INFO  [notification-service] Processed 9352 messages from topic=auth-events
+2026-05-22 14:28:38.984 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-05-22 15:25:00.438 WARN  [notification-service] Kafka consumer lag: 9279 messages on topic=user-updates
+2026-05-22 17:15:28.226 WARN  [notification-service] Retry attempt 4/3 for nginx-ingress
+2026-05-22 17:20:07.760 ERROR [notification-service] Event loop lag: 9917ms — possible blocking operation
+2026-05-22 18:34:00.061 INFO  [notification-service] JWT token validated for user_id=usr_75261
+2026-05-22 22:14:00.962 ERROR [notification-service] Timeout waiting for response from elasticsearch after 30000ms
+2026-05-23 02:21:00.389 INFO  [notification-service] Query executed in 7039ms: SELECT * FROM orders
+2026-05-23 02:27:00.181 INFO  [notification-service] Cache hit ratio: 97% (last 5min)
+2026-05-23 02:29:00.393 ERROR [notification-service] Timeout waiting for response from billing-service after 5000ms
+2026-05-23 02:52:00.574 INFO  [notification-service] Connected to analytics-engine successfully
+2026-05-23 03:53:00.786 INFO  [notification-service] Request processed successfully in 10800ms
+2026-05-23 05:09:00.451 INFO  [notification-service] Request processed successfully in 5237ms
+2026-05-23 05:58:00.020 INFO  [notification-service] JWT token validated for user_id=usr_47695
+2026-05-23 06:04:00.181 INFO  [notification-service] Connected to api-gateway successfully
+2026-05-23 06:16:00.098 INFO  [notification-service] Query executed in 8548ms: SELECT * FROM orders
+2026-05-23 07:36:57.961 ERROR [notification-service] Log rotation failed, disk nearly full
+2026-05-23 07:37:35.160 FATAL [notification-service] Disk usage at 67% on /data volume
+2026-05-23 07:38:09.827 FATAL [notification-service] Write failed: No space left on device
+2026-05-23 07:38:27.315 WARN  [notification-service] Retry attempt 5/3 for redis-cache
+2026-05-23 07:41:36.288 FATAL [notification-service] Log rotation failed, disk nearly full
+2026-05-23 07:41:36.675 ERROR [notification-service] Log rotation failed, disk nearly full
+2026-05-23 07:44:05.550 ERROR [notification-service] Write failed: No space left on device
+2026-05-23 10:47:00.696 WARN  [notification-service] Connection pool utilization at 65%
+2026-05-23 12:16:00.636 INFO  [notification-service] Connected to billing-service successfully
+2026-05-23 15:31:00.842 WARN  [notification-service] Connection pool utilization at 92%
+2026-05-23 17:22:00.537 WARN  [notification-service] Connection pool utilization at 81%
+2026-05-23 17:52:00.006 INFO  [notification-service] Health check passed: status=UP, uptime=68741s
+2026-05-23 19:22:00.097 ERROR [notification-service] HTTP 504 from postgres-replica: Broken pipe
+2026-05-24 01:35:00.047 INFO  [notification-service] Processed 9581 messages from topic=user-updates
+2026-05-24 02:01:00.687 DEBUG [notification-service] Processing request: method=POST path=/health
+2026-05-24 02:19:38.403 FATAL [notification-service] Secret version mismatch detected
+2026-05-24 02:42:06.166 WARN  [notification-service] Connection pool utilization at 51%
+2026-05-24 04:02:03.081 ERROR [notification-service] Database connection failed: password authentication failed
+2026-05-24 04:07:00.235 WARN  [notification-service] Kafka consumer lag: 11159 messages on topic=user-updates
+2026-05-24 06:01:00.658 WARN  [notification-service] Retry attempt 4/3 for reporting-service
+2026-05-24 07:54:00.543 INFO  [notification-service] JWT token validated for user_id=usr_40867
+2026-05-24 13:35:00.455 DEBUG [notification-service] SQL: SELECT * FROM sessions WHERE id = usr_59801 LIMIT 1
+2026-05-24 18:16:00.543 WARN  [notification-service] Kafka consumer lag: 86788 messages on topic=payments
+2026-05-24 23:11:00.372 INFO  [notification-service] JWT token validated for user_id=usr_70622
+2026-05-24 23:25:00.198 FATAL [notification-service] Process killed by OOM killer: RSS=3315MB, limit=6151MB
+2026-05-25 01:55:50.844 ERROR [notification-service] Request routed to unexpected upstream analytics-engine
+2026-05-25 02:16:42.684 ERROR [notification-service] Request routed to unexpected upstream billing-service
+2026-05-25 02:21:01.031 ERROR [notification-service] Region mismatch: expected staging received alternate region
+2026-05-25 02:30:00.238 WARN  [notification-service] Slow query detected: 7757ms on payments
+2026-05-25 05:45:37.821 ERROR [notification-service] Too many open files
+2026-05-25 05:46:00.417 DEBUG [notification-service] Processing request: method=DELETE path=/api/v1/payments
+2026-05-25 06:07:15.832 WARN  [notification-service] Kafka consumer lag: 92097 messages on topic=analytics
+2026-05-25 06:33:21.046 ERROR [notification-service] Health check failed: status=DOWN
+2026-05-25 06:34:00.411 INFO  [notification-service] JWT token validated for user_id=usr_88728
+2026-05-25 06:41:49.968 ERROR [notification-service] Too many open files
+2026-05-25 06:55:31.324 ERROR [notification-service] Too many open files
+2026-05-25 08:08:00.090 INFO  [notification-service] Health check passed: status=UP, uptime=20977s
+2026-05-25 13:05:00.452 INFO  [notification-service] JWT token validated for user_id=usr_24331
+2026-05-25 13:57:00.649 INFO  [notification-service] JWT token validated for user_id=usr_75308
+2026-05-25 15:47:38.801 WARN  [notification-service] Slow query detected: 3983ms on metrics
+2026-05-25 16:01:17.079 FATAL [notification-service] Redis eviction rate elevated on postgres-replica
+2026-05-25 16:02:27.791 WARN  [notification-service] Retry attempt 5/3 for api-gateway
+2026-05-25 16:02:38.668 ERROR [notification-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-25 16:03:36.504 ERROR [notification-service] Cache lookup: key=session:1234 result=MISS
+2026-05-25 19:02:55.312 WARN  [notification-service] Connection pool utilization at 94%
+2026-05-25 19:23:16.141 ERROR [notification-service] Record checksum mismatch detected for id=usr_15226
+2026-05-25 19:27:57.214 ERROR [notification-service] Record checksum mismatch detected for id=usr_99396
+2026-05-25 19:42:00.261 FATAL [notification-service] Unexpected config value for key=timeout_ms
+2026-05-25 19:47:45.542 WARN  [notification-service] Memory usage at 57% — approaching threshold
+2026-05-25 19:57:22.953 ERROR [notification-service] Configuration checksum mismatch across replicas
+2026-05-25 20:06:07.212 FATAL [notification-service] Configuration checksum mismatch across replicas
+2026-05-25 20:07:04.362 ERROR [notification-service] Deployed version v2.12.6 to staging
+2026-05-25 20:08:40.924 WARN  [notification-service] Slow query detected: 1779ms on users
+2026-05-25 20:13:59.882 WARN  [notification-service] Retry attempt 2/3 for billing-service
+2026-05-26 02:36:00.611 WARN  [notification-service] Memory usage at 86% — approaching threshold
+2026-05-26 02:48:00.629 WARN  [notification-service] Memory usage at 96% — approaching threshold
+2026-05-26 05:01:10.411 WARN  [notification-service] Kafka consumer lag: 77044 messages on topic=notifications
+2026-05-26 05:04:52.433 ERROR [notification-service] CPU throttling detected: 67% of periods throttled
+2026-05-26 05:14:26.430 ERROR [notification-service] Event loop lag: 371ms — possible blocking operation
+2026-05-26 05:37:24.882 ERROR [notification-service] Event loop lag: 414ms — possible blocking operation
+2026-05-26 05:40:00.068 WARN  [notification-service] Connection pool utilization at 60%
+2026-05-26 05:42:00.299 INFO  [notification-service] Request processed successfully in 2268ms
+2026-05-26 05:45:27.475 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-05-26 12:44:00.423 INFO  [notification-service] JWT token validated for user_id=usr_34260
+2026-05-26 12:44:00.819 ERROR [notification-service] Timeout waiting for response from api-gateway after 5000ms
+2026-05-26 13:48:00.241 INFO  [notification-service] Processed 704 messages from topic=auth-events
+2026-05-26 15:16:13.231 FATAL [notification-service] Authentication failed for user_id=usr_43875: SchemaValidationError
+2026-05-26 15:32:23.616 ERROR [notification-service] Rate limit exceeded: 1366/1037 requests from single source
+2026-05-26 16:12:01.585 ERROR [notification-service] Rate limit exceeded: 7993/2901 requests from single source
+2026-05-26 16:14:00.195 INFO  [notification-service] Processed 4371 messages from topic=analytics
+2026-05-26 16:31:00.788 INFO  [notification-service] Health check passed: status=UP, uptime=3855s
+2026-05-26 18:08:00.832 INFO  [notification-service] JWT token validated for user_id=usr_99398
+2026-05-26 18:42:00.760 WARN  [notification-service] Certificate expires in 1 days for api.nexora.io
+2026-05-26 22:02:00.131 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_93991 LIMIT 1
+2026-05-26 23:44:00.340 WARN  [notification-service] Kafka consumer lag: 24024 messages on topic=user-updates
+2026-05-27 00:03:00.803 WARN  [notification-service] Connection pool utilization at 81%
+2026-05-27 00:05:43.201 ERROR [notification-service] Authentication failed for user_id=usr_96351: ConnectionTimeout
+2026-05-27 00:25:00.847 INFO  [notification-service] JWT token validated for user_id=usr_45417
+2026-05-27 00:36:54.522 FATAL [notification-service] Failed to process message: offset=156730, topic=auth-events
+2026-05-27 00:58:13.076 ERROR [notification-service] Authentication failed for user_id=usr_61705: DeadlockDetected
+2026-05-27 01:18:00.235 INFO  [notification-service] JWT token validated for user_id=usr_12521
+2026-05-27 06:19:00.154 INFO  [notification-service] Processed 3111 messages from topic=notifications
+2026-05-27 08:07:00.681 FATAL [notification-service] Process killed by OOM killer: RSS=716MB, limit=6430MB
+2026-05-27 08:58:00.344 INFO  [notification-service] JWT token validated for user_id=usr_40789
+2026-05-27 11:01:00.742 WARN  [notification-service] Certificate expires in 27 days for billing.nexora.io
+2026-05-27 11:07:00.982 INFO  [notification-service] Health check passed: status=UP, uptime=63136s
+2026-05-27 14:52:40.501 ERROR [notification-service] Failed to process message: offset=486613, topic=analytics
+2026-05-27 15:03:36.107 WARN  [notification-service] Connection pool utilization at 60%
+2026-05-27 15:06:24.227 WARN  [notification-service] Kafka consumer lag: 23637 messages on topic=auth-events
+2026-05-27 15:06:56.770 FATAL [notification-service] Failed to process message: offset=144431, topic=analytics
+2026-05-27 15:20:05.249 WARN  [notification-service] Memory usage at 79% — approaching threshold
+2026-05-27 15:22:59.669 WARN  [notification-service] Connection pool utilization at 60%
+2026-05-27 15:24:07.017 FATAL [notification-service] Kafka consumer lag: 33056 messages on topic=auth-events
+2026-05-27 15:32:26.138 WARN  [notification-service] Slow query detected: 2447ms on orders
+2026-05-27 15:44:51.099 FATAL [notification-service] Failed to process message: offset=749000, topic=auth-events
+2026-05-27 15:46:59.428 FATAL [notification-service] Kafka consumer lag: 80598 messages on topic=notifications
+2026-05-27 15:49:23.499 ERROR [notification-service] Kafka consumer lag: 31937 messages on topic=payments
+2026-05-27 16:19:03.740 ERROR [notification-service] Kafka consumer lag: 21866 messages on topic=user-updates
+2026-05-27 16:43:00.418 ERROR [notification-service] Connection refused to redis-cache:8080 after 4 retries
+2026-05-27 18:27:00.979 WARN  [notification-service] Certificate expires in 3 days for auth.nexora.io
+2026-05-27 20:08:07.089 WARN  [notification-service] Kafka consumer lag: 95164 messages on topic=analytics
+2026-05-27 20:09:24.681 FATAL [notification-service] CPU throttling detected: 54% of periods throttled
+2026-05-27 20:20:25.513 WARN  [notification-service] Slow query detected: 14210ms on users
+2026-05-27 20:29:17.185 WARN  [notification-service] Retry attempt 5/3 for reporting-service
+2026-05-27 20:44:46.496 FATAL [notification-service] Slow request handling, thread pool saturated
+2026-05-27 22:31:07.210 FATAL [notification-service] Stale endpoint resolved for billing-service, expected updated IP
+2026-05-27 22:53:09.261 FATAL [notification-service] Connection refused to reporting-service:5432 after 3 retries
+2026-05-27 22:59:12.914 ERROR [notification-service] DNS resolution failed for reporting-service
+2026-05-27 23:36:24.107 FATAL [notification-service] Stale endpoint resolved for redis-cache, expected updated IP
+2026-05-28 00:00:00.666 INFO  [notification-service] Health check passed: status=UP, uptime=11237s
+2026-05-28 00:09:50.338 ERROR [notification-service] DNS resolution failed for reporting-service
+2026-05-28 01:32:00.763 INFO  [notification-service] Processed 1897 messages from topic=payments
+2026-05-28 02:25:00.574 INFO  [notification-service] Request processed successfully in 8208ms
+2026-05-28 06:50:00.563 INFO  [notification-service] Query executed in 6050ms: SELECT * FROM sessions
+2026-05-28 07:54:00.076 WARN  [notification-service] Connection pool utilization at 72%
+2026-05-28 08:45:48.906 FATAL [notification-service] DNS resolution failed for analytics-engine
+2026-05-28 08:49:03.749 FATAL [notification-service] Stale endpoint resolved for postgres-replica, expected updated IP
+2026-05-28 08:56:38.290 FATAL [notification-service] Stale endpoint resolved for postgres-replica, expected updated IP
+2026-05-28 10:32:00.480 WARN  [notification-service] Certificate expires in 21 days for api.nexora.io
+2026-05-28 13:00:20.451 ERROR [notification-service] HTTP 504 from kafka: No route to host
+2026-05-28 13:41:00.426 FATAL [notification-service] Process killed by OOM killer: RSS=3703MB, limit=6125MB
+2026-05-28 13:58:49.834 FATAL [notification-service] Vendor status page reports degraded performance
+2026-05-28 15:31:29.355 WARN  [notification-service] Slow query detected: 2368ms on metrics
+2026-05-28 16:33:38.555 FATAL [notification-service] Slow query detected: 6157ms on users
+2026-05-28 16:38:01.939 ERROR [notification-service] Slow query detected: 2101ms on orders
+2026-05-28 16:51:18.071 ERROR [notification-service] p99 latency exceeded SLO threshold
+2026-05-28 16:54:00.425 WARN  [notification-service] Retry attempt 2/3 for elasticsearch
+2026-05-28 17:27:14.573 WARN  [notification-service] Memory usage at 58% — approaching threshold
+2026-05-28 18:48:16.355 ERROR [notification-service] p99 latency exceeded SLO threshold
+2026-05-28 19:07:56.037 ERROR [notification-service] Rebalance in progress, partitions revoked
+2026-05-28 19:14:23.225 FATAL [notification-service] Kafka consumer lag: 23856 messages on topic=payments
+2026-05-28 19:22:05.389 ERROR [notification-service] Failed to process message: offset=516809, topic=user-updates
+2026-05-28 19:26:00.986 DEBUG [notification-service] Processing request: method=PUT path=/api/v1/payments
+2026-05-28 19:39:15.858 ERROR [notification-service] Kafka consumer lag: 89380 messages on topic=auth-events
+2026-05-28 19:46:09.040 WARN  [notification-service] Slow query detected: 12131ms on events
+2026-05-28 21:32:00.047 INFO  [notification-service] Connected to postgres-primary successfully
+2026-05-28 22:19:00.728 INFO  [notification-service] JWT token validated for user_id=usr_42461
+2026-05-29 00:22:00.452 WARN  [notification-service] Connection pool utilization at 77%
+2026-05-29 01:00:54.037 WARN  [notification-service] Connection pool utilization at 58%
+2026-05-29 01:14:27.992 ERROR [notification-service] Kafka consumer lag: 95679 messages on topic=auth-events
+2026-05-29 01:20:18.514 ERROR [notification-service] Failed to process message: offset=661168, topic=auth-events
+2026-05-29 02:37:00.348 INFO  [notification-service] Connected to billing-service successfully
+2026-05-29 04:16:00.889 ERROR [notification-service] Timeout waiting for response from postgres-replica after 30000ms
+2026-05-29 04:37:52.899 ERROR [notification-service] Configuration checksum mismatch across replicas
+2026-05-29 05:06:26.055 ERROR [notification-service] Deployed version v2.19.5 to production
+2026-05-29 05:10:43.746 WARN  [notification-service] Slow query detected: 13933ms on users
+2026-05-29 08:48:00.975 WARN  [notification-service] Memory usage at 93% — approaching threshold
+2026-05-29 10:10:00.104 INFO  [notification-service] Health check passed: status=UP, uptime=72410s
+2026-05-29 10:44:11.715 ERROR [notification-service] Event loop lag: 1399ms — possible blocking operation
+2026-05-29 11:01:31.017 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-05-29 11:07:12.667 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-05-29 11:40:34.057 WARN  [notification-service] Certificate expires in 21 days for api.nexora.io
+2026-05-29 12:15:51.768 ERROR [notification-service] CPU throttling detected: 60% of periods throttled
+2026-05-29 13:40:00.103 INFO  [notification-service] JWT token validated for user_id=usr_54182
+2026-05-29 17:24:35.878 ERROR [notification-service] Health check failed: status=DOWN
+2026-05-29 18:07:35.045 ERROR [notification-service] Too many open files
+2026-05-29 18:12:00.851 INFO  [notification-service] Request processed successfully in 9940ms
+2026-05-29 18:32:58.218 ERROR [notification-service] Authentication failed for user_id=usr_77371: ConnectionTimeout
+2026-05-29 20:22:20.735 WARN  [notification-service] Retry attempt 3/3 for reporting-service
+2026-05-29 20:30:00.396 ERROR [notification-service] Authentication failed for user_id=usr_57039: NullPointerException
+2026-05-29 20:47:08.759 WARN  [notification-service] Slow query detected: 2607ms on orders
+2026-05-30 03:41:00.504 INFO  [notification-service] Health check passed: status=UP, uptime=22048s
+2026-05-30 05:00:19.447 ERROR [notification-service] Flag evaluation error, falling back to default
+2026-05-30 06:32:00.066 INFO  [notification-service] Connected to billing-service successfully
+2026-05-30 08:09:39.378 WARN  [notification-service] Memory usage at 94% — approaching threshold
+2026-05-30 08:27:00.816 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_63452 LIMIT 1
+2026-05-30 09:05:00.274 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_70246 LIMIT 1
+2026-05-30 11:00:03.723 ERROR [notification-service] Failed to process message: offset=123562, topic=analytics
+2026-05-30 11:01:01.609 WARN  [notification-service] Kafka consumer lag: 76918 messages on topic=payments
+2026-05-30 12:47:00.876 INFO  [notification-service] Cache hit ratio: 91% (last 5min)
+2026-05-30 14:13:00.357 INFO  [notification-service] Query executed in 8471ms: SELECT * FROM events
+2026-05-30 22:01:00.467 INFO  [notification-service] Health check passed: status=UP, uptime=9216s
+2026-05-31 01:31:00.651 WARN  [notification-service] Connection pool utilization at 61%
+2026-05-31 02:32:00.588 ERROR [notification-service] Database query failed: NullPointerException on table=sessions
+2026-05-31 03:13:00.952 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-05-31 03:28:00.386 INFO  [notification-service] JWT token validated for user_id=usr_48643
+2026-05-31 06:41:00.731 INFO  [notification-service] Request processed successfully in 2643ms
+2026-05-31 07:36:00.172 ERROR [notification-service] Connection refused to api-gateway:5432 after 5 retries
+2026-05-31 07:48:00.867 ERROR [notification-service] Database query failed: DeadlockDetected on table=orders
+2026-05-31 08:40:13.372 ERROR [notification-service] Thread pool exhausted, rejecting new requests
+2026-05-31 09:08:40.205 ERROR [notification-service] Retry storm detected: 8101 retries/min to auth-service
+2026-05-31 09:11:00.833 ERROR [notification-service] HTTP 500 from nginx-ingress: Broken pipe
+2026-05-31 09:14:13.494 WARN  [notification-service] Slow query detected: 9834ms on users
+2026-05-31 11:14:00.349 INFO  [notification-service] JWT token validated for user_id=usr_38582
+2026-05-31 13:04:00.609 INFO  [notification-service] Processed 6833 messages from topic=payments
+2026-05-31 13:14:00.796 INFO  [notification-service] Request processed successfully in 795ms
+2026-05-31 13:26:00.155 INFO  [notification-service] Health check passed: status=UP, uptime=17821s
+2026-05-31 16:40:00.590 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-31 20:51:00.614 FATAL [notification-service] Process killed by OOM killer: RSS=1756MB, limit=4453MB
+2026-05-31 22:47:00.564 INFO  [notification-service] Cache hit ratio: 60% (last 5min)
+2026-05-31 22:50:00.569 INFO  [notification-service] Request processed successfully in 1422ms
+2026-06-01 02:44:16.317 FATAL [notification-service] Reconciliation job found 3568 mismatched rows
+2026-06-01 03:00:06.162 WARN  [notification-service] Kafka consumer lag: 21472 messages on topic=payments
+2026-06-01 03:01:19.382 ERROR [notification-service] Duplicate record written for key=new_checkout_flow
+2026-06-01 03:29:44.195 ERROR [notification-service] Reconciliation job found 6879 mismatched rows
+2026-06-01 04:21:44.945 FATAL [notification-service] Duplicate record written for key=dark_launch_v2
+2026-06-01 10:46:00.257 WARN  [notification-service] Connection pool utilization at 69%
+2026-06-01 15:17:00.531 DEBUG [notification-service] Processing request: method=POST path=/api/v1/analytics
+2026-06-01 16:05:00.248 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-01 17:58:14.129 FATAL [notification-service] No route to host
+2026-06-01 18:03:50.302 ERROR [notification-service] Connection refused to analytics-engine:6379 after 1 retries
+2026-06-01 18:07:46.349 FATAL [notification-service] Connection refused to search-service:8080 after 5 retries
+2026-06-01 18:52:00.041 INFO  [notification-service] Cache hit ratio: 84% (last 5min)
+2026-06-01 22:16:00.685 INFO  [notification-service] JWT token validated for user_id=usr_60364
+2026-06-02 02:06:00.971 DEBUG [notification-service] Processing request: method=DELETE path=/api/v1/analytics
+2026-06-02 03:52:00.370 INFO  [notification-service] Processed 8613 messages from topic=user-updates
+2026-06-02 04:37:00.098 INFO  [notification-service] Cache hit ratio: 63% (last 5min)
+2026-06-02 05:55:00.123 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-02 07:18:00.462 WARN  [notification-service] Connection pool utilization at 96%
+2026-06-02 10:08:00.285 INFO  [notification-service] Connected to elasticsearch successfully
+2026-06-02 14:29:00.385 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-02 21:40:00.976 INFO  [notification-service] Health check passed: status=UP, uptime=20156s
+2026-06-02 22:08:38.627 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-06-02 23:39:33.161 ERROR [notification-service] Slow request handling, thread pool saturated
+2026-06-03 05:10:00.946 INFO  [notification-service] Connected to kafka successfully
+2026-06-03 08:24:00.037 ERROR [notification-service] Database query failed: NullPointerException on table=events
+2026-06-03 09:52:00.013 INFO  [notification-service] Processed 5892 messages from topic=payments
+2026-06-03 10:02:00.045 INFO  [notification-service] Request processed successfully in 14844ms
+2026-06-03 11:01:00.296 INFO  [notification-service] Processed 7036 messages from topic=payments
+2026-06-03 14:15:00.085 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-06-03 17:43:00.625 INFO  [notification-service] Query executed in 11614ms: SELECT * FROM orders
+2026-06-03 19:32:00.840 INFO  [notification-service] Connected to nginx-ingress successfully
+2026-06-03 23:27:00.377 WARN  [notification-service] Connection pool utilization at 68%
+2026-06-04 02:16:00.059 INFO  [notification-service] JWT token validated for user_id=usr_83233
+2026-06-04 07:35:00.036 ERROR [notification-service] Connection refused to search-service:443 after 1 retries
+2026-06-04 13:58:00.242 INFO  [notification-service] Cache hit ratio: 95% (last 5min)
+2026-06-04 14:55:00.053 INFO  [notification-service] Processed 465 messages from topic=payments
+2026-06-04 16:47:00.872 INFO  [notification-service] Request processed successfully in 3368ms
+2026-06-04 17:21:12.059 FATAL [notification-service] Authentication failed for user_id=usr_75589: SchemaValidationError
+2026-06-04 17:39:37.280 FATAL [notification-service] HTTP 503 from redis-cache: Permission denied
+2026-06-04 17:43:42.039 WARN  [notification-service] Slow query detected: 14307ms on users
+2026-06-04 17:49:31.042 ERROR [notification-service] Authentication failed for user_id=usr_78402: NullPointerException
+2026-06-04 17:54:58.717 ERROR [notification-service] Failed to process message: offset=785767, topic=auth-events
+2026-06-04 18:54:00.314 INFO  [notification-service] Connected to redis-cache successfully
+2026-06-04 19:59:00.837 INFO  [notification-service] Cache hit ratio: 91% (last 5min)
+2026-06-05 09:34:00.924 INFO  [notification-service] Connected to elasticsearch successfully
+2026-06-05 14:20:00.269 ERROR [notification-service] Timeout waiting for response from search-service after 30000ms
+2026-06-05 14:29:00.245 ERROR [notification-service] Database query failed: NullPointerException on table=orders
+2026-06-05 18:55:00.508 ERROR [notification-service] Timeout waiting for response from user-service after 5000ms
+2026-06-05 19:32:00.029 DEBUG [notification-service] SQL: SELECT * FROM metrics WHERE id = usr_37525 LIMIT 1
+2026-06-05 20:06:00.523 INFO  [notification-service] Health check passed: status=UP, uptime=6552s
+2026-06-05 20:44:33.288 WARN  [notification-service] Certificate expires in 29 days for api.nexora.io
+2026-06-05 21:25:00.203 INFO  [notification-service] Processed 4790 messages from topic=analytics
+2026-06-05 21:54:35.805 FATAL [notification-service] Process killed by OOM killer: RSS=2519MB, limit=5006MB
+2026-06-05 22:16:00.236 INFO  [notification-service] Processed 6165 messages from topic=user-updates
+2026-06-05 22:38:56.107 FATAL [notification-service] Too many open files
+2026-06-05 23:59:00.544 ERROR [notification-service] Database query failed: DeadlockDetected on table=orders
+2026-06-06 04:56:00.086 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_97493 LIMIT 1
+2026-06-06 08:21:00.910 INFO  [notification-service] Processed 1149 messages from topic=payments
+2026-06-06 09:46:00.757 WARN  [notification-service] Slow query detected: 9575ms on sessions
+2026-06-06 12:51:00.969 INFO  [notification-service] Query executed in 10925ms: SELECT * FROM events
+2026-06-06 14:48:00.041 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-06 17:16:00.344 WARN  [notification-service] Connection pool utilization at 64%
+2026-06-06 18:22:00.433 FATAL [notification-service] Process killed by OOM killer: RSS=1968MB, limit=7651MB
+2026-06-06 20:42:00.385 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-06-06 20:57:00.039 INFO  [notification-service] Request processed successfully in 14024ms
+2026-06-06 21:34:00.932 INFO  [notification-service] Health check passed: status=UP, uptime=4877s
+2026-06-06 21:50:35.280 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_20913
+2026-06-06 22:20:38.170 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_18759
+2026-06-06 22:42:01.564 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_58954
+2026-06-06 23:14:10.801 ERROR [notification-service] Feature flag new_checkout_flow evaluated true for 100% of traffic
+2026-06-07 00:57:00.417 INFO  [notification-service] Request processed successfully in 6839ms
+2026-06-07 01:26:00.195 INFO  [notification-service] Cache hit ratio: 63% (last 5min)
+2026-06-07 01:50:56.946 ERROR [notification-service] Flag evaluation error, falling back to default
+2026-06-07 01:58:15.122 ERROR [notification-service] Kafka consumer lag: 16376 messages on topic=notifications
+2026-06-07 01:58:55.286 FATAL [notification-service] Kafka consumer lag: 14641 messages on topic=user-updates
+2026-06-07 02:00:37.712 FATAL [notification-service] Unexpected code path triggered: legacy_handler
+2026-06-07 02:09:10.159 WARN  [notification-service] Certificate expires in 6 days for billing.nexora.io
+2026-06-07 02:35:08.440 WARN  [notification-service] Retry attempt 4/3 for postgres-replica
+2026-06-07 02:38:55.935 FATAL [notification-service] Rebalance in progress, partitions revoked
+2026-06-07 05:13:00.984 INFO  [notification-service] Query executed in 5687ms: SELECT * FROM payments
+2026-06-07 05:47:59.237 FATAL [notification-service] Failed to process message: offset=755507, topic=analytics
+2026-06-07 05:53:11.681 WARN  [notification-service] Connection pool utilization at 91%
+2026-06-07 06:02:54.713 ERROR [notification-service] HTTP 503 from reporting-service: Too many open files
+2026-06-07 06:03:23.984 ERROR [notification-service] Failed to process message: offset=914032, topic=notifications
+2026-06-07 06:21:56.336 WARN  [notification-service] Certificate expires in 10 days for billing.nexora.io
+2026-06-07 08:18:00.312 WARN  [notification-service] Slow query detected: 9222ms on metrics
+2026-06-07 08:38:00.030 INFO  [notification-service] Processed 1432 messages from topic=analytics
+2026-06-07 09:15:00.811 INFO  [notification-service] Processed 5355 messages from topic=auth-events
+2026-06-07 16:16:00.361 INFO  [notification-service] Processed 6059 messages from topic=payments
+2026-06-07 16:39:00.275 INFO  [notification-service] Connected to search-service successfully
+2026-06-07 17:21:00.737 DEBUG [notification-service] Cache lookup: key=session:1234 result=MISS
+2026-06-07 19:25:00.324 INFO  [notification-service] Request processed successfully in 12744ms
+2026-06-07 19:48:00.623 WARN  [notification-service] Connection pool utilization at 67%
+2026-06-07 19:52:00.333 DEBUG [notification-service] Processing request: method=POST path=/health
+2026-06-08 02:08:00.647 INFO  [notification-service] Query executed in 12684ms: SELECT * FROM metrics
+2026-06-08 03:42:00.034 INFO  [notification-service] JWT token validated for user_id=usr_72828
+2026-06-08 05:17:00.589 INFO  [notification-service] Health check passed: status=UP, uptime=72227s
+2026-06-08 08:53:25.535 WARN  [notification-service] Certificate expires in 29 days for auth.nexora.io
+2026-06-08 08:53:53.617 FATAL [notification-service] Migration lock held longer than expected
+2026-06-08 08:55:05.105 FATAL [notification-service] Schema validation error: column not found
+2026-06-08 09:11:16.369 ERROR [notification-service] Database query failed: ConnectionTimeout on table=events
+2026-06-08 09:13:06.905 ERROR [notification-service] Schema validation error: column not found
+2026-06-08 10:35:00.449 INFO  [notification-service] JWT token validated for user_id=usr_86090
+2026-06-08 12:29:00.173 INFO  [notification-service] JWT token validated for user_id=usr_70053
+2026-06-08 12:46:21.147 WARN  [notification-service] Connection pool utilization at 96%
+2026-06-08 12:46:59.565 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-06-08 12:50:23.157 FATAL [notification-service] Authentication failed for user_id=usr_56701: DeadlockDetected
+2026-06-08 12:53:11.422 ERROR [notification-service] Authentication failed for user_id=usr_24860: NullPointerException
+2026-06-08 12:53:57.916 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-06-08 12:56:23.518 ERROR [notification-service] Rate limit exceeded: 2655/5571 requests from single source
+2026-06-08 12:58:35.913 WARN  [notification-service] Slow query detected: 1056ms on events
+2026-06-08 13:01:00.290 INFO  [notification-service] Processed 7269 messages from topic=analytics
+2026-06-08 14:16:00.690 INFO  [notification-service] Cache hit ratio: 60% (last 5min)
+2026-06-08 16:20:58.082 WARN  [notification-service] Slow query detected: 6424ms on metrics
+2026-06-08 16:36:33.090 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_64582
+2026-06-08 16:47:10.794 ERROR [notification-service] Request rejected: clock skew exceeds tolerance
+2026-06-08 16:55:58.288 ERROR [notification-service] Request rejected: clock skew exceeds tolerance
+2026-06-08 16:58:53.369 FATAL [notification-service] Request rejected: clock skew exceeds tolerance
+2026-06-08 20:05:00.424 DEBUG [notification-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-08 22:58:00.452 INFO  [notification-service] Query executed in 10050ms: SELECT * FROM users
+2026-06-09 03:59:00.871 ERROR [notification-service] Connection refused to reporting-service:9092 after 3 retries
+2026-06-09 06:19:00.297 INFO  [notification-service] JWT token validated for user_id=usr_22397
+2026-06-09 07:56:00.246 WARN  [notification-service] Certificate expires in 22 days for api.nexora.io
+2026-06-09 09:39:00.499 INFO  [notification-service] Cache hit ratio: 66% (last 5min)
+2026-06-09 11:24:00.036 INFO  [notification-service] Query executed in 379ms: SELECT * FROM orders
+2026-06-09 12:26:00.336 INFO  [notification-service] Processed 9824 messages from topic=notifications
+2026-06-09 15:12:00.184 WARN  [notification-service] Retry attempt 1/3 for billing-service
+2026-06-09 19:01:00.482 INFO  [notification-service] Connected to nginx-ingress successfully
+2026-06-09 21:10:00.863 DEBUG [notification-service] Processing request: method=POST path=/api/v1/analytics
+2026-06-09 23:21:00.632 INFO  [notification-service] Processed 668 messages from topic=payments
+2026-06-09 23:43:45.529 ERROR [notification-service] Configuration checksum mismatch across replicas
+2026-06-09 23:48:00.318 INFO  [notification-service] Health check passed: status=UP, uptime=13716s
+2026-06-10 00:27:00.454 INFO  [notification-service] Request processed successfully in 12914ms
+2026-06-10 01:01:42.844 ERROR [notification-service] Unexpected config value for key=timeout_ms
+2026-06-10 01:07:00.535 FATAL [notification-service] Process killed by OOM killer: RSS=2538MB, limit=3929MB
+2026-06-10 01:14:17.365 WARN  [notification-service] Certificate expires in 25 days for billing.nexora.io
+2026-06-10 06:50:00.035 WARN  [notification-service] Retry attempt 3/3 for user-service
+2026-06-10 07:15:00.409 INFO  [notification-service] Health check passed: status=UP, uptime=40468s
+2026-06-10 08:24:00.365 INFO  [notification-service] Query executed in 14718ms: SELECT * FROM events
+2026-06-10 10:39:00.898 WARN  [notification-service] Memory usage at 54% — approaching threshold
+2026-06-10 16:29:00.762 INFO  [notification-service] Cache hit ratio: 95% (last 5min)
+2026-06-10 17:54:00.549 INFO  [notification-service] JWT token validated for user_id=usr_61444
+2026-06-10 21:20:00.039 INFO  [notification-service] Connected to analytics-engine successfully
+2026-06-10 21:51:00.377 DEBUG [notification-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-06-10 22:39:00.167 INFO  [notification-service] Health check passed: status=UP, uptime=73481s
+2026-06-10 23:49:00.036 INFO  [notification-service] Query executed in 9934ms: SELECT * FROM users
+2026-06-11 02:37:05.741 ERROR [notification-service] Timeout waiting for response from auth-service after 30000ms
+2026-06-11 02:39:46.905 ERROR [notification-service] Circuit breaker opened for reporting-service
+2026-06-11 02:41:08.935 ERROR [notification-service] Connection refused to postgres-replica:443 after 2 retries
+2026-06-11 02:44:42.564 FATAL [notification-service] Timeout waiting for response from api-gateway after 30000ms
+2026-06-11 02:51:01.419 ERROR [notification-service] Timeout waiting for response from nginx-ingress after 10000ms
+2026-06-11 02:53:04.570 ERROR [notification-service] Circuit breaker opened for api-gateway
+2026-06-11 03:02:42.722 WARN  [notification-service] Connection pool utilization at 56%
+2026-06-11 07:13:47.122 FATAL [notification-service] Region mismatch: expected production received alternate region
+2026-06-11 07:38:11.901 ERROR [notification-service] Health check failed: status=DOWN
+2026-06-11 08:01:00.343 INFO  [notification-service] Cache hit ratio: 66% (last 5min)
+2026-06-11 08:46:41.550 FATAL [notification-service] Deployed version v2.16.9 to staging
+2026-06-11 08:47:49.458 ERROR [notification-service] Unexpected config value for key=timeout_ms
+2026-06-11 08:48:30.349 WARN  [notification-service] Memory usage at 75% — approaching threshold
+2026-06-11 08:54:40.465 ERROR [notification-service] Deployed version v2.19.2 to staging
+2026-06-11 08:57:39.596 ERROR [notification-service] Region mismatch: expected staging received alternate region
+2026-06-11 09:02:25.744 WARN  [notification-service] Retry attempt 1/3 for billing-service
+2026-06-11 09:02:27.865 ERROR [notification-service] Unexpected config value for key=timeout_ms
+2026-06-11 09:04:11.051 ERROR [notification-service] Deployed version v2.16.2 to production
+2026-06-11 09:35:53.333 FATAL [notification-service] Region mismatch: expected production received alternate region
+2026-06-11 09:39:56.216 ERROR [notification-service] Health check failed: status=DOWN
+2026-06-11 09:44:00.151 INFO  [notification-service] Cache hit ratio: 96% (last 5min)
+2026-06-11 14:38:00.245 INFO  [notification-service] Processed 2184 messages from topic=user-updates
+2026-06-11 14:57:00.179 INFO  [notification-service] Request processed successfully in 11948ms
+2026-06-11 16:28:00.365 WARN  [notification-service] Kafka consumer lag: 94673 messages on topic=notifications
+2026-06-11 20:54:22.690 ERROR [notification-service] CPU throttling detected: 53% of periods throttled
+2026-06-11 21:18:49.595 ERROR [notification-service] Health check failed: status=DOWN
+2026-06-11 21:19:03.736 WARN  [notification-service] Certificate expires in 18 days for billing.nexora.io
+2026-06-11 21:22:48.791 ERROR [notification-service] CPU throttling detected: 72% of periods throttled
+2026-06-11 21:51:00.966 FATAL [notification-service] Process killed by OOM killer: RSS=3987MB, limit=3223MB
+2026-06-11 23:02:32.908 FATAL [notification-service] Process killed by OOM killer: RSS=1176MB, limit=1338MB
+2026-06-11 23:59:00.506 INFO  [notification-service] Request processed successfully in 13353ms
+2026-06-12 02:55:00.374 INFO  [notification-service] JWT token validated for user_id=usr_13890
+2026-06-12 04:56:00.803 INFO  [notification-service] JWT token validated for user_id=usr_86103
+2026-06-12 07:48:00.340 INFO  [notification-service] Query executed in 3066ms: SELECT * FROM metrics
+2026-06-12 09:04:00.018 INFO  [notification-service] Processed 2415 messages from topic=analytics
+2026-06-12 11:17:00.336 ERROR [notification-service] HTTP 500 from postgres-replica: Connection reset by peer
+2026-06-12 13:10:00.021 INFO  [notification-service] Health check passed: status=UP, uptime=19372s
+2026-06-12 13:49:00.928 WARN  [notification-service] Certificate expires in 6 days for billing.nexora.io
+2026-06-12 20:40:00.821 INFO  [notification-service] Query executed in 13103ms: SELECT * FROM events
+2026-06-12 20:53:00.377 INFO  [notification-service] JWT token validated for user_id=usr_88372
+2026-06-12 22:59:00.595 DEBUG [notification-service] SQL: SELECT * FROM payments WHERE id = usr_25191 LIMIT 1
+2026-06-13 03:19:00.902 WARN  [notification-service] Retry attempt 3/3 for postgres-replica
+2026-06-13 06:57:56.576 FATAL [notification-service] Health check failed: status=DOWN
+2026-06-13 07:03:36.559 ERROR [notification-service] Region mismatch: expected production received alternate region
+2026-06-13 07:17:25.325 FATAL [notification-service] Health check failed: status=DOWN
+2026-06-13 07:17:26.114 FATAL [notification-service] Request routed to unexpected upstream user-service
+2026-06-13 07:21:59.646 WARN  [notification-service] Connection pool utilization at 60%
+2026-06-13 08:05:55.750 FATAL [notification-service] Authentication failed for user_id=usr_52741: ConnectionTimeout
+2026-06-13 08:11:04.251 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-06-13 08:21:15.240 FATAL [notification-service] Rate limit exceeded: 5372/6182 requests from single source
+2026-06-13 08:53:10.504 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-06-13 09:05:51.427 WARN  [notification-service] Connection pool utilization at 55%
+2026-06-13 09:10:00.883 INFO  [notification-service] Request processed successfully in 13686ms
+2026-06-13 12:31:00.747 DEBUG [notification-service] SQL: SELECT * FROM sessions WHERE id = usr_78755 LIMIT 1
+2026-06-13 12:45:00.678 ERROR [notification-service] Database query failed: SchemaValidationError on table=payments
+2026-06-13 13:19:07.127 ERROR [notification-service] Unexpected code path triggered: legacy_handler
+2026-06-13 13:41:34.635 FATAL [notification-service] Feature flag new_checkout_flow evaluated true for 100% of traffic
+2026-06-13 14:04:39.718 ERROR [notification-service] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-06-13 14:48:00.743 WARN  [notification-service] Kafka consumer lag: 42273 messages on topic=user-updates
+2026-06-13 15:48:00.851 WARN  [notification-service] Certificate expires in 21 days for api.nexora.io
+2026-06-13 17:38:00.672 INFO  [notification-service] Health check passed: status=UP, uptime=65561s
+2026-06-13 19:24:00.367 INFO  [notification-service] Connected to postgres-replica successfully
+2026-06-13 22:33:00.892 WARN  [notification-service] Slow query detected: 1968ms on orders
+2026-06-13 22:47:00.611 ERROR [notification-service] Timeout waiting for response from reporting-service after 30000ms
+2026-06-13 23:48:00.530 WARN  [notification-service] Certificate expires in 27 days for auth.nexora.io
+2026-06-14 02:25:00.450 INFO  [notification-service] JWT token validated for user_id=usr_12837
+2026-06-14 09:25:00.098 INFO  [notification-service] Query executed in 11382ms: SELECT * FROM sessions
+2026-06-14 13:06:00.145 ERROR [notification-service] Database query failed: ConnectionTimeout on table=payments
+2026-06-14 16:37:00.832 INFO  [notification-service] JWT token validated for user_id=usr_79004
+2026-06-14 22:29:00.031 WARN  [notification-service] Certificate expires in 13 days for auth.nexora.io
+2026-06-14 23:06:00.570 INFO  [notification-service] JWT token validated for user_id=usr_33192
+2026-06-15 00:52:00.086 INFO  [notification-service] Query executed in 12019ms: SELECT * FROM events
+2026-06-15 05:42:00.963 INFO  [notification-service] Query executed in 1841ms: SELECT * FROM users
+2026-06-15 05:56:00.724 INFO  [notification-service] Cache hit ratio: 68% (last 5min)
+2026-06-15 08:30:00.332 INFO  [notification-service] Processed 362 messages from topic=auth-events
+2026-06-15 09:20:00.224 ERROR [notification-service] HTTP 500 from nginx-ingress: Permission denied
+2026-06-15 11:18:00.016 WARN  [notification-service] Certificate expires in 7 days for api.nexora.io
+2026-06-15 12:49:47.056 WARN  [notification-service] Kafka consumer lag: 44936 messages on topic=auth-events
+2026-06-15 14:16:55.481 ERROR [notification-service] Circuit breaker opened for redis-cache
+2026-06-15 16:33:00.578 INFO  [notification-service] Cache hit ratio: 66% (last 5min)
+2026-06-15 18:37:00.904 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-15 18:40:00.451 WARN  [notification-service] Kafka consumer lag: 48086 messages on topic=user-updates
+2026-06-15 19:02:00.605 INFO  [notification-service] Processed 8033 messages from topic=user-updates
+2026-06-15 19:09:00.663 INFO  [notification-service] Processed 7294 messages from topic=auth-events
+2026-06-15 20:35:00.122 WARN  [notification-service] Connection pool utilization at 51%
+2026-06-16 04:40:00.999 ERROR [notification-service] Connection refused to postgres-replica:6379 after 2 retries
+2026-06-16 04:45:00.025 INFO  [notification-service] JWT token validated for user_id=usr_88972
+2026-06-16 07:49:00.051 INFO  [notification-service] Request processed successfully in 7781ms
+2026-06-16 08:06:59.233 ERROR [notification-service] Vendor status page reports degraded performance
+2026-06-16 08:12:00.550 INFO  [notification-service] Connected to user-service successfully
+2026-06-16 08:28:09.190 ERROR [notification-service] Vendor status page reports degraded performance
+2026-06-16 08:30:00.667 FATAL [notification-service] HTTP 500 from auth-service: Permission denied
+2026-06-16 08:38:08.968 WARN  [notification-service] Retry attempt 1/3 for elasticsearch
+2026-06-16 09:13:32.925 ERROR [notification-service] HTTP 503 from reporting-service: Resource temporarily unavailable
+2026-06-16 11:50:06.820 ERROR [notification-service] Rate limit exceeded: 6208/7799 requests from single source
+2026-06-16 13:55:10.643 FATAL [notification-service] Suspicious request pattern flagged for review
+2026-06-16 19:45:17.208 ERROR [notification-service] Slow query detected: 14652ms on orders
+2026-06-16 20:48:43.183 ERROR [notification-service] Replication lag: 8773ms behind primary
+2026-06-16 20:54:00.796 INFO  [notification-service] JWT token validated for user_id=usr_73364
+2026-06-17 00:12:00.139 INFO  [notification-service] Query executed in 14264ms: SELECT * FROM sessions
+2026-06-17 03:15:00.579 INFO  [notification-service] Processed 3838 messages from topic=payments
+2026-06-17 05:29:00.723 INFO  [notification-service] Health check passed: status=UP, uptime=13663s
+2026-06-17 06:40:00.539 INFO  [notification-service] JWT token validated for user_id=usr_29503
+2026-06-17 06:50:00.284 DEBUG [notification-service] Processing request: method=GET path=/api/v1/payments
+2026-06-17 16:20:00.579 INFO  [notification-service] Connected to search-service successfully
+2026-06-17 22:37:00.335 WARN  [notification-service] Retry attempt 1/3 for user-service
+2026-06-17 23:56:00.003 DEBUG [notification-service] Processing request: method=DELETE path=/api/v1/analytics
+2026-06-18 01:03:00.406 INFO  [notification-service] Cache hit ratio: 88% (last 5min)
+2026-06-18 04:26:00.003 INFO  [notification-service] Processed 5494 messages from topic=analytics
+2026-06-18 04:58:00.880 DEBUG [notification-service] SQL: SELECT * FROM payments WHERE id = usr_18950 LIMIT 1
+2026-06-18 05:12:00.256 INFO  [notification-service] Processed 2816 messages from topic=payments
+2026-06-18 08:39:00.840 INFO  [notification-service] Connected to search-service successfully
+2026-06-18 11:28:00.189 INFO  [notification-service] Processed 3219 messages from topic=analytics
+2026-06-18 11:47:00.426 FATAL [notification-service] Unable to connect to postgres-replica: all 5 retries exhausted
+2026-06-18 12:01:00.272 ERROR [notification-service] Database query failed: NullPointerException on table=events
+2026-06-18 12:56:00.093 INFO  [notification-service] Health check passed: status=UP, uptime=32344s
+2026-06-18 13:08:00.435 INFO  [notification-service] Request processed successfully in 14037ms
+2026-06-18 15:32:00.936 WARN  [notification-service] Slow query detected: 12813ms on payments
+2026-06-18 15:51:00.861 FATAL [notification-service] Process killed by OOM killer: RSS=3214MB, limit=1478MB
+2026-06-18 15:56:00.590 INFO  [notification-service] JWT token validated for user_id=usr_10075
+2026-06-18 16:05:00.708 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_81853 LIMIT 1
+2026-06-18 20:27:00.016 WARN  [notification-service] Connection pool utilization at 64%
+2026-06-18 20:45:00.392 DEBUG [notification-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-19 00:36:00.618 INFO  [notification-service] Cache hit ratio: 94% (last 5min)
+2026-06-19 02:22:00.985 INFO  [notification-service] Request processed successfully in 13676ms
+2026-06-19 05:54:20.259 WARN  [notification-service] Memory usage at 86% — approaching threshold
+2026-06-19 06:08:19.168 ERROR [notification-service] HTTP 500 from elasticsearch: Connection reset by peer
+2026-06-19 06:09:45.944 ERROR [notification-service] HTTP 502 from search-service: Broken pipe
+2026-06-19 06:21:04.868 WARN  [notification-service] Connection pool utilization at 51%
+2026-06-19 06:21:13.338 ERROR [notification-service] Timeout waiting for response from user-service after 30000ms
+2026-06-19 08:30:00.289 INFO  [notification-service] JWT token validated for user_id=usr_85608
+2026-06-19 11:41:00.874 DEBUG [notification-service] SQL: SELECT * FROM payments WHERE id = usr_50898 LIMIT 1
+2026-06-19 12:37:00.307 INFO  [notification-service] JWT token validated for user_id=usr_92424
+2026-06-19 13:44:00.360 ERROR [notification-service] Database query failed: ConnectionTimeout on table=payments
+2026-06-19 16:00:00.852 INFO  [notification-service] Processed 2753 messages from topic=analytics
+2026-06-19 18:07:00.241 DEBUG [notification-service] Processing request: method=GET path=/api/v1/payments
+2026-06-19 19:39:00.120 INFO  [notification-service] Health check passed: status=UP, uptime=84365s
+2026-06-19 20:43:00.135 WARN  [notification-service] Memory usage at 85% — approaching threshold
+2026-06-20 00:08:00.289 WARN  [notification-service] Connection pool utilization at 97%
+2026-06-20 03:41:59.260 ERROR [notification-service] Cache hit ratio dropped to 90%
+2026-06-20 04:32:14.569 ERROR [notification-service] Redis eviction rate elevated on analytics-engine
+2026-06-20 07:05:59.164 ERROR [notification-service] Circuit breaker opened for search-service
+2026-06-20 07:11:06.590 ERROR [notification-service] Timeout waiting for response from search-service after 30000ms
+2026-06-20 07:18:19.786 FATAL [notification-service] Connection refused to nginx-ingress:8080 after 3 retries
+2026-06-20 07:26:00.545 WARN  [notification-service] Slow query detected: 8627ms on sessions
+2026-06-20 10:24:00.127 WARN  [notification-service] Retry attempt 4/3 for user-service
+2026-06-20 10:34:00.611 INFO  [notification-service] Cache hit ratio: 93% (last 5min)
+2026-06-20 12:59:00.675 WARN  [notification-service] Certificate expires in 28 days for api.nexora.io
+2026-06-20 14:24:00.761 WARN  [notification-service] Slow query detected: 13530ms on events
+2026-06-20 18:21:15.165 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-06-20 18:37:35.188 WARN  [notification-service] Connection pool utilization at 95%
+2026-06-20 18:42:24.482 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-06-20 21:45:00.955 INFO  [notification-service] Request processed successfully in 5131ms
+2026-06-20 22:02:00.320 INFO  [notification-service] Processed 2632 messages from topic=analytics
+2026-06-20 23:36:00.196 INFO  [notification-service] Request processed successfully in 11054ms
+2026-06-21 00:29:00.042 INFO  [notification-service] Connected to user-service successfully
+2026-06-21 02:32:00.055 INFO  [notification-service] Health check passed: status=UP, uptime=51949s
+2026-06-21 03:14:00.402 INFO  [notification-service] JWT token validated for user_id=usr_70357
+2026-06-21 04:18:00.111 INFO  [notification-service] Query executed in 14767ms: SELECT * FROM events
+2026-06-21 07:11:00.925 WARN  [notification-service] Connection pool utilization at 72%
+2026-06-21 14:06:00.797 INFO  [notification-service] Health check passed: status=UP, uptime=13593s
+2026-06-21 14:50:00.049 WARN  [notification-service] Connection pool utilization at 85%
+2026-06-21 17:59:00.553 ERROR [notification-service] Timeout waiting for response from postgres-primary after 5000ms
+2026-06-21 18:51:00.737 ERROR [notification-service] Connection refused to search-service:5432 after 1 retries
+2026-06-21 20:46:42.793 ERROR [notification-service] Database query failed: NullPointerException on table=payments
+2026-06-21 21:51:08.491 ERROR [notification-service] Migration lock held longer than expected
+2026-06-21 21:53:00.491 INFO  [notification-service] Connected to analytics-engine successfully
+2026-06-21 23:18:54.452 WARN  [notification-service] Retry attempt 3/3 for elasticsearch
+2026-06-21 23:44:00.511 INFO  [notification-service] Request processed successfully in 6013ms
+2026-06-22 03:02:00.133 INFO  [notification-service] Cache hit ratio: 97% (last 5min)
+2026-06-22 06:31:00.868 DEBUG [notification-service] SQL: SELECT * FROM sessions WHERE id = usr_87829 LIMIT 1
+2026-06-22 09:00:00.275 INFO  [notification-service] Query executed in 12003ms: SELECT * FROM sessions
+2026-06-22 19:59:00.454 INFO  [notification-service] JWT token validated for user_id=usr_85461
+2026-06-22 21:52:00.187 INFO  [notification-service] JWT token validated for user_id=usr_86548
+2026-06-22 23:34:00.409 ERROR [notification-service] Connection refused to reporting-service:5432 after 3 retries
+2026-06-23 00:46:00.066 INFO  [notification-service] Health check passed: status=UP, uptime=21880s
+2026-06-23 03:20:00.873 INFO  [notification-service] Health check passed: status=UP, uptime=64224s
+2026-06-23 05:58:00.126 INFO  [notification-service] JWT token validated for user_id=usr_96898
+2026-06-23 09:38:48.398 ERROR [notification-service] Disk usage at 70% on /data volume
+2026-06-23 10:04:05.035 ERROR [notification-service] Write failed: No space left on device
+2026-06-23 12:11:18.210 WARN  [notification-service] Slow query detected: 817ms on events
+2026-06-23 12:32:00.706 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-23 15:46:00.681 INFO  [notification-service] Cache hit ratio: 81% (last 5min)
+2026-06-23 19:18:00.442 INFO  [notification-service] Health check passed: status=UP, uptime=3602s
+2026-06-23 19:58:21.790 ERROR [notification-service] Stale endpoint resolved for kafka, expected updated IP
+2026-06-23 21:01:00.862 INFO  [notification-service] Request processed successfully in 3066ms
+2026-06-23 21:13:35.060 ERROR [notification-service] DNS resolution failed for nginx-ingress
+2026-06-23 22:30:00.452 WARN  [notification-service] Retry attempt 2/3 for postgres-replica
+2026-06-24 00:34:00.291 INFO  [notification-service] Connected to billing-service successfully
+2026-06-24 00:38:00.256 INFO  [notification-service] Health check passed: status=UP, uptime=77139s
+2026-06-24 05:27:00.026 INFO  [notification-service] JWT token validated for user_id=usr_70682
+2026-06-24 05:53:00.776 INFO  [notification-service] Request processed successfully in 263ms
+2026-06-24 06:35:00.641 INFO  [notification-service] JWT token validated for user_id=usr_86631
+2026-06-24 06:35:00.423 WARN  [notification-service] Slow query detected: 7510ms on sessions
+2026-06-24 12:18:00.203 INFO  [notification-service] Query executed in 9274ms: SELECT * FROM sessions
+2026-06-24 12:18:00.424 INFO  [notification-service] JWT token validated for user_id=usr_87398
+2026-06-24 12:52:30.890 ERROR [notification-service] Too many open files
+2026-06-24 13:11:00.861 ERROR [notification-service] HTTP 504 from auth-service: Resource temporarily unavailable
+2026-06-24 14:21:00.508 INFO  [notification-service] Cache hit ratio: 68% (last 5min)
+2026-06-24 14:23:00.505 INFO  [notification-service] Health check passed: status=UP, uptime=26773s
+2026-06-24 14:39:58.304 FATAL [notification-service] Health check failed: status=DOWN
+2026-06-24 15:08:00.899 INFO  [notification-service] Processed 1730 messages from topic=payments
+2026-06-24 22:01:00.447 WARN  [notification-service] Memory usage at 95% — approaching threshold
+2026-06-24 22:55:00.313 ERROR [notification-service] Connection refused to search-service:6379 after 1 retries
+2026-06-25 00:24:00.579 WARN  [notification-service] Slow query detected: 12729ms on events
+2026-06-25 02:23:00.155 INFO  [notification-service] JWT token validated for user_id=usr_47139
+2026-06-25 02:28:00.481 INFO  [notification-service] JWT token validated for user_id=usr_81684
+2026-06-25 04:38:00.360 INFO  [notification-service] Cache hit ratio: 80% (last 5min)
+2026-06-25 08:26:00.792 FATAL [notification-service] Process killed by OOM killer: RSS=2309MB, limit=3152MB
+2026-06-25 15:35:00.721 INFO  [notification-service] Processed 8101 messages from topic=user-updates
+2026-06-25 17:59:30.709 ERROR [notification-service] Thread pool exhausted, rejecting new requests
+2026-06-25 18:12:05.598 ERROR [notification-service] Circuit breaker opened for postgres-primary
+2026-06-25 18:31:27.805 ERROR [notification-service] Thread pool exhausted, rejecting new requests
+2026-06-25 18:34:16.909 FATAL [notification-service] Thread pool exhausted, rejecting new requests
+2026-06-25 18:35:02.556 WARN  [notification-service] Memory usage at 79% — approaching threshold
+2026-06-25 20:27:00.045 INFO  [notification-service] Health check passed: status=UP, uptime=81115s
+2026-06-25 21:39:00.529 INFO  [notification-service] Connected to api-gateway successfully
+2026-06-26 00:54:00.898 DEBUG [notification-service] Cache lookup: key=session:1234 result=MISS
+2026-06-26 01:00:00.097 WARN  [notification-service] Slow query detected: 8658ms on payments
+2026-06-26 01:08:04.687 WARN  [notification-service] Connection pool utilization at 98%
+2026-06-26 01:17:21.488 FATAL [notification-service] Connection refused to postgres-replica:5432 after 3 retries
+2026-06-26 01:30:10.676 ERROR [notification-service] Connection refused to postgres-primary:9092 after 1 retries
+2026-06-26 01:51:40.230 WARN  [notification-service] Retry attempt 3/3 for kafka
+2026-06-26 02:00:18.110 ERROR [notification-service] Connection refused to api-gateway:5432 after 5 retries
+2026-06-26 02:12:55.452 WARN  [notification-service] Kafka consumer lag: 84113 messages on topic=user-updates
+2026-06-26 03:46:00.628 INFO  [notification-service] JWT token validated for user_id=usr_98712
+2026-06-26 04:57:08.155 ERROR [notification-service] Failed to process message: offset=598007, topic=auth-events
+2026-06-26 06:23:00.751 DEBUG [notification-service] Processing request: method=PUT path=/health
+2026-06-26 07:00:00.735 INFO  [notification-service] Cache hit ratio: 97% (last 5min)
+2026-06-26 07:11:00.415 ERROR [notification-service] Timeout waiting for response from api-gateway after 10000ms
+2026-06-26 08:10:18.196 WARN  [notification-service] Slow query detected: 6541ms on payments
+2026-06-26 08:31:18.617 ERROR [notification-service] Request rejected: clock skew exceeds tolerance
+2026-06-26 08:32:47.533 ERROR [notification-service] NTP sync failed, offset=5130ms
+2026-06-26 08:59:58.417 WARN  [notification-service] Memory usage at 99% — approaching threshold
+2026-06-26 09:18:40.037 ERROR [notification-service] NTP sync failed, offset=4900ms
+2026-06-26 10:50:00.192 ERROR [notification-service] Timeout waiting for response from reporting-service after 5000ms
+2026-06-26 11:15:33.991 ERROR [notification-service] Log rotation failed, disk nearly full
+2026-06-26 11:18:23.083 WARN  [notification-service] Memory usage at 69% — approaching threshold
+2026-06-26 12:01:59.243 FATAL [notification-service] Disk usage at 85% on /data volume
+2026-06-26 13:06:00.168 INFO  [notification-service] JWT token validated for user_id=usr_32948
+2026-06-26 13:44:00.067 INFO  [notification-service] Cache hit ratio: 88% (last 5min)
+2026-06-26 16:27:00.466 INFO  [notification-service] JWT token validated for user_id=usr_80909
+2026-06-26 20:10:00.274 INFO  [notification-service] JWT token validated for user_id=usr_11054
+2026-06-27 02:05:00.578 DEBUG [notification-service] SQL: SELECT * FROM metrics WHERE id = usr_94191 LIMIT 1
+2026-06-27 02:41:00.724 WARN  [notification-service] Kafka consumer lag: 8451 messages on topic=notifications
+2026-06-27 04:42:00.937 DEBUG [notification-service] Cache lookup: key=session:1234 result=HIT
+2026-06-27 06:36:00.921 INFO  [notification-service] JWT token validated for user_id=usr_35428
+2026-06-27 07:52:00.781 WARN  [notification-service] Slow query detected: 9579ms on events
+2026-06-27 09:11:00.303 ERROR [notification-service] Timeout waiting for response from redis-cache after 5000ms
+2026-06-27 09:33:00.088 WARN  [notification-service] Kafka consumer lag: 9612 messages on topic=user-updates
+2026-06-27 09:50:39.031 WARN  [notification-service] Retry attempt 3/3 for postgres-primary
+2026-06-27 09:55:51.584 WARN  [notification-service] Retry attempt 3/3 for nginx-ingress
+2026-06-27 10:20:00.316 INFO  [notification-service] Cache hit ratio: 61% (last 5min)
+2026-06-27 10:45:29.751 WARN  [notification-service] Retry attempt 1/3 for kafka
+2026-06-27 12:08:36.193 ERROR [notification-service] Health check failed: status=DOWN
+2026-06-27 12:12:00.198 WARN  [notification-service] Certificate expires in 4 days for api.nexora.io
+2026-06-27 12:33:41.252 ERROR [notification-service] Too many open files
+2026-06-27 13:31:23.703 ERROR [notification-service] Process killed by OOM killer: RSS=2966MB, limit=2201MB
+2026-06-27 17:24:00.834 ERROR [notification-service] Database query failed: NullPointerException on table=events
+2026-06-27 20:20:00.272 WARN  [notification-service] Memory usage at 72% — approaching threshold
+2026-06-27 21:01:44.568 ERROR [notification-service] Health check failed: status=DOWN
+2026-06-27 21:06:01.292 WARN  [notification-service] Connection pool utilization at 97%
+2026-06-27 21:24:33.115 FATAL [notification-service] Health check failed: status=DOWN
+2026-06-27 22:14:00.473 DEBUG [notification-service] SQL: SELECT * FROM metrics WHERE id = usr_10323 LIMIT 1
+2026-06-28 03:43:17.468 WARN  [notification-service] Connection pool utilization at 68%
+2026-06-28 03:43:19.348 ERROR [notification-service] No route to host
+2026-06-28 03:51:29.745 ERROR [notification-service] DNS resolution failed for billing-service
+2026-06-28 10:34:00.027 WARN  [notification-service] Retry attempt 3/3 for redis-cache
+2026-06-28 10:44:00.081 DEBUG [notification-service] Processing request: method=GET path=/api/v1/payments
+2026-06-28 12:54:00.510 INFO  [notification-service] Connected to nginx-ingress successfully
+2026-06-28 15:05:00.935 INFO  [notification-service] Cache hit ratio: 60% (last 5min)
+2026-06-28 16:31:00.932 INFO  [notification-service] Connected to kafka successfully
+2026-06-28 20:13:00.079 INFO  [notification-service] JWT token validated for user_id=usr_50032
+2026-06-28 21:10:00.128 INFO  [notification-service] Query executed in 14626ms: SELECT * FROM sessions
+2026-06-29 03:03:00.378 INFO  [notification-service] Cache hit ratio: 73% (last 5min)
+2026-06-29 03:08:29.903 FATAL [notification-service] Kafka consumer lag: 11016 messages on topic=auth-events
+2026-06-29 04:47:20.023 ERROR [notification-service] Failed to process message: offset=216232, topic=payments
+2026-06-29 06:43:55.511 ERROR [notification-service] Kafka consumer lag: 95815 messages on topic=user-updates
+2026-06-29 16:08:00.399 ERROR [notification-service] Database query failed: DeadlockDetected on table=users
+2026-06-29 18:43:00.248 ERROR [notification-service] HTTP 504 from analytics-engine: Connection reset by peer
+2026-06-29 22:23:00.567 ERROR [notification-service] Timeout waiting for response from kafka after 30000ms
+2026-06-29 23:03:00.654 INFO  [notification-service] Request processed successfully in 2929ms
+2026-06-30 09:05:00.993 ERROR [notification-service] Timeout waiting for response from search-service after 10000ms
+2026-06-30 09:41:00.453 INFO  [notification-service] Health check passed: status=UP, uptime=45623s
+2026-06-30 10:31:00.849 DEBUG [notification-service] Processing request: method=POST path=/api/v1/analytics
+2026-06-30 12:42:59.979 ERROR [notification-service] Timeout waiting for response from auth-service after 5000ms
+2026-06-30 12:47:29.104 ERROR [notification-service] Circuit breaker opened for api-gateway
+2026-06-30 13:28:45.497 FATAL [notification-service] Connection refused to redis-cache:5432 after 4 retries
+2026-06-30 14:16:00.225 INFO  [notification-service] Cache hit ratio: 64% (last 5min)
+2026-06-30 18:17:00.588 WARN  [notification-service] Kafka consumer lag: 46574 messages on topic=notifications
+2026-06-30 19:04:00.691 ERROR [notification-service] Connection refused to search-service:5432 after 4 retries
+2026-06-30 19:24:00.998 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-30 19:45:00.193 INFO  [notification-service] Processed 9249 messages from topic=analytics
+2026-06-30 21:34:00.965 INFO  [notification-service] Query executed in 6946ms: SELECT * FROM sessions
+2026-06-30 22:42:42.700 WARN  [notification-service] Memory usage at 79% — approaching threshold
+2026-06-30 22:47:48.392 ERROR [notification-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-30 22:54:11.892 ERROR [notification-service] Redis eviction rate elevated on api-gateway
+2026-06-30 22:54:34.666 ERROR [notification-service] Redis eviction rate elevated on redis-cache
+2026-06-30 22:54:47.489 FATAL [notification-service] Redis eviction rate elevated on kafka
+2026-06-30 22:55:05.660 WARN  [notification-service] Slow query detected: 12601ms on metrics
+2026-06-30 22:57:35.791 ERROR [notification-service] Cache hit ratio dropped to 93%
+2026-06-30 23:34:00.021 INFO  [notification-service] Query executed in 6357ms: SELECT * FROM events
+2026-07-01 00:33:00.607 INFO  [notification-service] Query executed in 7893ms: SELECT * FROM metrics
+2026-07-01 01:20:00.372 INFO  [notification-service] Request processed successfully in 10559ms
+2026-07-01 04:28:00.904 INFO  [notification-service] Processed 9872 messages from topic=payments
+2026-07-01 07:50:00.610 WARN  [notification-service] Certificate expires in 10 days for billing.nexora.io
+2026-07-01 08:17:00.173 INFO  [notification-service] Processed 6708 messages from topic=notifications
+2026-07-01 08:26:34.315 FATAL [notification-service] Retry storm detected: 3470 retries/min to reporting-service
+2026-07-01 08:28:17.200 ERROR [notification-service] Thread pool exhausted, rejecting new requests
+2026-07-01 08:30:07.040 ERROR [notification-service] Thread pool exhausted, rejecting new requests
+2026-07-01 08:30:16.557 FATAL [notification-service] Thread pool exhausted, rejecting new requests
+2026-07-01 08:31:03.805 WARN  [notification-service] Slow query detected: 4892ms on payments
+2026-07-01 08:33:41.253 ERROR [notification-service] Circuit breaker opened for nginx-ingress
+2026-07-01 08:35:50.293 FATAL [notification-service] Circuit breaker opened for auth-service
+2026-07-01 09:55:00.729 INFO  [notification-service] Health check passed: status=UP, uptime=39892s
+2026-07-01 21:08:09.345 ERROR [notification-service] Rate limit exceeded: 2810/4777 requests from single source
+2026-07-01 21:19:09.209 ERROR [notification-service] Suspicious request pattern flagged for review
+2026-07-01 21:39:00.604 FATAL [notification-service] Unable to connect to user-service: all 2 retries exhausted
+2026-07-01 21:48:53.863 WARN  [notification-service] Certificate expires in 9 days for api.nexora.io
+2026-07-01 23:32:00.257 INFO  [notification-service] Health check passed: status=UP, uptime=21679s
+2026-07-02 11:13:00.879 INFO  [notification-service] Query executed in 2563ms: SELECT * FROM events
+2026-07-02 11:39:00.312 WARN  [notification-service] Slow query detected: 13920ms on users
+2026-07-02 13:05:00.133 DEBUG [notification-service] SQL: SELECT * FROM users WHERE id = usr_94255 LIMIT 1
+2026-07-02 15:53:00.334 ERROR [notification-service] Connection refused to api-gateway:9092 after 4 retries
+2026-07-02 16:43:00.898 ERROR [notification-service] Timeout waiting for response from redis-cache after 5000ms
+2026-07-02 17:51:00.900 INFO  [notification-service] Processed 3418 messages from topic=auth-events
+2026-07-02 19:39:00.704 ERROR [notification-service] HTTP 503 from postgres-primary: Host is unreachable
+2026-07-02 21:01:46.181 ERROR [notification-service] Reconciliation job found 9544 mismatched rows
+2026-07-02 21:06:00.770 ERROR [notification-service] Connection refused to search-service:5432 after 1 retries
+2026-07-02 21:07:51.882 FATAL [notification-service] Duplicate record written for key=beta_search_ranking
+2026-07-02 21:14:50.551 WARN  [notification-service] Kafka consumer lag: 86034 messages on topic=notifications
+2026-07-02 21:32:14.623 FATAL [notification-service] Reconciliation job found 5142 mismatched rows
+2026-07-02 21:50:36.419 ERROR [notification-service] Record checksum mismatch detected for id=usr_45336
+2026-07-02 21:50:39.735 ERROR [notification-service] Record checksum mismatch detected for id=usr_87468
+2026-07-02 22:02:46.697 WARN  [notification-service] Slow query detected: 13187ms on users
+2026-07-03 01:15:00.700 INFO  [notification-service] Request processed successfully in 2824ms
+2026-07-03 01:25:05.629 ERROR [notification-service] Failed to process message: offset=411081, topic=user-updates
+2026-07-03 01:36:46.695 ERROR [notification-service] Certificate expires in 19 days for auth.nexora.io
+2026-07-03 01:37:00.455 ERROR [notification-service] Certificate expires in 19 days for auth.nexora.io
+2026-07-03 01:43:39.913 WARN  [notification-service] Slow query detected: 12407ms on events
+2026-07-03 01:45:08.780 ERROR [notification-service] x509: certificate has expired or is not yet valid
+2026-07-03 01:50:37.090 FATAL [notification-service] Kafka consumer lag: 19242 messages on topic=auth-events
+2026-07-03 01:53:03.287 FATAL [notification-service] TLS handshake failed: certificate verify failed
+2026-07-03 01:53:48.437 FATAL [notification-service] Certificate expires in 21 days for api.nexora.io
+2026-07-03 01:56:00.549 INFO  [notification-service] Connected to postgres-primary successfully
+2026-07-03 02:01:39.161 ERROR [notification-service] Certificate expires in 9 days for auth.nexora.io
+2026-07-03 02:05:00.006 INFO  [notification-service] Cache hit ratio: 92% (last 5min)
+2026-07-03 05:40:00.205 INFO  [notification-service] Request processed successfully in 14703ms
+2026-07-03 07:12:17.586 ERROR [notification-service] x509: certificate has expired or is not yet valid
+2026-07-03 07:35:43.989 ERROR [notification-service] Certificate expires in 7 days for billing.nexora.io
+2026-07-03 07:59:35.270 WARN  [notification-service] Memory usage at 75% — approaching threshold
+2026-07-03 08:07:27.733 ERROR [notification-service] x509: certificate has expired or is not yet valid
+2026-07-03 08:08:00.925 DEBUG [notification-service] SQL: SELECT * FROM payments WHERE id = usr_73395 LIMIT 1
+2026-07-03 08:10:10.899 ERROR [notification-service] x509: certificate has expired or is not yet valid
+2026-07-03 08:15:19.920 ERROR [notification-service] TLS handshake failed: certificate verify failed
+2026-07-03 08:30:00.378 WARN  [notification-service] Memory usage at 88% — approaching threshold
+2026-07-03 08:30:35.451 ERROR [notification-service] Certificate expires in 29 days for api.nexora.io
+2026-07-03 12:11:00.275 INFO  [notification-service] Request processed successfully in 7257ms
+2026-07-03 12:46:00.254 WARN  [notification-service] Connection pool utilization at 51%
+2026-07-03 16:10:00.438 WARN  [notification-service] Slow query detected: 7740ms on users
+2026-07-03 17:35:48.221 WARN  [notification-service] Certificate expires in 10 days for billing.nexora.io
+2026-07-03 18:07:29.140 WARN  [notification-service] Certificate expires in 2 days for api.nexora.io
+2026-07-03 18:13:00.349 DEBUG [notification-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-07-03 22:40:00.071 DEBUG [notification-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-07-03 22:45:05.753 ERROR [notification-service] Unexpected code path triggered: legacy_handler
+2026-07-03 23:04:00.861 INFO  [notification-service] Request processed successfully in 9469ms
+2026-07-04 00:12:20.804 ERROR [notification-service] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-07-04 00:18:00.487 INFO  [notification-service] Health check passed: status=UP, uptime=58363s
+2026-07-04 01:27:42.671 FATAL [notification-service] Unexpected code path triggered: legacy_handler
+2026-07-04 01:51:00.060 INFO  [notification-service] Cache hit ratio: 67% (last 5min)
+2026-07-04 05:16:00.928 WARN  [notification-service] Certificate expires in 17 days for auth.nexora.io
+2026-07-04 07:06:00.406 INFO  [notification-service] JWT token validated for user_id=usr_93610
+2026-07-04 10:40:00.306 INFO  [notification-service] Cache hit ratio: 84% (last 5min)
+2026-07-04 14:26:00.774 ERROR [notification-service] Timeout waiting for response from api-gateway after 5000ms
+2026-07-04 17:06:00.951 ERROR [notification-service] Database query failed: DeadlockDetected on table=payments
+2026-07-04 20:26:00.980 DEBUG [notification-service] Processing request: method=POST path=/health
+2026-07-04 20:36:00.999 INFO  [notification-service] JWT token validated for user_id=usr_10192
+2026-07-04 21:35:26.871 ERROR [notification-service] Rebalance in progress, partitions revoked
+2026-07-04 21:36:16.822 FATAL [notification-service] Kafka consumer lag: 76349 messages on topic=auth-events
+2026-07-04 21:37:04.477 FATAL [notification-service] Kafka consumer lag: 32774 messages on topic=notifications
+2026-07-04 21:39:21.611 FATAL [notification-service] Kafka consumer lag: 47516 messages on topic=payments
+2026-07-04 22:12:49.639 WARN  [notification-service] Slow query detected: 10698ms on sessions
+2026-07-04 23:06:00.513 ERROR [notification-service] Connection refused to api-gateway:6379 after 3 retries
+2026-07-05 02:15:00.307 WARN  [notification-service] Certificate expires in 13 days for auth.nexora.io
+2026-07-05 04:24:00.512 WARN  [notification-service] Connection pool utilization at 95%
+2026-07-05 05:13:51.137 ERROR [notification-service] Timeout waiting for response from elasticsearch after 10000ms
+2026-07-05 06:53:00.413 INFO  [notification-service] Query executed in 12031ms: SELECT * FROM orders
+2026-07-05 07:21:37.293 ERROR [notification-service] Connection refused to postgres-primary:8080 after 4 retries
+2026-07-05 07:36:33.107 ERROR [notification-service] Connection refused to analytics-engine:5432 after 2 retries
+2026-07-05 09:57:00.975 INFO  [notification-service] JWT token validated for user_id=usr_57239
+2026-07-05 15:03:00.841 ERROR [notification-service] HTTP 503 from analytics-engine: Broken pipe
+2026-07-05 20:20:00.171 WARN  [notification-service] Connection pool utilization at 71%
+2026-07-05 22:18:42.773 WARN  [notification-service] Certificate expires in 4 days for billing.nexora.io
+2026-07-05 22:25:47.886 WARN  [notification-service] Kafka consumer lag: 73374 messages on topic=analytics
+2026-07-05 22:26:33.452 FATAL [notification-service] Circuit breaker opened for postgres-primary
+2026-07-05 22:33:14.557 FATAL [notification-service] Connection refused to analytics-engine:8080 after 4 retries
+2026-07-05 22:35:51.245 WARN  [notification-service] Certificate expires in 5 days for api.nexora.io
+2026-07-05 22:36:20.458 WARN  [notification-service] Memory usage at 64% — approaching threshold
+2026-07-05 22:37:48.835 FATAL [notification-service] Connection refused to reporting-service:9092 after 2 retries
+2026-07-05 23:10:00.892 INFO  [notification-service] Query executed in 6649ms: SELECT * FROM payments
+2026-07-05 23:14:00.628 INFO  [notification-service] Health check passed: status=UP, uptime=8971s
+2026-07-06 00:36:00.541 INFO  [notification-service] JWT token validated for user_id=usr_45344
+2026-07-06 02:33:00.032 FATAL [notification-service] Unable to connect to elasticsearch: all 2 retries exhausted
+2026-07-06 02:47:00.431 WARN  [notification-service] Retry attempt 4/3 for api-gateway
+2026-07-06 02:52:00.721 INFO  [notification-service] Cache hit ratio: 64% (last 5min)
+2026-07-06 06:46:00.288 INFO  [notification-service] Connected to kafka successfully
+2026-07-06 10:31:00.859 INFO  [notification-service] Health check passed: status=UP, uptime=36146s
+2026-07-06 10:57:57.704 ERROR [notification-service] Process killed by OOM killer: RSS=3899MB, limit=6734MB
+2026-07-06 11:20:50.721 FATAL [notification-service] Too many open files
+2026-07-06 11:21:41.607 WARN  [notification-service] Retry attempt 3/3 for nginx-ingress
+2026-07-06 15:31:00.420 INFO  [notification-service] Cache hit ratio: 69% (last 5min)
+2026-07-06 15:50:00.781 INFO  [notification-service] Processed 6320 messages from topic=notifications
+2026-07-06 19:24:00.166 ERROR [notification-service] HTTP 503 from nginx-ingress: Too many open files
+2026-07-07 02:38:00.952 ERROR [notification-service] Database query failed: ConnectionTimeout on table=orders
+2026-07-07 06:03:00.663 INFO  [notification-service] Query executed in 119ms: SELECT * FROM metrics
+2026-07-07 08:26:00.782 WARN  [notification-service] Retry attempt 5/3 for kafka
+2026-07-07 12:56:00.331 ERROR [notification-service] Timeout waiting for response from api-gateway after 10000ms
+2026-07-07 14:25:00.651 INFO  [notification-service] Connected to postgres-replica successfully
+2026-07-07 15:03:00.265 INFO  [notification-service] Connected to reporting-service successfully
+2026-07-07 16:49:00.433 INFO  [notification-service] Cache hit ratio: 72% (last 5min)
+2026-07-07 17:32:13.167 ERROR [notification-service] Timeout waiting for response from postgres-primary after 30000ms
+2026-07-07 17:54:05.762 ERROR [notification-service] Timeout waiting for response from postgres-replica after 30000ms
+2026-07-07 18:31:02.042 FATAL [notification-service] Connection refused to postgres-replica:5432 after 5 retries
+2026-07-07 18:32:21.670 ERROR [notification-service] Circuit breaker opened for redis-cache
+2026-07-07 18:34:16.377 WARN  [notification-service] Retry attempt 2/3 for elasticsearch
+2026-07-07 23:07:00.108 INFO  [notification-service] Request processed successfully in 8036ms
+2026-07-07 23:31:00.936 ERROR [notification-service] Timeout waiting for response from kafka after 10000ms
+2026-07-08 01:44:00.490 WARN  [notification-service] Connection pool utilization at 64%
+2026-07-08 02:43:00.359 DEBUG [notification-service] SQL: SELECT * FROM orders WHERE id = usr_69890 LIMIT 1
+2026-07-08 03:38:00.466 INFO  [notification-service] Health check passed: status=UP, uptime=20500s
+2026-07-08 07:50:00.507 FATAL [notification-service] Unable to connect to auth-service: all 3 retries exhausted
+2026-07-08 13:59:00.521 WARN  [notification-service] Memory usage at 78% — approaching threshold
+2026-07-08 16:49:00.432 INFO  [notification-service] Connected to postgres-primary successfully
+2026-07-08 16:55:00.873 WARN  [notification-service] Slow query detected: 7994ms on sessions
+2026-07-08 18:13:00.085 WARN  [notification-service] Connection pool utilization at 60%
+2026-07-08 19:54:00.383 INFO  [notification-service] Processed 9162 messages from topic=notifications
+2026-07-08 23:25:00.661 INFO  [notification-service] JWT token validated for user_id=usr_11330
+2026-07-09 00:06:00.163 INFO  [notification-service] Query executed in 13217ms: SELECT * FROM events
+2026-07-09 00:45:00.823 WARN  [notification-service] Certificate expires in 12 days for api.nexora.io
+2026-07-09 01:41:00.024 INFO  [notification-service] Health check passed: status=UP, uptime=69903s
+2026-07-09 04:24:11.788 ERROR [notification-service] Health check failed: status=DOWN
+2026-07-09 04:25:21.221 ERROR [notification-service] Process killed by OOM killer: RSS=4041MB, limit=1589MB
+2026-07-09 04:51:05.199 ERROR [notification-service] Too many open files
+2026-07-09 05:04:00.600 INFO  [notification-service] Processed 6169 messages from topic=notifications
+2026-07-09 10:25:00.498 INFO  [notification-service] Connected to nginx-ingress successfully
+2026-07-09 10:35:00.698 INFO  [notification-service] Request processed successfully in 8152ms
+2026-07-09 13:17:00.429 DEBUG [notification-service] Processing request: method=GET path=/api/v1/payments
+2026-07-09 21:49:00.133 DEBUG [notification-service] Processing request: method=GET path=/health
+2026-07-09 21:50:00.052 ERROR [notification-service] HTTP 503 from elasticsearch: No route to host
+2026-07-09 22:09:00.381 ERROR [notification-service] Timeout waiting for response from redis-cache after 10000ms
+2026-07-09 23:11:06.348 ERROR [notification-service] Request rejected: clock skew exceeds tolerance
+2026-07-09 23:49:16.753 ERROR [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_10798
+2026-07-09 23:57:24.691 FATAL [notification-service] Token validation failed: timestamp out of allowed skew for user_id=usr_60726
+2026-07-10 01:23:00.281 ERROR [notification-service] Timeout waiting for response from api-gateway after 5000ms
+2026-07-10 01:46:29.130 FATAL [notification-service] Unexpected code path triggered: legacy_handler
+2026-07-10 01:51:34.003 WARN  [notification-service] Connection pool utilization at 70%
+2026-07-10 01:59:26.351 ERROR [notification-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-07-10 02:04:42.424 ERROR [notification-service] Deployed version v2.16.7 to staging
+2026-07-10 02:16:03.067 FATAL [notification-service] Flag evaluation error, falling back to default
+2026-07-10 02:36:37.398 ERROR [notification-service] Configuration checksum mismatch across replicas
+2026-07-10 02:47:25.070 ERROR [notification-service] Unexpected config value for key=timeout_ms
+2026-07-10 02:54:04.550 FATAL [notification-service] Unexpected code path triggered: legacy_handler
+2026-07-10 02:55:21.280 ERROR [notification-service] Unexpected config value for key=timeout_ms
+2026-07-10 02:59:48.390 ERROR [notification-service] Configuration checksum mismatch across replicas
+2026-07-10 06:22:00.408 FATAL [notification-service] Process killed by OOM killer: RSS=2685MB, limit=2916MB
+2026-07-10 07:06:00.367 WARN  [notification-service] Connection pool utilization at 92%
+2026-07-10 08:53:00.483 INFO  [notification-service] Request processed successfully in 2718ms

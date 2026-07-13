@@ -1,0 +1,1000 @@
+2026-05-11 12:54:00.335 ERROR [api-gateway] Connection refused to elasticsearch:8080 after 5 retries
+2026-05-11 15:02:00.058 WARN  [api-gateway] Slow query detected: 11711ms on users
+2026-05-11 15:39:12.153 FATAL [api-gateway] Rebalance in progress, partitions revoked
+2026-05-11 18:20:00.377 ERROR [api-gateway] Database query failed: SchemaValidationError on table=sessions
+2026-05-11 19:28:00.958 WARN  [api-gateway] Memory usage at 60% — approaching threshold
+2026-05-11 20:32:00.547 INFO  [api-gateway] Query executed in 2862ms: SELECT * FROM events
+2026-05-11 21:00:42.851 WARN  [api-gateway] Kafka consumer lag: 59592 messages on topic=auth-events
+2026-05-11 21:48:00.896 WARN  [api-gateway] Certificate expires in 4 days for billing.nexora.io
+2026-05-12 05:17:16.557 WARN  [api-gateway] Retry attempt 5/3 for search-service
+2026-05-12 05:37:00.563 INFO  [api-gateway] JWT token validated for user_id=usr_46884
+2026-05-12 06:25:15.268 ERROR [api-gateway] Reconciliation job found 1633 mismatched rows
+2026-05-12 08:32:00.860 INFO  [api-gateway] Request processed successfully in 10903ms
+2026-05-12 09:08:00.748 INFO  [api-gateway] Query executed in 820ms: SELECT * FROM users
+2026-05-12 09:59:00.875 WARN  [api-gateway] Memory usage at 99% — approaching threshold
+2026-05-12 11:11:00.237 INFO  [api-gateway] Query executed in 3897ms: SELECT * FROM metrics
+2026-05-12 18:21:26.714 WARN  [api-gateway] Retry attempt 2/3 for nginx-ingress
+2026-05-12 18:49:00.637 FATAL [api-gateway] Process killed by OOM killer: RSS=955MB, limit=5646MB
+2026-05-12 18:49:09.060 ERROR [api-gateway] Write failed: No space left on device
+2026-05-12 18:54:58.414 ERROR [api-gateway] Disk usage at 56% on /data volume
+2026-05-12 18:55:10.626 ERROR [api-gateway] Log rotation failed, disk nearly full
+2026-05-12 19:03:55.090 ERROR [api-gateway] Write failed: No space left on device
+2026-05-12 19:08:20.910 WARN  [api-gateway] Retry attempt 1/3 for postgres-primary
+2026-05-12 20:13:00.943 INFO  [api-gateway] Cache hit ratio: 62% (last 5min)
+2026-05-12 20:56:00.686 INFO  [api-gateway] Connected to reporting-service successfully
+2026-05-12 21:00:00.456 INFO  [api-gateway] Cache hit ratio: 92% (last 5min)
+2026-05-12 23:36:00.215 WARN  [api-gateway] Certificate expires in 22 days for auth.nexora.io
+2026-05-13 02:23:00.562 INFO  [api-gateway] Request processed successfully in 1072ms
+2026-05-13 03:20:00.442 INFO  [api-gateway] Health check passed: status=UP, uptime=24083s
+2026-05-13 03:46:30.834 FATAL [api-gateway] Redis eviction rate elevated on analytics-engine
+2026-05-13 03:49:00.025 INFO  [api-gateway] Query executed in 13658ms: SELECT * FROM payments
+2026-05-13 04:46:31.099 ERROR [api-gateway] Redis eviction rate elevated on kafka
+2026-05-13 05:02:56.505 WARN  [api-gateway] Connection pool utilization at 67%
+2026-05-13 05:30:05.725 ERROR [api-gateway] Cache hit ratio dropped to 93%
+2026-05-13 05:50:00.203 WARN  [api-gateway] Retry attempt 1/3 for postgres-replica
+2026-05-13 09:43:42.977 ERROR [api-gateway] Slow query detected: 3826ms on users
+2026-05-13 09:44:12.585 ERROR [api-gateway] Timeout waiting for response from elasticsearch after 5000ms
+2026-05-13 09:57:31.664 WARN  [api-gateway] Memory usage at 60% — approaching threshold
+2026-05-13 10:04:46.642 WARN  [api-gateway] Memory usage at 84% — approaching threshold
+2026-05-13 12:19:00.435 INFO  [api-gateway] Health check passed: status=UP, uptime=84755s
+2026-05-13 16:02:00.534 ERROR [api-gateway] Database query failed: ConnectionTimeout on table=orders
+2026-05-13 19:52:00.569 ERROR [api-gateway] Connection refused to user-service:443 after 3 retries
+2026-05-13 22:19:00.496 INFO  [api-gateway] Cache hit ratio: 60% (last 5min)
+2026-05-14 05:25:00.399 WARN  [api-gateway] Connection pool utilization at 54%
+2026-05-14 07:05:00.357 FATAL [api-gateway] Process killed by OOM killer: RSS=2425MB, limit=6795MB
+2026-05-14 09:28:00.438 FATAL [api-gateway] Unable to connect to nginx-ingress: all 2 retries exhausted
+2026-05-14 10:02:00.279 FATAL [api-gateway] Unable to connect to postgres-replica: all 2 retries exhausted
+2026-05-14 13:22:00.155 INFO  [api-gateway] Query executed in 8388ms: SELECT * FROM payments
+2026-05-14 22:40:00.560 WARN  [api-gateway] Connection pool utilization at 59%
+2026-05-14 23:16:00.066 INFO  [api-gateway] Cache hit ratio: 98% (last 5min)
+2026-05-15 01:13:00.063 INFO  [api-gateway] JWT token validated for user_id=usr_15878
+2026-05-15 01:38:00.068 INFO  [api-gateway] Query executed in 1514ms: SELECT * FROM metrics
+2026-05-15 02:48:00.924 WARN  [api-gateway] Memory usage at 88% — approaching threshold
+2026-05-15 04:24:00.141 INFO  [api-gateway] Cache hit ratio: 96% (last 5min)
+2026-05-15 04:46:00.117 INFO  [api-gateway] Health check passed: status=UP, uptime=36521s
+2026-05-15 04:56:00.439 INFO  [api-gateway] Request processed successfully in 8240ms
+2026-05-15 06:35:00.899 INFO  [api-gateway] Request processed successfully in 12509ms
+2026-05-15 07:28:00.207 DEBUG [api-gateway] Processing request: method=GET path=/health
+2026-05-15 08:06:00.137 INFO  [api-gateway] Query executed in 8946ms: SELECT * FROM metrics
+2026-05-15 10:13:00.394 INFO  [api-gateway] JWT token validated for user_id=usr_24458
+2026-05-15 12:20:00.394 INFO  [api-gateway] Cache hit ratio: 86% (last 5min)
+2026-05-15 13:58:00.663 INFO  [api-gateway] Query executed in 11985ms: SELECT * FROM sessions
+2026-05-15 15:01:00.866 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_81426 LIMIT 1
+2026-05-15 20:05:00.033 INFO  [api-gateway] Connected to postgres-primary successfully
+2026-05-15 20:53:00.181 WARN  [api-gateway] Memory usage at 96% — approaching threshold
+2026-05-15 21:22:00.917 INFO  [api-gateway] Cache hit ratio: 93% (last 5min)
+2026-05-15 21:27:34.457 ERROR [api-gateway] Stale endpoint resolved for search-service, expected updated IP
+2026-05-15 23:30:00.846 INFO  [api-gateway] Request processed successfully in 4558ms
+2026-05-16 00:52:00.587 WARN  [api-gateway] Kafka consumer lag: 8187 messages on topic=payments
+2026-05-16 01:26:00.221 INFO  [api-gateway] Query executed in 9925ms: SELECT * FROM users
+2026-05-16 02:04:00.286 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/users
+2026-05-16 04:17:00.484 INFO  [api-gateway] Connected to nginx-ingress successfully
+2026-05-16 04:20:00.854 WARN  [api-gateway] Memory usage at 82% — approaching threshold
+2026-05-16 04:43:00.965 INFO  [api-gateway] Request processed successfully in 9429ms
+2026-05-16 07:53:00.257 INFO  [api-gateway] Query executed in 13061ms: SELECT * FROM users
+2026-05-16 09:55:00.246 INFO  [api-gateway] Connected to nginx-ingress successfully
+2026-05-16 11:06:06.231 ERROR [api-gateway] Cache hit ratio dropped to 50%
+2026-05-16 11:14:08.329 FATAL [api-gateway] Redis eviction rate elevated on notification-service
+2026-05-16 11:43:01.160 ERROR [api-gateway] Cache hit ratio dropped to 80%
+2026-05-16 11:59:34.564 ERROR [api-gateway] Cache hit ratio dropped to 78%
+2026-05-16 12:10:00.266 WARN  [api-gateway] Memory usage at 56% — approaching threshold
+2026-05-16 12:42:00.470 INFO  [api-gateway] Query executed in 14182ms: SELECT * FROM payments
+2026-05-16 17:34:00.325 ERROR [api-gateway] Connection refused to search-service:9092 after 4 retries
+2026-05-16 18:01:00.948 ERROR [api-gateway] Database query failed: ConnectionTimeout on table=users
+2026-05-16 22:48:00.623 DEBUG [api-gateway] SQL: SELECT * FROM metrics WHERE id = usr_52338 LIMIT 1
+2026-05-16 23:07:47.004 ERROR [api-gateway] Stale endpoint resolved for user-service, expected updated IP
+2026-05-17 01:08:10.554 WARN  [api-gateway] Memory usage at 91% — approaching threshold
+2026-05-17 02:37:00.018 ERROR [api-gateway] HTTP 504 from kafka: Host is unreachable
+2026-05-17 04:32:00.786 WARN  [api-gateway] Certificate expires in 24 days for api.nexora.io
+2026-05-17 04:51:00.330 INFO  [api-gateway] Connected to notification-service successfully
+2026-05-17 05:29:00.512 INFO  [api-gateway] Health check passed: status=UP, uptime=81497s
+2026-05-17 09:52:00.799 INFO  [api-gateway] Request processed successfully in 7886ms
+2026-05-17 11:30:00.942 INFO  [api-gateway] Processed 8474 messages from topic=auth-events
+2026-05-17 12:32:01.608 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-05-17 13:10:15.140 WARN  [api-gateway] Slow query detected: 3682ms on users
+2026-05-17 14:54:56.340 ERROR [api-gateway] TLS handshake failed: certificate verify failed
+2026-05-17 16:10:54.595 ERROR [api-gateway] Certificate expires in 22 days for auth.nexora.io
+2026-05-17 18:51:00.200 INFO  [api-gateway] Health check passed: status=UP, uptime=45353s
+2026-05-17 23:51:00.605 DEBUG [api-gateway] Cache lookup: key=beta_search_ranking result=MISS
+2026-05-18 09:23:00.261 INFO  [api-gateway] Cache hit ratio: 87% (last 5min)
+2026-05-18 10:43:00.357 DEBUG [api-gateway] Processing request: method=POST path=/api/v1/payments
+2026-05-18 18:10:00.734 DEBUG [api-gateway] Cache lookup: key=session:1234 result=MISS
+2026-05-18 19:18:00.881 WARN  [api-gateway] Retry attempt 1/3 for notification-service
+2026-05-18 21:02:00.057 DEBUG [api-gateway] Cache lookup: key=dark_launch_v2 result=HIT
+2026-05-18 22:43:26.335 WARN  [api-gateway] Kafka consumer lag: 46397 messages on topic=user-updates
+2026-05-18 22:48:27.475 WARN  [api-gateway] Connection pool utilization at 80%
+2026-05-18 23:10:38.893 ERROR [api-gateway] Unexpected config value for key=timeout_ms
+2026-05-18 23:50:09.988 ERROR [api-gateway] Unexpected config value for key=timeout_ms
+2026-05-19 05:08:00.218 INFO  [api-gateway] Connected to search-service successfully
+2026-05-19 05:38:00.342 INFO  [api-gateway] Query executed in 8268ms: SELECT * FROM users
+2026-05-19 06:20:00.188 INFO  [api-gateway] Connected to auth-service successfully
+2026-05-19 06:40:00.173 INFO  [api-gateway] Connected to postgres-primary successfully
+2026-05-19 08:01:00.974 FATAL [api-gateway] Unable to connect to user-service: all 5 retries exhausted
+2026-05-19 11:08:00.040 WARN  [api-gateway] Certificate expires in 10 days for api.nexora.io
+2026-05-19 11:24:00.480 INFO  [api-gateway] Cache hit ratio: 68% (last 5min)
+2026-05-19 15:54:00.878 ERROR [api-gateway] Connection refused to kafka:8080 after 2 retries
+2026-05-19 15:56:00.098 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_90433 LIMIT 1
+2026-05-19 16:00:00.454 INFO  [api-gateway] Processed 7413 messages from topic=payments
+2026-05-19 23:15:00.013 INFO  [api-gateway] Processed 4034 messages from topic=notifications
+2026-05-20 01:24:00.460 INFO  [api-gateway] Processed 6344 messages from topic=payments
+2026-05-20 02:38:27.601 WARN  [api-gateway] Retry attempt 3/3 for analytics-engine
+2026-05-20 03:18:24.785 ERROR [api-gateway] Authentication failed for user_id=usr_33611: SchemaValidationError
+2026-05-20 03:20:20.413 ERROR [api-gateway] HTTP 500 from redis-cache: Connection timed out
+2026-05-20 03:25:28.624 WARN  [api-gateway] Connection pool utilization at 93%
+2026-05-20 03:57:00.827 INFO  [api-gateway] Request processed successfully in 492ms
+2026-05-20 05:42:00.364 ERROR [api-gateway] Connection refused to notification-service:6379 after 5 retries
+2026-05-20 06:34:00.577 WARN  [api-gateway] Slow query detected: 3779ms on users
+2026-05-20 10:03:00.665 DEBUG [api-gateway] Processing request: method=PUT path=/api/v1/payments
+2026-05-20 10:38:00.721 INFO  [api-gateway] JWT token validated for user_id=usr_58799
+2026-05-20 13:32:00.481 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-05-20 14:25:00.487 INFO  [api-gateway] Processed 1733 messages from topic=notifications
+2026-05-20 14:42:00.202 INFO  [api-gateway] Cache hit ratio: 61% (last 5min)
+2026-05-20 15:06:00.847 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_23330 LIMIT 1
+2026-05-20 15:29:00.250 INFO  [api-gateway] Query executed in 13408ms: SELECT * FROM events
+2026-05-20 17:24:41.583 ERROR [api-gateway] Health check failed: status=DOWN
+2026-05-20 17:38:37.142 WARN  [api-gateway] Kafka consumer lag: 7988 messages on topic=payments
+2026-05-20 17:41:00.308 INFO  [api-gateway] Processed 2819 messages from topic=user-updates
+2026-05-20 18:06:00.602 DEBUG [api-gateway] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-20 19:06:38.691 FATAL [api-gateway] Thread pool exhausted, rejecting new requests
+2026-05-20 20:16:09.942 ERROR [api-gateway] Circuit breaker opened for reporting-service
+2026-05-20 20:44:00.917 INFO  [api-gateway] JWT token validated for user_id=usr_54955
+2026-05-20 21:32:00.281 WARN  [api-gateway] Certificate expires in 9 days for billing.nexora.io
+2026-05-20 22:30:00.254 INFO  [api-gateway] Connected to elasticsearch successfully
+2026-05-21 04:26:00.441 INFO  [api-gateway] JWT token validated for user_id=usr_12434
+2026-05-21 06:17:00.477 INFO  [api-gateway] Query executed in 2233ms: SELECT * FROM payments
+2026-05-21 08:11:00.683 INFO  [api-gateway] Query executed in 3711ms: SELECT * FROM users
+2026-05-21 08:18:00.190 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/analytics
+2026-05-21 08:40:00.393 INFO  [api-gateway] Processed 9031 messages from topic=payments
+2026-05-21 08:54:09.678 FATAL [api-gateway] HTTP 502 from user-service: Host is unreachable
+2026-05-21 10:34:16.714 ERROR [api-gateway] HTTP 502 from reporting-service: Host is unreachable
+2026-05-21 11:13:00.025 INFO  [api-gateway] Processed 9986 messages from topic=auth-events
+2026-05-21 13:27:00.763 INFO  [api-gateway] JWT token validated for user_id=usr_68208
+2026-05-21 13:30:00.475 WARN  [api-gateway] Kafka consumer lag: 37156 messages on topic=user-updates
+2026-05-21 14:56:00.670 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_36252 LIMIT 1
+2026-05-21 16:54:00.230 INFO  [api-gateway] Processed 5214 messages from topic=notifications
+2026-05-21 17:55:50.033 ERROR [api-gateway] Migration lock held longer than expected
+2026-05-21 18:25:10.366 WARN  [api-gateway] Connection pool utilization at 50%
+2026-05-21 18:46:00.619 DEBUG [api-gateway] SQL: SELECT * FROM events WHERE id = usr_38889 LIMIT 1
+2026-05-21 19:38:55.728 FATAL [api-gateway] Request routed to unexpected upstream auth-service
+2026-05-21 20:48:39.390 WARN  [api-gateway] Slow query detected: 12357ms on payments
+2026-05-21 23:02:00.296 ERROR [api-gateway] Database query failed: ConnectionTimeout on table=events
+2026-05-21 23:59:00.830 INFO  [api-gateway] JWT token validated for user_id=usr_76890
+2026-05-22 01:01:57.727 ERROR [api-gateway] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-05-22 01:25:26.451 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-05-22 01:26:52.144 ERROR [api-gateway] Unexpected code path triggered: legacy_handler
+2026-05-22 02:15:21.839 ERROR [api-gateway] Unexpected code path triggered: legacy_handler
+2026-05-22 07:35:00.152 WARN  [api-gateway] Certificate expires in 16 days for billing.nexora.io
+2026-05-22 07:53:00.944 ERROR [api-gateway] HTTP 503 from user-service: Connection reset by peer
+2026-05-22 08:44:00.998 INFO  [api-gateway] Health check passed: status=UP, uptime=46628s
+2026-05-22 12:13:00.318 INFO  [api-gateway] Request processed successfully in 2149ms
+2026-05-22 12:16:00.313 INFO  [api-gateway] Processed 6639 messages from topic=auth-events
+2026-05-22 12:26:00.226 INFO  [api-gateway] Processed 9311 messages from topic=user-updates
+2026-05-22 14:21:00.052 DEBUG [api-gateway] Processing request: method=POST path=/api/v1/analytics
+2026-05-22 16:16:00.399 INFO  [api-gateway] Request processed successfully in 11507ms
+2026-05-22 19:53:00.266 WARN  [api-gateway] Memory usage at 88% — approaching threshold
+2026-05-22 23:23:12.839 ERROR [api-gateway] Request routed to unexpected upstream postgres-replica
+2026-05-22 23:23:14.830 ERROR [api-gateway] Region mismatch: expected staging received alternate region
+2026-05-22 23:54:29.096 ERROR [api-gateway] Request routed to unexpected upstream elasticsearch
+2026-05-23 00:05:45.286 WARN  [api-gateway] Connection pool utilization at 63%
+2026-05-23 05:14:16.101 ERROR [api-gateway] Unexpected config value for key=timeout_ms
+2026-05-23 05:15:01.352 WARN  [api-gateway] Connection pool utilization at 71%
+2026-05-23 05:20:19.339 WARN  [api-gateway] Slow query detected: 2436ms on orders
+2026-05-23 05:24:11.043 WARN  [api-gateway] Memory usage at 97% — approaching threshold
+2026-05-23 05:27:53.491 ERROR [api-gateway] Deployed version v2.16.4 to production
+2026-05-23 05:29:08.225 ERROR [api-gateway] Unexpected config value for key=timeout_ms
+2026-05-23 05:38:50.055 FATAL [api-gateway] Configuration checksum mismatch across replicas
+2026-05-23 09:16:00.850 WARN  [api-gateway] Slow query detected: 9144ms on orders
+2026-05-23 09:54:00.029 INFO  [api-gateway] JWT token validated for user_id=usr_93092
+2026-05-23 12:23:00.223 INFO  [api-gateway] JWT token validated for user_id=usr_51167
+2026-05-23 19:08:00.706 ERROR [api-gateway] HTTP 502 from reporting-service: Permission denied
+2026-05-23 19:58:00.235 WARN  [api-gateway] Retry attempt 4/3 for billing-service
+2026-05-23 22:09:00.162 INFO  [api-gateway] Request processed successfully in 8979ms
+2026-05-23 23:36:00.234 WARN  [api-gateway] Memory usage at 52% — approaching threshold
+2026-05-24 00:11:00.823 DEBUG [api-gateway] Processing request: method=DELETE path=/api/v1/analytics
+2026-05-24 00:22:00.765 INFO  [api-gateway] Health check passed: status=UP, uptime=3586s
+2026-05-24 00:31:00.293 WARN  [api-gateway] Memory usage at 65% — approaching threshold
+2026-05-24 01:25:44.991 FATAL [api-gateway] Health check failed: status=DOWN
+2026-05-24 01:35:00.561 WARN  [api-gateway] Kafka consumer lag: 54112 messages on topic=auth-events
+2026-05-24 01:36:08.994 ERROR [api-gateway] Too many open files
+2026-05-24 02:28:01.663 ERROR [api-gateway] Process killed by OOM killer: RSS=3943MB, limit=1478MB
+2026-05-24 02:46:04.293 ERROR [api-gateway] Too many open files
+2026-05-24 08:00:00.488 INFO  [api-gateway] Query executed in 13707ms: SELECT * FROM orders
+2026-05-24 15:03:21.434 WARN  [api-gateway] Kafka consumer lag: 84816 messages on topic=payments
+2026-05-24 15:26:51.328 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-05-24 18:41:00.074 INFO  [api-gateway] Request processed successfully in 4955ms
+2026-05-24 18:55:00.047 WARN  [api-gateway] Kafka consumer lag: 54061 messages on topic=notifications
+2026-05-25 01:29:00.720 ERROR [api-gateway] HTTP 500 from billing-service: Connection timed out
+2026-05-25 02:41:00.428 INFO  [api-gateway] Connected to reporting-service successfully
+2026-05-25 02:42:00.524 INFO  [api-gateway] Health check passed: status=UP, uptime=44639s
+2026-05-25 03:31:00.935 ERROR [api-gateway] Connection refused to auth-service:5432 after 4 retries
+2026-05-25 05:58:00.515 ERROR [api-gateway] Database query failed: NullPointerException on table=sessions
+2026-05-25 09:10:00.222 WARN  [api-gateway] Retry attempt 3/3 for analytics-engine
+2026-05-25 10:34:00.096 DEBUG [api-gateway] SQL: SELECT * FROM events WHERE id = usr_59085 LIMIT 1
+2026-05-25 11:42:00.979 INFO  [api-gateway] Processed 405 messages from topic=notifications
+2026-05-25 13:23:00.586 ERROR [api-gateway] Database query failed: SchemaValidationError on table=orders
+2026-05-25 16:52:00.731 INFO  [api-gateway] Health check passed: status=UP, uptime=70937s
+2026-05-25 17:22:00.230 WARN  [api-gateway] Retry attempt 3/3 for billing-service
+2026-05-25 17:40:00.855 ERROR [api-gateway] Timeout waiting for response from nginx-ingress after 10000ms
+2026-05-25 17:43:00.029 INFO  [api-gateway] Request processed successfully in 14822ms
+2026-05-25 19:26:55.575 FATAL [api-gateway] Stale endpoint resolved for postgres-replica, expected updated IP
+2026-05-25 19:48:28.029 WARN  [api-gateway] Certificate expires in 6 days for auth.nexora.io
+2026-05-25 19:51:00.416 FATAL [api-gateway] Unexpected config value for key=timeout_ms
+2026-05-25 19:52:57.270 ERROR [api-gateway] Deployed version v2.15.6 to production
+2026-05-25 19:59:48.112 WARN  [api-gateway] Certificate expires in 13 days for auth.nexora.io
+2026-05-25 20:09:44.533 WARN  [api-gateway] Slow query detected: 13074ms on metrics
+2026-05-25 20:10:25.813 FATAL [api-gateway] Deployed version v2.13.1 to staging
+2026-05-25 20:21:27.277 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-05-25 20:50:39.908 WARN  [api-gateway] Retry attempt 1/3 for elasticsearch
+2026-05-25 21:00:12.890 FATAL [api-gateway] Stale endpoint resolved for auth-service, expected updated IP
+2026-05-25 21:04:15.163 ERROR [api-gateway] Stale endpoint resolved for reporting-service, expected updated IP
+2026-05-25 22:26:00.608 INFO  [api-gateway] Processed 8840 messages from topic=user-updates
+2026-05-25 22:51:00.463 ERROR [api-gateway] Connection refused to postgres-primary:9092 after 4 retries
+2026-05-26 03:44:00.113 ERROR [api-gateway] Database query failed: DeadlockDetected on table=users
+2026-05-26 04:25:00.317 INFO  [api-gateway] Request processed successfully in 8582ms
+2026-05-26 06:16:00.652 INFO  [api-gateway] Cache hit ratio: 60% (last 5min)
+2026-05-26 06:18:00.954 WARN  [api-gateway] Retry attempt 3/3 for notification-service
+2026-05-26 07:13:00.948 INFO  [api-gateway] Health check passed: status=UP, uptime=30682s
+2026-05-26 07:57:00.872 INFO  [api-gateway] Query executed in 13168ms: SELECT * FROM sessions
+2026-05-26 08:35:00.096 INFO  [api-gateway] Request processed successfully in 581ms
+2026-05-26 09:25:00.221 ERROR [api-gateway] HTTP 502 from analytics-engine: No route to host
+2026-05-26 13:25:00.410 INFO  [api-gateway] Request processed successfully in 10ms
+2026-05-26 15:32:45.400 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-05-26 15:40:31.415 ERROR [api-gateway] Deployed version v2.12.0 to staging
+2026-05-26 15:48:51.447 FATAL [api-gateway] Deployed version v2.10.1 to staging
+2026-05-26 15:55:24.809 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-05-26 16:06:14.237 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-05-26 16:06:27.193 ERROR [api-gateway] Deployed version v2.11.7 to staging
+2026-05-26 16:19:22.424 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-05-26 16:37:00.517 INFO  [api-gateway] Cache hit ratio: 79% (last 5min)
+2026-05-26 18:25:00.280 INFO  [api-gateway] Processed 1623 messages from topic=auth-events
+2026-05-26 19:14:00.476 INFO  [api-gateway] JWT token validated for user_id=usr_89835
+2026-05-26 19:47:00.698 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_68523 LIMIT 1
+2026-05-27 00:06:00.636 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-05-27 02:04:00.157 INFO  [api-gateway] Health check passed: status=UP, uptime=83551s
+2026-05-27 02:16:00.888 INFO  [api-gateway] Request processed successfully in 5310ms
+2026-05-27 02:57:00.144 DEBUG [api-gateway] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-27 07:11:00.691 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-05-27 07:59:00.235 INFO  [api-gateway] Processed 6170 messages from topic=notifications
+2026-05-27 10:06:00.254 ERROR [api-gateway] Connection refused to redis-cache:443 after 3 retries
+2026-05-27 10:38:00.488 INFO  [api-gateway] Request processed successfully in 11892ms
+2026-05-27 11:08:00.080 INFO  [api-gateway] Processed 3290 messages from topic=notifications
+2026-05-27 12:19:12.360 ERROR [api-gateway] Pod scheduling failed: insufficient resources
+2026-05-27 13:16:32.737 ERROR [api-gateway] Pod scheduling failed: insufficient resources
+2026-05-27 17:37:34.717 FATAL [api-gateway] Write failed: No space left on device
+2026-05-27 17:38:09.953 WARN  [api-gateway] Connection pool utilization at 70%
+2026-05-27 17:48:00.598 INFO  [api-gateway] Request processed successfully in 13037ms
+2026-05-27 17:55:02.021 ERROR [api-gateway] Disk usage at 62% on /data volume
+2026-05-27 18:10:00.076 WARN  [api-gateway] Slow query detected: 6334ms on metrics
+2026-05-27 23:40:00.116 WARN  [api-gateway] Retry attempt 3/3 for auth-service
+2026-05-27 23:40:37.426 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-05-28 00:13:09.780 ERROR [api-gateway] Certificate expires in 1 days for auth.nexora.io
+2026-05-28 00:17:08.970 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-05-28 00:25:38.387 ERROR [api-gateway] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-05-28 00:27:00.559 WARN  [api-gateway] Certificate expires in 18 days for billing.nexora.io
+2026-05-28 00:36:05.369 ERROR [api-gateway] Unexpected code path triggered: legacy_handler
+2026-05-28 01:50:22.845 ERROR [api-gateway] TLS handshake failed: certificate verify failed
+2026-05-28 02:52:00.325 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-05-28 03:54:00.259 INFO  [api-gateway] Query executed in 1848ms: SELECT * FROM users
+2026-05-28 04:30:00.000 INFO  [api-gateway] Cache hit ratio: 77% (last 5min)
+2026-05-28 06:41:00.316 INFO  [api-gateway] JWT token validated for user_id=usr_64617
+2026-05-28 08:23:17.404 WARN  [api-gateway] Retry attempt 4/3 for notification-service
+2026-05-28 08:50:36.936 FATAL [api-gateway] DNS resolution failed for postgres-primary
+2026-05-28 12:24:00.274 FATAL [api-gateway] Unable to connect to notification-service: all 4 retries exhausted
+2026-05-28 15:35:00.473 WARN  [api-gateway] Memory usage at 87% — approaching threshold
+2026-05-28 16:57:36.438 ERROR [api-gateway] Timeout waiting for response from auth-service after 10000ms
+2026-05-28 17:34:34.272 WARN  [api-gateway] Connection pool utilization at 68%
+2026-05-28 18:14:07.864 ERROR [api-gateway] Slow query detected: 11291ms on orders
+2026-05-28 18:19:18.512 ERROR [api-gateway] Slow query detected: 7425ms on users
+2026-05-29 04:21:00.820 WARN  [api-gateway] Kafka consumer lag: 90348 messages on topic=auth-events
+2026-05-29 05:30:00.369 INFO  [api-gateway] JWT token validated for user_id=usr_51601
+2026-05-29 06:31:51.573 ERROR [api-gateway] Migration lock held longer than expected
+2026-05-29 06:46:32.712 ERROR [api-gateway] Migration lock held longer than expected
+2026-05-29 06:47:07.441 FATAL [api-gateway] Migration lock held longer than expected
+2026-05-29 06:48:42.122 ERROR [api-gateway] Migration lock held longer than expected
+2026-05-29 08:53:00.813 INFO  [api-gateway] Query executed in 5059ms: SELECT * FROM sessions
+2026-05-29 09:30:00.818 WARN  [api-gateway] Slow query detected: 2033ms on orders
+2026-05-29 13:40:00.742 INFO  [api-gateway] Processed 3100 messages from topic=user-updates
+2026-05-29 20:24:00.497 INFO  [api-gateway] Health check passed: status=UP, uptime=77160s
+2026-05-29 20:49:24.111 FATAL [api-gateway] Too many open files
+2026-05-29 21:15:15.641 WARN  [api-gateway] Slow query detected: 14688ms on orders
+2026-05-29 21:59:00.252 INFO  [api-gateway] JWT token validated for user_id=usr_14625
+2026-05-30 01:12:01.116 WARN  [api-gateway] Slow query detected: 9426ms on orders
+2026-05-30 01:59:33.848 FATAL [api-gateway] Write failed: No space left on device
+2026-05-30 03:15:00.611 WARN  [api-gateway] Kafka consumer lag: 27659 messages on topic=auth-events
+2026-05-30 04:14:00.993 DEBUG [api-gateway] Cache lookup: key=dark_launch_v2 result=HIT
+2026-05-30 04:28:00.052 ERROR [api-gateway] Timeout waiting for response from reporting-service after 10000ms
+2026-05-30 06:56:00.730 INFO  [api-gateway] Connected to auth-service successfully
+2026-05-30 07:20:00.893 WARN  [api-gateway] Certificate expires in 25 days for billing.nexora.io
+2026-05-30 07:37:00.051 INFO  [api-gateway] Processed 5933 messages from topic=auth-events
+2026-05-30 07:40:00.295 INFO  [api-gateway] Cache hit ratio: 69% (last 5min)
+2026-05-30 07:56:00.625 INFO  [api-gateway] Connected to postgres-primary successfully
+2026-05-30 08:59:00.639 WARN  [api-gateway] Retry attempt 1/3 for analytics-engine
+2026-05-30 10:45:36.460 ERROR [api-gateway] HTTP 500 from auth-service: Broken pipe
+2026-05-30 11:20:28.141 ERROR [api-gateway] Failed to process message: offset=128374, topic=payments
+2026-05-30 12:36:00.874 INFO  [api-gateway] Query executed in 6477ms: SELECT * FROM users
+2026-05-30 12:49:00.774 DEBUG [api-gateway] Cache lookup: key=beta_search_ranking result=MISS
+2026-05-30 15:29:00.282 INFO  [api-gateway] Connected to reporting-service successfully
+2026-05-30 20:35:00.098 INFO  [api-gateway] JWT token validated for user_id=usr_13988
+2026-05-30 22:57:00.684 WARN  [api-gateway] Memory usage at 50% — approaching threshold
+2026-05-30 23:29:00.500 INFO  [api-gateway] Cache hit ratio: 94% (last 5min)
+2026-05-30 23:29:00.765 WARN  [api-gateway] Retry attempt 5/3 for analytics-engine
+2026-05-30 23:41:00.231 INFO  [api-gateway] Request processed successfully in 4040ms
+2026-05-30 23:44:40.709 ERROR [api-gateway] Secret version mismatch detected
+2026-05-31 00:01:54.560 ERROR [api-gateway] Database connection failed: password authentication failed
+2026-05-31 00:36:29.830 FATAL [api-gateway] Authentication failed for user_id=usr_31481: ConnectionTimeout
+2026-05-31 00:46:34.387 ERROR [api-gateway] Database connection failed: password authentication failed
+2026-05-31 01:30:00.589 INFO  [api-gateway] Query executed in 1795ms: SELECT * FROM payments
+2026-05-31 01:48:00.909 DEBUG [api-gateway] SQL: SELECT * FROM events WHERE id = usr_93628 LIMIT 1
+2026-05-31 05:29:00.319 INFO  [api-gateway] Health check passed: status=UP, uptime=41288s
+2026-05-31 06:41:00.295 INFO  [api-gateway] Query executed in 4052ms: SELECT * FROM metrics
+2026-05-31 10:33:00.518 ERROR [api-gateway] Database query failed: NullPointerException on table=metrics
+2026-05-31 10:55:00.479 INFO  [api-gateway] Query executed in 5424ms: SELECT * FROM users
+2026-05-31 11:07:06.500 ERROR [api-gateway] Health check failed: status=DOWN
+2026-05-31 11:50:27.598 ERROR [api-gateway] Region mismatch: expected production received alternate region
+2026-05-31 16:04:00.127 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_92419 LIMIT 1
+2026-05-31 16:07:00.908 ERROR [api-gateway] Database query failed: ConnectionTimeout on table=sessions
+2026-05-31 16:31:00.386 INFO  [api-gateway] Cache hit ratio: 98% (last 5min)
+2026-05-31 18:39:00.953 INFO  [api-gateway] Processed 2383 messages from topic=auth-events
+2026-05-31 18:47:00.179 FATAL [api-gateway] Unable to connect to kafka: all 1 retries exhausted
+2026-05-31 20:01:00.071 INFO  [api-gateway] JWT token validated for user_id=usr_48426
+2026-05-31 21:26:00.078 INFO  [api-gateway] Cache hit ratio: 73% (last 5min)
+2026-06-01 00:07:00.720 WARN  [api-gateway] Kafka consumer lag: 60382 messages on topic=analytics
+2026-06-01 12:09:00.082 ERROR [api-gateway] Connection refused to billing-service:8080 after 3 retries
+2026-06-01 12:56:00.000 WARN  [api-gateway] Kafka consumer lag: 16134 messages on topic=analytics
+2026-06-01 15:38:00.215 DEBUG [api-gateway] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-01 21:06:00.314 WARN  [api-gateway] Memory usage at 66% — approaching threshold
+2026-06-01 22:58:00.072 INFO  [api-gateway] Connected to kafka successfully
+2026-06-02 04:38:00.613 DEBUG [api-gateway] SQL: SELECT * FROM sessions WHERE id = usr_28408 LIMIT 1
+2026-06-02 05:42:00.838 WARN  [api-gateway] Retry attempt 2/3 for analytics-engine
+2026-06-02 09:15:00.797 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-06-02 11:13:00.997 ERROR [api-gateway] Connection refused to auth-service:5432 after 1 retries
+2026-06-02 12:10:00.892 INFO  [api-gateway] JWT token validated for user_id=usr_29662
+2026-06-02 15:00:45.973 ERROR [api-gateway] Suspicious request pattern flagged for review
+2026-06-02 15:09:09.987 ERROR [api-gateway] Suspicious request pattern flagged for review
+2026-06-02 15:09:33.137 ERROR [api-gateway] Authentication failed for user_id=usr_11403: ConnectionTimeout
+2026-06-02 15:15:03.665 FATAL [api-gateway] Authentication failed for user_id=usr_61705: DeadlockDetected
+2026-06-02 15:17:02.656 WARN  [api-gateway] Kafka consumer lag: 34316 messages on topic=notifications
+2026-06-02 15:28:46.660 FATAL [api-gateway] Rate limit exceeded: 28/1452 requests from single source
+2026-06-02 15:31:50.486 ERROR [api-gateway] Rate limit exceeded: 2862/5232 requests from single source
+2026-06-02 16:25:00.124 INFO  [api-gateway] Health check passed: status=UP, uptime=65140s
+2026-06-02 16:25:00.070 INFO  [api-gateway] JWT token validated for user_id=usr_42669
+2026-06-02 18:23:00.734 FATAL [api-gateway] Process killed by OOM killer: RSS=971MB, limit=4007MB
+2026-06-02 18:33:33.132 ERROR [api-gateway] Timeout waiting for response from billing-service after 10000ms
+2026-06-02 18:33:53.970 ERROR [api-gateway] Timeout waiting for response from analytics-engine after 5000ms
+2026-06-02 18:38:59.560 WARN  [api-gateway] Slow query detected: 8656ms on events
+2026-06-02 18:39:01.706 ERROR [api-gateway] Connection refused to analytics-engine:443 after 1 retries
+2026-06-02 18:49:22.711 ERROR [api-gateway] Connection refused to notification-service:443 after 2 retries
+2026-06-02 18:52:52.392 ERROR [api-gateway] Circuit breaker opened for postgres-primary
+2026-06-02 18:54:31.746 ERROR [api-gateway] Connection refused to nginx-ingress:6379 after 3 retries
+2026-06-02 19:57:13.141 ERROR [api-gateway] Process killed by OOM killer: RSS=3807MB, limit=7534MB
+2026-06-02 20:01:00.502 INFO  [api-gateway] Query executed in 14224ms: SELECT * FROM payments
+2026-06-02 20:15:04.120 ERROR [api-gateway] Authentication failed for user_id=usr_92435: ConnectionTimeout
+2026-06-02 20:19:29.105 WARN  [api-gateway] Certificate expires in 30 days for auth.nexora.io
+2026-06-02 20:35:43.705 FATAL [api-gateway] Memory usage at 50% — approaching threshold
+2026-06-02 20:35:45.567 WARN  [api-gateway] Kafka consumer lag: 88864 messages on topic=payments
+2026-06-02 20:35:47.743 FATAL [api-gateway] Memory usage at 92% — approaching threshold
+2026-06-02 23:21:00.970 INFO  [api-gateway] Connected to redis-cache successfully
+2026-06-02 23:29:00.834 INFO  [api-gateway] Cache hit ratio: 84% (last 5min)
+2026-06-02 23:53:58.722 WARN  [api-gateway] Slow query detected: 4378ms on orders
+2026-06-03 02:52:00.446 ERROR [api-gateway] HTTP 503 from postgres-replica: Too many open files
+2026-06-03 02:55:00.368 INFO  [api-gateway] Request processed successfully in 7522ms
+2026-06-03 04:11:04.885 ERROR [api-gateway] Health check failed: status=DOWN
+2026-06-03 09:08:00.801 ERROR [api-gateway] Timeout waiting for response from user-service after 10000ms
+2026-06-03 12:15:00.389 INFO  [api-gateway] Query executed in 14799ms: SELECT * FROM payments
+2026-06-03 12:50:33.425 ERROR [api-gateway] NTP sync failed, offset=11070ms
+2026-06-03 13:09:00.231 ERROR [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_12796
+2026-06-03 13:23:47.112 FATAL [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-03 13:26:12.985 ERROR [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-03 14:37:28.531 WARN  [api-gateway] Retry attempt 5/3 for auth-service
+2026-06-03 14:43:24.982 FATAL [api-gateway] WAL replay stalled on standby
+2026-06-03 14:49:33.845 ERROR [api-gateway] Connection refused to postgres-replica:5432 after 1 retries
+2026-06-03 14:51:34.358 ERROR [api-gateway] Replication lag: 5377ms behind primary
+2026-06-03 15:06:28.023 WARN  [api-gateway] Memory usage at 86% — approaching threshold
+2026-06-03 15:12:35.154 WARN  [api-gateway] Certificate expires in 7 days for api.nexora.io
+2026-06-03 17:11:00.233 INFO  [api-gateway] Processed 1309 messages from topic=user-updates
+2026-06-03 20:11:00.500 INFO  [api-gateway] Health check passed: status=UP, uptime=57691s
+2026-06-03 20:17:00.665 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/analytics
+2026-06-03 23:40:06.346 WARN  [api-gateway] Certificate expires in 19 days for billing.nexora.io
+2026-06-04 00:18:55.113 ERROR [api-gateway] HTTP 500 from kafka: Resource temporarily unavailable
+2026-06-04 00:25:00.583 WARN  [api-gateway] Kafka consumer lag: 20599 messages on topic=payments
+2026-06-04 04:29:00.872 INFO  [api-gateway] Request processed successfully in 641ms
+2026-06-04 08:37:00.656 WARN  [api-gateway] Connection pool utilization at 57%
+2026-06-04 10:30:00.928 INFO  [api-gateway] Health check passed: status=UP, uptime=79803s
+2026-06-04 14:04:14.769 ERROR [api-gateway] Database connection failed: password authentication failed
+2026-06-04 14:41:40.969 ERROR [api-gateway] Database connection failed: password authentication failed
+2026-06-04 15:04:24.422 WARN  [api-gateway] Retry attempt 3/3 for reporting-service
+2026-06-04 15:07:43.682 ERROR [api-gateway] Authentication failed for user_id=usr_10847: ConnectionTimeout
+2026-06-04 15:21:00.576 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-06-04 16:58:44.302 ERROR [api-gateway] Failed to process message: offset=452334, topic=auth-events
+2026-06-04 17:04:31.162 ERROR [api-gateway] Failed to process message: offset=477185, topic=notifications
+2026-06-04 18:33:00.286 WARN  [api-gateway] Slow query detected: 7079ms on sessions
+2026-06-04 21:25:00.927 INFO  [api-gateway] Cache hit ratio: 73% (last 5min)
+2026-06-05 05:13:00.279 WARN  [api-gateway] Certificate expires in 1 days for api.nexora.io
+2026-06-05 07:42:00.186 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_89147 LIMIT 1
+2026-06-05 11:58:00.446 ERROR [api-gateway] Database query failed: SchemaValidationError on table=events
+2026-06-05 12:56:00.638 ERROR [api-gateway] Database query failed: SchemaValidationError on table=metrics
+2026-06-05 18:37:00.402 WARN  [api-gateway] Memory usage at 60% — approaching threshold
+2026-06-05 18:42:00.593 WARN  [api-gateway] Memory usage at 78% — approaching threshold
+2026-06-05 20:28:00.550 INFO  [api-gateway] JWT token validated for user_id=usr_46084
+2026-06-06 03:37:00.213 INFO  [api-gateway] Health check passed: status=UP, uptime=50075s
+2026-06-06 06:31:00.748 WARN  [api-gateway] Certificate expires in 20 days for billing.nexora.io
+2026-06-06 07:06:00.506 INFO  [api-gateway] Connected to nginx-ingress successfully
+2026-06-06 07:09:00.150 DEBUG [api-gateway] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-06 07:17:00.148 INFO  [api-gateway] Health check passed: status=UP, uptime=12918s
+2026-06-06 07:17:00.742 INFO  [api-gateway] JWT token validated for user_id=usr_71534
+2026-06-06 07:36:13.980 FATAL [api-gateway] Migration lock held longer than expected
+2026-06-06 08:03:00.886 WARN  [api-gateway] Slow query detected: 5432ms on sessions
+2026-06-06 08:44:10.519 ERROR [api-gateway] Migration lock held longer than expected
+2026-06-06 09:09:48.129 ERROR [api-gateway] Database query failed: NullPointerException on table=metrics
+2026-06-06 16:01:00.322 ERROR [api-gateway] Timeout waiting for response from reporting-service after 10000ms
+2026-06-06 16:14:00.044 INFO  [api-gateway] Query executed in 3049ms: SELECT * FROM orders
+2026-06-06 21:50:00.878 INFO  [api-gateway] Query executed in 13523ms: SELECT * FROM metrics
+2026-06-07 00:04:00.708 INFO  [api-gateway] Processed 8326 messages from topic=notifications
+2026-06-07 02:16:00.007 WARN  [api-gateway] Certificate expires in 7 days for billing.nexora.io
+2026-06-07 05:04:52.750 WARN  [api-gateway] Kafka consumer lag: 35065 messages on topic=auth-events
+2026-06-07 05:12:54.462 WARN  [api-gateway] Memory usage at 89% — approaching threshold
+2026-06-07 06:14:00.956 INFO  [api-gateway] Request processed successfully in 6514ms
+2026-06-07 07:13:00.488 ERROR [api-gateway] Timeout waiting for response from reporting-service after 10000ms
+2026-06-07 11:49:00.414 DEBUG [api-gateway] Processing request: method=GET path=/health
+2026-06-07 11:54:00.645 DEBUG [api-gateway] SQL: SELECT * FROM events WHERE id = usr_80933 LIMIT 1
+2026-06-07 12:14:00.146 INFO  [api-gateway] Query executed in 5362ms: SELECT * FROM metrics
+2026-06-07 12:21:00.142 WARN  [api-gateway] Kafka consumer lag: 64346 messages on topic=notifications
+2026-06-07 13:50:00.777 INFO  [api-gateway] Connected to billing-service successfully
+2026-06-07 15:05:00.912 WARN  [api-gateway] Retry attempt 2/3 for search-service
+2026-06-07 16:29:00.327 INFO  [api-gateway] Query executed in 5637ms: SELECT * FROM sessions
+2026-06-07 19:02:00.425 INFO  [api-gateway] Health check passed: status=UP, uptime=35194s
+2026-06-07 20:37:00.462 WARN  [api-gateway] Memory usage at 55% — approaching threshold
+2026-06-08 01:46:00.533 INFO  [api-gateway] Processed 5245 messages from topic=user-updates
+2026-06-08 02:40:00.380 WARN  [api-gateway] Memory usage at 87% — approaching threshold
+2026-06-08 02:49:00.641 WARN  [api-gateway] Retry attempt 4/3 for analytics-engine
+2026-06-08 05:15:00.977 INFO  [api-gateway] Connected to reporting-service successfully
+2026-06-08 14:22:00.835 WARN  [api-gateway] Certificate expires in 2 days for billing.nexora.io
+2026-06-08 16:23:02.091 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-06-08 16:43:00.137 INFO  [api-gateway] JWT token validated for user_id=usr_84508
+2026-06-08 17:20:18.801 ERROR [api-gateway] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-06-08 18:30:00.822 DEBUG [api-gateway] SQL: SELECT * FROM orders WHERE id = usr_40103 LIMIT 1
+2026-06-08 19:45:00.966 INFO  [api-gateway] Processed 5213 messages from topic=notifications
+2026-06-08 21:51:00.152 INFO  [api-gateway] Cache hit ratio: 77% (last 5min)
+2026-06-09 00:34:00.281 INFO  [api-gateway] Query executed in 2176ms: SELECT * FROM sessions
+2026-06-09 03:02:00.878 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/users
+2026-06-09 05:03:00.621 INFO  [api-gateway] JWT token validated for user_id=usr_99429
+2026-06-09 09:59:00.989 INFO  [api-gateway] Cache hit ratio: 61% (last 5min)
+2026-06-09 10:20:00.837 DEBUG [api-gateway] Processing request: method=PUT path=/health
+2026-06-09 12:35:00.663 INFO  [api-gateway] JWT token validated for user_id=usr_70721
+2026-06-09 15:30:00.622 WARN  [api-gateway] Retry attempt 2/3 for reporting-service
+2026-06-09 17:45:00.161 INFO  [api-gateway] Connected to redis-cache successfully
+2026-06-09 17:48:00.404 INFO  [api-gateway] Connected to redis-cache successfully
+2026-06-09 18:16:00.624 INFO  [api-gateway] Health check passed: status=UP, uptime=60655s
+2026-06-09 19:46:51.616 ERROR [api-gateway] Cache hit ratio dropped to 61%
+2026-06-09 20:35:00.218 FATAL [api-gateway] Process killed by OOM killer: RSS=1287MB, limit=1342MB
+2026-06-09 20:58:29.098 ERROR [api-gateway] Cache lookup: key=dark_launch_v2 result=MISS
+2026-06-10 13:56:00.491 INFO  [api-gateway] Query executed in 2012ms: SELECT * FROM sessions
+2026-06-10 18:03:00.263 WARN  [api-gateway] Retry attempt 4/3 for search-service
+2026-06-10 19:57:00.742 DEBUG [api-gateway] Processing request: method=DELETE path=/api/v1/payments
+2026-06-10 22:02:00.621 WARN  [api-gateway] Slow query detected: 6912ms on payments
+2026-06-11 00:47:00.234 INFO  [api-gateway] Connected to analytics-engine successfully
+2026-06-11 04:22:00.865 INFO  [api-gateway] Connected to elasticsearch successfully
+2026-06-11 04:36:40.209 ERROR [api-gateway] Timeout waiting for response from redis-cache after 30000ms
+2026-06-11 04:54:00.170 WARN  [api-gateway] Certificate expires in 18 days for api.nexora.io
+2026-06-11 05:46:08.090 FATAL [api-gateway] Timeout waiting for response from search-service after 5000ms
+2026-06-11 06:38:00.617 INFO  [api-gateway] Cache hit ratio: 93% (last 5min)
+2026-06-11 08:02:10.052 WARN  [api-gateway] Retry attempt 5/3 for reporting-service
+2026-06-11 08:04:00.716 INFO  [api-gateway] Processed 5730 messages from topic=user-updates
+2026-06-11 08:06:51.998 WARN  [api-gateway] Retry attempt 3/3 for auth-service
+2026-06-11 09:24:28.084 ERROR [api-gateway] Health check failed: status=DOWN
+2026-06-11 09:36:16.876 ERROR [api-gateway] Region mismatch: expected staging received alternate region
+2026-06-11 13:05:00.947 ERROR [api-gateway] Timeout waiting for response from user-service after 5000ms
+2026-06-11 14:21:00.735 WARN  [api-gateway] Certificate expires in 24 days for auth.nexora.io
+2026-06-11 21:13:00.375 INFO  [api-gateway] JWT token validated for user_id=usr_41112
+2026-06-11 22:19:00.536 INFO  [api-gateway] Query executed in 6404ms: SELECT * FROM orders
+2026-06-11 23:15:00.546 INFO  [api-gateway] Connected to postgres-replica successfully
+2026-06-11 23:52:00.362 INFO  [api-gateway] Health check passed: status=UP, uptime=39740s
+2026-06-12 00:01:00.837 INFO  [api-gateway] Request processed successfully in 6324ms
+2026-06-12 00:40:57.353 ERROR [api-gateway] Cache lookup: key=dark_launch_v2 result=MISS
+2026-06-12 00:41:38.309 ERROR [api-gateway] Cache hit ratio dropped to 59%
+2026-06-12 00:55:28.775 WARN  [api-gateway] Connection pool utilization at 96%
+2026-06-12 00:59:12.359 ERROR [api-gateway] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-12 01:44:00.594 WARN  [api-gateway] Slow query detected: 4644ms on orders
+2026-06-12 02:10:00.142 ERROR [api-gateway] HTTP 503 from auth-service: Resource temporarily unavailable
+2026-06-12 03:29:00.321 INFO  [api-gateway] JWT token validated for user_id=usr_84831
+2026-06-12 04:51:00.543 INFO  [api-gateway] Cache hit ratio: 63% (last 5min)
+2026-06-12 07:03:10.397 ERROR [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-12 07:20:00.649 DEBUG [api-gateway] Processing request: method=POST path=/api/v1/analytics
+2026-06-12 07:25:34.506 FATAL [api-gateway] NTP sync failed, offset=1865ms
+2026-06-12 07:38:48.456 FATAL [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_15077
+2026-06-12 07:43:15.698 ERROR [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_28230
+2026-06-12 09:20:00.882 INFO  [api-gateway] Query executed in 11022ms: SELECT * FROM metrics
+2026-06-12 11:36:00.776 INFO  [api-gateway] Cache hit ratio: 93% (last 5min)
+2026-06-12 18:17:00.697 WARN  [api-gateway] Retry attempt 5/3 for postgres-primary
+2026-06-12 18:23:00.244 INFO  [api-gateway] Query executed in 13326ms: SELECT * FROM events
+2026-06-12 18:36:00.619 INFO  [api-gateway] Connected to kafka successfully
+2026-06-12 20:12:00.111 WARN  [api-gateway] Connection pool utilization at 58%
+2026-06-13 02:08:00.932 DEBUG [api-gateway] Processing request: method=POST path=/health
+2026-06-13 04:05:00.640 INFO  [api-gateway] JWT token validated for user_id=usr_59258
+2026-06-13 05:25:00.707 FATAL [api-gateway] Unable to connect to reporting-service: all 2 retries exhausted
+2026-06-13 06:05:18.160 ERROR [api-gateway] Circuit breaker opened for elasticsearch
+2026-06-13 06:42:00.217 ERROR [api-gateway] Database query failed: NullPointerException on table=metrics
+2026-06-13 06:53:26.206 ERROR [api-gateway] Retry storm detected: 3557 retries/min to postgres-primary
+2026-06-13 08:21:00.056 WARN  [api-gateway] Retry attempt 2/3 for user-service
+2026-06-13 09:27:00.942 INFO  [api-gateway] Request processed successfully in 10676ms
+2026-06-13 10:34:00.921 WARN  [api-gateway] Retry attempt 3/3 for notification-service
+2026-06-13 12:17:01.318 ERROR [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-13 12:17:55.932 WARN  [api-gateway] Slow query detected: 6143ms on metrics
+2026-06-13 12:20:05.197 ERROR [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_86416
+2026-06-13 12:21:00.467 INFO  [api-gateway] Health check passed: status=UP, uptime=85602s
+2026-06-13 12:21:23.287 ERROR [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_77599
+2026-06-13 12:22:10.071 FATAL [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-13 12:25:36.257 WARN  [api-gateway] Retry attempt 5/3 for analytics-engine
+2026-06-13 12:26:14.223 ERROR [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-13 12:38:00.401 INFO  [api-gateway] Query executed in 6684ms: SELECT * FROM metrics
+2026-06-13 13:14:16.677 ERROR [api-gateway] DNS resolution failed for billing-service
+2026-06-13 13:17:35.093 ERROR [api-gateway] Stale endpoint resolved for auth-service, expected updated IP
+2026-06-13 13:36:00.038 WARN  [api-gateway] Certificate expires in 22 days for auth.nexora.io
+2026-06-13 13:36:53.149 WARN  [api-gateway] Kafka consumer lag: 93166 messages on topic=payments
+2026-06-13 14:01:37.103 FATAL [api-gateway] DNS resolution failed for reporting-service
+2026-06-13 17:30:30.190 ERROR [api-gateway] Authentication failed for user_id=usr_68600: NullPointerException
+2026-06-13 19:00:16.539 FATAL [api-gateway] HTTP 502 from analytics-engine: Connection timed out
+2026-06-13 21:47:00.326 INFO  [api-gateway] Query executed in 5677ms: SELECT * FROM orders
+2026-06-13 22:29:00.251 INFO  [api-gateway] Processed 5884 messages from topic=user-updates
+2026-06-14 00:49:00.004 WARN  [api-gateway] Certificate expires in 26 days for billing.nexora.io
+2026-06-14 02:04:00.377 INFO  [api-gateway] Health check passed: status=UP, uptime=51537s
+2026-06-14 09:45:00.131 INFO  [api-gateway] Processed 660 messages from topic=analytics
+2026-06-14 12:47:00.784 WARN  [api-gateway] Slow query detected: 3467ms on metrics
+2026-06-14 16:18:33.486 FATAL [api-gateway] CPU throttling detected: 98% of periods throttled
+2026-06-14 17:00:21.754 WARN  [api-gateway] Memory usage at 89% — approaching threshold
+2026-06-14 20:04:00.487 WARN  [api-gateway] Memory usage at 99% — approaching threshold
+2026-06-14 20:42:00.047 WARN  [api-gateway] Retry attempt 1/3 for postgres-replica
+2026-06-14 23:29:00.098 WARN  [api-gateway] Certificate expires in 4 days for auth.nexora.io
+2026-06-15 00:53:00.507 DEBUG [api-gateway] Cache lookup: key=session:1234 result=HIT
+2026-06-15 07:07:00.170 INFO  [api-gateway] Request processed successfully in 6950ms
+2026-06-15 08:10:00.718 INFO  [api-gateway] Health check passed: status=UP, uptime=17145s
+2026-06-15 10:49:46.518 ERROR [api-gateway] Secret version mismatch detected
+2026-06-15 10:51:00.481 WARN  [api-gateway] Connection pool utilization at 69%
+2026-06-15 10:59:53.626 ERROR [api-gateway] Secret version mismatch detected
+2026-06-15 11:16:27.791 ERROR [api-gateway] Secret version mismatch detected
+2026-06-15 11:28:05.488 ERROR [api-gateway] Authentication failed for user_id=usr_90115: NullPointerException
+2026-06-15 12:03:00.454 INFO  [api-gateway] Processed 491 messages from topic=auth-events
+2026-06-15 12:13:00.389 DEBUG [api-gateway] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-15 16:15:00.959 INFO  [api-gateway] JWT token validated for user_id=usr_92720
+2026-06-15 16:33:00.594 INFO  [api-gateway] JWT token validated for user_id=usr_68469
+2026-06-15 17:23:00.397 INFO  [api-gateway] Connected to elasticsearch successfully
+2026-06-15 18:21:00.693 WARN  [api-gateway] Connection pool utilization at 81%
+2026-06-15 19:38:00.945 WARN  [api-gateway] Certificate expires in 6 days for api.nexora.io
+2026-06-15 19:50:00.358 INFO  [api-gateway] Health check passed: status=UP, uptime=33364s
+2026-06-15 19:50:00.601 INFO  [api-gateway] Health check passed: status=UP, uptime=83694s
+2026-06-15 19:55:00.822 INFO  [api-gateway] JWT token validated for user_id=usr_16562
+2026-06-15 20:56:00.118 INFO  [api-gateway] Connected to search-service successfully
+2026-06-15 21:29:00.836 ERROR [api-gateway] Connection refused to notification-service:6379 after 5 retries
+2026-06-16 02:33:00.525 INFO  [api-gateway] Processed 5240 messages from topic=payments
+2026-06-16 02:48:00.358 INFO  [api-gateway] Processed 8064 messages from topic=analytics
+2026-06-16 07:53:07.162 WARN  [api-gateway] Connection pool utilization at 84%
+2026-06-16 07:54:06.824 WARN  [api-gateway] Retry attempt 4/3 for user-service
+2026-06-16 08:08:00.925 INFO  [api-gateway] Request processed successfully in 1868ms
+2026-06-16 08:13:59.288 ERROR [api-gateway] Log rotation failed, disk nearly full
+2026-06-16 08:34:45.933 ERROR [api-gateway] Health check failed: status=DOWN
+2026-06-16 08:41:00.593 INFO  [api-gateway] Cache hit ratio: 68% (last 5min)
+2026-06-16 09:04:04.478 ERROR [api-gateway] Log rotation failed, disk nearly full
+2026-06-16 09:42:43.927 ERROR [api-gateway] Health check failed: status=DOWN
+2026-06-16 09:43:00.232 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/users
+2026-06-16 13:58:00.421 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/users
+2026-06-16 14:25:00.382 INFO  [api-gateway] Processed 3475 messages from topic=auth-events
+2026-06-16 14:29:00.509 ERROR [api-gateway] Database query failed: SchemaValidationError on table=sessions
+2026-06-16 17:00:00.154 INFO  [api-gateway] Health check passed: status=UP, uptime=38788s
+2026-06-16 20:14:28.646 ERROR [api-gateway] Health check failed: status=DOWN
+2026-06-16 20:28:55.264 WARN  [api-gateway] Certificate expires in 26 days for billing.nexora.io
+2026-06-16 23:44:00.674 FATAL [api-gateway] Authentication failed for user_id=usr_69958: NullPointerException
+2026-06-16 23:57:50.620 ERROR [api-gateway] Rate limit exceeded: 5860/2133 requests from single source
+2026-06-17 00:27:00.728 WARN  [api-gateway] Kafka consumer lag: 8782 messages on topic=analytics
+2026-06-17 03:17:00.727 INFO  [api-gateway] Health check passed: status=UP, uptime=64033s
+2026-06-17 03:23:00.260 INFO  [api-gateway] Cache hit ratio: 70% (last 5min)
+2026-06-17 04:20:29.271 FATAL [api-gateway] Too many open files
+2026-06-17 04:21:01.106 ERROR [api-gateway] Too many open files
+2026-06-17 04:29:17.127 ERROR [api-gateway] Health check failed: status=DOWN
+2026-06-17 04:35:04.341 FATAL [api-gateway] Too many open files
+2026-06-17 04:37:47.623 ERROR [api-gateway] Too many open files
+2026-06-17 04:41:08.216 ERROR [api-gateway] Process killed by OOM killer: RSS=1773MB, limit=5549MB
+2026-06-17 04:42:06.155 FATAL [api-gateway] Too many open files
+2026-06-17 06:10:26.509 ERROR [api-gateway] Cache hit ratio dropped to 63%
+2026-06-17 06:33:44.210 ERROR [api-gateway] Redis eviction rate elevated on reporting-service
+2026-06-17 06:49:00.244 WARN  [api-gateway] Retry attempt 1/3 for auth-service
+2026-06-17 07:11:00.944 DEBUG [api-gateway] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-17 07:33:12.666 ERROR [api-gateway] Redis eviction rate elevated on search-service
+2026-06-17 08:12:00.154 ERROR [api-gateway] Cache hit ratio dropped to 85%
+2026-06-17 09:56:00.154 INFO  [api-gateway] Cache hit ratio: 81% (last 5min)
+2026-06-17 10:25:00.924 WARN  [api-gateway] Kafka consumer lag: 71052 messages on topic=analytics
+2026-06-17 11:03:00.318 DEBUG [api-gateway] Processing request: method=DELETE path=/api/v1/payments
+2026-06-17 13:32:00.324 ERROR [api-gateway] Timeout waiting for response from billing-service after 5000ms
+2026-06-17 13:50:00.725 INFO  [api-gateway] Health check passed: status=UP, uptime=10611s
+2026-06-17 17:34:00.365 WARN  [api-gateway] Connection pool utilization at 96%
+2026-06-17 18:02:00.584 FATAL [api-gateway] Process killed by OOM killer: RSS=598MB, limit=2031MB
+2026-06-17 20:10:00.732 WARN  [api-gateway] Slow query detected: 3401ms on metrics
+2026-06-17 22:43:00.826 WARN  [api-gateway] Memory usage at 83% — approaching threshold
+2026-06-18 00:01:00.362 INFO  [api-gateway] JWT token validated for user_id=usr_20372
+2026-06-18 01:44:33.024 FATAL [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_71979
+2026-06-18 02:03:30.211 ERROR [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-06-18 02:04:00.097 INFO  [api-gateway] Query executed in 2266ms: SELECT * FROM orders
+2026-06-18 02:05:00.356 INFO  [api-gateway] Connected to search-service successfully
+2026-06-18 02:27:00.808 FATAL [api-gateway] Unable to connect to analytics-engine: all 1 retries exhausted
+2026-06-18 03:49:54.581 WARN  [api-gateway] Certificate expires in 25 days for auth.nexora.io
+2026-06-18 05:16:25.705 FATAL [api-gateway] Too many open files
+2026-06-18 08:46:00.766 INFO  [api-gateway] JWT token validated for user_id=usr_75117
+2026-06-18 09:08:00.021 INFO  [api-gateway] Query executed in 12021ms: SELECT * FROM events
+2026-06-18 09:21:00.740 INFO  [api-gateway] Connected to user-service successfully
+2026-06-18 13:03:00.863 DEBUG [api-gateway] SQL: SELECT * FROM orders WHERE id = usr_38373 LIMIT 1
+2026-06-18 13:07:00.793 INFO  [api-gateway] Cache hit ratio: 75% (last 5min)
+2026-06-18 13:45:00.065 INFO  [api-gateway] Health check passed: status=UP, uptime=30788s
+2026-06-18 18:14:00.089 ERROR [api-gateway] Timeout waiting for response from postgres-primary after 30000ms
+2026-06-18 19:14:00.864 FATAL [api-gateway] Process killed by OOM killer: RSS=1433MB, limit=7990MB
+2026-06-18 22:32:00.538 WARN  [api-gateway] Kafka consumer lag: 96181 messages on topic=payments
+2026-06-19 00:02:00.440 INFO  [api-gateway] Cache hit ratio: 96% (last 5min)
+2026-06-19 00:03:00.390 WARN  [api-gateway] Memory usage at 60% — approaching threshold
+2026-06-19 02:01:00.316 INFO  [api-gateway] Query executed in 9489ms: SELECT * FROM payments
+2026-06-19 02:02:00.227 INFO  [api-gateway] Cache hit ratio: 69% (last 5min)
+2026-06-19 05:02:00.885 INFO  [api-gateway] Request processed successfully in 5063ms
+2026-06-19 05:22:00.538 INFO  [api-gateway] Query executed in 8237ms: SELECT * FROM sessions
+2026-06-19 05:48:00.221 ERROR [api-gateway] Connection refused to kafka:5432 after 3 retries
+2026-06-19 07:15:00.752 DEBUG [api-gateway] SQL: SELECT * FROM users WHERE id = usr_54661 LIMIT 1
+2026-06-19 13:24:00.978 DEBUG [api-gateway] SQL: SELECT * FROM users WHERE id = usr_46391 LIMIT 1
+2026-06-19 17:15:00.565 WARN  [api-gateway] Kafka consumer lag: 1978 messages on topic=auth-events
+2026-06-19 17:38:00.526 INFO  [api-gateway] Processed 7708 messages from topic=user-updates
+2026-06-19 18:03:23.523 WARN  [api-gateway] Memory usage at 52% — approaching threshold
+2026-06-19 18:22:15.135 WARN  [api-gateway] Retry attempt 5/3 for nginx-ingress
+2026-06-19 19:05:23.931 ERROR [api-gateway] Failed to process message: offset=609765, topic=auth-events
+2026-06-19 19:28:44.144 ERROR [api-gateway] HTTP 500 from nginx-ingress: Host is unreachable
+2026-06-19 21:48:00.886 INFO  [api-gateway] Health check passed: status=UP, uptime=70717s
+2026-06-19 22:25:00.225 WARN  [api-gateway] Kafka consumer lag: 78974 messages on topic=analytics
+2026-06-20 00:37:00.888 INFO  [api-gateway] Request processed successfully in 5769ms
+2026-06-20 04:15:48.544 ERROR [api-gateway] Event loop lag: 4577ms — possible blocking operation
+2026-06-20 04:35:06.157 ERROR [api-gateway] Cache hit ratio dropped to 74%
+2026-06-20 05:18:18.545 FATAL [api-gateway] Slow request handling, thread pool saturated
+2026-06-20 05:53:36.368 ERROR [api-gateway] Cache lookup: key=session:1234 result=MISS
+2026-06-20 06:44:33.566 FATAL [api-gateway] Connection refused to nginx-ingress:5432 after 2 retries
+2026-06-20 07:58:35.437 ERROR [api-gateway] Timeout waiting for response from user-service after 5000ms
+2026-06-20 08:28:00.943 WARN  [api-gateway] Retry attempt 3/3 for auth-service
+2026-06-20 09:51:00.485 WARN  [api-gateway] Memory usage at 81% — approaching threshold
+2026-06-20 10:09:00.151 WARN  [api-gateway] Memory usage at 71% — approaching threshold
+2026-06-20 11:04:00.645 INFO  [api-gateway] Cache hit ratio: 88% (last 5min)
+2026-06-20 11:57:00.734 WARN  [api-gateway] Slow query detected: 2644ms on payments
+2026-06-20 14:02:00.235 ERROR [api-gateway] Connection refused to analytics-engine:6379 after 4 retries
+2026-06-20 14:22:00.948 INFO  [api-gateway] Query executed in 4151ms: SELECT * FROM sessions
+2026-06-20 15:25:17.788 ERROR [api-gateway] HTTP 503 from postgres-replica: Permission denied
+2026-06-20 15:39:15.778 WARN  [api-gateway] Memory usage at 56% — approaching threshold
+2026-06-20 19:11:00.825 FATAL [api-gateway] Unable to connect to auth-service: all 2 retries exhausted
+2026-06-20 20:56:00.900 INFO  [api-gateway] Processed 2268 messages from topic=auth-events
+2026-06-21 02:30:00.386 INFO  [api-gateway] JWT token validated for user_id=usr_24724
+2026-06-21 14:22:00.352 INFO  [api-gateway] Processed 3592 messages from topic=payments
+2026-06-21 16:11:00.540 INFO  [api-gateway] Cache hit ratio: 81% (last 5min)
+2026-06-21 17:53:00.199 INFO  [api-gateway] Cache hit ratio: 78% (last 5min)
+2026-06-21 20:08:54.670 ERROR [api-gateway] Slow query detected: 11540ms on sessions
+2026-06-21 20:11:13.255 ERROR [api-gateway] p99 latency exceeded SLO threshold
+2026-06-21 21:10:20.657 ERROR [api-gateway] Timeout waiting for response from nginx-ingress after 10000ms
+2026-06-21 21:11:17.882 ERROR [api-gateway] Timeout waiting for response from redis-cache after 30000ms
+2026-06-21 21:39:03.578 ERROR [api-gateway] Timeout waiting for response from billing-service after 30000ms
+2026-06-21 21:50:24.156 ERROR [api-gateway] p99 latency exceeded SLO threshold
+2026-06-21 22:03:43.673 WARN  [api-gateway] Kafka consumer lag: 27480 messages on topic=auth-events
+2026-06-21 22:39:43.664 ERROR [api-gateway] Timeout waiting for response from analytics-engine after 5000ms
+2026-06-21 22:51:00.598 INFO  [api-gateway] JWT token validated for user_id=usr_24125
+2026-06-22 00:44:00.370 WARN  [api-gateway] Connection pool utilization at 86%
+2026-06-22 02:02:00.126 INFO  [api-gateway] Connected to postgres-primary successfully
+2026-06-22 03:09:00.025 WARN  [api-gateway] Memory usage at 80% — approaching threshold
+2026-06-22 03:40:00.398 INFO  [api-gateway] Processed 6298 messages from topic=analytics
+2026-06-22 04:52:00.736 INFO  [api-gateway] JWT token validated for user_id=usr_28554
+2026-06-22 08:51:00.425 INFO  [api-gateway] Health check passed: status=UP, uptime=47168s
+2026-06-22 10:02:00.427 WARN  [api-gateway] Retry attempt 4/3 for postgres-replica
+2026-06-22 12:43:11.462 ERROR [api-gateway] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-06-22 12:46:54.469 FATAL [api-gateway] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-06-22 13:54:31.664 FATAL [api-gateway] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-06-22 14:04:13.395 ERROR [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-22 14:12:19.790 ERROR [api-gateway] Connection refused to search-service:5432 after 1 retries
+2026-06-22 14:17:11.527 WARN  [api-gateway] Kafka consumer lag: 84023 messages on topic=payments
+2026-06-22 14:34:48.557 ERROR [api-gateway] Unexpected code path triggered: legacy_handler
+2026-06-22 14:51:59.375 ERROR [api-gateway] DNS resolution failed for search-service
+2026-06-22 15:01:00.927 INFO  [api-gateway] Processed 154 messages from topic=auth-events
+2026-06-22 15:22:45.999 ERROR [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-22 15:24:34.800 FATAL [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-22 15:44:00.966 INFO  [api-gateway] Cache hit ratio: 99% (last 5min)
+2026-06-22 17:54:00.571 FATAL [api-gateway] Process killed by OOM killer: RSS=1317MB, limit=6464MB
+2026-06-22 18:47:00.417 WARN  [api-gateway] Memory usage at 79% — approaching threshold
+2026-06-22 21:07:00.506 ERROR [api-gateway] Timeout waiting for response from notification-service after 5000ms
+2026-06-23 02:14:00.596 FATAL [api-gateway] Process killed by OOM killer: RSS=3155MB, limit=2215MB
+2026-06-23 02:20:00.624 INFO  [api-gateway] Cache hit ratio: 98% (last 5min)
+2026-06-23 02:58:00.730 ERROR [api-gateway] Database query failed: SchemaValidationError on table=orders
+2026-06-23 04:25:00.293 INFO  [api-gateway] Cache hit ratio: 65% (last 5min)
+2026-06-23 04:44:00.755 INFO  [api-gateway] Connected to search-service successfully
+2026-06-23 06:41:00.603 INFO  [api-gateway] Cache hit ratio: 96% (last 5min)
+2026-06-23 07:14:00.815 FATAL [api-gateway] Unable to connect to billing-service: all 5 retries exhausted
+2026-06-23 10:53:00.736 INFO  [api-gateway] Cache hit ratio: 97% (last 5min)
+2026-06-23 13:13:00.356 INFO  [api-gateway] Cache hit ratio: 82% (last 5min)
+2026-06-23 13:41:00.357 WARN  [api-gateway] Certificate expires in 11 days for api.nexora.io
+2026-06-23 17:23:00.201 DEBUG [api-gateway] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-23 18:40:00.484 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_98089 LIMIT 1
+2026-06-23 21:05:00.224 INFO  [api-gateway] Request processed successfully in 10679ms
+2026-06-23 21:11:00.029 ERROR [api-gateway] Timeout waiting for response from billing-service after 30000ms
+2026-06-23 22:31:47.592 ERROR [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-23 22:49:49.882 ERROR [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-23 23:07:15.465 FATAL [api-gateway] Request queue depth exceeded capacity
+2026-06-23 23:10:26.057 WARN  [api-gateway] Kafka consumer lag: 16374 messages on topic=user-updates
+2026-06-24 00:49:00.136 INFO  [api-gateway] JWT token validated for user_id=usr_85574
+2026-06-24 02:19:00.171 INFO  [api-gateway] Processed 2108 messages from topic=notifications
+2026-06-24 02:38:00.511 INFO  [api-gateway] Query executed in 13304ms: SELECT * FROM metrics
+2026-06-24 10:02:00.729 WARN  [api-gateway] Certificate expires in 6 days for auth.nexora.io
+2026-06-24 16:13:46.682 ERROR [api-gateway] Cache lookup: key=session:1234 result=MISS
+2026-06-24 16:29:00.045 INFO  [api-gateway] Connected to notification-service successfully
+2026-06-24 16:38:20.983 WARN  [api-gateway] Certificate expires in 5 days for auth.nexora.io
+2026-06-24 16:56:54.748 ERROR [api-gateway] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-24 17:22:53.411 ERROR [api-gateway] Redis eviction rate elevated on notification-service
+2026-06-24 17:51:00.117 WARN  [api-gateway] Retry attempt 2/3 for redis-cache
+2026-06-24 19:22:00.047 INFO  [api-gateway] Health check passed: status=UP, uptime=47332s
+2026-06-24 22:52:00.279 DEBUG [api-gateway] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-24 23:00:00.509 INFO  [api-gateway] Health check passed: status=UP, uptime=52906s
+2026-06-24 23:23:40.290 WARN  [api-gateway] Retry attempt 3/3 for kafka
+2026-06-24 23:30:00.561 DEBUG [api-gateway] SQL: SELECT * FROM payments WHERE id = usr_19118 LIMIT 1
+2026-06-25 01:01:00.705 INFO  [api-gateway] Request processed successfully in 9301ms
+2026-06-25 01:21:00.119 INFO  [api-gateway] JWT token validated for user_id=usr_22158
+2026-06-25 02:03:44.225 ERROR [api-gateway] Deployed version v2.17.4 to staging
+2026-06-25 09:22:42.858 ERROR [api-gateway] Cache hit ratio dropped to 86%
+2026-06-25 09:35:17.573 WARN  [api-gateway] Certificate expires in 3 days for auth.nexora.io
+2026-06-25 09:43:02.151 ERROR [api-gateway] Redis eviction rate elevated on kafka
+2026-06-25 09:58:44.570 WARN  [api-gateway] Memory usage at 75% — approaching threshold
+2026-06-25 10:10:00.048 INFO  [api-gateway] Request processed successfully in 11214ms
+2026-06-25 13:09:00.677 INFO  [api-gateway] Processed 9955 messages from topic=user-updates
+2026-06-25 14:35:00.489 WARN  [api-gateway] Memory usage at 95% — approaching threshold
+2026-06-25 15:33:00.380 WARN  [api-gateway] Kafka consumer lag: 70838 messages on topic=payments
+2026-06-25 17:12:36.837 WARN  [api-gateway] Slow query detected: 3511ms on sessions
+2026-06-25 17:13:00.542 INFO  [api-gateway] Request processed successfully in 4556ms
+2026-06-25 18:03:22.542 ERROR [api-gateway] Retry storm detected: 7248 retries/min to postgres-replica
+2026-06-25 18:20:51.221 WARN  [api-gateway] Certificate expires in 29 days for billing.nexora.io
+2026-06-25 18:35:34.793 ERROR [api-gateway] Retry storm detected: 8844 retries/min to postgres-primary
+2026-06-25 19:17:00.077 INFO  [api-gateway] Query executed in 12713ms: SELECT * FROM sessions
+2026-06-26 01:08:00.989 INFO  [api-gateway] JWT token validated for user_id=usr_20052
+2026-06-26 06:45:36.295 FATAL [api-gateway] Slow request handling, thread pool saturated
+2026-06-26 07:13:53.242 ERROR [api-gateway] CPU throttling detected: 61% of periods throttled
+2026-06-26 08:51:00.406 WARN  [api-gateway] Retry attempt 2/3 for nginx-ingress
+2026-06-26 09:50:00.674 WARN  [api-gateway] Retry attempt 1/3 for elasticsearch
+2026-06-26 10:13:00.250 INFO  [api-gateway] JWT token validated for user_id=usr_21121
+2026-06-26 12:30:00.681 INFO  [api-gateway] Cache hit ratio: 93% (last 5min)
+2026-06-26 16:57:00.385 INFO  [api-gateway] Processed 5598 messages from topic=payments
+2026-06-26 19:57:00.196 INFO  [api-gateway] Request processed successfully in 7131ms
+2026-06-26 21:57:00.615 INFO  [api-gateway] Health check passed: status=UP, uptime=64076s
+2026-06-27 00:46:00.477 INFO  [api-gateway] Processed 9948 messages from topic=notifications
+2026-06-27 03:38:40.487 FATAL [api-gateway] Schema validation error: column not found
+2026-06-27 03:38:46.934 FATAL [api-gateway] Database query failed: SchemaValidationError on table=users
+2026-06-27 04:06:26.461 FATAL [api-gateway] Migration lock held longer than expected
+2026-06-27 04:36:02.081 ERROR [api-gateway] Database query failed: SchemaValidationError on table=orders
+2026-06-27 05:11:00.444 DEBUG [api-gateway] Processing request: method=POST path=/health
+2026-06-27 08:38:00.866 INFO  [api-gateway] Cache hit ratio: 60% (last 5min)
+2026-06-27 10:03:29.332 WARN  [api-gateway] Retry attempt 2/3 for postgres-replica
+2026-06-27 10:11:16.693 ERROR [api-gateway] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-06-28 00:22:00.559 INFO  [api-gateway] Query executed in 2441ms: SELECT * FROM metrics
+2026-06-28 01:21:00.152 ERROR [api-gateway] Database query failed: DeadlockDetected on table=events
+2026-06-28 04:11:00.637 ERROR [api-gateway] Timeout waiting for response from nginx-ingress after 30000ms
+2026-06-28 04:29:00.147 INFO  [api-gateway] Health check passed: status=UP, uptime=64510s
+2026-06-28 05:00:41.697 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-06-28 06:22:16.372 ERROR [api-gateway] Unexpected config value for key=timeout_ms
+2026-06-28 07:41:00.624 INFO  [api-gateway] Query executed in 13339ms: SELECT * FROM users
+2026-06-28 08:46:00.537 INFO  [api-gateway] Request processed successfully in 781ms
+2026-06-28 09:49:00.084 WARN  [api-gateway] Memory usage at 83% — approaching threshold
+2026-06-28 10:50:00.569 ERROR [api-gateway] HTTP 504 from search-service: Resource temporarily unavailable
+2026-06-28 10:50:00.356 INFO  [api-gateway] JWT token validated for user_id=usr_28880
+2026-06-28 14:28:24.690 ERROR [api-gateway] Certificate expires in 18 days for auth.nexora.io
+2026-06-28 14:29:14.534 ERROR [api-gateway] TLS handshake failed: certificate verify failed
+2026-06-28 14:30:53.558 ERROR [api-gateway] x509: certificate has expired or is not yet valid
+2026-06-28 14:34:22.564 ERROR [api-gateway] Certificate expires in 24 days for auth.nexora.io
+2026-06-28 14:40:54.641 ERROR [api-gateway] Certificate expires in 15 days for api.nexora.io
+2026-06-28 14:41:39.372 FATAL [api-gateway] Certificate expires in 12 days for api.nexora.io
+2026-06-28 14:45:58.633 ERROR [api-gateway] TLS handshake failed: certificate verify failed
+2026-06-28 15:52:51.197 WARN  [api-gateway] Kafka consumer lag: 27869 messages on topic=notifications
+2026-06-28 16:36:07.477 ERROR [api-gateway] Deployed version v2.15.0 to production
+2026-06-29 00:51:31.723 FATAL [api-gateway] TLS handshake failed: certificate verify failed
+2026-06-29 02:10:21.052 WARN  [api-gateway] Connection pool utilization at 62%
+2026-06-29 03:46:00.629 WARN  [api-gateway] Retry attempt 2/3 for analytics-engine
+2026-06-29 04:46:00.171 INFO  [api-gateway] Cache hit ratio: 83% (last 5min)
+2026-06-29 13:07:20.878 WARN  [api-gateway] Memory usage at 57% — approaching threshold
+2026-06-29 13:09:33.590 ERROR [api-gateway] Unexpected config value for key=timeout_ms
+2026-06-29 13:32:57.996 WARN  [api-gateway] Certificate expires in 21 days for billing.nexora.io
+2026-06-29 13:36:45.372 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-06-29 13:37:18.618 ERROR [api-gateway] Configuration checksum mismatch across replicas
+2026-06-29 13:42:21.172 FATAL [api-gateway] Deployed version v2.15.5 to staging
+2026-06-29 13:47:57.497 WARN  [api-gateway] Certificate expires in 7 days for auth.nexora.io
+2026-06-29 15:00:00.849 WARN  [api-gateway] Retry attempt 1/3 for postgres-replica
+2026-06-29 17:11:00.698 INFO  [api-gateway] JWT token validated for user_id=usr_69056
+2026-06-29 18:39:00.229 ERROR [api-gateway] Connection refused to nginx-ingress:6379 after 5 retries
+2026-06-29 18:57:00.218 DEBUG [api-gateway] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-29 19:20:14.367 ERROR [api-gateway] Circuit breaker opened for kafka
+2026-06-29 20:56:00.388 DEBUG [api-gateway] Processing request: method=PUT path=/health
+2026-06-29 23:44:00.445 INFO  [api-gateway] Health check passed: status=UP, uptime=19394s
+2026-06-30 00:45:00.925 INFO  [api-gateway] JWT token validated for user_id=usr_16379
+2026-06-30 00:54:50.447 FATAL [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-30 00:58:00.373 FATAL [api-gateway] HPA unable to fetch metrics for api-gateway
+2026-06-30 01:02:06.259 FATAL [api-gateway] Pod scheduling failed: insufficient resources
+2026-06-30 01:19:57.369 ERROR [api-gateway] Request queue depth exceeded capacity
+2026-06-30 02:11:00.772 FATAL [api-gateway] Process killed by OOM killer: RSS=2504MB, limit=7147MB
+2026-06-30 03:50:00.146 INFO  [api-gateway] Request processed successfully in 610ms
+2026-06-30 05:10:00.935 INFO  [api-gateway] Health check passed: status=UP, uptime=32793s
+2026-06-30 06:04:41.366 ERROR [api-gateway] Pod scheduling failed: insufficient resources
+2026-06-30 06:30:00.923 INFO  [api-gateway] JWT token validated for user_id=usr_65448
+2026-06-30 07:49:26.023 FATAL [api-gateway] Pod scheduling failed: insufficient resources
+2026-06-30 14:10:00.482 INFO  [api-gateway] Cache hit ratio: 96% (last 5min)
+2026-06-30 19:01:00.791 WARN  [api-gateway] Kafka consumer lag: 61314 messages on topic=user-updates
+2026-06-30 20:43:00.998 INFO  [api-gateway] Request processed successfully in 4127ms
+2026-06-30 21:47:00.016 INFO  [api-gateway] Health check passed: status=UP, uptime=55129s
+2026-06-30 23:15:00.172 INFO  [api-gateway] Query executed in 6649ms: SELECT * FROM events
+2026-07-01 04:02:00.932 INFO  [api-gateway] Cache hit ratio: 92% (last 5min)
+2026-07-01 05:16:00.490 INFO  [api-gateway] Processed 2036 messages from topic=analytics
+2026-07-01 05:22:00.584 ERROR [api-gateway] Connection refused to reporting-service:5432 after 4 retries
+2026-07-01 07:17:00.599 ERROR [api-gateway] Timeout waiting for response from reporting-service after 5000ms
+2026-07-01 08:36:00.448 INFO  [api-gateway] Request processed successfully in 1644ms
+2026-07-01 08:58:00.476 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/payments
+2026-07-01 11:33:00.764 INFO  [api-gateway] Query executed in 9413ms: SELECT * FROM sessions
+2026-07-01 13:39:32.195 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-07-01 13:50:20.712 ERROR [api-gateway] Feature flag new_checkout_flow evaluated true for 100% of traffic
+2026-07-01 14:00:43.234 FATAL [api-gateway] Unexpected code path triggered: legacy_handler
+2026-07-01 14:03:49.008 ERROR [api-gateway] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-07-01 14:09:37.081 FATAL [api-gateway] Unexpected code path triggered: legacy_handler
+2026-07-01 14:16:02.963 WARN  [api-gateway] Connection pool utilization at 89%
+2026-07-01 14:18:27.293 ERROR [api-gateway] x509: certificate has expired or is not yet valid
+2026-07-01 14:25:25.296 FATAL [api-gateway] Certificate expires in 3 days for billing.nexora.io
+2026-07-01 14:27:31.226 ERROR [api-gateway] Flag evaluation error, falling back to default
+2026-07-01 14:31:13.979 WARN  [api-gateway] Kafka consumer lag: 96272 messages on topic=auth-events
+2026-07-01 14:31:17.589 ERROR [api-gateway] x509: certificate has expired or is not yet valid
+2026-07-01 14:32:45.076 ERROR [api-gateway] Certificate expires in 17 days for auth.nexora.io
+2026-07-01 14:35:57.760 WARN  [api-gateway] Certificate expires in 11 days for auth.nexora.io
+2026-07-01 14:39:28.833 WARN  [api-gateway] Kafka consumer lag: 66783 messages on topic=payments
+2026-07-01 16:48:00.942 WARN  [api-gateway] Retry attempt 1/3 for reporting-service
+2026-07-01 16:59:00.161 WARN  [api-gateway] Slow query detected: 4088ms on events
+2026-07-01 22:52:00.539 INFO  [api-gateway] Processed 7218 messages from topic=auth-events
+2026-07-01 23:05:00.237 INFO  [api-gateway] Cache hit ratio: 63% (last 5min)
+2026-07-02 00:16:00.701 INFO  [api-gateway] JWT token validated for user_id=usr_37591
+2026-07-02 02:54:00.723 WARN  [api-gateway] Slow query detected: 964ms on orders
+2026-07-02 11:30:00.770 WARN  [api-gateway] Retry attempt 3/3 for reporting-service
+2026-07-02 11:36:00.719 INFO  [api-gateway] Request processed successfully in 11443ms
+2026-07-02 12:43:00.691 DEBUG [api-gateway] Cache lookup: key=session:1234 result=MISS
+2026-07-02 13:48:00.071 INFO  [api-gateway] JWT token validated for user_id=usr_30321
+2026-07-02 13:55:00.286 ERROR [api-gateway] Database query failed: SchemaValidationError on table=users
+2026-07-02 20:52:51.326 WARN  [api-gateway] Retry attempt 4/3 for postgres-primary
+2026-07-02 21:26:03.275 FATAL [api-gateway] Reconciliation job found 2175 mismatched rows
+2026-07-02 21:26:15.949 ERROR [api-gateway] Duplicate record written for key=session:1234
+2026-07-02 21:38:34.186 FATAL [api-gateway] Record checksum mismatch detected for id=usr_46555
+2026-07-02 21:48:41.758 ERROR [api-gateway] Authentication failed for user_id=usr_57470: ConnectionTimeout
+2026-07-02 21:50:52.267 WARN  [api-gateway] Slow query detected: 2052ms on events
+2026-07-02 21:51:16.416 WARN  [api-gateway] Retry attempt 1/3 for redis-cache
+2026-07-02 21:56:15.008 FATAL [api-gateway] Record checksum mismatch detected for id=usr_59733
+2026-07-02 23:08:06.898 WARN  [api-gateway] Certificate expires in 22 days for auth.nexora.io
+2026-07-02 23:25:00.775 INFO  [api-gateway] Request processed successfully in 10402ms
+2026-07-02 23:38:32.790 ERROR [api-gateway] Circuit breaker opened for nginx-ingress
+2026-07-02 23:57:42.314 ERROR [api-gateway] Connection refused to nginx-ingress:9092 after 5 retries
+2026-07-03 02:10:00.140 INFO  [api-gateway] Processed 1296 messages from topic=analytics
+2026-07-03 03:42:00.038 INFO  [api-gateway] Request processed successfully in 5829ms
+2026-07-03 06:54:00.840 INFO  [api-gateway] Connected to kafka successfully
+2026-07-03 07:11:00.797 ERROR [api-gateway] Timeout waiting for response from nginx-ingress after 5000ms
+2026-07-03 07:49:56.044 WARN  [api-gateway] Retry attempt 1/3 for analytics-engine
+2026-07-03 07:55:48.853 ERROR [api-gateway] x509: certificate has expired or is not yet valid
+2026-07-03 08:09:27.215 ERROR [api-gateway] x509: certificate has expired or is not yet valid
+2026-07-03 08:19:57.220 ERROR [api-gateway] TLS handshake failed: certificate verify failed
+2026-07-03 08:26:07.382 ERROR [api-gateway] x509: certificate has expired or is not yet valid
+2026-07-03 08:28:14.447 ERROR [api-gateway] TLS handshake failed: certificate verify failed
+2026-07-03 08:28:34.911 ERROR [api-gateway] Certificate expires in 7 days for billing.nexora.io
+2026-07-03 09:39:00.733 INFO  [api-gateway] Health check passed: status=UP, uptime=84953s
+2026-07-03 10:15:00.922 INFO  [api-gateway] JWT token validated for user_id=usr_66605
+2026-07-03 11:14:00.050 INFO  [api-gateway] JWT token validated for user_id=usr_52828
+2026-07-03 13:13:00.658 ERROR [api-gateway] HTTP 502 from elasticsearch: Connection timed out
+2026-07-03 19:23:00.390 WARN  [api-gateway] Kafka consumer lag: 1233 messages on topic=notifications
+2026-07-03 20:42:00.678 INFO  [api-gateway] Cache hit ratio: 95% (last 5min)
+2026-07-03 23:08:00.618 INFO  [api-gateway] Health check passed: status=UP, uptime=68376s
+2026-07-03 23:54:00.199 INFO  [api-gateway] Health check passed: status=UP, uptime=71187s
+2026-07-04 02:41:00.270 WARN  [api-gateway] Connection pool utilization at 52%
+2026-07-04 03:01:00.405 INFO  [api-gateway] Processed 2681 messages from topic=payments
+2026-07-04 04:31:00.616 INFO  [api-gateway] Health check passed: status=UP, uptime=15473s
+2026-07-04 05:35:09.759 ERROR [api-gateway] Health check failed: status=DOWN
+2026-07-04 06:59:00.832 INFO  [api-gateway] Connected to notification-service successfully
+2026-07-04 07:08:37.100 WARN  [api-gateway] Slow query detected: 214ms on orders
+2026-07-04 08:03:33.923 FATAL [api-gateway] Secret version mismatch detected
+2026-07-04 08:03:46.135 ERROR [api-gateway] Database connection failed: password authentication failed
+2026-07-04 08:37:06.781 WARN  [api-gateway] Slow query detected: 10413ms on sessions
+2026-07-04 08:50:00.300 INFO  [api-gateway] Request processed successfully in 5034ms
+2026-07-04 09:04:40.895 ERROR [api-gateway] Secret version mismatch detected
+2026-07-04 11:36:00.163 WARN  [api-gateway] Certificate expires in 19 days for api.nexora.io
+2026-07-04 11:46:00.794 INFO  [api-gateway] Request processed successfully in 4777ms
+2026-07-04 11:52:21.356 ERROR [api-gateway] Region mismatch: expected staging received alternate region
+2026-07-04 12:53:00.777 WARN  [api-gateway] Retry attempt 2/3 for user-service
+2026-07-04 13:09:24.956 ERROR [api-gateway] Request routed to unexpected upstream auth-service
+2026-07-04 13:32:00.692 INFO  [api-gateway] Cache hit ratio: 65% (last 5min)
+2026-07-05 00:30:00.443 INFO  [api-gateway] Request processed successfully in 5221ms
+2026-07-05 01:14:45.919 ERROR [api-gateway] Timeout waiting for response from notification-service after 10000ms
+2026-07-05 01:44:21.514 ERROR [api-gateway] HTTP 503 from reporting-service: Permission denied
+2026-07-05 01:46:09.662 ERROR [api-gateway] HTTP 500 from auth-service: Too many open files
+2026-07-05 01:52:45.419 FATAL [api-gateway] Vendor status page reports degraded performance
+2026-07-05 02:20:00.783 INFO  [api-gateway] Cache hit ratio: 97% (last 5min)
+2026-07-05 02:38:21.071 FATAL [api-gateway] Record checksum mismatch detected for id=usr_89308
+2026-07-05 03:15:20.212 FATAL [api-gateway] Duplicate record written for key=dark_launch_v2
+2026-07-05 03:33:00.761 INFO  [api-gateway] JWT token validated for user_id=usr_84836
+2026-07-05 04:58:00.495 ERROR [api-gateway] Database query failed: ConnectionTimeout on table=sessions
+2026-07-05 06:06:00.407 FATAL [api-gateway] Process killed by OOM killer: RSS=2898MB, limit=6237MB
+2026-07-05 08:17:00.267 INFO  [api-gateway] Request processed successfully in 4009ms
+2026-07-05 10:44:06.068 ERROR [api-gateway] Heap usage growing steadily, GC pause 8892ms
+2026-07-05 10:57:00.233 ERROR [api-gateway] HTTP 500 from billing-service: Too many open files
+2026-07-05 10:59:35.404 FATAL [api-gateway] Heap usage growing steadily, GC pause 11510ms
+2026-07-05 11:30:40.235 ERROR [api-gateway] Event loop lag: 5596ms — possible blocking operation
+2026-07-05 11:39:45.032 ERROR [api-gateway] Slow request handling, thread pool saturated
+2026-07-05 11:41:47.815 ERROR [api-gateway] Event loop lag: 7682ms — possible blocking operation
+2026-07-05 11:46:25.061 ERROR [api-gateway] Slow request handling, thread pool saturated
+2026-07-05 11:47:11.973 WARN  [api-gateway] Memory usage at 52% — approaching threshold
+2026-07-05 11:49:33.237 FATAL [api-gateway] Slow request handling, thread pool saturated
+2026-07-05 11:50:01.255 FATAL [api-gateway] Event loop lag: 8060ms — possible blocking operation
+2026-07-05 12:48:00.090 INFO  [api-gateway] Connected to analytics-engine successfully
+2026-07-05 14:57:00.741 WARN  [api-gateway] Retry attempt 4/3 for notification-service
+2026-07-05 16:04:00.701 FATAL [api-gateway] Unable to connect to reporting-service: all 4 retries exhausted
+2026-07-05 18:51:00.070 INFO  [api-gateway] Query executed in 8751ms: SELECT * FROM sessions
+2026-07-05 19:18:00.534 DEBUG [api-gateway] Processing request: method=GET path=/api/v1/payments
+2026-07-06 00:55:00.349 INFO  [api-gateway] Health check passed: status=UP, uptime=29608s
+2026-07-06 04:22:00.726 INFO  [api-gateway] Query executed in 11228ms: SELECT * FROM sessions
+2026-07-06 05:47:00.783 INFO  [api-gateway] Processed 3510 messages from topic=user-updates
+2026-07-06 10:27:00.881 WARN  [api-gateway] Kafka consumer lag: 96727 messages on topic=payments
+2026-07-06 17:44:00.032 FATAL [api-gateway] Process killed by OOM killer: RSS=501MB, limit=3341MB
+2026-07-06 19:47:00.390 INFO  [api-gateway] Processed 5764 messages from topic=auth-events
+2026-07-07 00:19:00.123 WARN  [api-gateway] Memory usage at 57% — approaching threshold
+2026-07-07 00:27:00.009 INFO  [api-gateway] Connected to auth-service successfully
+2026-07-07 02:03:00.962 INFO  [api-gateway] Health check passed: status=UP, uptime=81461s
+2026-07-07 02:11:00.445 INFO  [api-gateway] Processed 6700 messages from topic=analytics
+2026-07-07 03:06:00.358 INFO  [api-gateway] Connected to postgres-primary successfully
+2026-07-07 03:26:50.332 WARN  [api-gateway] Memory usage at 79% — approaching threshold
+2026-07-07 03:49:48.845 ERROR [api-gateway] DNS resolution failed for redis-cache
+2026-07-07 04:33:26.331 ERROR [api-gateway] DNS resolution failed for notification-service
+2026-07-07 04:33:59.808 ERROR [api-gateway] Connection refused to billing-service:443 after 1 retries
+2026-07-07 05:39:00.434 INFO  [api-gateway] Query executed in 9610ms: SELECT * FROM metrics
+2026-07-07 08:41:14.081 FATAL [api-gateway] p99 latency exceeded SLO threshold
+2026-07-07 08:44:51.832 ERROR [api-gateway] Slow query detected: 1168ms on orders
+2026-07-07 08:47:56.514 WARN  [api-gateway] Retry attempt 2/3 for user-service
+2026-07-07 08:57:43.088 ERROR [api-gateway] p99 latency exceeded SLO threshold
+2026-07-07 09:13:08.738 ERROR [api-gateway] p99 latency exceeded SLO threshold
+2026-07-07 09:13:49.826 ERROR [api-gateway] Slow query detected: 11134ms on users
+2026-07-07 09:22:56.453 ERROR [api-gateway] p99 latency exceeded SLO threshold
+2026-07-07 10:31:00.032 INFO  [api-gateway] JWT token validated for user_id=usr_22658
+2026-07-07 11:07:00.530 INFO  [api-gateway] Health check passed: status=UP, uptime=59121s
+2026-07-07 11:36:00.949 INFO  [api-gateway] Processed 5325 messages from topic=user-updates
+2026-07-07 11:36:00.470 WARN  [api-gateway] Retry attempt 4/3 for nginx-ingress
+2026-07-07 13:06:00.164 WARN  [api-gateway] Slow query detected: 2649ms on metrics
+2026-07-07 16:40:00.171 WARN  [api-gateway] Slow query detected: 14094ms on payments
+2026-07-07 21:55:00.066 INFO  [api-gateway] JWT token validated for user_id=usr_92661
+2026-07-07 22:04:00.093 INFO  [api-gateway] Health check passed: status=UP, uptime=47431s
+2026-07-08 00:46:00.564 ERROR [api-gateway] Database query failed: ConnectionTimeout on table=events
+2026-07-08 03:29:15.636 ERROR [api-gateway] Request rejected: clock skew exceeds tolerance
+2026-07-08 03:30:00.657 WARN  [api-gateway] Connection pool utilization at 96%
+2026-07-08 03:43:51.418 ERROR [api-gateway] Token validation failed: timestamp out of allowed skew for user_id=usr_11193
+2026-07-08 05:00:00.616 INFO  [api-gateway] Query executed in 3253ms: SELECT * FROM sessions
+2026-07-08 05:35:00.830 FATAL [api-gateway] Unable to connect to redis-cache: all 2 retries exhausted
+2026-07-08 10:25:00.805 INFO  [api-gateway] Health check passed: status=UP, uptime=64859s
+2026-07-08 10:48:00.653 INFO  [api-gateway] Request processed successfully in 3805ms
+2026-07-08 11:14:00.117 FATAL [api-gateway] Process killed by OOM killer: RSS=2732MB, limit=2319MB
+2026-07-08 11:18:00.027 WARN  [api-gateway] Kafka consumer lag: 65451 messages on topic=auth-events
+2026-07-08 15:35:47.249 ERROR [api-gateway] Failed to process message: offset=816919, topic=auth-events
+2026-07-08 16:03:00.604 DEBUG [api-gateway] SQL: SELECT * FROM events WHERE id = usr_92656 LIMIT 1
+2026-07-08 16:49:00.843 INFO  [api-gateway] Health check passed: status=UP, uptime=73324s
+2026-07-08 17:01:56.416 FATAL [api-gateway] Rebalance in progress, partitions revoked
+2026-07-08 17:08:00.552 WARN  [api-gateway] Retry attempt 2/3 for reporting-service
+2026-07-08 17:11:00.759 INFO  [api-gateway] Health check passed: status=UP, uptime=71620s
+2026-07-08 19:51:00.694 FATAL [api-gateway] Process killed by OOM killer: RSS=1588MB, limit=1254MB
+2026-07-08 22:49:00.669 INFO  [api-gateway] Query executed in 13513ms: SELECT * FROM orders
+2026-07-08 23:08:00.307 WARN  [api-gateway] Certificate expires in 29 days for billing.nexora.io
+2026-07-08 23:15:00.501 WARN  [api-gateway] Kafka consumer lag: 19226 messages on topic=analytics
+2026-07-09 00:07:00.857 WARN  [api-gateway] Memory usage at 97% — approaching threshold
+2026-07-09 03:27:34.994 ERROR [api-gateway] Certificate expires in 25 days for api.nexora.io
+2026-07-09 03:37:59.475 FATAL [api-gateway] Certificate expires in 16 days for billing.nexora.io
+2026-07-09 06:03:00.335 DEBUG [api-gateway] SQL: SELECT * FROM events WHERE id = usr_97267 LIMIT 1
+2026-07-09 09:44:00.134 INFO  [api-gateway] Query executed in 14825ms: SELECT * FROM sessions
+2026-07-09 11:04:00.973 INFO  [api-gateway] Cache hit ratio: 76% (last 5min)
+2026-07-09 11:26:09.920 FATAL [api-gateway] Suspicious request pattern flagged for review
+2026-07-09 11:26:45.598 ERROR [api-gateway] Authentication failed for user_id=usr_20344: SchemaValidationError
+2026-07-09 11:28:37.534 FATAL [api-gateway] Suspicious request pattern flagged for review
+2026-07-09 11:44:58.004 ERROR [api-gateway] Suspicious request pattern flagged for review
+2026-07-09 15:11:00.789 WARN  [api-gateway] Memory usage at 73% — approaching threshold
+2026-07-09 17:39:00.022 WARN  [api-gateway] Connection pool utilization at 64%
+2026-07-09 17:43:03.784 FATAL [api-gateway] Health check failed: status=DOWN
+2026-07-09 17:51:00.242 ERROR [api-gateway] HTTP 500 from user-service: No route to host
+2026-07-09 17:55:00.765 INFO  [api-gateway] Query executed in 3140ms: SELECT * FROM payments
+2026-07-09 19:05:39.347 ERROR [api-gateway] Health check failed: status=DOWN
+2026-07-09 19:37:00.139 INFO  [api-gateway] Cache hit ratio: 81% (last 5min)
+2026-07-10 01:22:00.873 INFO  [api-gateway] Processed 5880 messages from topic=notifications
+2026-07-10 04:16:00.157 WARN  [api-gateway] Memory usage at 65% — approaching threshold
+2026-07-10 05:53:00.933 DEBUG [api-gateway] SQL: SELECT * FROM sessions WHERE id = usr_71809 LIMIT 1
+2026-07-10 08:57:00.873 INFO  [api-gateway] Query executed in 12582ms: SELECT * FROM events

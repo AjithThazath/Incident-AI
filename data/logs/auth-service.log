@@ -1,0 +1,1000 @@
+2026-05-11 10:22:00.940 WARN  [auth-service] Certificate expires in 1 days for billing.nexora.io
+2026-05-11 11:53:00.247 INFO  [auth-service] JWT token validated for user_id=usr_67673
+2026-05-11 12:01:00.744 DEBUG [auth-service] Processing request: method=PUT path=/health
+2026-05-11 12:36:00.456 WARN  [auth-service] Certificate expires in 20 days for api.nexora.io
+2026-05-11 22:11:00.939 INFO  [auth-service] Health check passed: status=UP, uptime=60235s
+2026-05-11 23:00:00.669 WARN  [auth-service] Retry attempt 4/3 for nginx-ingress
+2026-05-12 04:43:15.685 WARN  [auth-service] Kafka consumer lag: 10447 messages on topic=payments
+2026-05-12 04:44:08.886 ERROR [auth-service] Request rejected: clock skew exceeds tolerance
+2026-05-12 04:46:40.080 ERROR [auth-service] Token validation failed: timestamp out of allowed skew for user_id=usr_37630
+2026-05-12 04:47:57.916 WARN  [auth-service] Slow query detected: 13479ms on orders
+2026-05-12 04:52:21.690 WARN  [auth-service] Retry attempt 3/3 for user-service
+2026-05-12 07:28:00.179 WARN  [auth-service] Connection pool utilization at 97%
+2026-05-12 10:20:00.693 INFO  [auth-service] Query executed in 14463ms: SELECT * FROM metrics
+2026-05-12 12:42:00.614 ERROR [auth-service] Connection refused to search-service:5432 after 3 retries
+2026-05-12 13:47:00.825 WARN  [auth-service] Memory usage at 73% — approaching threshold
+2026-05-12 14:13:00.742 ERROR [auth-service] Database query failed: DeadlockDetected on table=metrics
+2026-05-12 14:56:00.034 INFO  [auth-service] Processed 508 messages from topic=notifications
+2026-05-12 15:12:00.601 WARN  [auth-service] Certificate expires in 25 days for auth.nexora.io
+2026-05-12 18:09:00.576 INFO  [auth-service] JWT token validated for user_id=usr_45433
+2026-05-12 19:53:22.864 ERROR [auth-service] Configuration checksum mismatch across replicas
+2026-05-12 19:59:00.067 INFO  [auth-service] JWT token validated for user_id=usr_74535
+2026-05-12 20:51:22.234 WARN  [auth-service] Slow query detected: 1037ms on metrics
+2026-05-12 22:07:00.046 ERROR [auth-service] Database query failed: NullPointerException on table=metrics
+2026-05-12 23:29:52.301 ERROR [auth-service] Record checksum mismatch detected for id=usr_19870
+2026-05-12 23:34:00.321 INFO  [auth-service] Query executed in 10417ms: SELECT * FROM payments
+2026-05-13 00:27:00.418 INFO  [auth-service] Health check passed: status=UP, uptime=61857s
+2026-05-13 02:04:00.892 FATAL [auth-service] Unable to connect to analytics-engine: all 1 retries exhausted
+2026-05-13 04:25:32.447 ERROR [auth-service] p99 latency exceeded SLO threshold
+2026-05-13 04:32:07.538 ERROR [auth-service] Reconciliation job found 7155 mismatched rows
+2026-05-13 05:03:18.641 FATAL [auth-service] p99 latency exceeded SLO threshold
+2026-05-13 05:08:00.695 INFO  [auth-service] JWT token validated for user_id=usr_88809
+2026-05-13 05:32:09.657 FATAL [auth-service] Timeout waiting for response from nginx-ingress after 30000ms
+2026-05-13 06:42:00.453 INFO  [auth-service] Query executed in 5243ms: SELECT * FROM metrics
+2026-05-13 08:05:00.234 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_12088 LIMIT 1
+2026-05-13 08:13:00.381 INFO  [auth-service] Query executed in 2812ms: SELECT * FROM sessions
+2026-05-13 08:20:00.417 INFO  [auth-service] Cache hit ratio: 83% (last 5min)
+2026-05-13 10:09:00.941 INFO  [auth-service] Processed 7720 messages from topic=payments
+2026-05-13 10:37:00.169 INFO  [auth-service] JWT token validated for user_id=usr_65728
+2026-05-13 10:45:00.478 INFO  [auth-service] JWT token validated for user_id=usr_10923
+2026-05-13 11:33:00.097 ERROR [auth-service] Timeout waiting for response from analytics-engine after 5000ms
+2026-05-13 12:27:00.562 WARN  [auth-service] Certificate expires in 8 days for billing.nexora.io
+2026-05-13 15:06:00.884 WARN  [auth-service] Slow query detected: 13169ms on payments
+2026-05-13 15:28:00.928 INFO  [auth-service] Request processed successfully in 4096ms
+2026-05-13 15:58:00.550 WARN  [auth-service] Certificate expires in 27 days for billing.nexora.io
+2026-05-13 16:34:00.519 INFO  [auth-service] Request processed successfully in 13407ms
+2026-05-13 16:47:00.958 INFO  [auth-service] Cache hit ratio: 72% (last 5min)
+2026-05-13 18:48:09.877 FATAL [auth-service] HPA unable to fetch metrics for auth-service
+2026-05-13 19:05:29.603 FATAL [auth-service] HPA unable to fetch metrics for auth-service
+2026-05-13 19:20:29.567 ERROR [auth-service] Pod scheduling failed: insufficient resources
+2026-05-13 19:26:19.968 WARN  [auth-service] Kafka consumer lag: 52940 messages on topic=user-updates
+2026-05-13 19:26:25.757 ERROR [auth-service] Request queue depth exceeded capacity
+2026-05-13 19:37:09.448 WARN  [auth-service] Kafka consumer lag: 19756 messages on topic=auth-events
+2026-05-13 19:40:14.145 FATAL [auth-service] Pod scheduling failed: insufficient resources
+2026-05-13 20:46:00.178 INFO  [auth-service] JWT token validated for user_id=usr_56759
+2026-05-13 23:51:00.989 INFO  [auth-service] Connected to redis-cache successfully
+2026-05-14 01:33:12.384 WARN  [auth-service] Connection pool utilization at 51%
+2026-05-14 01:33:57.547 WARN  [auth-service] Memory usage at 91% — approaching threshold
+2026-05-14 01:44:07.452 ERROR [auth-service] Connection refused to api-gateway:8080 after 5 retries
+2026-05-14 01:54:56.172 ERROR [auth-service] Circuit breaker opened for analytics-engine
+2026-05-14 02:01:28.708 FATAL [auth-service] Circuit breaker opened for redis-cache
+2026-05-14 02:01:44.339 ERROR [auth-service] Circuit breaker opened for elasticsearch
+2026-05-14 02:18:13.581 ERROR [auth-service] Circuit breaker opened for kafka
+2026-05-14 03:37:00.622 INFO  [auth-service] Cache hit ratio: 65% (last 5min)
+2026-05-14 03:50:00.086 DEBUG [auth-service] SQL: SELECT * FROM metrics WHERE id = usr_47254 LIMIT 1
+2026-05-14 04:23:00.355 INFO  [auth-service] Cache hit ratio: 66% (last 5min)
+2026-05-14 08:35:00.261 INFO  [auth-service] Request processed successfully in 13610ms
+2026-05-14 08:37:00.883 INFO  [auth-service] JWT token validated for user_id=usr_99358
+2026-05-14 11:05:00.809 FATAL [auth-service] Unable to connect to redis-cache: all 5 retries exhausted
+2026-05-14 11:30:00.158 WARN  [auth-service] Certificate expires in 12 days for api.nexora.io
+2026-05-14 14:03:29.450 ERROR [auth-service] Unexpected config value for key=timeout_ms
+2026-05-14 14:12:22.781 WARN  [auth-service] Slow query detected: 6805ms on orders
+2026-05-14 14:20:29.883 ERROR [auth-service] Deployed version v2.12.9 to staging
+2026-05-14 14:31:15.924 ERROR [auth-service] Deployed version v2.12.7 to production
+2026-05-14 14:48:56.081 FATAL [auth-service] Deployed version v2.14.9 to production
+2026-05-14 15:02:59.756 WARN  [auth-service] Connection pool utilization at 82%
+2026-05-14 15:07:01.408 ERROR [auth-service] Unexpected config value for key=timeout_ms
+2026-05-14 15:08:30.765 FATAL [auth-service] Configuration checksum mismatch across replicas
+2026-05-14 15:20:54.148 WARN  [auth-service] Slow query detected: 12006ms on events
+2026-05-14 15:22:38.056 ERROR [auth-service] Unexpected config value for key=timeout_ms
+2026-05-14 22:23:00.339 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-05-15 04:22:00.287 INFO  [auth-service] Processed 4152 messages from topic=analytics
+2026-05-15 07:19:00.387 ERROR [auth-service] HTTP 502 from user-service: Connection reset by peer
+2026-05-15 11:34:02.204 ERROR [auth-service] Replication lag: 7259ms behind primary
+2026-05-15 11:35:44.453 ERROR [auth-service] Replication lag: 5815ms behind primary
+2026-05-15 12:10:16.382 ERROR [auth-service] Replication lag: 11031ms behind primary
+2026-05-15 12:17:47.328 FATAL [auth-service] WAL replay stalled on standby
+2026-05-15 12:43:00.156 INFO  [auth-service] Query executed in 1775ms: SELECT * FROM sessions
+2026-05-15 12:56:58.418 ERROR [auth-service] WAL replay stalled on standby
+2026-05-15 14:47:00.906 WARN  [auth-service] Connection pool utilization at 89%
+2026-05-15 16:05:00.163 ERROR [auth-service] Connection refused to redis-cache:443 after 2 retries
+2026-05-15 17:20:00.915 INFO  [auth-service] Health check passed: status=UP, uptime=18457s
+2026-05-15 19:27:00.907 INFO  [auth-service] JWT token validated for user_id=usr_16696
+2026-05-15 20:00:00.438 FATAL [auth-service] Process killed by OOM killer: RSS=579MB, limit=5681MB
+2026-05-15 23:10:00.012 WARN  [auth-service] Kafka consumer lag: 33470 messages on topic=notifications
+2026-05-16 02:08:00.708 INFO  [auth-service] Processed 355 messages from topic=analytics
+2026-05-16 02:32:00.253 WARN  [auth-service] Certificate expires in 10 days for billing.nexora.io
+2026-05-16 03:32:00.853 INFO  [auth-service] Health check passed: status=UP, uptime=48806s
+2026-05-16 05:09:00.559 WARN  [auth-service] Slow query detected: 934ms on payments
+2026-05-16 08:19:00.679 FATAL [auth-service] Process killed by OOM killer: RSS=2454MB, limit=6881MB
+2026-05-16 12:57:00.812 WARN  [auth-service] Kafka consumer lag: 94565 messages on topic=user-updates
+2026-05-16 15:44:00.062 ERROR [auth-service] HTTP 500 from reporting-service: Broken pipe
+2026-05-16 17:05:00.535 INFO  [auth-service] Processed 9610 messages from topic=auth-events
+2026-05-16 19:14:00.994 INFO  [auth-service] Request processed successfully in 12606ms
+2026-05-16 19:33:00.639 INFO  [auth-service] Connected to postgres-primary successfully
+2026-05-16 19:53:00.109 ERROR [auth-service] Connection refused to nginx-ingress:9092 after 4 retries
+2026-05-16 20:36:00.648 FATAL [auth-service] Unable to connect to notification-service: all 1 retries exhausted
+2026-05-16 21:09:00.065 INFO  [auth-service] Request processed successfully in 4505ms
+2026-05-16 21:11:00.154 WARN  [auth-service] Memory usage at 97% — approaching threshold
+2026-05-16 22:49:16.391 FATAL [auth-service] DNS resolution failed for user-service
+2026-05-16 23:09:28.968 WARN  [auth-service] Certificate expires in 22 days for api.nexora.io
+2026-05-17 00:39:27.366 ERROR [auth-service] Connection refused to postgres-primary:6379 after 2 retries
+2026-05-17 01:01:00.346 INFO  [auth-service] Query executed in 11519ms: SELECT * FROM events
+2026-05-17 01:17:00.176 INFO  [auth-service] Processed 6702 messages from topic=auth-events
+2026-05-17 04:56:00.206 INFO  [auth-service] JWT token validated for user_id=usr_11685
+2026-05-17 05:07:00.067 WARN  [auth-service] Memory usage at 79% — approaching threshold
+2026-05-17 06:55:00.656 WARN  [auth-service] Memory usage at 65% — approaching threshold
+2026-05-17 08:12:00.115 WARN  [auth-service] Memory usage at 66% — approaching threshold
+2026-05-17 08:17:55.158 ERROR [auth-service] Authentication failed for user_id=usr_66898: SchemaValidationError
+2026-05-17 08:27:31.699 ERROR [auth-service] Authentication failed for user_id=usr_70342: SchemaValidationError
+2026-05-17 08:29:15.975 WARN  [auth-service] Slow query detected: 5251ms on payments
+2026-05-17 08:37:37.585 ERROR [auth-service] Authentication failed for user_id=usr_24175: SchemaValidationError
+2026-05-17 08:39:11.257 ERROR [auth-service] Failed to process message: offset=743082, topic=user-updates
+2026-05-17 08:41:00.190 FATAL [auth-service] Process killed by OOM killer: RSS=3886MB, limit=5512MB
+2026-05-17 11:50:00.645 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_62462 LIMIT 1
+2026-05-17 12:24:00.830 INFO  [auth-service] Query executed in 279ms: SELECT * FROM sessions
+2026-05-17 12:26:00.881 INFO  [auth-service] Connected to kafka successfully
+2026-05-17 12:59:00.947 INFO  [auth-service] Query executed in 5997ms: SELECT * FROM events
+2026-05-17 13:37:00.641 ERROR [auth-service] Database query failed: ConnectionTimeout on table=orders
+2026-05-17 14:24:00.674 WARN  [auth-service] Memory usage at 59% — approaching threshold
+2026-05-17 14:57:43.422 ERROR [auth-service] x509: certificate has expired or is not yet valid
+2026-05-17 16:15:00.798 ERROR [auth-service] x509: certificate has expired or is not yet valid
+2026-05-17 17:51:00.193 INFO  [auth-service] Connected to postgres-replica successfully
+2026-05-17 19:11:00.368 INFO  [auth-service] Query executed in 8239ms: SELECT * FROM users
+2026-05-17 19:46:00.792 DEBUG [auth-service] Cache lookup: key=session:1234 result=HIT
+2026-05-17 21:52:00.613 ERROR [auth-service] Timeout waiting for response from billing-service after 30000ms
+2026-05-17 22:07:00.599 ERROR [auth-service] Timeout waiting for response from analytics-engine after 5000ms
+2026-05-17 22:26:00.752 WARN  [auth-service] Certificate expires in 29 days for auth.nexora.io
+2026-05-18 03:14:00.812 WARN  [auth-service] Retry attempt 2/3 for elasticsearch
+2026-05-18 03:41:00.665 ERROR [auth-service] Timeout waiting for response from api-gateway after 5000ms
+2026-05-18 05:18:00.370 INFO  [auth-service] Cache hit ratio: 98% (last 5min)
+2026-05-18 11:25:22.938 ERROR [auth-service] Kafka consumer lag: 75784 messages on topic=auth-events
+2026-05-18 12:04:00.445 INFO  [auth-service] Connected to nginx-ingress successfully
+2026-05-18 12:13:36.297 ERROR [auth-service] Connection refused to analytics-engine:443 after 2 retries
+2026-05-18 12:51:47.612 WARN  [auth-service] Slow query detected: 13630ms on metrics
+2026-05-18 13:25:00.021 DEBUG [auth-service] Cache lookup: key=session:1234 result=HIT
+2026-05-18 13:29:04.299 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-18 13:47:46.862 ERROR [auth-service] Failed to process message: offset=375069, topic=auth-events
+2026-05-18 21:17:00.843 INFO  [auth-service] Health check passed: status=UP, uptime=35914s
+2026-05-19 02:50:00.628 INFO  [auth-service] Health check passed: status=UP, uptime=81150s
+2026-05-19 03:41:00.366 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-05-19 06:43:00.521 FATAL [auth-service] Process killed by OOM killer: RSS=3265MB, limit=4067MB
+2026-05-19 08:07:01.366 WARN  [auth-service] Certificate expires in 13 days for billing.nexora.io
+2026-05-19 08:31:14.039 ERROR [auth-service] Disk usage at 52% on /data volume
+2026-05-19 08:32:24.842 FATAL [auth-service] Write failed: No space left on device
+2026-05-19 08:51:19.078 ERROR [auth-service] Slow request handling, thread pool saturated
+2026-05-19 10:18:00.289 ERROR [auth-service] Database query failed: ConnectionTimeout on table=payments
+2026-05-19 10:24:29.376 FATAL [auth-service] Slow request handling, thread pool saturated
+2026-05-19 12:37:00.739 WARN  [auth-service] Kafka consumer lag: 31285 messages on topic=auth-events
+2026-05-19 13:52:00.427 INFO  [auth-service] Cache hit ratio: 74% (last 5min)
+2026-05-19 14:52:00.628 INFO  [auth-service] Processed 6058 messages from topic=analytics
+2026-05-19 15:13:00.082 INFO  [auth-service] JWT token validated for user_id=usr_78364
+2026-05-19 17:06:00.500 ERROR [auth-service] Timeout waiting for response from api-gateway after 5000ms
+2026-05-19 18:51:00.987 DEBUG [auth-service] Cache lookup: key=session:1234 result=HIT
+2026-05-19 22:19:00.544 WARN  [auth-service] Connection pool utilization at 98%
+2026-05-19 22:41:00.244 INFO  [auth-service] Query executed in 2909ms: SELECT * FROM payments
+2026-05-19 22:55:00.654 INFO  [auth-service] Query executed in 12676ms: SELECT * FROM users
+2026-05-19 23:11:00.394 INFO  [auth-service] Health check passed: status=UP, uptime=28202s
+2026-05-20 04:59:00.708 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_41589 LIMIT 1
+2026-05-20 08:17:00.548 INFO  [auth-service] Connected to redis-cache successfully
+2026-05-20 12:28:00.739 WARN  [auth-service] Certificate expires in 12 days for billing.nexora.io
+2026-05-20 17:29:00.861 FATAL [auth-service] Unable to connect to search-service: all 1 retries exhausted
+2026-05-20 21:34:27.312 WARN  [auth-service] Kafka consumer lag: 38232 messages on topic=user-updates
+2026-05-21 00:57:10.602 ERROR [auth-service] Database query failed: ConnectionTimeout on table=users
+2026-05-21 04:35:23.438 ERROR [auth-service] Request queue depth exceeded capacity
+2026-05-21 04:35:36.164 FATAL [auth-service] Request queue depth exceeded capacity
+2026-05-21 04:36:23.745 FATAL [auth-service] HPA unable to fetch metrics for auth-service
+2026-05-21 04:40:13.924 ERROR [auth-service] Pod scheduling failed: insufficient resources
+2026-05-21 04:57:48.572 ERROR [auth-service] Request queue depth exceeded capacity
+2026-05-21 05:00:36.504 FATAL [auth-service] HPA unable to fetch metrics for auth-service
+2026-05-21 05:11:34.391 ERROR [auth-service] Pod scheduling failed: insufficient resources
+2026-05-21 08:27:00.746 INFO  [auth-service] Connected to billing-service successfully
+2026-05-21 08:32:00.229 WARN  [auth-service] Memory usage at 77% — approaching threshold
+2026-05-21 10:13:00.301 WARN  [auth-service] Retry attempt 3/3 for kafka
+2026-05-21 11:51:00.834 INFO  [auth-service] Processed 6461 messages from topic=notifications
+2026-05-21 15:00:00.827 INFO  [auth-service] Request processed successfully in 9288ms
+2026-05-21 18:08:00.674 WARN  [auth-service] Retry attempt 3/3 for postgres-replica
+2026-05-21 18:17:00.107 INFO  [auth-service] Health check passed: status=UP, uptime=24173s
+2026-05-21 21:25:01.791 ERROR [auth-service] Request rejected: clock skew exceeds tolerance
+2026-05-21 21:34:49.750 ERROR [auth-service] Token validation failed: timestamp out of allowed skew for user_id=usr_48069
+2026-05-21 21:38:36.166 ERROR [auth-service] Request rejected: clock skew exceeds tolerance
+2026-05-21 21:44:18.317 ERROR [auth-service] Token validation failed: timestamp out of allowed skew for user_id=usr_75674
+2026-05-21 22:18:10.910 ERROR [auth-service] Token validation failed: timestamp out of allowed skew for user_id=usr_97193
+2026-05-21 22:47:00.274 INFO  [auth-service] Connected to analytics-engine successfully
+2026-05-21 23:05:00.695 FATAL [auth-service] Unable to connect to elasticsearch: all 4 retries exhausted
+2026-05-22 00:23:00.151 ERROR [auth-service] Timeout waiting for response from notification-service after 30000ms
+2026-05-22 02:40:00.851 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_39373 LIMIT 1
+2026-05-22 04:03:00.902 INFO  [auth-service] Health check passed: status=UP, uptime=74209s
+2026-05-22 13:50:00.219 WARN  [auth-service] Connection pool utilization at 51%
+2026-05-22 16:43:00.455 INFO  [auth-service] Connected to reporting-service successfully
+2026-05-22 17:12:59.427 WARN  [auth-service] Retry attempt 5/3 for user-service
+2026-05-22 17:53:28.105 ERROR [auth-service] Health check failed: status=DOWN
+2026-05-22 19:02:00.051 INFO  [auth-service] Request processed successfully in 10916ms
+2026-05-22 19:14:00.495 INFO  [auth-service] Query executed in 9960ms: SELECT * FROM events
+2026-05-22 19:53:39.139 ERROR [auth-service] Too many open files
+2026-05-22 20:44:00.465 WARN  [auth-service] Memory usage at 95% — approaching threshold
+2026-05-22 22:36:00.736 INFO  [auth-service] JWT token validated for user_id=usr_91519
+2026-05-22 22:50:00.084 WARN  [auth-service] Slow query detected: 1175ms on sessions
+2026-05-22 23:01:00.705 WARN  [auth-service] Slow query detected: 7592ms on users
+2026-05-23 00:23:39.292 FATAL [auth-service] Authentication failed for user_id=usr_85638: DeadlockDetected
+2026-05-23 01:17:47.525 WARN  [auth-service] Retry attempt 1/3 for user-service
+2026-05-23 01:18:48.459 WARN  [auth-service] Retry attempt 1/3 for reporting-service
+2026-05-23 01:28:00.973 INFO  [auth-service] JWT token validated for user_id=usr_60544
+2026-05-23 06:37:00.351 INFO  [auth-service] Connected to analytics-engine successfully
+2026-05-23 07:32:14.305 FATAL [auth-service] Disk usage at 70% on /data volume
+2026-05-23 07:32:17.765 ERROR [auth-service] Write failed: No space left on device
+2026-05-23 07:34:44.366 ERROR [auth-service] Write failed: No space left on device
+2026-05-23 07:36:12.573 ERROR [auth-service] Write failed: No space left on device
+2026-05-23 07:42:29.577 WARN  [auth-service] Connection pool utilization at 81%
+2026-05-23 07:43:19.080 ERROR [auth-service] Disk usage at 56% on /data volume
+2026-05-23 07:45:36.513 ERROR [auth-service] Log rotation failed, disk nearly full
+2026-05-23 09:52:00.630 ERROR [auth-service] Database query failed: ConnectionTimeout on table=payments
+2026-05-23 10:52:00.738 WARN  [auth-service] Retry attempt 2/3 for notification-service
+2026-05-23 14:19:00.103 WARN  [auth-service] Memory usage at 75% — approaching threshold
+2026-05-23 14:32:00.405 INFO  [auth-service] JWT token validated for user_id=usr_79028
+2026-05-23 15:02:00.457 INFO  [auth-service] Query executed in 841ms: SELECT * FROM users
+2026-05-23 15:24:00.847 INFO  [auth-service] Health check passed: status=UP, uptime=42691s
+2026-05-23 17:12:00.014 INFO  [auth-service] Processed 1626 messages from topic=notifications
+2026-05-23 17:51:14.232 WARN  [auth-service] Kafka consumer lag: 35953 messages on topic=notifications
+2026-05-23 17:59:08.301 ERROR [auth-service] Database query failed: DeadlockDetected on table=sessions
+2026-05-23 18:00:00.309 FATAL [auth-service] Process killed by OOM killer: RSS=2207MB, limit=2128MB
+2026-05-23 18:16:00.888 INFO  [auth-service] Health check passed: status=UP, uptime=27960s
+2026-05-23 22:00:00.373 INFO  [auth-service] Cache hit ratio: 94% (last 5min)
+2026-05-23 23:22:00.275 INFO  [auth-service] Query executed in 14406ms: SELECT * FROM metrics
+2026-05-23 23:55:00.787 WARN  [auth-service] Connection pool utilization at 54%
+2026-05-24 00:10:00.172 DEBUG [auth-service] Processing request: method=GET path=/api/v1/analytics
+2026-05-24 01:40:00.244 ERROR [auth-service] HTTP 504 from api-gateway: Too many open files
+2026-05-24 01:43:00.183 INFO  [auth-service] Health check passed: status=UP, uptime=29913s
+2026-05-24 06:40:00.696 DEBUG [auth-service] Processing request: method=POST path=/api/v1/users
+2026-05-24 08:33:46.222 WARN  [auth-service] Memory usage at 72% — approaching threshold
+2026-05-24 08:48:29.799 ERROR [auth-service] Disk usage at 89% on /data volume
+2026-05-24 09:10:42.352 WARN  [auth-service] Connection pool utilization at 68%
+2026-05-24 13:12:28.633 WARN  [auth-service] Retry attempt 3/3 for search-service
+2026-05-24 13:25:40.035 ERROR [auth-service] Slow query detected: 10791ms on metrics
+2026-05-24 13:57:00.565 INFO  [auth-service] Health check passed: status=UP, uptime=23930s
+2026-05-24 15:27:00.508 INFO  [auth-service] Cache hit ratio: 99% (last 5min)
+2026-05-24 17:37:29.267 FATAL [auth-service] Schema validation error: column not found
+2026-05-24 17:48:00.681 WARN  [auth-service] Certificate expires in 1 days for api.nexora.io
+2026-05-24 17:53:55.989 ERROR [auth-service] Migration lock held longer than expected
+2026-05-24 17:55:12.727 ERROR [auth-service] Database query failed: SchemaValidationError on table=orders
+2026-05-24 17:57:02.304 ERROR [auth-service] Database query failed: ConnectionTimeout on table=users
+2026-05-24 20:47:00.933 INFO  [auth-service] Cache hit ratio: 83% (last 5min)
+2026-05-25 01:38:00.867 WARN  [auth-service] Connection pool utilization at 88%
+2026-05-25 01:47:00.120 ERROR [auth-service] Database query failed: SchemaValidationError on table=events
+2026-05-25 01:59:00.852 DEBUG [auth-service] Processing request: method=GET path=/health
+2026-05-25 02:12:00.385 INFO  [auth-service] Request processed successfully in 10145ms
+2026-05-25 04:04:00.188 ERROR [auth-service] Timeout waiting for response from api-gateway after 30000ms
+2026-05-25 04:58:00.196 INFO  [auth-service] JWT token validated for user_id=usr_67418
+2026-05-25 05:44:00.370 INFO  [auth-service] Processed 3975 messages from topic=user-updates
+2026-05-25 06:20:00.450 INFO  [auth-service] Query executed in 11499ms: SELECT * FROM events
+2026-05-25 11:50:00.507 INFO  [auth-service] Health check passed: status=UP, uptime=79078s
+2026-05-25 12:34:00.924 ERROR [auth-service] HTTP 502 from kafka: Resource temporarily unavailable
+2026-05-25 19:15:00.164 ERROR [auth-service] HTTP 503 from notification-service: Broken pipe
+2026-05-25 19:15:37.640 ERROR [auth-service] Duplicate record written for key=session:1234
+2026-05-25 19:21:21.054 ERROR [auth-service] Duplicate record written for key=session:1234
+2026-05-25 19:23:23.776 WARN  [auth-service] Slow query detected: 6614ms on events
+2026-05-25 21:09:00.649 FATAL [auth-service] Unable to connect to kafka: all 4 retries exhausted
+2026-05-26 01:19:00.861 INFO  [auth-service] Connected to notification-service successfully
+2026-05-26 04:22:00.392 WARN  [auth-service] Slow query detected: 10410ms on events
+2026-05-26 05:22:00.294 INFO  [auth-service] JWT token validated for user_id=usr_99080
+2026-05-26 05:50:00.205 INFO  [auth-service] Cache hit ratio: 61% (last 5min)
+2026-05-26 05:57:00.719 WARN  [auth-service] Connection pool utilization at 91%
+2026-05-26 06:44:00.031 FATAL [auth-service] Unable to connect to reporting-service: all 2 retries exhausted
+2026-05-26 07:32:00.086 INFO  [auth-service] Health check passed: status=UP, uptime=8585s
+2026-05-26 20:02:00.593 INFO  [auth-service] Connected to api-gateway successfully
+2026-05-26 20:54:00.028 INFO  [auth-service] Health check passed: status=UP, uptime=83808s
+2026-05-27 01:07:24.315 WARN  [auth-service] Retry attempt 4/3 for postgres-primary
+2026-05-27 01:38:42.049 ERROR [auth-service] HTTP 502 from kafka: Connection reset by peer
+2026-05-27 01:39:51.499 FATAL [auth-service] HTTP 500 from reporting-service: Broken pipe
+2026-05-27 10:39:00.918 INFO  [auth-service] Health check passed: status=UP, uptime=11725s
+2026-05-27 14:40:00.506 INFO  [auth-service] Cache hit ratio: 89% (last 5min)
+2026-05-27 14:47:14.256 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 14:53:32.827 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 15:07:33.717 ERROR [auth-service] Kafka consumer lag: 84492 messages on topic=user-updates
+2026-05-27 15:14:14.022 WARN  [auth-service] Retry attempt 5/3 for notification-service
+2026-05-27 15:25:07.560 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 15:28:59.881 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 15:31:08.937 WARN  [auth-service] Kafka consumer lag: 22923 messages on topic=auth-events
+2026-05-27 15:43:29.829 WARN  [auth-service] Retry attempt 1/3 for search-service
+2026-05-27 15:48:13.699 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 15:54:13.782 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 15:59:40.314 ERROR [auth-service] Failed to process message: offset=435460, topic=auth-events
+2026-05-27 16:14:50.511 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-05-27 16:44:00.558 INFO  [auth-service] Processed 1879 messages from topic=user-updates
+2026-05-27 17:44:45.191 ERROR [auth-service] Log rotation failed, disk nearly full
+2026-05-27 17:57:12.608 FATAL [auth-service] Log rotation failed, disk nearly full
+2026-05-27 18:10:22.094 WARN  [auth-service] Slow query detected: 4266ms on sessions
+2026-05-27 18:14:31.388 ERROR [auth-service] Too many open files
+2026-05-27 18:15:37.384 FATAL [auth-service] Log rotation failed, disk nearly full
+2026-05-27 18:16:43.347 ERROR [auth-service] Health check failed: status=DOWN
+2026-05-27 18:18:15.720 ERROR [auth-service] Write failed: No space left on device
+2026-05-27 18:21:14.933 ERROR [auth-service] Too many open files
+2026-05-27 18:24:54.454 WARN  [auth-service] Kafka consumer lag: 91411 messages on topic=notifications
+2026-05-27 18:37:05.258 ERROR [auth-service] Health check failed: status=DOWN
+2026-05-27 18:56:00.734 ERROR [auth-service] Thread pool exhausted, rejecting new requests
+2026-05-27 19:05:20.786 WARN  [auth-service] Retry attempt 4/3 for postgres-replica
+2026-05-27 19:19:11.246 ERROR [auth-service] Retry storm detected: 3649 retries/min to billing-service
+2026-05-27 22:33:09.000 ERROR [auth-service] TLS handshake failed: certificate verify failed
+2026-05-27 22:34:00.296 DEBUG [auth-service] Cache lookup: key=session:1234 result=HIT
+2026-05-28 00:15:53.805 ERROR [auth-service] x509: certificate has expired or is not yet valid
+2026-05-28 03:01:00.429 DEBUG [auth-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-28 06:35:00.301 WARN  [auth-service] Slow query detected: 4743ms on sessions
+2026-05-28 08:07:00.491 ERROR [auth-service] HTTP 500 from postgres-primary: Too many open files
+2026-05-28 08:57:00.532 WARN  [auth-service] Certificate expires in 30 days for billing.nexora.io
+2026-05-28 09:59:00.658 INFO  [auth-service] Query executed in 10837ms: SELECT * FROM sessions
+2026-05-28 14:09:00.333 INFO  [auth-service] JWT token validated for user_id=usr_19066
+2026-05-28 18:16:00.597 INFO  [auth-service] Connected to analytics-engine successfully
+2026-05-28 19:17:00.748 FATAL [auth-service] Unable to connect to billing-service: all 2 retries exhausted
+2026-05-29 00:38:49.577 FATAL [auth-service] Process killed by OOM killer: RSS=3185MB, limit=7161MB
+2026-05-29 00:50:07.055 FATAL [auth-service] Process killed by OOM killer: RSS=4008MB, limit=6241MB
+2026-05-29 00:50:45.431 WARN  [auth-service] Connection pool utilization at 79%
+2026-05-29 02:54:00.476 WARN  [auth-service] Retry attempt 1/3 for analytics-engine
+2026-05-29 05:21:00.956 INFO  [auth-service] Request processed successfully in 13498ms
+2026-05-29 13:41:00.890 INFO  [auth-service] Connected to elasticsearch successfully
+2026-05-29 16:14:00.036 WARN  [auth-service] Certificate expires in 2 days for billing.nexora.io
+2026-05-29 16:57:00.514 INFO  [auth-service] Processed 7287 messages from topic=payments
+2026-05-29 18:00:00.948 INFO  [auth-service] Processed 8085 messages from topic=payments
+2026-05-29 20:00:00.520 FATAL [auth-service] Process killed by OOM killer: RSS=676MB, limit=6446MB
+2026-05-29 20:54:00.673 WARN  [auth-service] Slow query detected: 4656ms on payments
+2026-05-30 01:29:00.136 ERROR [auth-service] HTTP 500 from postgres-replica: Connection timed out
+2026-05-30 03:08:00.399 INFO  [auth-service] JWT token validated for user_id=usr_32801
+2026-05-30 06:01:00.629 INFO  [auth-service] Connected to reporting-service successfully
+2026-05-30 07:14:00.294 WARN  [auth-service] Connection pool utilization at 96%
+2026-05-30 07:15:00.031 INFO  [auth-service] Request processed successfully in 103ms
+2026-05-30 13:26:00.069 INFO  [auth-service] JWT token validated for user_id=usr_95537
+2026-05-30 13:45:00.720 INFO  [auth-service] Processed 1720 messages from topic=user-updates
+2026-05-30 14:45:00.556 WARN  [auth-service] Kafka consumer lag: 39746 messages on topic=analytics
+2026-05-30 15:44:00.755 INFO  [auth-service] Connected to billing-service successfully
+2026-05-30 16:17:00.447 INFO  [auth-service] Health check passed: status=UP, uptime=38821s
+2026-05-30 23:46:00.626 INFO  [auth-service] Connected to kafka successfully
+2026-05-31 00:32:34.224 ERROR [auth-service] Cache hit ratio dropped to 63%
+2026-05-31 01:12:30.281 FATAL [auth-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-31 04:32:00.311 INFO  [auth-service] Query executed in 12209ms: SELECT * FROM metrics
+2026-05-31 05:23:00.274 INFO  [auth-service] Cache hit ratio: 78% (last 5min)
+2026-05-31 06:54:22.286 WARN  [auth-service] Connection pool utilization at 76%
+2026-05-31 07:17:27.518 ERROR [auth-service] Suspicious request pattern flagged for review
+2026-05-31 07:23:29.434 ERROR [auth-service] Authentication failed for user_id=usr_91555: DeadlockDetected
+2026-05-31 07:47:08.246 WARN  [auth-service] Slow query detected: 8008ms on orders
+2026-05-31 07:53:17.480 ERROR [auth-service] Authentication failed for user_id=usr_30582: NullPointerException
+2026-05-31 08:43:04.330 ERROR [auth-service] Circuit breaker opened for nginx-ingress
+2026-05-31 08:52:59.565 WARN  [auth-service] Slow query detected: 4325ms on orders
+2026-05-31 09:09:05.848 FATAL [auth-service] Thread pool exhausted, rejecting new requests
+2026-05-31 11:31:00.004 INFO  [auth-service] JWT token validated for user_id=usr_12795
+2026-05-31 18:57:00.957 FATAL [auth-service] Unable to connect to api-gateway: all 3 retries exhausted
+2026-05-31 19:39:48.134 WARN  [auth-service] Retry attempt 3/3 for reporting-service
+2026-05-31 19:40:51.057 ERROR [auth-service] Replication lag: 6197ms behind primary
+2026-05-31 19:42:28.694 WARN  [auth-service] Retry attempt 1/3 for analytics-engine
+2026-05-31 19:47:46.265 ERROR [auth-service] Slow query detected: 5095ms on metrics
+2026-05-31 20:00:41.710 WARN  [auth-service] Kafka consumer lag: 26572 messages on topic=analytics
+2026-05-31 21:16:00.675 INFO  [auth-service] Connected to search-service successfully
+2026-05-31 22:33:00.201 DEBUG [auth-service] SQL: SELECT * FROM orders WHERE id = usr_94070 LIMIT 1
+2026-05-31 22:41:55.479 WARN  [auth-service] Kafka consumer lag: 66293 messages on topic=user-updates
+2026-05-31 23:16:04.504 WARN  [auth-service] Slow query detected: 6154ms on sessions
+2026-05-31 23:19:29.551 ERROR [auth-service] Schema validation error: column not found
+2026-05-31 23:31:17.250 FATAL [auth-service] Configuration checksum mismatch across replicas
+2026-05-31 23:42:15.588 ERROR [auth-service] Database query failed: DeadlockDetected on table=users
+2026-05-31 23:52:34.914 ERROR [auth-service] Deployed version v2.19.7 to production
+2026-05-31 23:54:59.558 WARN  [auth-service] Connection pool utilization at 53%
+2026-06-01 00:17:05.868 WARN  [auth-service] Retry attempt 2/3 for user-service
+2026-06-01 11:14:00.754 DEBUG [auth-service] Processing request: method=PUT path=/api/v1/payments
+2026-06-01 11:47:00.228 DEBUG [auth-service] SQL: SELECT * FROM events WHERE id = usr_65725 LIMIT 1
+2026-06-01 13:52:00.648 DEBUG [auth-service] Cache lookup: key=dark_launch_v2 result=MISS
+2026-06-01 16:28:00.781 WARN  [auth-service] Kafka consumer lag: 72144 messages on topic=notifications
+2026-06-01 16:35:35.416 WARN  [auth-service] Slow query detected: 7908ms on users
+2026-06-01 16:36:34.250 WARN  [auth-service] Memory usage at 85% — approaching threshold
+2026-06-01 16:38:08.882 WARN  [auth-service] Memory usage at 77% — approaching threshold
+2026-06-01 16:38:28.412 ERROR [auth-service] Circuit breaker opened for redis-cache
+2026-06-01 16:43:48.667 ERROR [auth-service] Timeout waiting for response from postgres-primary after 30000ms
+2026-06-01 16:45:52.636 ERROR [auth-service] Timeout waiting for response from nginx-ingress after 5000ms
+2026-06-01 16:47:53.712 ERROR [auth-service] Timeout waiting for response from elasticsearch after 5000ms
+2026-06-01 16:55:00.214 INFO  [auth-service] JWT token validated for user_id=usr_31368
+2026-06-01 21:06:00.033 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-01 22:54:00.754 INFO  [auth-service] Query executed in 8135ms: SELECT * FROM metrics
+2026-06-02 00:03:00.779 INFO  [auth-service] JWT token validated for user_id=usr_15199
+2026-06-02 04:23:18.700 WARN  [auth-service] Memory usage at 82% — approaching threshold
+2026-06-02 05:22:27.784 FATAL [auth-service] HPA unable to fetch metrics for auth-service
+2026-06-02 05:27:00.480 DEBUG [auth-service] Cache lookup: key=session:1234 result=HIT
+2026-06-02 14:43:22.065 ERROR [auth-service] Certificate expires in 28 days for auth.nexora.io
+2026-06-02 14:54:24.651 FATAL [auth-service] x509: certificate has expired or is not yet valid
+2026-06-02 15:33:13.510 FATAL [auth-service] Certificate expires in 10 days for auth.nexora.io
+2026-06-02 18:35:01.864 FATAL [auth-service] Timeout waiting for response from nginx-ingress after 5000ms
+2026-06-02 18:37:37.773 ERROR [auth-service] Circuit breaker opened for billing-service
+2026-06-02 18:48:48.926 ERROR [auth-service] Circuit breaker opened for postgres-replica
+2026-06-02 18:48:50.359 ERROR [auth-service] Timeout waiting for response from elasticsearch after 30000ms
+2026-06-02 18:49:13.608 WARN  [auth-service] Kafka consumer lag: 34630 messages on topic=payments
+2026-06-02 18:52:47.792 FATAL [auth-service] Connection refused to postgres-replica:443 after 1 retries
+2026-06-02 19:02:42.189 ERROR [auth-service] Connection refused to api-gateway:9092 after 1 retries
+2026-06-02 20:10:36.091 ERROR [auth-service] Suspicious request pattern flagged for review
+2026-06-02 20:13:35.677 FATAL [auth-service] Rate limit exceeded: 4945/2229 requests from single source
+2026-06-02 21:26:14.747 ERROR [auth-service] Slow request handling, thread pool saturated
+2026-06-02 21:31:00.333 INFO  [auth-service] Cache hit ratio: 67% (last 5min)
+2026-06-02 22:20:00.934 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-02 22:38:01.730 ERROR [auth-service] Event loop lag: 9702ms — possible blocking operation
+2026-06-03 00:52:56.899 WARN  [auth-service] Retry attempt 2/3 for postgres-primary
+2026-06-03 01:28:40.283 ERROR [auth-service] Process killed by OOM killer: RSS=3336MB, limit=6802MB
+2026-06-03 01:34:41.485 FATAL [auth-service] Memory usage at 89% — approaching threshold
+2026-06-03 07:33:00.253 WARN  [auth-service] Retry attempt 1/3 for analytics-engine
+2026-06-03 12:35:08.551 FATAL [auth-service] Request rejected: clock skew exceeds tolerance
+2026-06-03 12:39:23.743 ERROR [auth-service] NTP sync failed, offset=3541ms
+2026-06-03 12:44:08.090 ERROR [auth-service] Request rejected: clock skew exceeds tolerance
+2026-06-03 12:58:48.515 WARN  [auth-service] Certificate expires in 18 days for api.nexora.io
+2026-06-03 13:06:38.843 ERROR [auth-service] NTP sync failed, offset=2692ms
+2026-06-03 14:51:00.418 INFO  [auth-service] JWT token validated for user_id=usr_15573
+2026-06-03 15:04:44.137 WARN  [auth-service] Memory usage at 56% — approaching threshold
+2026-06-03 15:56:00.358 FATAL [auth-service] Replication lag: 3887ms behind primary
+2026-06-03 16:39:00.033 INFO  [auth-service] Cache hit ratio: 74% (last 5min)
+2026-06-03 19:49:00.044 INFO  [auth-service] Request processed successfully in 14371ms
+2026-06-03 22:13:00.978 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_51487 LIMIT 1
+2026-06-03 22:27:54.047 ERROR [auth-service] Database connection failed: password authentication failed
+2026-06-03 22:29:20.211 FATAL [auth-service] Secret version mismatch detected
+2026-06-03 22:33:42.587 WARN  [auth-service] Certificate expires in 28 days for auth.nexora.io
+2026-06-03 22:48:20.248 FATAL [auth-service] Secret version mismatch detected
+2026-06-03 22:54:32.356 WARN  [auth-service] Kafka consumer lag: 9296 messages on topic=analytics
+2026-06-03 22:55:25.601 ERROR [auth-service] Database connection failed: password authentication failed
+2026-06-03 22:56:32.349 ERROR [auth-service] Database connection failed: password authentication failed
+2026-06-04 02:33:00.385 INFO  [auth-service] Connected to postgres-replica successfully
+2026-06-04 04:14:16.179 ERROR [auth-service] Unexpected code path triggered: legacy_handler
+2026-06-04 04:16:21.367 ERROR [auth-service] Feature flag new_checkout_flow evaluated true for 100% of traffic
+2026-06-04 04:16:58.432 WARN  [auth-service] Kafka consumer lag: 79305 messages on topic=payments
+2026-06-04 04:28:40.903 ERROR [auth-service] Flag evaluation error, falling back to default
+2026-06-04 05:05:06.617 WARN  [auth-service] Memory usage at 74% — approaching threshold
+2026-06-04 05:20:00.024 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-04 13:43:00.257 INFO  [auth-service] Request processed successfully in 476ms
+2026-06-04 14:13:09.476 ERROR [auth-service] Authentication failed for user_id=usr_80972: NullPointerException
+2026-06-04 14:17:33.373 ERROR [auth-service] Database connection failed: password authentication failed
+2026-06-04 14:36:29.222 ERROR [auth-service] Secret version mismatch detected
+2026-06-04 14:42:13.664 WARN  [auth-service] Slow query detected: 14366ms on metrics
+2026-06-04 14:47:28.021 WARN  [auth-service] Kafka consumer lag: 96209 messages on topic=payments
+2026-06-04 20:52:00.232 INFO  [auth-service] Processed 9312 messages from topic=user-updates
+2026-06-04 21:30:00.560 FATAL [auth-service] Unable to connect to analytics-engine: all 1 retries exhausted
+2026-06-05 01:02:00.051 DEBUG [auth-service] Processing request: method=PUT path=/api/v1/users
+2026-06-05 05:36:00.936 FATAL [auth-service] Timeout waiting for response from notification-service after 5000ms
+2026-06-05 05:54:53.012 FATAL [auth-service] p99 latency exceeded SLO threshold
+2026-06-05 06:04:09.761 ERROR [auth-service] p99 latency exceeded SLO threshold
+2026-06-05 06:07:05.136 ERROR [auth-service] Slow query detected: 3460ms on metrics
+2026-06-05 06:11:51.872 FATAL [auth-service] p99 latency exceeded SLO threshold
+2026-06-05 08:16:00.040 ERROR [auth-service] Database query failed: ConnectionTimeout on table=orders
+2026-06-05 10:50:00.046 INFO  [auth-service] Request processed successfully in 9129ms
+2026-06-05 11:47:02.951 WARN  [auth-service] Kafka consumer lag: 41852 messages on topic=payments
+2026-06-05 11:48:00.509 WARN  [auth-service] Memory usage at 94% — approaching threshold
+2026-06-05 11:51:43.077 WARN  [auth-service] Connection pool utilization at 75%
+2026-06-05 11:51:57.187 ERROR [auth-service] Connection refused to kafka:5432 after 2 retries
+2026-06-05 12:02:00.259 INFO  [auth-service] Health check passed: status=UP, uptime=73611s
+2026-06-05 12:04:50.290 ERROR [auth-service] Connection refused to analytics-engine:8080 after 2 retries
+2026-06-05 12:07:33.304 ERROR [auth-service] Timeout waiting for response from kafka after 5000ms
+2026-06-05 12:09:54.886 ERROR [auth-service] Connection refused to api-gateway:9092 after 5 retries
+2026-06-05 14:17:00.329 ERROR [auth-service] HTTP 500 from user-service: Too many open files
+2026-06-05 14:58:56.771 ERROR [auth-service] Disk usage at 63% on /data volume
+2026-06-05 15:08:50.191 WARN  [auth-service] Certificate expires in 19 days for billing.nexora.io
+2026-06-05 17:56:00.749 INFO  [auth-service] Request processed successfully in 2535ms
+2026-06-05 19:47:00.432 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-05 20:08:00.062 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_74070 LIMIT 1
+2026-06-05 23:21:00.770 INFO  [auth-service] JWT token validated for user_id=usr_43810
+2026-06-06 00:13:00.843 INFO  [auth-service] Health check passed: status=UP, uptime=36682s
+2026-06-06 00:37:00.214 INFO  [auth-service] Request processed successfully in 10853ms
+2026-06-06 03:58:20.710 WARN  [auth-service] Connection pool utilization at 52%
+2026-06-06 04:06:56.542 ERROR [auth-service] Migration lock held longer than expected
+2026-06-06 04:28:24.750 WARN  [auth-service] Slow query detected: 479ms on payments
+2026-06-06 04:51:44.090 FATAL [auth-service] Schema validation error: column not found
+2026-06-06 04:57:59.226 ERROR [auth-service] Database query failed: ConnectionTimeout on table=events
+2026-06-06 06:56:00.781 INFO  [auth-service] Connected to search-service successfully
+2026-06-06 09:25:00.143 WARN  [auth-service] Connection pool utilization at 90%
+2026-06-06 13:49:00.031 INFO  [auth-service] Health check passed: status=UP, uptime=8056s
+2026-06-06 14:48:00.795 FATAL [auth-service] Unable to connect to api-gateway: all 2 retries exhausted
+2026-06-06 16:34:12.694 ERROR [auth-service] WAL replay stalled on standby
+2026-06-06 16:34:41.201 FATAL [auth-service] WAL replay stalled on standby
+2026-06-06 16:50:00.376 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-06 17:06:55.651 ERROR [auth-service] WAL replay stalled on standby
+2026-06-06 17:07:23.050 WARN  [auth-service] Certificate expires in 21 days for auth.nexora.io
+2026-06-06 17:12:47.445 ERROR [auth-service] Slow query detected: 4398ms on payments
+2026-06-06 23:00:00.694 INFO  [auth-service] Query executed in 3532ms: SELECT * FROM sessions
+2026-06-06 23:21:19.949 ERROR [auth-service] Flag evaluation error, falling back to default
+2026-06-06 23:29:00.033 INFO  [auth-service] Connected to postgres-replica successfully
+2026-06-07 00:18:00.518 INFO  [auth-service] Query executed in 5432ms: SELECT * FROM events
+2026-06-07 00:37:28.485 ERROR [auth-service] Unexpected code path triggered: legacy_handler
+2026-06-07 01:51:36.308 FATAL [auth-service] Flag evaluation error, falling back to default
+2026-06-07 01:55:00.133 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-07 05:58:28.529 ERROR [auth-service] Failed to process message: offset=532965, topic=user-updates
+2026-06-07 06:05:55.826 ERROR [auth-service] Failed to process message: offset=765557, topic=payments
+2026-06-07 06:08:16.693 ERROR [auth-service] HTTP 502 from billing-service: Connection timed out
+2026-06-07 06:11:40.179 ERROR [auth-service] Authentication failed for user_id=usr_95753: NullPointerException
+2026-06-07 06:20:36.078 ERROR [auth-service] Authentication failed for user_id=usr_10107: SchemaValidationError
+2026-06-07 06:31:00.092 INFO  [auth-service] Health check passed: status=UP, uptime=53990s
+2026-06-07 06:45:00.451 INFO  [auth-service] Request processed successfully in 8575ms
+2026-06-07 07:43:00.387 DEBUG [auth-service] Processing request: method=PUT path=/api/v1/analytics
+2026-06-07 08:14:00.956 INFO  [auth-service] Health check passed: status=UP, uptime=18614s
+2026-06-07 11:27:00.297 INFO  [auth-service] Request processed successfully in 14847ms
+2026-06-07 11:41:00.613 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=MISS
+2026-06-07 12:15:00.021 INFO  [auth-service] Cache hit ratio: 98% (last 5min)
+2026-06-07 14:42:00.029 INFO  [auth-service] Request processed successfully in 9620ms
+2026-06-07 17:41:00.559 INFO  [auth-service] Processed 6704 messages from topic=auth-events
+2026-06-07 18:29:00.377 INFO  [auth-service] Cache hit ratio: 83% (last 5min)
+2026-06-07 21:52:00.112 INFO  [auth-service] Health check passed: status=UP, uptime=26173s
+2026-06-07 22:20:00.633 WARN  [auth-service] Slow query detected: 9156ms on events
+2026-06-07 23:40:00.061 INFO  [auth-service] JWT token validated for user_id=usr_82188
+2026-06-08 02:17:00.771 WARN  [auth-service] Retry attempt 1/3 for kafka
+2026-06-08 02:23:20.702 FATAL [auth-service] Log rotation failed, disk nearly full
+2026-06-08 02:38:59.439 FATAL [auth-service] Log rotation failed, disk nearly full
+2026-06-08 02:49:06.235 FATAL [auth-service] Write failed: No space left on device
+2026-06-08 03:03:38.268 FATAL [auth-service] Log rotation failed, disk nearly full
+2026-06-08 03:07:00.551 INFO  [auth-service] JWT token validated for user_id=usr_94622
+2026-06-08 03:18:00.187 ERROR [auth-service] Write failed: No space left on device
+2026-06-08 05:52:51.728 ERROR [auth-service] Region mismatch: expected staging received alternate region
+2026-06-08 05:53:47.498 ERROR [auth-service] Request routed to unexpected upstream search-service
+2026-06-08 06:07:05.817 FATAL [auth-service] Health check failed: status=DOWN
+2026-06-08 06:21:55.509 ERROR [auth-service] Request routed to unexpected upstream search-service
+2026-06-08 06:27:02.653 FATAL [auth-service] Region mismatch: expected staging received alternate region
+2026-06-08 08:41:00.153 INFO  [auth-service] Query executed in 885ms: SELECT * FROM users
+2026-06-08 12:54:00.900 INFO  [auth-service] Query executed in 14522ms: SELECT * FROM payments
+2026-06-08 13:39:00.730 WARN  [auth-service] Retry attempt 3/3 for api-gateway
+2026-06-08 13:44:00.764 INFO  [auth-service] Processed 2130 messages from topic=user-updates
+2026-06-08 14:43:00.592 DEBUG [auth-service] Processing request: method=POST path=/api/v1/payments
+2026-06-08 16:14:20.074 WARN  [auth-service] Connection pool utilization at 87%
+2026-06-08 16:15:19.644 WARN  [auth-service] Kafka consumer lag: 32355 messages on topic=payments
+2026-06-08 16:24:20.943 FATAL [auth-service] NTP sync failed, offset=4291ms
+2026-06-08 16:32:44.036 WARN  [auth-service] Memory usage at 92% — approaching threshold
+2026-06-08 16:34:12.832 ERROR [auth-service] Request rejected: clock skew exceeds tolerance
+2026-06-08 16:56:00.366 WARN  [auth-service] Connection pool utilization at 99%
+2026-06-08 16:59:00.613 ERROR [auth-service] Database query failed: ConnectionTimeout on table=events
+2026-06-08 17:54:00.158 WARN  [auth-service] Certificate expires in 17 days for api.nexora.io
+2026-06-08 22:18:00.436 INFO  [auth-service] Health check passed: status=UP, uptime=85553s
+2026-06-09 01:44:00.841 INFO  [auth-service] JWT token validated for user_id=usr_97301
+2026-06-09 03:52:00.998 ERROR [auth-service] Database query failed: SchemaValidationError on table=metrics
+2026-06-09 05:07:00.497 INFO  [auth-service] Health check passed: status=UP, uptime=11806s
+2026-06-09 07:38:41.409 FATAL [auth-service] Reconciliation job found 4662 mismatched rows
+2026-06-09 07:40:02.255 WARN  [auth-service] Retry attempt 3/3 for postgres-replica
+2026-06-09 07:52:32.946 ERROR [auth-service] Record checksum mismatch detected for id=usr_82110
+2026-06-09 08:01:23.820 WARN  [auth-service] Retry attempt 4/3 for elasticsearch
+2026-06-09 08:02:27.486 WARN  [auth-service] Memory usage at 52% — approaching threshold
+2026-06-09 08:03:44.309 WARN  [auth-service] Connection pool utilization at 73%
+2026-06-09 08:10:38.691 ERROR [auth-service] Reconciliation job found 7647 mismatched rows
+2026-06-09 09:08:00.863 WARN  [auth-service] Memory usage at 68% — approaching threshold
+2026-06-09 10:55:00.977 INFO  [auth-service] Request processed successfully in 2234ms
+2026-06-09 12:25:00.873 INFO  [auth-service] Health check passed: status=UP, uptime=71965s
+2026-06-09 16:45:00.478 INFO  [auth-service] Query executed in 12226ms: SELECT * FROM sessions
+2026-06-09 18:14:00.592 INFO  [auth-service] Processed 261 messages from topic=auth-events
+2026-06-09 20:48:00.638 FATAL [auth-service] Unable to connect to billing-service: all 2 retries exhausted
+2026-06-09 23:47:00.987 WARN  [auth-service] Connection pool utilization at 74%
+2026-06-10 00:19:56.826 ERROR [auth-service] Configuration checksum mismatch across replicas
+2026-06-10 00:36:43.701 ERROR [auth-service] Unexpected config value for key=timeout_ms
+2026-06-10 01:15:55.734 WARN  [auth-service] Retry attempt 1/3 for search-service
+2026-06-10 04:31:00.433 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-10 05:13:00.929 INFO  [auth-service] Cache hit ratio: 82% (last 5min)
+2026-06-10 08:19:55.995 FATAL [auth-service] Unexpected code path triggered: legacy_handler
+2026-06-10 08:19:56.508 FATAL [auth-service] Unexpected code path triggered: legacy_handler
+2026-06-10 08:34:10.374 WARN  [auth-service] Retry attempt 5/3 for kafka
+2026-06-10 08:40:44.214 ERROR [auth-service] Flag evaluation error, falling back to default
+2026-06-10 08:43:08.814 ERROR [auth-service] Flag evaluation error, falling back to default
+2026-06-10 08:45:28.178 ERROR [auth-service] Unexpected code path triggered: legacy_handler
+2026-06-10 08:48:35.369 FATAL [auth-service] Flag evaluation error, falling back to default
+2026-06-10 14:20:10.767 WARN  [auth-service] Slow query detected: 2562ms on payments
+2026-06-10 14:23:36.507 WARN  [auth-service] Slow query detected: 14764ms on sessions
+2026-06-10 14:35:27.698 ERROR [auth-service] Write failed: No space left on device
+2026-06-10 14:53:22.760 ERROR [auth-service] Log rotation failed, disk nearly full
+2026-06-10 15:14:04.256 ERROR [auth-service] Write failed: No space left on device
+2026-06-10 15:14:06.432 ERROR [auth-service] Write failed: No space left on device
+2026-06-10 15:19:51.133 WARN  [auth-service] Certificate expires in 20 days for billing.nexora.io
+2026-06-10 15:42:00.471 WARN  [auth-service] Certificate expires in 15 days for auth.nexora.io
+2026-06-10 16:37:00.442 INFO  [auth-service] Request processed successfully in 13444ms
+2026-06-10 19:13:00.106 INFO  [auth-service] JWT token validated for user_id=usr_31944
+2026-06-10 19:39:00.792 INFO  [auth-service] JWT token validated for user_id=usr_20829
+2026-06-10 21:29:00.010 INFO  [auth-service] Health check passed: status=UP, uptime=19254s
+2026-06-10 23:03:00.807 INFO  [auth-service] Connected to kafka successfully
+2026-06-11 04:19:00.021 FATAL [auth-service] Process killed by OOM killer: RSS=1765MB, limit=1943MB
+2026-06-11 09:09:00.596 INFO  [auth-service] Query executed in 13562ms: SELECT * FROM metrics
+2026-06-11 09:59:00.270 INFO  [auth-service] Request processed successfully in 14449ms
+2026-06-11 15:54:00.569 ERROR [auth-service] Connection refused to user-service:9092 after 3 retries
+2026-06-11 16:13:00.957 INFO  [auth-service] Request processed successfully in 3833ms
+2026-06-11 16:57:00.142 INFO  [auth-service] Request processed successfully in 8903ms
+2026-06-11 17:12:00.558 INFO  [auth-service] Query executed in 610ms: SELECT * FROM events
+2026-06-11 18:06:00.108 ERROR [auth-service] Timeout waiting for response from postgres-primary after 30000ms
+2026-06-11 19:24:00.487 ERROR [auth-service] Timeout waiting for response from search-service after 10000ms
+2026-06-11 19:44:00.429 INFO  [auth-service] JWT token validated for user_id=usr_93095
+2026-06-11 19:51:00.657 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_72639 LIMIT 1
+2026-06-11 21:24:01.323 ERROR [auth-service] Too many open files
+2026-06-11 21:46:30.107 FATAL [auth-service] Process killed by OOM killer: RSS=684MB, limit=1619MB
+2026-06-11 22:52:30.432 ERROR [auth-service] Health check failed: status=DOWN
+2026-06-12 01:49:00.611 INFO  [auth-service] Query executed in 14685ms: SELECT * FROM metrics
+2026-06-12 02:28:00.067 DEBUG [auth-service] Processing request: method=PUT path=/api/v1/payments
+2026-06-12 02:33:00.915 WARN  [auth-service] Connection pool utilization at 77%
+2026-06-12 04:39:00.512 DEBUG [auth-service] SQL: SELECT * FROM events WHERE id = usr_35164 LIMIT 1
+2026-06-12 08:14:00.154 INFO  [auth-service] Health check passed: status=UP, uptime=82393s
+2026-06-12 09:11:00.974 WARN  [auth-service] Retry attempt 1/3 for user-service
+2026-06-12 12:58:00.270 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-06-12 14:07:00.971 WARN  [auth-service] Connection pool utilization at 52%
+2026-06-12 14:38:00.378 DEBUG [auth-service] Processing request: method=GET path=/api/v1/users
+2026-06-12 21:05:00.114 INFO  [auth-service] Connected to search-service successfully
+2026-06-12 22:30:20.453 FATAL [auth-service] Feature flag dark_launch_v2 evaluated true for 100% of traffic
+2026-06-12 23:29:00.005 WARN  [auth-service] Connection pool utilization at 82%
+2026-06-12 23:40:44.851 FATAL [auth-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-06-13 00:22:00.939 INFO  [auth-service] Cache hit ratio: 86% (last 5min)
+2026-06-13 01:07:00.212 WARN  [auth-service] Memory usage at 72% — approaching threshold
+2026-06-13 05:31:00.741 INFO  [auth-service] Processed 7242 messages from topic=analytics
+2026-06-13 05:35:00.804 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=MISS
+2026-06-13 06:05:00.678 ERROR [auth-service] Database query failed: SchemaValidationError on table=events
+2026-06-13 11:37:00.077 WARN  [auth-service] Retry attempt 5/3 for reporting-service
+2026-06-13 13:13:00.299 INFO  [auth-service] Connected to billing-service successfully
+2026-06-13 15:42:00.848 INFO  [auth-service] Connected to analytics-engine successfully
+2026-06-13 21:22:00.455 INFO  [auth-service] Processed 2875 messages from topic=payments
+2026-06-13 21:32:31.790 FATAL [auth-service] Timeout waiting for response from search-service after 10000ms
+2026-06-13 21:36:13.773 ERROR [auth-service] Vendor status page reports degraded performance
+2026-06-13 21:36:55.341 ERROR [auth-service] Vendor status page reports degraded performance
+2026-06-13 21:37:14.570 ERROR [auth-service] Timeout waiting for response from postgres-primary after 10000ms
+2026-06-13 21:49:20.420 FATAL [auth-service] Timeout waiting for response from api-gateway after 5000ms
+2026-06-14 00:38:00.089 INFO  [auth-service] Processed 5852 messages from topic=auth-events
+2026-06-14 02:00:00.641 WARN  [auth-service] Slow query detected: 10791ms on events
+2026-06-14 02:53:00.003 INFO  [auth-service] Health check passed: status=UP, uptime=30083s
+2026-06-14 04:38:00.058 INFO  [auth-service] Connected to search-service successfully
+2026-06-14 04:42:00.703 ERROR [auth-service] Connection refused to analytics-engine:5432 after 5 retries
+2026-06-14 04:59:00.233 ERROR [auth-service] Timeout waiting for response from search-service after 10000ms
+2026-06-14 05:43:00.696 INFO  [auth-service] Health check passed: status=UP, uptime=56572s
+2026-06-14 08:10:12.181 ERROR [auth-service] Feature flag session:1234 evaluated true for 100% of traffic
+2026-06-14 08:20:00.749 ERROR [auth-service] Timeout waiting for response from billing-service after 30000ms
+2026-06-14 09:12:00.463 ERROR [auth-service] Database query failed: ConnectionTimeout on table=users
+2026-06-14 09:15:10.686 WARN  [auth-service] Slow query detected: 5800ms on metrics
+2026-06-14 10:03:00.387 INFO  [auth-service] Cache hit ratio: 97% (last 5min)
+2026-06-14 12:43:00.917 WARN  [auth-service] Connection pool utilization at 89%
+2026-06-14 13:33:00.027 INFO  [auth-service] Query executed in 3619ms: SELECT * FROM payments
+2026-06-14 15:30:00.624 WARN  [auth-service] Certificate expires in 11 days for billing.nexora.io
+2026-06-14 21:45:00.864 WARN  [auth-service] Connection pool utilization at 83%
+2026-06-14 22:53:49.241 ERROR [auth-service] Slow query detected: 5857ms on metrics
+2026-06-14 23:02:06.421 ERROR [auth-service] Slow query detected: 13803ms on metrics
+2026-06-14 23:07:34.274 ERROR [auth-service] Health check failed: status=DOWN
+2026-06-14 23:12:38.135 FATAL [auth-service] WAL replay stalled on standby
+2026-06-14 23:14:22.504 ERROR [auth-service] WAL replay stalled on standby
+2026-06-14 23:16:58.383 FATAL [auth-service] Replication lag: 1926ms behind primary
+2026-06-14 23:19:08.133 WARN  [auth-service] Slow query detected: 10933ms on sessions
+2026-06-14 23:20:38.064 ERROR [auth-service] Slow query detected: 9363ms on orders
+2026-06-14 23:36:00.915 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-06-14 23:37:43.414 ERROR [auth-service] Too many open files
+2026-06-15 00:47:00.659 INFO  [auth-service] Cache hit ratio: 67% (last 5min)
+2026-06-15 04:05:16.687 WARN  [auth-service] Memory usage at 63% — approaching threshold
+2026-06-15 04:14:26.932 WARN  [auth-service] Memory usage at 79% — approaching threshold
+2026-06-15 04:27:55.729 WARN  [auth-service] Certificate expires in 27 days for auth.nexora.io
+2026-06-15 04:42:51.884 ERROR [auth-service] Replication lag: 13102ms behind primary
+2026-06-15 04:58:00.265 WARN  [auth-service] Connection pool utilization at 73%
+2026-06-15 04:58:03.120 WARN  [auth-service] Certificate expires in 9 days for auth.nexora.io
+2026-06-15 10:56:00.077 DEBUG [auth-service] Processing request: method=PUT path=/api/v1/analytics
+2026-06-15 13:53:00.131 WARN  [auth-service] Kafka consumer lag: 89333 messages on topic=user-updates
+2026-06-15 14:07:00.439 DEBUG [auth-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-15 14:31:00.084 WARN  [auth-service] Retry attempt 5/3 for api-gateway
+2026-06-15 16:59:00.872 INFO  [auth-service] JWT token validated for user_id=usr_54225
+2026-06-15 20:18:00.154 INFO  [auth-service] Cache hit ratio: 75% (last 5min)
+2026-06-15 21:00:00.245 INFO  [auth-service] Processed 9184 messages from topic=user-updates
+2026-06-15 23:13:00.643 INFO  [auth-service] Health check passed: status=UP, uptime=41750s
+2026-06-16 02:28:00.211 ERROR [auth-service] Connection refused to analytics-engine:5432 after 2 retries
+2026-06-16 09:24:00.754 WARN  [auth-service] Retry attempt 4/3 for elasticsearch
+2026-06-16 14:03:00.092 WARN  [auth-service] Connection pool utilization at 93%
+2026-06-16 16:17:00.731 ERROR [auth-service] Database query failed: NullPointerException on table=metrics
+2026-06-16 21:23:00.067 INFO  [auth-service] JWT token validated for user_id=usr_33772
+2026-06-16 23:39:00.210 INFO  [auth-service] Query executed in 12310ms: SELECT * FROM events
+2026-06-17 03:26:00.542 DEBUG [auth-service] SQL: SELECT * FROM sessions WHERE id = usr_34454 LIMIT 1
+2026-06-17 04:20:44.997 ERROR [auth-service] Process killed by OOM killer: RSS=3813MB, limit=2668MB
+2026-06-17 04:25:04.745 FATAL [auth-service] Too many open files
+2026-06-17 04:27:30.274 WARN  [auth-service] Memory usage at 59% — approaching threshold
+2026-06-17 04:31:15.005 ERROR [auth-service] Too many open files
+2026-06-17 04:32:09.552 ERROR [auth-service] Health check failed: status=DOWN
+2026-06-17 04:36:13.052 ERROR [auth-service] Health check failed: status=DOWN
+2026-06-17 04:45:27.273 WARN  [auth-service] Kafka consumer lag: 81278 messages on topic=auth-events
+2026-06-17 05:15:00.331 INFO  [auth-service] Health check passed: status=UP, uptime=56058s
+2026-06-17 05:48:00.740 INFO  [auth-service] Cache hit ratio: 74% (last 5min)
+2026-06-17 08:56:00.319 INFO  [auth-service] Health check passed: status=UP, uptime=21256s
+2026-06-17 12:28:00.991 INFO  [auth-service] Query executed in 2389ms: SELECT * FROM sessions
+2026-06-17 15:33:00.931 DEBUG [auth-service] SQL: SELECT * FROM orders WHERE id = usr_90925 LIMIT 1
+2026-06-17 15:59:00.573 INFO  [auth-service] Processed 4496 messages from topic=analytics
+2026-06-17 19:02:00.965 INFO  [auth-service] Request processed successfully in 7325ms
+2026-06-17 19:38:00.904 INFO  [auth-service] Health check passed: status=UP, uptime=85707s
+2026-06-17 21:32:00.091 INFO  [auth-service] Health check passed: status=UP, uptime=58494s
+2026-06-18 01:03:00.146 ERROR [auth-service] HTTP 502 from postgres-replica: Permission denied
+2026-06-18 02:59:00.637 INFO  [auth-service] Health check passed: status=UP, uptime=4147s
+2026-06-18 04:25:00.042 INFO  [auth-service] JWT token validated for user_id=usr_99804
+2026-06-18 11:21:00.648 DEBUG [auth-service] Processing request: method=DELETE path=/health
+2026-06-18 12:20:00.777 ERROR [auth-service] HTTP 502 from api-gateway: Host is unreachable
+2026-06-18 12:20:00.711 INFO  [auth-service] Health check passed: status=UP, uptime=47018s
+2026-06-18 13:11:00.711 INFO  [auth-service] Health check passed: status=UP, uptime=33444s
+2026-06-18 15:39:00.105 ERROR [auth-service] Database query failed: DeadlockDetected on table=users
+2026-06-18 17:03:00.685 INFO  [auth-service] Processed 9368 messages from topic=notifications
+2026-06-18 23:22:00.902 INFO  [auth-service] Processed 2903 messages from topic=analytics
+2026-06-19 04:02:30.638 FATAL [auth-service] Suspicious request pattern flagged for review
+2026-06-19 04:03:38.333 ERROR [auth-service] Rate limit exceeded: 426/3101 requests from single source
+2026-06-19 04:05:04.875 ERROR [auth-service] Rate limit exceeded: 154/7568 requests from single source
+2026-06-19 04:15:04.617 WARN  [auth-service] Connection pool utilization at 83%
+2026-06-19 04:25:52.585 ERROR [auth-service] Rate limit exceeded: 8758/1249 requests from single source
+2026-06-19 04:27:55.465 WARN  [auth-service] Certificate expires in 12 days for auth.nexora.io
+2026-06-19 04:44:05.984 WARN  [auth-service] Kafka consumer lag: 2810 messages on topic=analytics
+2026-06-19 07:51:00.062 FATAL [auth-service] Process killed by OOM killer: RSS=2405MB, limit=2218MB
+2026-06-19 09:33:00.287 DEBUG [auth-service] SQL: SELECT * FROM metrics WHERE id = usr_21578 LIMIT 1
+2026-06-19 12:05:00.294 ERROR [auth-service] HTTP 500 from postgres-replica: Connection reset by peer
+2026-06-19 12:29:00.868 INFO  [auth-service] JWT token validated for user_id=usr_18281
+2026-06-19 13:49:00.776 INFO  [auth-service] Health check passed: status=UP, uptime=41212s
+2026-06-19 17:59:00.792 ERROR [auth-service] Database query failed: SchemaValidationError on table=orders
+2026-06-19 19:30:00.214 FATAL [auth-service] Unable to connect to search-service: all 5 retries exhausted
+2026-06-19 20:04:00.107 INFO  [auth-service] Processed 990 messages from topic=auth-events
+2026-06-19 21:10:00.037 ERROR [auth-service] Database query failed: NullPointerException on table=metrics
+2026-06-19 21:21:00.670 INFO  [auth-service] Cache hit ratio: 62% (last 5min)
+2026-06-20 02:52:00.448 DEBUG [auth-service] SQL: SELECT * FROM orders WHERE id = usr_67386 LIMIT 1
+2026-06-20 05:26:00.693 DEBUG [auth-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-20 06:06:00.903 INFO  [auth-service] Health check passed: status=UP, uptime=44886s
+2026-06-20 11:17:00.812 WARN  [auth-service] Slow query detected: 7917ms on events
+2026-06-20 11:19:00.559 ERROR [auth-service] Timeout waiting for response from api-gateway after 10000ms
+2026-06-20 13:22:00.982 INFO  [auth-service] Connected to search-service successfully
+2026-06-20 14:38:00.676 DEBUG [auth-service] SQL: SELECT * FROM orders WHERE id = usr_24224 LIMIT 1
+2026-06-20 15:25:00.288 INFO  [auth-service] Cache hit ratio: 87% (last 5min)
+2026-06-20 15:59:46.513 ERROR [auth-service] Heap usage growing steadily, GC pause 8385ms
+2026-06-20 16:28:58.339 WARN  [auth-service] Connection pool utilization at 68%
+2026-06-20 16:35:53.683 ERROR [auth-service] Heap usage growing steadily, GC pause 10433ms
+2026-06-20 16:57:49.352 ERROR [auth-service] Heap usage growing steadily, GC pause 12139ms
+2026-06-20 17:03:21.068 WARN  [auth-service] Connection pool utilization at 88%
+2026-06-20 19:20:00.526 INFO  [auth-service] Processed 4266 messages from topic=user-updates
+2026-06-20 21:55:00.251 INFO  [auth-service] Cache hit ratio: 78% (last 5min)
+2026-06-20 22:06:00.538 INFO  [auth-service] Health check passed: status=UP, uptime=74728s
+2026-06-20 23:24:00.577 DEBUG [auth-service] SQL: SELECT * FROM metrics WHERE id = usr_96195 LIMIT 1
+2026-06-21 06:23:00.797 INFO  [auth-service] Connected to postgres-primary successfully
+2026-06-21 07:31:00.402 INFO  [auth-service] Health check passed: status=UP, uptime=48998s
+2026-06-21 09:13:00.867 INFO  [auth-service] Cache hit ratio: 74% (last 5min)
+2026-06-21 09:19:00.513 DEBUG [auth-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-21 16:17:57.347 ERROR [auth-service] DNS resolution failed for redis-cache
+2026-06-21 16:20:53.773 ERROR [auth-service] No route to host
+2026-06-21 16:21:30.589 ERROR [auth-service] No route to host
+2026-06-21 16:25:44.121 FATAL [auth-service] Connection refused to billing-service:8080 after 5 retries
+2026-06-21 16:28:53.212 ERROR [auth-service] No route to host
+2026-06-21 20:56:00.054 INFO  [auth-service] Health check passed: status=UP, uptime=11215s
+2026-06-21 21:20:00.357 INFO  [auth-service] Connected to kafka successfully
+2026-06-21 22:13:00.458 ERROR [auth-service] HTTP 504 from analytics-engine: Connection timed out
+2026-06-21 23:35:00.365 INFO  [auth-service] Query executed in 8649ms: SELECT * FROM users
+2026-06-21 23:39:00.156 ERROR [auth-service] Database query failed: NullPointerException on table=payments
+2026-06-22 03:37:23.195 WARN  [auth-service] Connection pool utilization at 78%
+2026-06-22 04:00:16.687 ERROR [auth-service] DNS resolution failed for postgres-replica
+2026-06-22 04:01:10.284 ERROR [auth-service] Stale endpoint resolved for notification-service, expected updated IP
+2026-06-22 05:00:16.032 WARN  [auth-service] Retry attempt 5/3 for search-service
+2026-06-22 05:12:00.706 DEBUG [auth-service] Processing request: method=PUT path=/api/v1/users
+2026-06-22 05:58:45.191 ERROR [auth-service] Connection refused to postgres-replica:6379 after 1 retries
+2026-06-22 06:46:18.366 WARN  [auth-service] Memory usage at 79% — approaching threshold
+2026-06-22 08:32:00.530 INFO  [auth-service] Processed 3400 messages from topic=payments
+2026-06-22 12:32:23.919 FATAL [auth-service] DNS resolution failed for api-gateway
+2026-06-22 13:15:10.377 ERROR [auth-service] DNS resolution failed for billing-service
+2026-06-22 13:18:47.522 FATAL [auth-service] Replication lag: 6884ms behind primary
+2026-06-22 13:22:57.903 WARN  [auth-service] Kafka consumer lag: 13821 messages on topic=auth-events
+2026-06-22 13:25:10.278 WARN  [auth-service] Slow query detected: 7306ms on events
+2026-06-22 13:28:16.518 ERROR [auth-service] Slow query detected: 13896ms on sessions
+2026-06-22 13:41:07.669 FATAL [auth-service] No route to host
+2026-06-22 13:41:18.673 WARN  [auth-service] Retry attempt 3/3 for api-gateway
+2026-06-22 13:41:45.507 FATAL [auth-service] Slow query detected: 5064ms on metrics
+2026-06-22 13:51:26.148 FATAL [auth-service] Slow query detected: 2736ms on sessions
+2026-06-22 17:00:00.376 INFO  [auth-service] Health check passed: status=UP, uptime=73257s
+2026-06-23 00:46:00.388 INFO  [auth-service] Request processed successfully in 5724ms
+2026-06-23 01:20:00.187 INFO  [auth-service] Health check passed: status=UP, uptime=54561s
+2026-06-23 02:30:00.328 INFO  [auth-service] Query executed in 13605ms: SELECT * FROM metrics
+2026-06-23 02:33:43.885 FATAL [auth-service] Request queue depth exceeded capacity
+2026-06-23 02:38:26.744 FATAL [auth-service] Pod scheduling failed: insufficient resources
+2026-06-23 02:53:17.244 ERROR [auth-service] Pod scheduling failed: insufficient resources
+2026-06-23 03:50:00.872 INFO  [auth-service] Request processed successfully in 7031ms
+2026-06-23 03:59:00.943 ERROR [auth-service] Database query failed: NullPointerException on table=payments
+2026-06-23 04:00:00.726 WARN  [auth-service] Certificate expires in 7 days for auth.nexora.io
+2026-06-23 09:24:00.356 INFO  [auth-service] Query executed in 12441ms: SELECT * FROM events
+2026-06-23 15:24:00.258 INFO  [auth-service] Connected to analytics-engine successfully
+2026-06-23 19:28:00.423 ERROR [auth-service] Database query failed: ConnectionTimeout on table=metrics
+2026-06-23 21:17:00.204 INFO  [auth-service] Request processed successfully in 3628ms
+2026-06-23 21:30:00.874 FATAL [auth-service] Process killed by OOM killer: RSS=4000MB, limit=2115MB
+2026-06-23 23:02:00.448 WARN  [auth-service] Memory usage at 57% — approaching threshold
+2026-06-24 02:05:00.045 WARN  [auth-service] Certificate expires in 7 days for api.nexora.io
+2026-06-24 03:42:00.847 WARN  [auth-service] Slow query detected: 13149ms on payments
+2026-06-24 10:19:00.778 INFO  [auth-service] Processed 1844 messages from topic=auth-events
+2026-06-24 12:11:00.544 ERROR [auth-service] Database query failed: ConnectionTimeout on table=metrics
+2026-06-24 16:38:01.831 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-06-24 16:50:27.676 WARN  [auth-service] Slow query detected: 9904ms on sessions
+2026-06-24 17:09:57.306 FATAL [auth-service] Kafka consumer lag: 73041 messages on topic=analytics
+2026-06-24 17:20:43.686 ERROR [auth-service] Rebalance in progress, partitions revoked
+2026-06-24 17:25:11.632 WARN  [auth-service] Kafka consumer lag: 3927 messages on topic=auth-events
+2026-06-24 17:53:00.881 DEBUG [auth-service] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-24 18:59:00.143 INFO  [auth-service] Query executed in 9131ms: SELECT * FROM users
+2026-06-24 19:23:00.197 INFO  [auth-service] Query executed in 5726ms: SELECT * FROM sessions
+2026-06-24 19:48:00.348 INFO  [auth-service] Query executed in 11946ms: SELECT * FROM payments
+2026-06-24 21:13:00.258 INFO  [auth-service] Request processed successfully in 2212ms
+2026-06-24 22:28:00.399 DEBUG [auth-service] Processing request: method=POST path=/api/v1/analytics
+2026-06-25 02:22:00.039 INFO  [auth-service] Request processed successfully in 14098ms
+2026-06-25 04:08:00.074 INFO  [auth-service] Request processed successfully in 6585ms
+2026-06-25 08:16:00.298 INFO  [auth-service] Connected to notification-service successfully
+2026-06-25 09:46:00.354 WARN  [auth-service] Certificate expires in 20 days for auth.nexora.io
+2026-06-25 13:17:00.715 INFO  [auth-service] Health check passed: status=UP, uptime=78769s
+2026-06-25 15:47:00.714 WARN  [auth-service] Slow query detected: 11750ms on sessions
+2026-06-25 16:55:00.323 WARN  [auth-service] Memory usage at 60% — approaching threshold
+2026-06-25 19:55:00.888 INFO  [auth-service] Health check passed: status=UP, uptime=71831s
+2026-06-25 20:34:00.989 WARN  [auth-service] Memory usage at 80% — approaching threshold
+2026-06-25 21:18:00.687 INFO  [auth-service] Query executed in 8165ms: SELECT * FROM sessions
+2026-06-25 21:55:00.119 ERROR [auth-service] Timeout waiting for response from search-service after 30000ms
+2026-06-26 07:37:00.057 WARN  [auth-service] Kafka consumer lag: 41268 messages on topic=notifications
+2026-06-26 11:28:00.570 DEBUG [auth-service] Cache lookup: key=session:1234 result=HIT
+2026-06-26 11:32:00.022 INFO  [auth-service] Cache hit ratio: 98% (last 5min)
+2026-06-26 12:48:00.046 INFO  [auth-service] Request processed successfully in 7643ms
+2026-06-27 00:37:00.671 WARN  [auth-service] Retry attempt 3/3 for user-service
+2026-06-27 01:30:16.485 ERROR [auth-service] Health check failed: status=DOWN
+2026-06-27 01:36:29.351 ERROR [auth-service] Request routed to unexpected upstream search-service
+2026-06-27 01:38:18.140 ERROR [auth-service] Region mismatch: expected production received alternate region
+2026-06-27 01:39:08.165 ERROR [auth-service] Request routed to unexpected upstream billing-service
+2026-06-27 01:44:44.126 FATAL [auth-service] Request routed to unexpected upstream reporting-service
+2026-06-27 02:05:03.554 ERROR [auth-service] Region mismatch: expected production received alternate region
+2026-06-27 02:07:53.779 WARN  [auth-service] Retry attempt 1/3 for redis-cache
+2026-06-27 04:24:00.779 INFO  [auth-service] Connected to elasticsearch successfully
+2026-06-27 08:05:00.485 INFO  [auth-service] Request processed successfully in 1419ms
+2026-06-27 09:55:00.507 INFO  [auth-service] Health check passed: status=UP, uptime=55083s
+2026-06-27 20:38:07.613 ERROR [auth-service] Health check failed: status=DOWN
+2026-06-27 20:40:38.396 WARN  [auth-service] Kafka consumer lag: 66400 messages on topic=user-updates
+2026-06-27 21:07:55.705 ERROR [auth-service] Process killed by OOM killer: RSS=3347MB, limit=5053MB
+2026-06-27 21:21:00.177 WARN  [auth-service] Connection pool utilization at 53%
+2026-06-28 01:13:00.234 WARN  [auth-service] Connection pool utilization at 71%
+2026-06-28 02:02:00.537 ERROR [auth-service] HTTP 504 from reporting-service: Too many open files
+2026-06-28 04:51:00.971 WARN  [auth-service] Connection pool utilization at 86%
+2026-06-28 05:17:34.405 ERROR [auth-service] Deployed version v2.13.6 to production
+2026-06-28 05:42:00.138 INFO  [auth-service] Cache hit ratio: 96% (last 5min)
+2026-06-28 06:03:06.243 WARN  [auth-service] Memory usage at 83% — approaching threshold
+2026-06-28 06:27:18.640 ERROR [auth-service] Deployed version v2.13.3 to production
+2026-06-28 08:36:00.187 INFO  [auth-service] Connected to api-gateway successfully
+2026-06-28 09:58:00.230 INFO  [auth-service] Connected to search-service successfully
+2026-06-28 11:43:00.718 INFO  [auth-service] JWT token validated for user_id=usr_83942
+2026-06-28 18:04:00.147 INFO  [auth-service] Request processed successfully in 1017ms
+2026-06-28 20:31:00.138 WARN  [auth-service] Kafka consumer lag: 21704 messages on topic=auth-events
+2026-06-28 21:51:00.855 INFO  [auth-service] Query executed in 3360ms: SELECT * FROM metrics
+2026-06-28 22:14:00.801 INFO  [auth-service] Query executed in 6324ms: SELECT * FROM events
+2026-06-28 23:16:00.464 FATAL [auth-service] Unable to connect to elasticsearch: all 1 retries exhausted
+2026-06-29 03:25:00.560 INFO  [auth-service] Health check passed: status=UP, uptime=17007s
+2026-06-29 05:05:28.392 ERROR [auth-service] Slow query detected: 2615ms on metrics
+2026-06-29 05:21:35.627 ERROR [auth-service] Slow query detected: 4472ms on users
+2026-06-29 05:22:01.733 FATAL [auth-service] Timeout waiting for response from nginx-ingress after 10000ms
+2026-06-29 05:28:51.660 WARN  [auth-service] Memory usage at 60% — approaching threshold
+2026-06-29 06:00:15.578 ERROR [auth-service] p99 latency exceeded SLO threshold
+2026-06-29 07:33:00.821 INFO  [auth-service] Cache hit ratio: 70% (last 5min)
+2026-06-29 13:56:00.723 INFO  [auth-service] Connected to postgres-primary successfully
+2026-06-29 14:27:00.183 DEBUG [auth-service] Processing request: method=DELETE path=/api/v1/analytics
+2026-06-29 18:11:00.188 WARN  [auth-service] Memory usage at 71% — approaching threshold
+2026-06-29 22:18:00.624 INFO  [auth-service] Cache hit ratio: 89% (last 5min)
+2026-06-30 00:56:12.760 WARN  [auth-service] Certificate expires in 7 days for api.nexora.io
+2026-06-30 01:05:06.449 WARN  [auth-service] Connection pool utilization at 62%
+2026-06-30 01:10:04.568 FATAL [auth-service] Pod scheduling failed: insufficient resources
+2026-06-30 01:10:18.655 ERROR [auth-service] Pod scheduling failed: insufficient resources
+2026-06-30 01:11:00.233 DEBUG [auth-service] Processing request: method=GET path=/api/v1/analytics
+2026-06-30 01:15:56.527 WARN  [auth-service] Certificate expires in 22 days for api.nexora.io
+2026-06-30 04:16:00.326 INFO  [auth-service] Health check passed: status=UP, uptime=64951s
+2026-06-30 07:37:00.418 INFO  [auth-service] Cache hit ratio: 82% (last 5min)
+2026-06-30 07:44:00.841 WARN  [auth-service] Kafka consumer lag: 91055 messages on topic=analytics
+2026-06-30 09:36:00.918 ERROR [auth-service] Timeout waiting for response from postgres-primary after 5000ms
+2026-06-30 17:28:00.148 WARN  [auth-service] Slow query detected: 9249ms on events
+2026-06-30 19:12:00.174 INFO  [auth-service] Query executed in 10581ms: SELECT * FROM orders
+2026-06-30 19:15:00.039 INFO  [auth-service] Health check passed: status=UP, uptime=14227s
+2026-06-30 21:01:00.880 INFO  [auth-service] Query executed in 7326ms: SELECT * FROM metrics
+2026-07-01 00:39:00.654 INFO  [auth-service] Query executed in 12841ms: SELECT * FROM events
+2026-07-01 02:17:00.871 INFO  [auth-service] JWT token validated for user_id=usr_96858
+2026-07-01 03:54:00.783 INFO  [auth-service] Connected to user-service successfully
+2026-07-01 04:50:00.295 WARN  [auth-service] Connection pool utilization at 79%
+2026-07-01 05:30:31.489 ERROR [auth-service] Flag evaluation error, falling back to default
+2026-07-01 07:13:30.005 ERROR [auth-service] Flag evaluation error, falling back to default
+2026-07-01 08:26:00.027 INFO  [auth-service] Cache hit ratio: 98% (last 5min)
+2026-07-01 11:00:00.522 WARN  [auth-service] Slow query detected: 2119ms on payments
+2026-07-01 11:51:00.916 INFO  [auth-service] Connected to redis-cache successfully
+2026-07-01 14:19:00.557 INFO  [auth-service] Processed 2497 messages from topic=analytics
+2026-07-01 14:49:00.594 ERROR [auth-service] Timeout waiting for response from nginx-ingress after 10000ms
+2026-07-01 16:25:53.249 ERROR [auth-service] Database query failed: SchemaValidationError on table=orders
+2026-07-01 16:33:23.897 WARN  [auth-service] Connection pool utilization at 67%
+2026-07-01 16:37:24.750 ERROR [auth-service] Database query failed: ConnectionTimeout on table=orders
+2026-07-01 17:08:00.381 WARN  [auth-service] Retry attempt 5/3 for analytics-engine
+2026-07-01 17:34:00.691 ERROR [auth-service] Database query failed: ConnectionTimeout on table=payments
+2026-07-01 23:10:00.526 WARN  [auth-service] Certificate expires in 24 days for auth.nexora.io
+2026-07-02 02:46:00.367 FATAL [auth-service] Process killed by OOM killer: RSS=923MB, limit=4432MB
+2026-07-02 08:22:00.863 DEBUG [auth-service] Cache lookup: key=new_checkout_flow result=HIT
+2026-07-02 10:23:00.542 INFO  [auth-service] JWT token validated for user_id=usr_90378
+2026-07-02 11:57:00.943 FATAL [auth-service] Process killed by OOM killer: RSS=2616MB, limit=6474MB
+2026-07-02 12:40:00.704 INFO  [auth-service] Processed 2076 messages from topic=auth-events
+2026-07-02 14:21:30.570 FATAL [auth-service] Authentication failed for user_id=usr_17749: NullPointerException
+2026-07-02 14:24:30.863 ERROR [auth-service] Authentication failed for user_id=usr_23041: ConnectionTimeout
+2026-07-02 14:26:20.070 ERROR [auth-service] Authentication failed for user_id=usr_81255: DeadlockDetected
+2026-07-02 14:29:31.332 FATAL [auth-service] Failed to process message: offset=531711, topic=user-updates
+2026-07-02 14:35:26.268 ERROR [auth-service] HTTP 500 from billing-service: No route to host
+2026-07-02 14:37:37.434 WARN  [auth-service] Memory usage at 53% — approaching threshold
+2026-07-02 14:44:23.619 WARN  [auth-service] Certificate expires in 22 days for auth.nexora.io
+2026-07-02 17:44:00.123 INFO  [auth-service] Health check passed: status=UP, uptime=22513s
+2026-07-02 19:40:00.895 WARN  [auth-service] Certificate expires in 30 days for api.nexora.io
+2026-07-02 20:10:00.707 WARN  [auth-service] Certificate expires in 29 days for billing.nexora.io
+2026-07-02 22:25:00.288 INFO  [auth-service] JWT token validated for user_id=usr_79052
+2026-07-03 00:42:00.140 ERROR [auth-service] Timeout waiting for response from kafka after 5000ms
+2026-07-03 01:36:00.637 ERROR [auth-service] x509: certificate has expired or is not yet valid
+2026-07-03 01:36:08.034 ERROR [auth-service] TLS handshake failed: certificate verify failed
+2026-07-03 01:39:05.625 ERROR [auth-service] x509: certificate has expired or is not yet valid
+2026-07-03 01:42:14.283 ERROR [auth-service] Certificate expires in 22 days for auth.nexora.io
+2026-07-03 01:46:12.936 ERROR [auth-service] Certificate expires in 22 days for auth.nexora.io
+2026-07-03 01:54:57.708 ERROR [auth-service] x509: certificate has expired or is not yet valid
+2026-07-03 01:59:49.431 WARN  [auth-service] Retry attempt 4/3 for user-service
+2026-07-03 04:33:00.751 DEBUG [auth-service] SQL: SELECT * FROM payments WHERE id = usr_70330 LIMIT 1
+2026-07-03 06:49:00.254 INFO  [auth-service] Request processed successfully in 4253ms
+2026-07-03 08:11:54.126 WARN  [auth-service] Connection pool utilization at 94%
+2026-07-03 08:35:33.299 WARN  [auth-service] Kafka consumer lag: 17246 messages on topic=payments
+2026-07-03 08:57:10.888 ERROR [auth-service] Rate limit exceeded: 8098/4166 requests from single source
+2026-07-03 09:00:57.403 FATAL [auth-service] Rate limit exceeded: 8800/1135 requests from single source
+2026-07-03 09:16:52.719 FATAL [auth-service] Suspicious request pattern flagged for review
+2026-07-03 09:17:00.139 INFO  [auth-service] Cache hit ratio: 66% (last 5min)
+2026-07-03 09:57:46.301 ERROR [auth-service] Authentication failed for user_id=usr_93148: NullPointerException
+2026-07-03 10:11:44.374 ERROR [auth-service] Rate limit exceeded: 1456/7055 requests from single source
+2026-07-03 11:52:00.143 WARN  [auth-service] Memory usage at 79% — approaching threshold
+2026-07-03 12:10:00.832 WARN  [auth-service] Certificate expires in 23 days for billing.nexora.io
+2026-07-03 12:16:00.141 FATAL [auth-service] Process killed by OOM killer: RSS=711MB, limit=7586MB
+2026-07-03 14:39:00.299 INFO  [auth-service] Query executed in 2667ms: SELECT * FROM events
+2026-07-03 19:22:00.362 INFO  [auth-service] Request processed successfully in 6727ms
+2026-07-03 20:02:00.455 ERROR [auth-service] Connection refused to postgres-primary:9092 after 3 retries
+2026-07-03 20:33:00.538 WARN  [auth-service] Kafka consumer lag: 15264 messages on topic=analytics
+2026-07-03 20:55:00.941 INFO  [auth-service] Cache hit ratio: 83% (last 5min)
+2026-07-03 21:18:00.165 INFO  [auth-service] Processed 7647 messages from topic=auth-events
+2026-07-03 21:36:00.397 INFO  [auth-service] Connected to reporting-service successfully
+2026-07-03 22:16:00.624 WARN  [auth-service] Slow query detected: 6359ms on orders
+2026-07-03 22:39:00.266 INFO  [auth-service] Request processed successfully in 6430ms
+2026-07-03 23:00:00.983 INFO  [auth-service] JWT token validated for user_id=usr_62612
+2026-07-03 23:25:55.734 FATAL [auth-service] Flag evaluation error, falling back to default
+2026-07-03 23:53:36.981 FATAL [auth-service] Flag evaluation error, falling back to default
+2026-07-04 00:40:23.566 ERROR [auth-service] Feature flag beta_search_ranking evaluated true for 100% of traffic
+2026-07-04 02:38:14.275 ERROR [auth-service] Timeout waiting for response from postgres-replica after 5000ms
+2026-07-04 03:04:00.196 WARN  [auth-service] Kafka consumer lag: 27460 messages on topic=user-updates
+2026-07-04 04:12:50.064 ERROR [auth-service] Timeout waiting for response from api-gateway after 5000ms
+2026-07-04 04:31:12.712 ERROR [auth-service] Timeout waiting for response from postgres-primary after 30000ms
+2026-07-04 08:13:00.240 WARN  [auth-service] Connection pool utilization at 69%
+2026-07-04 09:28:00.580 WARN  [auth-service] Kafka consumer lag: 55908 messages on topic=notifications
+2026-07-04 10:51:00.093 INFO  [auth-service] JWT token validated for user_id=usr_37644
+2026-07-04 11:27:00.757 WARN  [auth-service] Connection pool utilization at 99%
+2026-07-04 14:24:00.118 ERROR [auth-service] HTTP 500 from analytics-engine: Host is unreachable
+2026-07-04 17:29:00.816 WARN  [auth-service] Retry attempt 1/3 for analytics-engine
+2026-07-04 23:19:00.556 INFO  [auth-service] Connected to kafka successfully
+2026-07-05 01:13:00.977 INFO  [auth-service] JWT token validated for user_id=usr_29177
+2026-07-05 01:58:32.678 WARN  [auth-service] Connection pool utilization at 53%
+2026-07-05 02:57:08.213 ERROR [auth-service] Migration lock held longer than expected
+2026-07-05 03:18:58.578 WARN  [auth-service] Slow query detected: 6450ms on users
+2026-07-05 03:31:39.977 WARN  [auth-service] Slow query detected: 12760ms on metrics
+2026-07-05 04:17:46.621 ERROR [auth-service] Schema validation error: column not found
+2026-07-05 05:37:00.061 INFO  [auth-service] Connected to reporting-service successfully
+2026-07-05 20:43:00.070 FATAL [auth-service] Process killed by OOM killer: RSS=1917MB, limit=5432MB
+2026-07-05 20:46:00.284 ERROR [auth-service] HTTP 502 from nginx-ingress: Permission denied
+2026-07-05 22:46:00.079 WARN  [auth-service] Retry attempt 5/3 for elasticsearch
+2026-07-05 23:25:00.349 INFO  [auth-service] Processed 500 messages from topic=user-updates
+2026-07-06 00:39:00.285 WARN  [auth-service] Retry attempt 3/3 for notification-service
+2026-07-06 02:47:00.688 DEBUG [auth-service] Cache lookup: key=beta_search_ranking result=HIT
+2026-07-06 09:23:00.311 INFO  [auth-service] Processed 3885 messages from topic=payments
+2026-07-06 11:19:06.696 WARN  [auth-service] Memory usage at 69% — approaching threshold
+2026-07-06 12:46:00.467 ERROR [auth-service] Connection refused to billing-service:5432 after 4 retries
+2026-07-06 15:00:58.444 ERROR [auth-service] Request routed to unexpected upstream postgres-primary
+2026-07-06 15:15:00.460 INFO  [auth-service] Request processed successfully in 1788ms
+2026-07-06 18:33:00.975 INFO  [auth-service] JWT token validated for user_id=usr_16628
+2026-07-06 19:55:00.969 INFO  [auth-service] Connected to user-service successfully
+2026-07-06 22:00:00.992 ERROR [auth-service] Timeout waiting for response from billing-service after 10000ms
+2026-07-07 02:01:42.909 ERROR [auth-service] Token validation failed: timestamp out of allowed skew for user_id=usr_51319
+2026-07-07 02:28:32.225 ERROR [auth-service] Token validation failed: timestamp out of allowed skew for user_id=usr_66087
+2026-07-07 02:46:00.107 WARN  [auth-service] Slow query detected: 4360ms on users
+2026-07-07 04:24:00.511 WARN  [auth-service] Kafka consumer lag: 68424 messages on topic=auth-events
+2026-07-07 05:13:00.917 INFO  [auth-service] Query executed in 9616ms: SELECT * FROM payments
+2026-07-07 08:17:00.132 WARN  [auth-service] Certificate expires in 25 days for billing.nexora.io
+2026-07-07 16:03:00.654 INFO  [auth-service] JWT token validated for user_id=usr_19519
+2026-07-07 16:57:00.719 INFO  [auth-service] JWT token validated for user_id=usr_94390
+2026-07-07 19:12:00.757 ERROR [auth-service] Timeout waiting for response from user-service after 10000ms
+2026-07-07 21:31:00.258 INFO  [auth-service] JWT token validated for user_id=usr_26682
+2026-07-07 22:58:00.911 INFO  [auth-service] Processed 3104 messages from topic=notifications
+2026-07-08 02:03:00.602 INFO  [auth-service] JWT token validated for user_id=usr_85891
+2026-07-08 03:43:00.713 WARN  [auth-service] Connection pool utilization at 67%
+2026-07-08 04:36:00.254 INFO  [auth-service] Connected to notification-service successfully
+2026-07-08 06:02:00.367 FATAL [auth-service] Unable to connect to billing-service: all 2 retries exhausted
+2026-07-08 06:23:00.769 ERROR [auth-service] Timeout waiting for response from user-service after 10000ms
+2026-07-08 11:39:00.523 INFO  [auth-service] JWT token validated for user_id=usr_72962
+2026-07-08 13:12:33.650 ERROR [auth-service] Pod scheduling failed: insufficient resources
+2026-07-08 13:22:00.784 WARN  [auth-service] Slow query detected: 8769ms on orders
+2026-07-08 13:23:16.427 WARN  [auth-service] Memory usage at 54% — approaching threshold
+2026-07-08 14:12:00.172 INFO  [auth-service] Health check passed: status=UP, uptime=37771s
+2026-07-08 14:46:00.436 INFO  [auth-service] Request processed successfully in 4312ms
+2026-07-08 14:46:50.643 WARN  [auth-service] Connection pool utilization at 83%
+2026-07-08 14:58:25.204 ERROR [auth-service] HPA unable to fetch metrics for auth-service
+2026-07-08 15:08:30.567 ERROR [auth-service] HPA unable to fetch metrics for auth-service
+2026-07-09 00:32:01.080 FATAL [auth-service] Stale endpoint resolved for postgres-replica, expected updated IP
+2026-07-09 00:55:40.518 ERROR [auth-service] Stale endpoint resolved for postgres-replica, expected updated IP
+2026-07-09 00:59:39.825 ERROR [auth-service] DNS resolution failed for notification-service
+2026-07-09 01:01:45.435 ERROR [auth-service] Connection refused to nginx-ingress:8080 after 5 retries
+2026-07-09 01:24:57.992 FATAL [auth-service] Connection refused to notification-service:5432 after 1 retries
+2026-07-09 01:29:00.684 DEBUG [auth-service] SQL: SELECT * FROM orders WHERE id = usr_19754 LIMIT 1
+2026-07-09 04:46:07.673 ERROR [auth-service] Too many open files
+2026-07-09 04:56:43.428 ERROR [auth-service] Too many open files
+2026-07-09 04:56:49.011 ERROR [auth-service] Process killed by OOM killer: RSS=2285MB, limit=2164MB
+2026-07-09 05:39:15.524 ERROR [auth-service] Timeout waiting for response from billing-service after 5000ms
+2026-07-09 05:58:06.843 FATAL [auth-service] Connection refused to postgres-replica:8080 after 3 retries
+2026-07-09 07:15:00.982 WARN  [auth-service] Memory usage at 70% — approaching threshold
+2026-07-09 07:32:00.000 INFO  [auth-service] Connected to kafka successfully
+2026-07-09 09:26:00.370 INFO  [auth-service] Query executed in 4020ms: SELECT * FROM events
+2026-07-09 12:42:00.359 DEBUG [auth-service] Processing request: method=GET path=/api/v1/users
+2026-07-09 13:33:00.894 ERROR [auth-service] Timeout waiting for response from search-service after 30000ms
+2026-07-09 17:02:00.569 INFO  [auth-service] Cache hit ratio: 75% (last 5min)
+2026-07-09 18:43:00.431 INFO  [auth-service] Cache hit ratio: 80% (last 5min)
+2026-07-09 19:53:00.946 INFO  [auth-service] Processed 8152 messages from topic=user-updates
+2026-07-10 02:54:00.343 INFO  [auth-service] Connected to analytics-engine successfully
+2026-07-10 04:48:00.672 INFO  [auth-service] JWT token validated for user_id=usr_71293
+2026-07-10 05:13:00.283 FATAL [auth-service] Process killed by OOM killer: RSS=2771MB, limit=2136MB

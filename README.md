@@ -5,6 +5,8 @@
 IncidentIQ AI is a production-grade AI engineering portfolio project that ingests multimodal incident evidence (logs, runbook documents, and metric time-series), auto-triages, correlates signals across data types, and generates draft Root Cause Analyses (RCAs).
 
 ---
+Checkout app @ https://incident-ai-pearl.vercel.app/dashboard
+---
 
 ## Architecture Overview
 
@@ -45,15 +47,13 @@ IncidentIQ AI is a production-grade AI engineering portfolio project that ingest
 incidentiq-ai/
 ├── apps/
 │   ├── server/          ← Node.js + TypeScript (Express, LangChain, LangGraph)
-│   ├── web/             ← React + TypeScript (Vite) — FULLY IMPLEMENTED
-│   └── ml-service/      ← Python FastAPI (NER, Tabular ML, Eval)
+│    └── web/             ← React + TypeScript (Vite) — FULLY IMPLEMENTED
+│  
 ├── libs/
 │   └── shared-types/    ← TypeScript types shared between server & web
 ├── scripts/             ← Mock data generation (Python, self-contained)
 ├── data/                ← Generated mock data output
 ├── docker/              ← Database init scripts
-├── commands.md          ← Setup & command reference
-├── development.md       ← Phased learning roadmap
 └── .env.example         ← All configuration (models, databases, providers)
 ```
 

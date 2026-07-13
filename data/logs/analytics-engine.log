@@ -1,0 +1,1000 @@
+2026-05-11 13:12:00.157 INFO  [analytics-engine] Cache hit ratio: 63% (last 5min)
+2026-05-11 18:44:00.714 FATAL [analytics-engine] Unable to connect to auth-service: all 3 retries exhausted
+2026-05-11 20:28:00.656 ERROR [analytics-engine] Database query failed: SchemaValidationError on table=users
+2026-05-11 21:38:00.756 INFO  [analytics-engine] Health check passed: status=UP, uptime=78798s
+2026-05-12 01:28:51.210 FATAL [analytics-engine] HTTP 502 from redis-cache: Permission denied
+2026-05-12 02:19:00.402 ERROR [analytics-engine] Vendor status page reports degraded performance
+2026-05-12 02:20:28.340 FATAL [analytics-engine] Timeout waiting for response from notification-service after 30000ms
+2026-05-12 02:22:19.756 WARN  [analytics-engine] Certificate expires in 20 days for api.nexora.io
+2026-05-12 04:01:00.516 ERROR [analytics-engine] Connection refused to elasticsearch:9092 after 1 retries
+2026-05-12 04:38:36.325 ERROR [analytics-engine] Request rejected: clock skew exceeds tolerance
+2026-05-12 04:39:27.885 FATAL [analytics-engine] Token validation failed: timestamp out of allowed skew for user_id=usr_89132
+2026-05-12 04:49:10.925 FATAL [analytics-engine] NTP sync failed, offset=3825ms
+2026-05-12 04:56:55.496 ERROR [analytics-engine] Token validation failed: timestamp out of allowed skew for user_id=usr_34725
+2026-05-12 08:26:00.917 INFO  [analytics-engine] Cache hit ratio: 79% (last 5min)
+2026-05-12 10:04:00.849 WARN  [analytics-engine] Retry attempt 1/3 for auth-service
+2026-05-12 13:42:00.448 WARN  [analytics-engine] Slow query detected: 7520ms on orders
+2026-05-12 14:50:00.183 INFO  [analytics-engine] Cache hit ratio: 65% (last 5min)
+2026-05-12 20:19:17.032 ERROR [analytics-engine] Record checksum mismatch detected for id=usr_49733
+2026-05-12 20:24:22.500 WARN  [analytics-engine] Connection pool utilization at 74%
+2026-05-12 21:24:00.756 ERROR [analytics-engine] Timeout waiting for response from redis-cache after 10000ms
+2026-05-12 23:52:00.100 INFO  [analytics-engine] Request processed successfully in 14021ms
+2026-05-13 00:46:00.991 INFO  [analytics-engine] JWT token validated for user_id=usr_76917
+2026-05-13 03:31:00.715 INFO  [analytics-engine] Processed 2605 messages from topic=analytics
+2026-05-13 04:00:00.511 WARN  [analytics-engine] Memory usage at 74% — approaching threshold
+2026-05-13 09:49:00.244 WARN  [analytics-engine] Connection pool utilization at 66%
+2026-05-13 13:36:00.952 ERROR [analytics-engine] HTTP 500 from api-gateway: Connection timed out
+2026-05-13 14:10:25.924 FATAL [analytics-engine] Retry storm detected: 5474 retries/min to postgres-replica
+2026-05-13 14:11:04.030 WARN  [analytics-engine] Memory usage at 66% — approaching threshold
+2026-05-13 14:11:28.707 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-05-13 14:13:46.012 ERROR [analytics-engine] Retry storm detected: 7720 retries/min to elasticsearch
+2026-05-13 14:23:27.977 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-05-13 14:26:27.795 ERROR [analytics-engine] Retry storm detected: 9630 retries/min to postgres-replica
+2026-05-13 14:37:35.330 ERROR [analytics-engine] Circuit breaker opened for kafka
+2026-05-13 16:10:00.465 INFO  [analytics-engine] JWT token validated for user_id=usr_51856
+2026-05-13 18:53:12.667 ERROR [analytics-engine] Pod scheduling failed: insufficient resources
+2026-05-13 18:58:41.038 FATAL [analytics-engine] HPA unable to fetch metrics for analytics-engine
+2026-05-13 19:00:16.029 ERROR [analytics-engine] HPA unable to fetch metrics for analytics-engine
+2026-05-13 19:10:19.227 ERROR [analytics-engine] Request queue depth exceeded capacity
+2026-05-13 19:17:32.256 WARN  [analytics-engine] Retry attempt 3/3 for billing-service
+2026-05-13 19:24:27.386 WARN  [analytics-engine] Slow query detected: 6462ms on payments
+2026-05-13 19:41:09.800 ERROR [analytics-engine] Request queue depth exceeded capacity
+2026-05-13 21:39:00.206 INFO  [analytics-engine] Connected to search-service successfully
+2026-05-14 02:52:00.540 INFO  [analytics-engine] Processed 129 messages from topic=notifications
+2026-05-14 02:59:00.554 INFO  [analytics-engine] Cache hit ratio: 85% (last 5min)
+2026-05-14 03:09:23.397 FATAL [analytics-engine] Authentication failed for user_id=usr_70597: ConnectionTimeout
+2026-05-14 03:32:43.920 ERROR [analytics-engine] Authentication failed for user_id=usr_79101: DeadlockDetected
+2026-05-14 03:37:39.315 WARN  [analytics-engine] Retry attempt 2/3 for reporting-service
+2026-05-14 03:53:48.704 WARN  [analytics-engine] Slow query detected: 12033ms on orders
+2026-05-14 04:42:00.927 INFO  [analytics-engine] Processed 9639 messages from topic=payments
+2026-05-14 07:13:00.329 WARN  [analytics-engine] Slow query detected: 205ms on metrics
+2026-05-14 10:35:00.481 DEBUG [analytics-engine] SQL: SELECT * FROM payments WHERE id = usr_57890 LIMIT 1
+2026-05-14 10:53:00.625 INFO  [analytics-engine] Query executed in 8582ms: SELECT * FROM orders
+2026-05-14 11:42:00.514 WARN  [analytics-engine] Kafka consumer lag: 51722 messages on topic=auth-events
+2026-05-14 11:47:00.015 INFO  [analytics-engine] Cache hit ratio: 79% (last 5min)
+2026-05-14 14:05:27.949 WARN  [analytics-engine] Kafka consumer lag: 98129 messages on topic=user-updates
+2026-05-14 14:06:57.483 FATAL [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-14 14:36:57.913 ERROR [analytics-engine] Unexpected config value for key=timeout_ms
+2026-05-14 14:49:29.229 ERROR [analytics-engine] Unexpected config value for key=timeout_ms
+2026-05-14 15:46:00.200 WARN  [analytics-engine] Memory usage at 67% — approaching threshold
+2026-05-14 18:49:00.361 WARN  [analytics-engine] Connection pool utilization at 99%
+2026-05-14 19:32:00.875 ERROR [analytics-engine] Database query failed: ConnectionTimeout on table=users
+2026-05-14 21:31:00.123 INFO  [analytics-engine] Processed 1889 messages from topic=notifications
+2026-05-15 01:17:05.481 ERROR [analytics-engine] Authentication failed for user_id=usr_30142: SchemaValidationError
+2026-05-15 01:26:26.084 ERROR [analytics-engine] Failed to process message: offset=831403, topic=analytics
+2026-05-15 02:29:00.294 DEBUG [analytics-engine] SQL: SELECT * FROM orders WHERE id = usr_20769 LIMIT 1
+2026-05-15 04:08:00.654 INFO  [analytics-engine] Query executed in 2166ms: SELECT * FROM events
+2026-05-15 07:15:00.618 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-05-15 08:07:00.063 INFO  [analytics-engine] Request processed successfully in 11281ms
+2026-05-15 11:49:00.403 INFO  [analytics-engine] Health check passed: status=UP, uptime=28348s
+2026-05-15 11:57:00.143 INFO  [analytics-engine] Query executed in 12749ms: SELECT * FROM payments
+2026-05-15 12:15:00.455 ERROR [analytics-engine] Connection refused to postgres-primary:9092 after 3 retries
+2026-05-15 14:29:00.668 INFO  [analytics-engine] Processed 1836 messages from topic=analytics
+2026-05-15 15:24:00.245 INFO  [analytics-engine] Query executed in 11852ms: SELECT * FROM sessions
+2026-05-15 18:02:00.748 INFO  [analytics-engine] Connected to postgres-replica successfully
+2026-05-15 19:00:00.012 INFO  [analytics-engine] Request processed successfully in 10329ms
+2026-05-15 19:39:00.826 WARN  [analytics-engine] Slow query detected: 7321ms on orders
+2026-05-15 20:12:32.352 FATAL [analytics-engine] Connection refused to auth-service:8080 after 2 retries
+2026-05-15 20:36:48.624 WARN  [analytics-engine] Kafka consumer lag: 74420 messages on topic=notifications
+2026-05-15 20:41:59.175 ERROR [analytics-engine] Circuit breaker opened for postgres-replica
+2026-05-15 20:43:14.653 ERROR [analytics-engine] Connection refused to nginx-ingress:8080 after 1 retries
+2026-05-15 20:43:55.903 ERROR [analytics-engine] Circuit breaker opened for user-service
+2026-05-15 20:44:47.623 ERROR [analytics-engine] Timeout waiting for response from elasticsearch after 10000ms
+2026-05-15 20:45:57.552 ERROR [analytics-engine] Connection refused to redis-cache:6379 after 3 retries
+2026-05-15 20:53:32.132 ERROR [analytics-engine] Timeout waiting for response from kafka after 5000ms
+2026-05-15 21:05:08.728 ERROR [analytics-engine] Timeout waiting for response from billing-service after 30000ms
+2026-05-15 21:33:00.401 DEBUG [analytics-engine] Cache lookup: key=session:1234 result=HIT
+2026-05-15 22:00:52.503 FATAL [analytics-engine] No route to host
+2026-05-15 22:18:06.783 ERROR [analytics-engine] DNS resolution failed for postgres-replica
+2026-05-15 22:44:00.866 INFO  [analytics-engine] JWT token validated for user_id=usr_32189
+2026-05-15 23:08:00.558 INFO  [analytics-engine] Request processed successfully in 10751ms
+2026-05-15 23:38:00.356 DEBUG [analytics-engine] Processing request: method=GET path=/api/v1/users
+2026-05-16 00:39:00.638 DEBUG [analytics-engine] Cache lookup: key=dark_launch_v2 result=MISS
+2026-05-16 01:50:00.021 INFO  [analytics-engine] Connected to notification-service successfully
+2026-05-16 06:53:00.281 INFO  [analytics-engine] Processed 3301 messages from topic=notifications
+2026-05-16 16:35:00.812 INFO  [analytics-engine] Health check passed: status=UP, uptime=33236s
+2026-05-16 18:33:00.903 FATAL [analytics-engine] Process killed by OOM killer: RSS=698MB, limit=4044MB
+2026-05-16 18:36:50.651 FATAL [analytics-engine] Region mismatch: expected staging received alternate region
+2026-05-16 20:52:00.754 INFO  [analytics-engine] Query executed in 12460ms: SELECT * FROM orders
+2026-05-16 21:53:39.655 ERROR [analytics-engine] Health check failed: status=DOWN
+2026-05-16 22:44:00.166 DEBUG [analytics-engine] Cache lookup: key=beta_search_ranking result=HIT
+2026-05-16 22:50:00.818 INFO  [analytics-engine] Health check passed: status=UP, uptime=37118s
+2026-05-17 00:12:37.629 WARN  [analytics-engine] Memory usage at 84% — approaching threshold
+2026-05-17 00:27:52.529 ERROR [analytics-engine] CPU throttling detected: 87% of periods throttled
+2026-05-17 03:14:00.346 INFO  [analytics-engine] Query executed in 7050ms: SELECT * FROM events
+2026-05-17 03:31:00.547 ERROR [analytics-engine] Timeout waiting for response from kafka after 5000ms
+2026-05-17 04:06:00.921 ERROR [analytics-engine] Connection refused to postgres-replica:9092 after 3 retries
+2026-05-17 08:31:22.242 ERROR [analytics-engine] Authentication failed for user_id=usr_54829: ConnectionTimeout
+2026-05-17 08:43:04.128 FATAL [analytics-engine] Authentication failed for user_id=usr_53234: NullPointerException
+2026-05-17 08:43:39.413 ERROR [analytics-engine] HTTP 504 from auth-service: Resource temporarily unavailable
+2026-05-17 09:01:29.695 WARN  [analytics-engine] Slow query detected: 11887ms on orders
+2026-05-17 18:50:00.514 INFO  [analytics-engine] Request processed successfully in 9179ms
+2026-05-17 19:22:00.017 INFO  [analytics-engine] Request processed successfully in 9811ms
+2026-05-17 19:47:00.052 FATAL [analytics-engine] Unable to connect to nginx-ingress: all 3 retries exhausted
+2026-05-18 06:53:00.753 WARN  [analytics-engine] Memory usage at 66% — approaching threshold
+2026-05-18 10:21:05.362 ERROR [analytics-engine] Connection refused to api-gateway:8080 after 1 retries
+2026-05-18 12:36:47.185 FATAL [analytics-engine] DNS resolution failed for search-service
+2026-05-18 12:53:00.540 INFO  [analytics-engine] Request processed successfully in 12052ms
+2026-05-18 15:16:00.262 INFO  [analytics-engine] Connected to billing-service successfully
+2026-05-18 16:14:00.719 INFO  [analytics-engine] Processed 2979 messages from topic=payments
+2026-05-18 21:43:00.886 ERROR [analytics-engine] Database query failed: DeadlockDetected on table=events
+2026-05-18 22:25:56.181 ERROR [analytics-engine] Deployed version v2.16.6 to production
+2026-05-18 22:47:07.602 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-18 23:44:00.307 INFO  [analytics-engine] Processed 3215 messages from topic=user-updates
+2026-05-19 00:25:41.347 FATAL [analytics-engine] Unexpected config value for key=timeout_ms
+2026-05-19 00:42:54.040 ERROR [analytics-engine] Unexpected config value for key=timeout_ms
+2026-05-19 01:19:00.745 INFO  [analytics-engine] Query executed in 7421ms: SELECT * FROM orders
+2026-05-19 01:23:00.927 INFO  [analytics-engine] Connected to user-service successfully
+2026-05-19 02:14:44.258 WARN  [analytics-engine] Slow query detected: 4332ms on metrics
+2026-05-19 03:10:30.377 WARN  [analytics-engine] Connection pool utilization at 82%
+2026-05-19 05:18:00.417 DEBUG [analytics-engine] Processing request: method=PUT path=/api/v1/users
+2026-05-19 10:43:00.438 INFO  [analytics-engine] Health check passed: status=UP, uptime=38661s
+2026-05-19 11:17:00.198 INFO  [analytics-engine] Health check passed: status=UP, uptime=23540s
+2026-05-19 11:37:00.209 INFO  [analytics-engine] Health check passed: status=UP, uptime=40660s
+2026-05-19 12:16:00.177 INFO  [analytics-engine] Processed 3137 messages from topic=notifications
+2026-05-19 12:32:00.627 INFO  [analytics-engine] Health check passed: status=UP, uptime=13567s
+2026-05-19 13:20:00.405 INFO  [analytics-engine] Query executed in 13357ms: SELECT * FROM events
+2026-05-19 16:23:00.706 WARN  [analytics-engine] Slow query detected: 4201ms on sessions
+2026-05-19 20:06:00.808 WARN  [analytics-engine] Slow query detected: 4626ms on payments
+2026-05-19 23:51:00.234 INFO  [analytics-engine] Health check passed: status=UP, uptime=55860s
+2026-05-20 02:05:00.374 WARN  [analytics-engine] Slow query detected: 948ms on metrics
+2026-05-20 07:16:00.692 INFO  [analytics-engine] Connected to api-gateway successfully
+2026-05-20 11:36:47.838 WARN  [analytics-engine] Certificate expires in 2 days for api.nexora.io
+2026-05-20 11:50:01.893 ERROR [analytics-engine] Rate limit exceeded: 9330/1480 requests from single source
+2026-05-20 11:51:01.717 ERROR [analytics-engine] Rate limit exceeded: 4665/5549 requests from single source
+2026-05-20 11:54:22.723 ERROR [analytics-engine] Authentication failed for user_id=usr_55310: ConnectionTimeout
+2026-05-20 12:08:00.841 INFO  [analytics-engine] JWT token validated for user_id=usr_62572
+2026-05-20 12:53:00.798 INFO  [analytics-engine] Request processed successfully in 2979ms
+2026-05-20 14:59:00.159 INFO  [analytics-engine] Processed 3721 messages from topic=analytics
+2026-05-20 15:32:00.764 WARN  [analytics-engine] Certificate expires in 25 days for auth.nexora.io
+2026-05-20 15:52:00.949 WARN  [analytics-engine] Retry attempt 2/3 for notification-service
+2026-05-20 18:36:00.371 WARN  [analytics-engine] Memory usage at 79% — approaching threshold
+2026-05-20 18:57:23.929 ERROR [analytics-engine] Connection refused to kafka:8080 after 3 retries
+2026-05-20 19:24:02.503 WARN  [analytics-engine] Connection pool utilization at 56%
+2026-05-20 20:56:00.574 INFO  [analytics-engine] Query executed in 8349ms: SELECT * FROM events
+2026-05-20 22:44:00.577 INFO  [analytics-engine] Health check passed: status=UP, uptime=28733s
+2026-05-20 23:29:00.234 INFO  [analytics-engine] Connected to redis-cache successfully
+2026-05-21 01:41:00.768 WARN  [analytics-engine] Memory usage at 90% — approaching threshold
+2026-05-21 03:54:00.688 INFO  [analytics-engine] Health check passed: status=UP, uptime=10868s
+2026-05-21 05:05:00.263 INFO  [analytics-engine] JWT token validated for user_id=usr_27901
+2026-05-21 08:08:00.564 INFO  [analytics-engine] JWT token validated for user_id=usr_74350
+2026-05-21 08:43:00.322 INFO  [analytics-engine] Query executed in 12658ms: SELECT * FROM metrics
+2026-05-21 14:19:00.531 ERROR [analytics-engine] Connection refused to user-service:6379 after 2 retries
+2026-05-21 14:37:00.682 INFO  [analytics-engine] Query executed in 3179ms: SELECT * FROM metrics
+2026-05-21 17:29:00.085 INFO  [analytics-engine] Connected to reporting-service successfully
+2026-05-21 20:01:10.144 WARN  [analytics-engine] Retry attempt 2/3 for nginx-ingress
+2026-05-21 20:02:10.392 ERROR [analytics-engine] Database connection failed: password authentication failed
+2026-05-21 20:08:00.134 INFO  [analytics-engine] Request processed successfully in 4673ms
+2026-05-21 21:37:00.549 INFO  [analytics-engine] JWT token validated for user_id=usr_97995
+2026-05-21 21:39:54.698 ERROR [analytics-engine] Request rejected: clock skew exceeds tolerance
+2026-05-21 21:48:00.358 DEBUG [analytics-engine] SQL: SELECT * FROM orders WHERE id = usr_87618 LIMIT 1
+2026-05-21 22:30:00.808 INFO  [analytics-engine] Cache hit ratio: 88% (last 5min)
+2026-05-21 22:33:25.876 FATAL [analytics-engine] Request rejected: clock skew exceeds tolerance
+2026-05-21 22:37:37.990 FATAL [analytics-engine] Token validation failed: timestamp out of allowed skew for user_id=usr_64729
+2026-05-21 22:40:00.234 INFO  [analytics-engine] Health check passed: status=UP, uptime=78596s
+2026-05-21 22:41:24.045 ERROR [analytics-engine] NTP sync failed, offset=6875ms
+2026-05-22 04:38:00.650 INFO  [analytics-engine] Cache hit ratio: 75% (last 5min)
+2026-05-22 07:16:59.387 WARN  [analytics-engine] Slow query detected: 3025ms on users
+2026-05-22 07:19:24.576 ERROR [analytics-engine] Suspicious request pattern flagged for review
+2026-05-22 07:32:57.590 FATAL [analytics-engine] Authentication failed for user_id=usr_81339: ConnectionTimeout
+2026-05-22 07:35:06.487 ERROR [analytics-engine] Authentication failed for user_id=usr_33197: SchemaValidationError
+2026-05-22 07:40:52.757 ERROR [analytics-engine] Authentication failed for user_id=usr_89256: DeadlockDetected
+2026-05-22 07:43:20.101 ERROR [analytics-engine] Authentication failed for user_id=usr_16891: NullPointerException
+2026-05-22 07:48:00.919 INFO  [analytics-engine] Connected to user-service successfully
+2026-05-22 08:06:50.656 ERROR [analytics-engine] Authentication failed for user_id=usr_86511: NullPointerException
+2026-05-22 08:34:00.060 WARN  [analytics-engine] Memory usage at 87% — approaching threshold
+2026-05-22 11:22:00.517 FATAL [analytics-engine] Process killed by OOM killer: RSS=2078MB, limit=6732MB
+2026-05-22 11:28:46.204 ERROR [analytics-engine] Process killed by OOM killer: RSS=1123MB, limit=3800MB
+2026-05-22 11:52:29.716 ERROR [analytics-engine] Heap usage growing steadily, GC pause 1706ms
+2026-05-22 11:57:00.491 DEBUG [analytics-engine] SQL: SELECT * FROM sessions WHERE id = usr_35059 LIMIT 1
+2026-05-22 12:06:00.843 WARN  [analytics-engine] Kafka consumer lag: 7137 messages on topic=analytics
+2026-05-22 13:50:00.408 ERROR [analytics-engine] Database query failed: NullPointerException on table=metrics
+2026-05-22 14:19:00.411 INFO  [analytics-engine] Connected to elasticsearch successfully
+2026-05-22 14:20:37.610 ERROR [analytics-engine] DNS resolution failed for user-service
+2026-05-22 14:31:00.596 INFO  [analytics-engine] Query executed in 10602ms: SELECT * FROM sessions
+2026-05-22 16:06:00.277 INFO  [analytics-engine] Processed 2042 messages from topic=user-updates
+2026-05-22 17:40:00.117 INFO  [analytics-engine] Connected to billing-service successfully
+2026-05-22 18:58:00.303 INFO  [analytics-engine] Health check passed: status=UP, uptime=30092s
+2026-05-22 19:08:42.415 ERROR [analytics-engine] Stale endpoint resolved for kafka, expected updated IP
+2026-05-22 23:02:00.431 INFO  [analytics-engine] Request processed successfully in 371ms
+2026-05-23 00:38:00.890 WARN  [analytics-engine] Slow query detected: 14334ms on metrics
+2026-05-23 01:23:00.440 WARN  [analytics-engine] Memory usage at 60% — approaching threshold
+2026-05-23 02:07:37.094 ERROR [analytics-engine] CPU throttling detected: 53% of periods throttled
+2026-05-23 02:13:23.049 WARN  [analytics-engine] Memory usage at 64% — approaching threshold
+2026-05-23 02:29:51.186 FATAL [analytics-engine] Event loop lag: 8987ms — possible blocking operation
+2026-05-23 02:47:40.252 ERROR [analytics-engine] Event loop lag: 11024ms — possible blocking operation
+2026-05-23 05:03:20.924 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-23 05:06:30.051 WARN  [analytics-engine] Certificate expires in 18 days for billing.nexora.io
+2026-05-23 05:10:22.684 ERROR [analytics-engine] Deployed version v2.15.0 to staging
+2026-05-23 05:26:31.962 ERROR [analytics-engine] Unexpected config value for key=timeout_ms
+2026-05-23 05:32:31.308 ERROR [analytics-engine] Deployed version v2.12.1 to production
+2026-05-23 05:36:06.454 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-23 05:43:18.207 ERROR [analytics-engine] Deployed version v2.18.7 to production
+2026-05-23 06:45:00.797 INFO  [analytics-engine] Health check passed: status=UP, uptime=23762s
+2026-05-23 07:20:00.369 ERROR [analytics-engine] HTTP 503 from elasticsearch: Host is unreachable
+2026-05-23 08:20:00.291 WARN  [analytics-engine] Retry attempt 1/3 for reporting-service
+2026-05-23 08:42:00.751 ERROR [analytics-engine] Timeout waiting for response from kafka after 30000ms
+2026-05-23 13:25:35.577 WARN  [analytics-engine] Certificate expires in 23 days for billing.nexora.io
+2026-05-23 13:26:56.011 ERROR [analytics-engine] Retry storm detected: 8153 retries/min to nginx-ingress
+2026-05-23 14:31:00.649 INFO  [analytics-engine] Request processed successfully in 12309ms
+2026-05-23 16:13:00.494 INFO  [analytics-engine] Health check passed: status=UP, uptime=4715s
+2026-05-23 18:47:00.254 INFO  [analytics-engine] JWT token validated for user_id=usr_63249
+2026-05-23 22:15:00.410 ERROR [analytics-engine] Database query failed: NullPointerException on table=events
+2026-05-23 22:37:00.892 WARN  [analytics-engine] Connection pool utilization at 99%
+2026-05-23 23:28:00.790 INFO  [analytics-engine] Request processed successfully in 493ms
+2026-05-24 01:32:00.142 INFO  [analytics-engine] Connected to search-service successfully
+2026-05-24 02:58:00.983 INFO  [analytics-engine] Request processed successfully in 12193ms
+2026-05-24 03:56:00.608 INFO  [analytics-engine] JWT token validated for user_id=usr_89507
+2026-05-24 04:05:00.712 INFO  [analytics-engine] Request processed successfully in 11812ms
+2026-05-24 05:10:00.615 FATAL [analytics-engine] Unable to connect to postgres-primary: all 1 retries exhausted
+2026-05-24 05:40:00.976 ERROR [analytics-engine] Timeout waiting for response from nginx-ingress after 5000ms
+2026-05-24 06:47:00.706 INFO  [analytics-engine] Health check passed: status=UP, uptime=1073s
+2026-05-24 07:25:00.797 WARN  [analytics-engine] Certificate expires in 6 days for api.nexora.io
+2026-05-24 07:48:00.080 ERROR [analytics-engine] Connection refused to postgres-primary:5432 after 5 retries
+2026-05-24 08:01:00.686 INFO  [analytics-engine] JWT token validated for user_id=usr_89000
+2026-05-24 08:45:03.561 FATAL [analytics-engine] No route to host
+2026-05-24 08:51:24.968 WARN  [analytics-engine] Slow query detected: 13353ms on events
+2026-05-24 10:23:46.823 ERROR [analytics-engine] DNS resolution failed for notification-service
+2026-05-24 10:26:38.839 ERROR [analytics-engine] Connection refused to postgres-replica:5432 after 4 retries
+2026-05-24 10:57:00.799 INFO  [analytics-engine] JWT token validated for user_id=usr_46070
+2026-05-24 23:28:00.670 DEBUG [analytics-engine] SQL: SELECT * FROM sessions WHERE id = usr_39763 LIMIT 1
+2026-05-25 00:05:00.899 INFO  [analytics-engine] JWT token validated for user_id=usr_30118
+2026-05-25 01:16:16.575 WARN  [analytics-engine] Connection pool utilization at 96%
+2026-05-25 01:42:46.228 ERROR [analytics-engine] Process killed by OOM killer: RSS=3592MB, limit=4281MB
+2026-05-25 01:53:15.805 ERROR [analytics-engine] Too many open files
+2026-05-25 01:55:23.195 ERROR [analytics-engine] Process killed by OOM killer: RSS=1406MB, limit=8191MB
+2026-05-25 03:39:00.484 ERROR [analytics-engine] Timeout waiting for response from billing-service after 30000ms
+2026-05-25 03:50:00.936 INFO  [analytics-engine] Request processed successfully in 1672ms
+2026-05-25 03:58:00.087 INFO  [analytics-engine] Health check passed: status=UP, uptime=71731s
+2026-05-25 04:24:00.376 INFO  [analytics-engine] Request processed successfully in 11281ms
+2026-05-25 07:24:00.038 WARN  [analytics-engine] Memory usage at 62% — approaching threshold
+2026-05-25 07:47:00.680 INFO  [analytics-engine] Request processed successfully in 4826ms
+2026-05-25 13:40:00.436 INFO  [analytics-engine] Cache hit ratio: 78% (last 5min)
+2026-05-25 14:32:00.504 WARN  [analytics-engine] Certificate expires in 24 days for api.nexora.io
+2026-05-25 15:40:17.905 ERROR [analytics-engine] Cache lookup: key=beta_search_ranking result=MISS
+2026-05-25 15:51:37.110 ERROR [analytics-engine] Cache lookup: key=beta_search_ranking result=MISS
+2026-05-25 15:52:38.405 FATAL [analytics-engine] Redis eviction rate elevated on elasticsearch
+2026-05-25 16:02:40.715 WARN  [analytics-engine] Slow query detected: 10061ms on payments
+2026-05-25 18:46:00.534 INFO  [analytics-engine] Cache hit ratio: 81% (last 5min)
+2026-05-25 19:52:27.954 FATAL [analytics-engine] Stale endpoint resolved for notification-service, expected updated IP
+2026-05-25 20:20:39.693 ERROR [analytics-engine] Connection refused to auth-service:5432 after 1 retries
+2026-05-25 20:57:11.990 ERROR [analytics-engine] Stale endpoint resolved for api-gateway, expected updated IP
+2026-05-25 21:51:06.699 FATAL [analytics-engine] Connection refused to elasticsearch:8080 after 2 retries
+2026-05-26 03:52:00.792 DEBUG [analytics-engine] Cache lookup: key=beta_search_ranking result=HIT
+2026-05-26 04:16:31.337 ERROR [analytics-engine] Pod scheduling failed: insufficient resources
+2026-05-26 04:31:03.860 ERROR [analytics-engine] HPA unable to fetch metrics for analytics-engine
+2026-05-26 05:13:27.268 ERROR [analytics-engine] CPU throttling detected: 67% of periods throttled
+2026-05-26 05:36:00.105 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 5000ms
+2026-05-26 05:46:50.818 ERROR [analytics-engine] CPU throttling detected: 78% of periods throttled
+2026-05-26 06:05:06.182 ERROR [analytics-engine] CPU throttling detected: 90% of periods throttled
+2026-05-26 06:24:24.579 FATAL [analytics-engine] CPU throttling detected: 97% of periods throttled
+2026-05-26 06:26:00.329 DEBUG [analytics-engine] Cache lookup: key=dark_launch_v2 result=HIT
+2026-05-26 11:19:00.593 INFO  [analytics-engine] Health check passed: status=UP, uptime=80445s
+2026-05-26 13:32:00.390 INFO  [analytics-engine] Processed 4097 messages from topic=user-updates
+2026-05-26 14:59:23.170 WARN  [analytics-engine] Kafka consumer lag: 27960 messages on topic=analytics
+2026-05-26 15:11:00.140 INFO  [analytics-engine] Processed 5014 messages from topic=notifications
+2026-05-26 15:25:58.361 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-26 15:49:12.735 FATAL [analytics-engine] Unexpected config value for key=timeout_ms
+2026-05-26 15:56:22.787 ERROR [analytics-engine] Deployed version v2.12.4 to staging
+2026-05-26 15:56:46.444 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-26 16:02:07.890 WARN  [analytics-engine] Connection pool utilization at 58%
+2026-05-26 16:11:47.334 WARN  [analytics-engine] Connection pool utilization at 92%
+2026-05-26 19:51:00.601 ERROR [analytics-engine] Database query failed: NullPointerException on table=users
+2026-05-27 01:13:00.017 INFO  [analytics-engine] JWT token validated for user_id=usr_83313
+2026-05-27 02:36:00.865 INFO  [analytics-engine] Cache hit ratio: 89% (last 5min)
+2026-05-27 02:58:00.035 INFO  [analytics-engine] Request processed successfully in 10537ms
+2026-05-27 04:20:00.451 WARN  [analytics-engine] Certificate expires in 14 days for billing.nexora.io
+2026-05-27 06:01:00.305 INFO  [analytics-engine] JWT token validated for user_id=usr_68110
+2026-05-27 06:26:00.465 INFO  [analytics-engine] Cache hit ratio: 89% (last 5min)
+2026-05-27 08:05:00.628 WARN  [analytics-engine] Memory usage at 92% — approaching threshold
+2026-05-27 09:20:00.871 WARN  [analytics-engine] Connection pool utilization at 91%
+2026-05-27 09:21:00.560 WARN  [analytics-engine] Connection pool utilization at 96%
+2026-05-27 09:55:42.734 FATAL [analytics-engine] Request queue depth exceeded capacity
+2026-05-27 10:24:00.815 WARN  [analytics-engine] Kafka consumer lag: 87630 messages on topic=auth-events
+2026-05-27 12:04:23.025 ERROR [analytics-engine] Pod scheduling failed: insufficient resources
+2026-05-27 13:44:00.048 INFO  [analytics-engine] Processed 221 messages from topic=notifications
+2026-05-27 15:44:00.659 INFO  [analytics-engine] Connected to elasticsearch successfully
+2026-05-27 16:18:00.724 WARN  [analytics-engine] Retry attempt 5/3 for redis-cache
+2026-05-27 16:43:00.936 INFO  [analytics-engine] Cache hit ratio: 96% (last 5min)
+2026-05-27 17:31:46.554 WARN  [analytics-engine] Memory usage at 66% — approaching threshold
+2026-05-27 17:51:17.405 WARN  [analytics-engine] Memory usage at 57% — approaching threshold
+2026-05-27 18:03:45.825 FATAL [analytics-engine] Log rotation failed, disk nearly full
+2026-05-27 18:10:14.940 FATAL [analytics-engine] Log rotation failed, disk nearly full
+2026-05-27 19:21:00.198 INFO  [analytics-engine] Request processed successfully in 12120ms
+2026-05-27 20:20:00.140 WARN  [analytics-engine] Retry attempt 4/3 for kafka
+2026-05-27 20:50:00.464 WARN  [analytics-engine] Slow query detected: 3284ms on users
+2026-05-27 23:43:00.091 WARN  [analytics-engine] Kafka consumer lag: 83353 messages on topic=auth-events
+2026-05-28 00:06:00.057 INFO  [analytics-engine] JWT token validated for user_id=usr_74357
+2026-05-28 01:49:34.415 ERROR [analytics-engine] Request rejected: clock skew exceeds tolerance
+2026-05-28 02:33:23.791 FATAL [analytics-engine] Request rejected: clock skew exceeds tolerance
+2026-05-28 03:11:00.051 INFO  [analytics-engine] Health check passed: status=UP, uptime=38521s
+2026-05-28 03:46:37.932 WARN  [analytics-engine] Slow query detected: 2612ms on events
+2026-05-28 05:24:35.336 ERROR [analytics-engine] CPU throttling detected: 54% of periods throttled
+2026-05-28 06:34:00.943 INFO  [analytics-engine] JWT token validated for user_id=usr_67567
+2026-05-28 11:50:00.681 INFO  [analytics-engine] Request processed successfully in 753ms
+2026-05-28 12:05:00.649 INFO  [analytics-engine] Query executed in 7865ms: SELECT * FROM payments
+2026-05-28 13:25:00.132 ERROR [analytics-engine] Database query failed: ConnectionTimeout on table=events
+2026-05-28 15:33:05.428 FATAL [analytics-engine] Pod scheduling failed: insufficient resources
+2026-05-28 16:33:53.450 ERROR [analytics-engine] Pod scheduling failed: insufficient resources
+2026-05-28 18:32:00.768 FATAL [analytics-engine] Process killed by OOM killer: RSS=1289MB, limit=5450MB
+2026-05-28 22:45:00.886 INFO  [analytics-engine] Query executed in 7691ms: SELECT * FROM events
+2026-05-29 00:05:39.838 WARN  [analytics-engine] Slow query detected: 2854ms on users
+2026-05-29 00:11:32.901 ERROR [analytics-engine] Memory usage at 75% — approaching threshold
+2026-05-29 04:49:00.756 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-05-29 06:30:25.250 FATAL [analytics-engine] Database query failed: SchemaValidationError on table=metrics
+2026-05-29 06:53:00.899 INFO  [analytics-engine] JWT token validated for user_id=usr_66625
+2026-05-29 07:23:24.367 ERROR [analytics-engine] Schema validation error: column not found
+2026-05-29 08:43:00.956 ERROR [analytics-engine] Timeout waiting for response from redis-cache after 5000ms
+2026-05-29 10:47:00.095 INFO  [analytics-engine] Health check passed: status=UP, uptime=38352s
+2026-05-29 16:15:29.570 ERROR [analytics-engine] WAL replay stalled on standby
+2026-05-29 16:20:00.772 WARN  [analytics-engine] Memory usage at 94% — approaching threshold
+2026-05-29 16:39:00.463 WARN  [analytics-engine] Kafka consumer lag: 76348 messages on topic=notifications
+2026-05-29 17:10:00.627 INFO  [analytics-engine] Request processed successfully in 6602ms
+2026-05-29 19:00:39.841 FATAL [analytics-engine] Replication lag: 1824ms behind primary
+2026-05-29 19:10:00.726 INFO  [analytics-engine] JWT token validated for user_id=usr_60588
+2026-05-30 00:49:00.143 INFO  [analytics-engine] JWT token validated for user_id=usr_82666
+2026-05-30 03:07:00.562 INFO  [analytics-engine] Connected to notification-service successfully
+2026-05-30 05:46:00.846 INFO  [analytics-engine] Health check passed: status=UP, uptime=79563s
+2026-05-30 08:21:00.003 INFO  [analytics-engine] JWT token validated for user_id=usr_45298
+2026-05-30 13:59:00.640 INFO  [analytics-engine] Cache hit ratio: 67% (last 5min)
+2026-05-30 16:36:00.997 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-05-30 20:19:00.315 INFO  [analytics-engine] Cache hit ratio: 64% (last 5min)
+2026-05-30 23:06:00.906 ERROR [analytics-engine] Database query failed: ConnectionTimeout on table=sessions
+2026-05-30 23:41:29.574 ERROR [analytics-engine] Too many open files
+2026-05-31 00:32:09.183 ERROR [analytics-engine] Process killed by OOM killer: RSS=597MB, limit=5180MB
+2026-05-31 03:08:00.083 INFO  [analytics-engine] Connected to auth-service successfully
+2026-05-31 04:56:24.151 ERROR [analytics-engine] Retry storm detected: 4931 retries/min to kafka
+2026-05-31 05:15:33.901 FATAL [analytics-engine] Retry storm detected: 742 retries/min to user-service
+2026-05-31 05:17:00.451 ERROR [analytics-engine] HTTP 504 from postgres-replica: Permission denied
+2026-05-31 05:34:31.631 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-05-31 05:37:09.951 WARN  [analytics-engine] Certificate expires in 7 days for auth.nexora.io
+2026-05-31 10:35:00.805 ERROR [analytics-engine] Timeout waiting for response from user-service after 10000ms
+2026-05-31 11:05:24.672 WARN  [analytics-engine] Kafka consumer lag: 25446 messages on topic=analytics
+2026-05-31 11:11:26.342 FATAL [analytics-engine] Region mismatch: expected staging received alternate region
+2026-05-31 12:16:00.390 INFO  [analytics-engine] Processed 1162 messages from topic=auth-events
+2026-05-31 12:30:00.195 INFO  [analytics-engine] Request processed successfully in 2762ms
+2026-05-31 12:48:00.370 DEBUG [analytics-engine] Processing request: method=POST path=/api/v1/payments
+2026-05-31 19:36:56.178 WARN  [analytics-engine] Memory usage at 83% — approaching threshold
+2026-05-31 19:37:54.589 FATAL [analytics-engine] Slow query detected: 4299ms on payments
+2026-05-31 20:02:13.627 FATAL [analytics-engine] Replication lag: 12387ms behind primary
+2026-05-31 20:07:02.572 ERROR [analytics-engine] Slow query detected: 748ms on orders
+2026-05-31 21:03:00.709 INFO  [analytics-engine] Query executed in 5549ms: SELECT * FROM orders
+2026-05-31 22:31:00.922 INFO  [analytics-engine] Health check passed: status=UP, uptime=44875s
+2026-05-31 22:59:04.962 FATAL [analytics-engine] Configuration checksum mismatch across replicas
+2026-05-31 23:13:20.452 WARN  [analytics-engine] Retry attempt 5/3 for elasticsearch
+2026-06-01 00:08:13.282 ERROR [analytics-engine] Deployed version v2.20.3 to staging
+2026-06-01 00:34:29.926 ERROR [analytics-engine] Unexpected config value for key=timeout_ms
+2026-06-01 01:08:00.338 ERROR [analytics-engine] HTTP 503 from api-gateway: Too many open files
+2026-06-01 02:19:00.189 WARN  [analytics-engine] Connection pool utilization at 78%
+2026-06-01 02:22:44.156 ERROR [analytics-engine] Record checksum mismatch detected for id=usr_35352
+2026-06-01 02:58:00.241 INFO  [analytics-engine] Processed 3648 messages from topic=user-updates
+2026-06-01 03:24:38.687 WARN  [analytics-engine] Retry attempt 3/3 for nginx-ingress
+2026-06-01 03:52:43.037 ERROR [analytics-engine] Duplicate record written for key=dark_launch_v2
+2026-06-01 04:43:00.767 ERROR [analytics-engine] Connection refused to api-gateway:443 after 1 retries
+2026-06-01 04:43:20.880 WARN  [analytics-engine] Connection pool utilization at 57%
+2026-06-01 07:02:00.691 WARN  [analytics-engine] Certificate expires in 28 days for auth.nexora.io
+2026-06-01 07:30:00.788 WARN  [analytics-engine] Kafka consumer lag: 53668 messages on topic=notifications
+2026-06-01 07:54:00.908 INFO  [analytics-engine] Connected to api-gateway successfully
+2026-06-01 09:42:00.062 ERROR [analytics-engine] Database query failed: DeadlockDetected on table=metrics
+2026-06-01 10:16:00.290 ERROR [analytics-engine] Database query failed: ConnectionTimeout on table=payments
+2026-06-01 11:47:00.240 INFO  [analytics-engine] Request processed successfully in 11798ms
+2026-06-01 12:17:00.361 INFO  [analytics-engine] Health check passed: status=UP, uptime=23059s
+2026-06-01 13:37:00.277 INFO  [analytics-engine] JWT token validated for user_id=usr_60569
+2026-06-01 13:42:00.979 ERROR [analytics-engine] Connection refused to user-service:5432 after 3 retries
+2026-06-01 18:58:00.158 INFO  [analytics-engine] Connected to notification-service successfully
+2026-06-01 19:47:42.684 FATAL [analytics-engine] Vendor status page reports degraded performance
+2026-06-01 20:08:39.934 ERROR [analytics-engine] Timeout waiting for response from auth-service after 30000ms
+2026-06-01 20:30:37.104 FATAL [analytics-engine] HTTP 500 from api-gateway: Resource temporarily unavailable
+2026-06-01 20:33:31.978 FATAL [analytics-engine] Vendor status page reports degraded performance
+2026-06-01 21:30:00.802 INFO  [analytics-engine] Request processed successfully in 13531ms
+2026-06-02 00:52:00.432 INFO  [analytics-engine] Query executed in 9598ms: SELECT * FROM users
+2026-06-02 02:56:00.985 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-06-02 03:31:00.385 INFO  [analytics-engine] Request processed successfully in 2928ms
+2026-06-02 03:59:54.890 ERROR [analytics-engine] Timeout waiting for response from billing-service after 5000ms
+2026-06-02 05:53:39.272 ERROR [analytics-engine] Timeout waiting for response from billing-service after 10000ms
+2026-06-02 12:13:00.698 FATAL [analytics-engine] Unable to connect to notification-service: all 4 retries exhausted
+2026-06-02 13:38:00.201 INFO  [analytics-engine] Cache hit ratio: 72% (last 5min)
+2026-06-02 16:41:00.596 INFO  [analytics-engine] Request processed successfully in 6129ms
+2026-06-02 20:06:16.382 ERROR [analytics-engine] Memory usage at 64% — approaching threshold
+2026-06-02 20:16:14.182 WARN  [analytics-engine] Memory usage at 56% — approaching threshold
+2026-06-02 20:35:35.806 ERROR [analytics-engine] Process killed by OOM killer: RSS=3496MB, limit=4845MB
+2026-06-02 20:41:04.066 ERROR [analytics-engine] Process killed by OOM killer: RSS=3043MB, limit=4096MB
+2026-06-02 21:50:00.330 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-06-03 01:11:00.476 FATAL [analytics-engine] Unable to connect to search-service: all 2 retries exhausted
+2026-06-03 02:49:00.884 WARN  [analytics-engine] Certificate expires in 8 days for api.nexora.io
+2026-06-03 04:07:00.563 INFO  [analytics-engine] Cache hit ratio: 75% (last 5min)
+2026-06-03 07:35:00.274 INFO  [analytics-engine] JWT token validated for user_id=usr_80165
+2026-06-03 07:50:00.219 DEBUG [analytics-engine] SQL: SELECT * FROM users WHERE id = usr_16546 LIMIT 1
+2026-06-03 14:40:24.041 WARN  [analytics-engine] Slow query detected: 1693ms on metrics
+2026-06-03 14:43:21.791 FATAL [analytics-engine] Circuit breaker opened for auth-service
+2026-06-03 14:51:24.585 FATAL [analytics-engine] Connection refused to postgres-primary:6379 after 5 retries
+2026-06-03 15:05:50.442 ERROR [analytics-engine] Circuit breaker opened for kafka
+2026-06-03 15:51:00.316 FATAL [analytics-engine] Process killed by OOM killer: RSS=2764MB, limit=4625MB
+2026-06-03 16:27:00.558 ERROR [analytics-engine] Database query failed: DeadlockDetected on table=sessions
+2026-06-03 16:38:00.987 INFO  [analytics-engine] Processed 5630 messages from topic=user-updates
+2026-06-03 16:59:00.690 INFO  [analytics-engine] Processed 1568 messages from topic=analytics
+2026-06-03 21:20:00.056 INFO  [analytics-engine] JWT token validated for user_id=usr_54000
+2026-06-03 21:23:00.841 INFO  [analytics-engine] Processed 4046 messages from topic=payments
+2026-06-03 22:05:00.387 INFO  [analytics-engine] Request processed successfully in 7239ms
+2026-06-04 02:10:00.687 INFO  [analytics-engine] Cache hit ratio: 89% (last 5min)
+2026-06-04 02:12:00.118 INFO  [analytics-engine] JWT token validated for user_id=usr_16372
+2026-06-04 05:51:00.064 INFO  [analytics-engine] Processed 7002 messages from topic=notifications
+2026-06-04 08:48:00.310 ERROR [analytics-engine] Connection refused to api-gateway:8080 after 3 retries
+2026-06-04 09:05:00.415 INFO  [analytics-engine] Connected to search-service successfully
+2026-06-04 09:46:00.433 INFO  [analytics-engine] Cache hit ratio: 68% (last 5min)
+2026-06-04 11:07:00.591 ERROR [analytics-engine] HTTP 503 from api-gateway: Resource temporarily unavailable
+2026-06-04 14:19:00.916 INFO  [analytics-engine] Connected to reporting-service successfully
+2026-06-04 15:42:00.358 DEBUG [analytics-engine] Cache lookup: key=session:1234 result=MISS
+2026-06-04 16:17:00.196 DEBUG [analytics-engine] SQL: SELECT * FROM users WHERE id = usr_49940 LIMIT 1
+2026-06-04 17:25:00.151 INFO  [analytics-engine] Processed 1810 messages from topic=auth-events
+2026-06-04 18:08:00.061 DEBUG [analytics-engine] SQL: SELECT * FROM orders WHERE id = usr_54287 LIMIT 1
+2026-06-04 19:20:00.365 INFO  [analytics-engine] Cache hit ratio: 81% (last 5min)
+2026-06-04 19:58:15.564 WARN  [analytics-engine] Connection pool utilization at 90%
+2026-06-04 20:04:25.216 ERROR [analytics-engine] Vendor status page reports degraded performance
+2026-06-04 20:12:48.013 ERROR [analytics-engine] HTTP 504 from api-gateway: Broken pipe
+2026-06-04 20:14:06.808 ERROR [analytics-engine] Vendor status page reports degraded performance
+2026-06-04 20:22:17.316 FATAL [analytics-engine] HTTP 503 from postgres-primary: Connection reset by peer
+2026-06-04 20:24:37.210 ERROR [analytics-engine] HTTP 500 from billing-service: Permission denied
+2026-06-04 20:26:13.033 ERROR [analytics-engine] HTTP 500 from notification-service: Broken pipe
+2026-06-04 20:38:00.694 WARN  [analytics-engine] Certificate expires in 30 days for billing.nexora.io
+2026-06-04 21:01:00.476 INFO  [analytics-engine] Processed 7395 messages from topic=analytics
+2026-06-04 21:43:00.383 INFO  [analytics-engine] Cache hit ratio: 93% (last 5min)
+2026-06-05 05:27:46.005 ERROR [analytics-engine] Slow query detected: 9965ms on metrics
+2026-06-05 05:38:41.685 ERROR [analytics-engine] p99 latency exceeded SLO threshold
+2026-06-05 05:51:20.198 FATAL [analytics-engine] Slow query detected: 3011ms on users
+2026-06-05 06:09:02.020 ERROR [analytics-engine] p99 latency exceeded SLO threshold
+2026-06-05 08:30:00.303 INFO  [analytics-engine] Cache hit ratio: 86% (last 5min)
+2026-06-05 09:41:49.337 ERROR [analytics-engine] HTTP 502 from elasticsearch: Broken pipe
+2026-06-05 10:29:46.478 ERROR [analytics-engine] Vendor status page reports degraded performance
+2026-06-05 11:01:00.579 DEBUG [analytics-engine] SQL: SELECT * FROM metrics WHERE id = usr_92691 LIMIT 1
+2026-06-05 15:11:00.708 WARN  [analytics-engine] Certificate expires in 15 days for billing.nexora.io
+2026-06-05 18:27:00.220 DEBUG [analytics-engine] SQL: SELECT * FROM sessions WHERE id = usr_71692 LIMIT 1
+2026-06-05 19:19:00.472 ERROR [analytics-engine] HTTP 504 from elasticsearch: Resource temporarily unavailable
+2026-06-05 20:27:00.029 INFO  [analytics-engine] Processed 6505 messages from topic=analytics
+2026-06-05 20:54:00.898 WARN  [analytics-engine] Connection pool utilization at 78%
+2026-06-05 21:13:00.858 INFO  [analytics-engine] Connected to notification-service successfully
+2026-06-05 22:12:00.720 INFO  [analytics-engine] Cache hit ratio: 78% (last 5min)
+2026-06-06 01:29:00.775 INFO  [analytics-engine] Processed 7814 messages from topic=payments
+2026-06-06 04:56:00.449 INFO  [analytics-engine] Cache hit ratio: 85% (last 5min)
+2026-06-06 08:33:00.622 INFO  [analytics-engine] Processed 2042 messages from topic=payments
+2026-06-06 15:57:52.759 ERROR [analytics-engine] Unexpected code path triggered: legacy_handler
+2026-06-06 16:13:15.441 ERROR [analytics-engine] Unexpected code path triggered: legacy_handler
+2026-06-06 19:53:00.376 INFO  [analytics-engine] Request processed successfully in 14567ms
+2026-06-06 21:50:00.992 INFO  [analytics-engine] JWT token validated for user_id=usr_46823
+2026-06-07 00:02:00.503 INFO  [analytics-engine] Query executed in 8022ms: SELECT * FROM sessions
+2026-06-07 01:56:25.192 ERROR [analytics-engine] Kafka consumer lag: 21058 messages on topic=user-updates
+2026-06-07 02:01:48.357 ERROR [analytics-engine] Rebalance in progress, partitions revoked
+2026-06-07 02:09:17.357 WARN  [analytics-engine] Memory usage at 66% — approaching threshold
+2026-06-07 02:24:54.555 WARN  [analytics-engine] Certificate expires in 4 days for billing.nexora.io
+2026-06-07 03:25:00.096 WARN  [analytics-engine] Slow query detected: 7632ms on sessions
+2026-06-07 03:42:00.226 DEBUG [analytics-engine] Processing request: method=DELETE path=/api/v1/analytics
+2026-06-07 03:51:00.435 INFO  [analytics-engine] Health check passed: status=UP, uptime=75497s
+2026-06-07 03:53:00.140 INFO  [analytics-engine] Request processed successfully in 8823ms
+2026-06-07 04:01:00.434 INFO  [analytics-engine] Health check passed: status=UP, uptime=17801s
+2026-06-07 05:57:00.225 INFO  [analytics-engine] JWT token validated for user_id=usr_35167
+2026-06-07 05:57:00.309 INFO  [analytics-engine] Health check passed: status=UP, uptime=52553s
+2026-06-07 06:01:00.086 INFO  [analytics-engine] Processed 8727 messages from topic=user-updates
+2026-06-07 06:05:00.348 INFO  [analytics-engine] Processed 5447 messages from topic=payments
+2026-06-07 07:41:00.689 INFO  [analytics-engine] Processed 272 messages from topic=notifications
+2026-06-07 09:50:00.845 WARN  [analytics-engine] Retry attempt 2/3 for kafka
+2026-06-07 09:54:00.050 INFO  [analytics-engine] Query executed in 14451ms: SELECT * FROM sessions
+2026-06-07 11:02:00.792 WARN  [analytics-engine] Memory usage at 68% — approaching threshold
+2026-06-07 13:35:00.143 WARN  [analytics-engine] Slow query detected: 5915ms on sessions
+2026-06-07 14:34:00.208 INFO  [analytics-engine] JWT token validated for user_id=usr_35762
+2026-06-07 16:01:00.282 ERROR [analytics-engine] Database query failed: NullPointerException on table=orders
+2026-06-07 17:04:00.212 ERROR [analytics-engine] Timeout waiting for response from notification-service after 30000ms
+2026-06-07 20:42:58.149 ERROR [analytics-engine] Write failed: No space left on device
+2026-06-07 20:52:19.910 ERROR [analytics-engine] Log rotation failed, disk nearly full
+2026-06-08 07:00:00.385 INFO  [analytics-engine] JWT token validated for user_id=usr_86770
+2026-06-08 09:30:00.910 INFO  [analytics-engine] Connected to billing-service successfully
+2026-06-08 10:26:00.607 INFO  [analytics-engine] Request processed successfully in 6609ms
+2026-06-08 10:48:00.347 INFO  [analytics-engine] Query executed in 5236ms: SELECT * FROM payments
+2026-06-08 11:40:00.215 INFO  [analytics-engine] Cache hit ratio: 93% (last 5min)
+2026-06-08 15:27:00.548 INFO  [analytics-engine] Cache hit ratio: 95% (last 5min)
+2026-06-08 16:58:00.947 INFO  [analytics-engine] Connected to nginx-ingress successfully
+2026-06-09 02:50:00.319 WARN  [analytics-engine] Retry attempt 3/3 for postgres-replica
+2026-06-09 04:19:00.277 DEBUG [analytics-engine] Processing request: method=PUT path=/api/v1/users
+2026-06-09 04:25:13.075 ERROR [analytics-engine] Token validation failed: timestamp out of allowed skew for user_id=usr_33340
+2026-06-09 04:36:45.863 ERROR [analytics-engine] Request rejected: clock skew exceeds tolerance
+2026-06-09 06:09:00.863 INFO  [analytics-engine] Request processed successfully in 13129ms
+2026-06-09 08:28:00.862 FATAL [analytics-engine] Process killed by OOM killer: RSS=2795MB, limit=7724MB
+2026-06-09 10:07:00.197 WARN  [analytics-engine] Slow query detected: 339ms on events
+2026-06-09 12:28:00.461 ERROR [analytics-engine] Timeout waiting for response from kafka after 10000ms
+2026-06-09 14:03:00.993 WARN  [analytics-engine] Slow query detected: 9033ms on events
+2026-06-09 14:37:00.758 WARN  [analytics-engine] Connection pool utilization at 60%
+2026-06-09 17:02:00.148 ERROR [analytics-engine] Timeout waiting for response from kafka after 5000ms
+2026-06-09 22:35:00.086 INFO  [analytics-engine] JWT token validated for user_id=usr_86415
+2026-06-09 23:45:00.789 ERROR [analytics-engine] Timeout waiting for response from reporting-service after 5000ms
+2026-06-10 00:23:00.234 INFO  [analytics-engine] Query executed in 1748ms: SELECT * FROM sessions
+2026-06-10 04:01:00.169 INFO  [analytics-engine] Health check passed: status=UP, uptime=6272s
+2026-06-10 09:39:00.301 INFO  [analytics-engine] Processed 7722 messages from topic=notifications
+2026-06-10 13:21:00.265 WARN  [analytics-engine] Memory usage at 57% — approaching threshold
+2026-06-10 17:56:00.383 INFO  [analytics-engine] Cache hit ratio: 72% (last 5min)
+2026-06-10 19:21:00.965 INFO  [analytics-engine] Health check passed: status=UP, uptime=23695s
+2026-06-10 21:06:00.681 INFO  [analytics-engine] Health check passed: status=UP, uptime=30151s
+2026-06-10 22:10:00.359 WARN  [analytics-engine] Connection pool utilization at 55%
+2026-06-10 23:15:00.449 ERROR [analytics-engine] HTTP 503 from redis-cache: Host is unreachable
+2026-06-11 00:10:00.721 INFO  [analytics-engine] Connected to api-gateway successfully
+2026-06-11 01:32:00.614 INFO  [analytics-engine] Processed 9627 messages from topic=analytics
+2026-06-11 01:52:00.181 INFO  [analytics-engine] Query executed in 9591ms: SELECT * FROM orders
+2026-06-11 04:04:00.416 INFO  [analytics-engine] Processed 3434 messages from topic=user-updates
+2026-06-11 08:00:00.897 WARN  [analytics-engine] Memory usage at 86% — approaching threshold
+2026-06-11 08:45:00.712 INFO  [analytics-engine] Processed 3475 messages from topic=payments
+2026-06-11 09:47:00.965 INFO  [analytics-engine] Connected to api-gateway successfully
+2026-06-11 11:04:00.039 WARN  [analytics-engine] Connection pool utilization at 89%
+2026-06-11 13:38:00.831 DEBUG [analytics-engine] SQL: SELECT * FROM payments WHERE id = usr_88838 LIMIT 1
+2026-06-11 16:03:00.084 INFO  [analytics-engine] Processed 5932 messages from topic=analytics
+2026-06-11 16:21:00.316 ERROR [analytics-engine] HTTP 500 from notification-service: Connection timed out
+2026-06-11 23:08:00.934 INFO  [analytics-engine] Processed 5321 messages from topic=payments
+2026-06-11 23:18:00.754 ERROR [analytics-engine] Connection refused to auth-service:8080 after 2 retries
+2026-06-12 00:05:00.532 INFO  [analytics-engine] JWT token validated for user_id=usr_79997
+2026-06-12 00:13:00.363 ERROR [analytics-engine] Database query failed: NullPointerException on table=payments
+2026-06-12 00:36:00.355 WARN  [analytics-engine] Connection pool utilization at 50%
+2026-06-12 00:51:00.615 ERROR [analytics-engine] HTTP 502 from auth-service: Resource temporarily unavailable
+2026-06-12 02:34:01.229 WARN  [analytics-engine] Certificate expires in 7 days for billing.nexora.io
+2026-06-12 02:53:54.143 FATAL [analytics-engine] Event loop lag: 12304ms — possible blocking operation
+2026-06-12 02:54:53.976 ERROR [analytics-engine] Event loop lag: 11826ms — possible blocking operation
+2026-06-12 03:26:36.685 WARN  [analytics-engine] Retry attempt 2/3 for search-service
+2026-06-12 04:55:00.907 INFO  [analytics-engine] JWT token validated for user_id=usr_85963
+2026-06-12 05:32:00.965 INFO  [analytics-engine] Processed 390 messages from topic=user-updates
+2026-06-12 07:04:00.046 INFO  [analytics-engine] Query executed in 9207ms: SELECT * FROM orders
+2026-06-12 10:47:06.157 WARN  [analytics-engine] Certificate expires in 19 days for billing.nexora.io
+2026-06-12 10:59:12.106 ERROR [analytics-engine] HTTP 503 from search-service: Connection timed out
+2026-06-12 11:48:35.059 ERROR [analytics-engine] HTTP 504 from api-gateway: Connection timed out
+2026-06-12 12:03:33.793 ERROR [analytics-engine] Timeout waiting for response from api-gateway after 10000ms
+2026-06-12 13:49:00.432 INFO  [analytics-engine] Processed 7944 messages from topic=auth-events
+2026-06-12 16:32:00.569 INFO  [analytics-engine] Request processed successfully in 11397ms
+2026-06-12 20:08:00.601 WARN  [analytics-engine] Retry attempt 1/3 for nginx-ingress
+2026-06-12 23:56:00.910 INFO  [analytics-engine] JWT token validated for user_id=usr_96310
+2026-06-13 01:49:00.677 INFO  [analytics-engine] Query executed in 10553ms: SELECT * FROM orders
+2026-06-13 02:53:43.993 ERROR [analytics-engine] Unexpected code path triggered: legacy_handler
+2026-06-13 05:04:00.192 INFO  [analytics-engine] Connected to auth-service successfully
+2026-06-13 05:54:32.967 WARN  [analytics-engine] Kafka consumer lag: 55843 messages on topic=auth-events
+2026-06-13 13:26:00.701 WARN  [analytics-engine] Memory usage at 71% — approaching threshold
+2026-06-13 15:29:00.568 INFO  [analytics-engine] JWT token validated for user_id=usr_83130
+2026-06-13 16:24:00.491 WARN  [analytics-engine] Slow query detected: 4763ms on payments
+2026-06-13 16:58:00.025 INFO  [analytics-engine] Connected to redis-cache successfully
+2026-06-13 18:31:38.863 FATAL [analytics-engine] Authentication failed for user_id=usr_84639: SchemaValidationError
+2026-06-13 18:51:55.337 WARN  [analytics-engine] Connection pool utilization at 67%
+2026-06-13 19:18:00.433 WARN  [analytics-engine] Slow query detected: 12527ms on payments
+2026-06-13 19:19:00.510 INFO  [analytics-engine] Request processed successfully in 13200ms
+2026-06-13 19:45:00.829 INFO  [analytics-engine] Health check passed: status=UP, uptime=68418s
+2026-06-13 22:25:00.384 INFO  [analytics-engine] Request processed successfully in 11451ms
+2026-06-14 00:14:00.643 ERROR [analytics-engine] Connection refused to api-gateway:5432 after 3 retries
+2026-06-14 04:50:00.573 DEBUG [analytics-engine] Processing request: method=DELETE path=/api/v1/users
+2026-06-14 07:16:00.570 WARN  [analytics-engine] Slow query detected: 10036ms on sessions
+2026-06-14 10:19:00.338 DEBUG [analytics-engine] SQL: SELECT * FROM events WHERE id = usr_78569 LIMIT 1
+2026-06-14 11:06:00.432 INFO  [analytics-engine] Query executed in 7856ms: SELECT * FROM users
+2026-06-14 12:19:00.542 DEBUG [analytics-engine] Processing request: method=PUT path=/health
+2026-06-14 15:45:11.055 ERROR [analytics-engine] Event loop lag: 10008ms — possible blocking operation
+2026-06-14 16:09:07.860 ERROR [analytics-engine] Slow request handling, thread pool saturated
+2026-06-14 17:15:00.841 INFO  [analytics-engine] Processed 4521 messages from topic=notifications
+2026-06-14 17:52:00.824 INFO  [analytics-engine] Connected to reporting-service successfully
+2026-06-14 18:24:00.572 ERROR [analytics-engine] Connection refused to api-gateway:9092 after 2 retries
+2026-06-14 19:09:00.805 WARN  [analytics-engine] Certificate expires in 6 days for auth.nexora.io
+2026-06-14 19:24:00.392 INFO  [analytics-engine] Request processed successfully in 5717ms
+2026-06-14 19:27:00.176 INFO  [analytics-engine] Cache hit ratio: 95% (last 5min)
+2026-06-15 00:44:00.481 ERROR [analytics-engine] HTTP 502 from reporting-service: Connection reset by peer
+2026-06-15 03:52:00.035 ERROR [analytics-engine] Database query failed: SchemaValidationError on table=orders
+2026-06-15 08:11:00.137 ERROR [analytics-engine] Connection refused to kafka:9092 after 3 retries
+2026-06-15 09:43:00.818 DEBUG [analytics-engine] Processing request: method=PUT path=/api/v1/payments
+2026-06-15 13:26:00.764 WARN  [analytics-engine] Kafka consumer lag: 72397 messages on topic=analytics
+2026-06-15 13:37:00.693 INFO  [analytics-engine] JWT token validated for user_id=usr_95858
+2026-06-15 20:53:00.184 ERROR [analytics-engine] Timeout waiting for response from elasticsearch after 10000ms
+2026-06-15 22:53:00.412 WARN  [analytics-engine] Retry attempt 4/3 for postgres-replica
+2026-06-16 00:15:00.110 INFO  [analytics-engine] Query executed in 484ms: SELECT * FROM metrics
+2026-06-16 07:08:00.930 DEBUG [analytics-engine] SQL: SELECT * FROM users WHERE id = usr_91638 LIMIT 1
+2026-06-16 08:12:42.160 ERROR [analytics-engine] HTTP 503 from user-service: Connection reset by peer
+2026-06-16 08:23:52.496 WARN  [analytics-engine] Kafka consumer lag: 80590 messages on topic=payments
+2026-06-16 08:27:13.951 WARN  [analytics-engine] Certificate expires in 15 days for billing.nexora.io
+2026-06-16 09:04:38.975 ERROR [analytics-engine] HTTP 503 from billing-service: Permission denied
+2026-06-16 12:21:42.192 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-06-16 12:37:09.260 ERROR [analytics-engine] Retry storm detected: 9748 retries/min to nginx-ingress
+2026-06-16 13:23:33.512 WARN  [analytics-engine] Retry attempt 5/3 for elasticsearch
+2026-06-16 13:27:40.857 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-06-16 14:28:00.360 INFO  [analytics-engine] Request processed successfully in 14292ms
+2026-06-16 17:56:00.332 INFO  [analytics-engine] Processed 3763 messages from topic=notifications
+2026-06-17 00:50:00.085 INFO  [analytics-engine] Cache hit ratio: 89% (last 5min)
+2026-06-17 03:56:00.212 ERROR [analytics-engine] Connection refused to postgres-primary:6379 after 4 retries
+2026-06-17 04:30:00.693 INFO  [analytics-engine] JWT token validated for user_id=usr_70445
+2026-06-17 04:50:00.469 INFO  [analytics-engine] Processed 475 messages from topic=analytics
+2026-06-17 06:05:00.738 WARN  [analytics-engine] Kafka consumer lag: 57610 messages on topic=payments
+2026-06-17 06:28:00.554 WARN  [analytics-engine] Connection pool utilization at 66%
+2026-06-17 07:11:00.837 INFO  [analytics-engine] JWT token validated for user_id=usr_53952
+2026-06-17 10:25:00.053 INFO  [analytics-engine] Query executed in 12229ms: SELECT * FROM orders
+2026-06-17 10:55:00.621 INFO  [analytics-engine] Cache hit ratio: 87% (last 5min)
+2026-06-17 11:25:00.164 INFO  [analytics-engine] Processed 524 messages from topic=user-updates
+2026-06-17 14:14:00.549 INFO  [analytics-engine] Health check passed: status=UP, uptime=85165s
+2026-06-17 15:32:00.201 ERROR [analytics-engine] HTTP 502 from elasticsearch: Host is unreachable
+2026-06-17 16:50:00.428 DEBUG [analytics-engine] Processing request: method=GET path=/health
+2026-06-17 18:12:00.448 ERROR [analytics-engine] HTTP 504 from auth-service: Permission denied
+2026-06-17 19:57:00.789 FATAL [analytics-engine] Unable to connect to redis-cache: all 1 retries exhausted
+2026-06-17 21:47:00.587 INFO  [analytics-engine] Processed 3495 messages from topic=payments
+2026-06-17 23:52:00.025 DEBUG [analytics-engine] SQL: SELECT * FROM metrics WHERE id = usr_88106 LIMIT 1
+2026-06-18 00:26:00.275 ERROR [analytics-engine] Database query failed: DeadlockDetected on table=sessions
+2026-06-18 03:13:00.083 INFO  [analytics-engine] Processed 8629 messages from topic=notifications
+2026-06-18 05:56:00.003 INFO  [analytics-engine] Connected to user-service successfully
+2026-06-18 08:18:00.243 WARN  [analytics-engine] Slow query detected: 7064ms on metrics
+2026-06-18 09:58:00.553 INFO  [analytics-engine] Cache hit ratio: 69% (last 5min)
+2026-06-18 10:48:00.851 FATAL [analytics-engine] Unable to connect to elasticsearch: all 5 retries exhausted
+2026-06-18 11:31:00.995 WARN  [analytics-engine] Kafka consumer lag: 2445 messages on topic=notifications
+2026-06-18 12:38:00.911 INFO  [analytics-engine] Cache hit ratio: 76% (last 5min)
+2026-06-18 13:28:00.654 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-06-18 18:04:20.812 ERROR [analytics-engine] Region mismatch: expected staging received alternate region
+2026-06-18 18:09:26.162 ERROR [analytics-engine] Region mismatch: expected production received alternate region
+2026-06-18 18:42:22.874 WARN  [analytics-engine] Kafka consumer lag: 28214 messages on topic=auth-events
+2026-06-18 18:46:12.300 ERROR [analytics-engine] Request routed to unexpected upstream kafka
+2026-06-18 19:24:00.499 FATAL [analytics-engine] Unable to connect to reporting-service: all 3 retries exhausted
+2026-06-19 03:46:46.875 FATAL [analytics-engine] Circuit breaker opened for postgres-replica
+2026-06-19 04:07:34.206 ERROR [analytics-engine] Authentication failed for user_id=usr_84811: DeadlockDetected
+2026-06-19 04:08:33.155 WARN  [analytics-engine] Kafka consumer lag: 61384 messages on topic=user-updates
+2026-06-19 04:10:21.913 WARN  [analytics-engine] Certificate expires in 12 days for billing.nexora.io
+2026-06-19 04:12:05.642 ERROR [analytics-engine] Suspicious request pattern flagged for review
+2026-06-19 04:12:42.403 WARN  [analytics-engine] Kafka consumer lag: 55343 messages on topic=auth-events
+2026-06-19 04:18:27.044 ERROR [analytics-engine] Suspicious request pattern flagged for review
+2026-06-19 04:23:24.742 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-06-19 04:34:06.208 ERROR [analytics-engine] Suspicious request pattern flagged for review
+2026-06-19 04:38:11.231 WARN  [analytics-engine] Retry attempt 2/3 for postgres-replica
+2026-06-19 04:38:38.614 ERROR [analytics-engine] Suspicious request pattern flagged for review
+2026-06-19 05:50:00.645 INFO  [analytics-engine] JWT token validated for user_id=usr_65883
+2026-06-19 08:14:00.218 WARN  [analytics-engine] Slow query detected: 974ms on orders
+2026-06-19 12:01:00.103 INFO  [analytics-engine] Processed 2334 messages from topic=analytics
+2026-06-19 14:57:00.423 INFO  [analytics-engine] JWT token validated for user_id=usr_31021
+2026-06-19 16:03:00.190 INFO  [analytics-engine] Connected to postgres-replica successfully
+2026-06-19 17:54:04.357 ERROR [analytics-engine] Failed to process message: offset=781186, topic=user-updates
+2026-06-19 18:45:52.403 ERROR [analytics-engine] Authentication failed for user_id=usr_39269: NullPointerException
+2026-06-19 19:17:00.648 FATAL [analytics-engine] Unable to connect to billing-service: all 1 retries exhausted
+2026-06-19 19:43:40.029 ERROR [analytics-engine] HTTP 503 from notification-service: No route to host
+2026-06-19 19:49:30.621 ERROR [analytics-engine] Authentication failed for user_id=usr_99073: NullPointerException
+2026-06-19 22:33:00.976 INFO  [analytics-engine] Cache hit ratio: 79% (last 5min)
+2026-06-19 22:55:00.151 WARN  [analytics-engine] Retry attempt 4/3 for user-service
+2026-06-20 00:46:00.986 DEBUG [analytics-engine] Processing request: method=PUT path=/api/v1/payments
+2026-06-20 01:11:00.594 INFO  [analytics-engine] Health check passed: status=UP, uptime=81847s
+2026-06-20 02:03:00.655 INFO  [analytics-engine] Query executed in 6125ms: SELECT * FROM payments
+2026-06-20 02:09:00.464 ERROR [analytics-engine] HTTP 502 from notification-service: Broken pipe
+2026-06-20 02:52:00.290 INFO  [analytics-engine] Processed 6474 messages from topic=user-updates
+2026-06-20 06:55:00.457 INFO  [analytics-engine] Request processed successfully in 1768ms
+2026-06-20 09:15:00.238 INFO  [analytics-engine] Query executed in 541ms: SELECT * FROM events
+2026-06-20 11:37:00.414 WARN  [analytics-engine] Slow query detected: 11806ms on events
+2026-06-20 12:24:00.903 WARN  [analytics-engine] Kafka consumer lag: 70723 messages on topic=auth-events
+2026-06-20 14:31:00.045 INFO  [analytics-engine] Health check passed: status=UP, uptime=5705s
+2026-06-20 16:23:00.649 WARN  [analytics-engine] Slow query detected: 14609ms on orders
+2026-06-20 17:48:08.733 FATAL [analytics-engine] Retry storm detected: 4501 retries/min to auth-service
+2026-06-20 18:10:12.912 WARN  [analytics-engine] Certificate expires in 3 days for auth.nexora.io
+2026-06-20 18:30:24.392 ERROR [analytics-engine] Retry storm detected: 5319 retries/min to nginx-ingress
+2026-06-20 18:37:54.499 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-06-20 20:16:00.681 INFO  [analytics-engine] Connected to nginx-ingress successfully
+2026-06-20 22:22:00.917 WARN  [analytics-engine] Connection pool utilization at 69%
+2026-06-20 23:53:00.646 INFO  [analytics-engine] Health check passed: status=UP, uptime=19333s
+2026-06-21 07:59:00.572 ERROR [analytics-engine] Connection refused to billing-service:5432 after 3 retries
+2026-06-21 10:22:00.875 INFO  [analytics-engine] Processed 235 messages from topic=notifications
+2026-06-21 10:54:00.073 WARN  [analytics-engine] Connection pool utilization at 88%
+2026-06-21 12:18:00.166 INFO  [analytics-engine] Health check passed: status=UP, uptime=33205s
+2026-06-21 14:56:00.890 INFO  [analytics-engine] Query executed in 14022ms: SELECT * FROM sessions
+2026-06-21 15:34:00.001 WARN  [analytics-engine] Connection pool utilization at 77%
+2026-06-21 16:01:00.353 WARN  [analytics-engine] Kafka consumer lag: 53149 messages on topic=payments
+2026-06-21 16:23:58.814 WARN  [analytics-engine] Connection pool utilization at 61%
+2026-06-21 16:24:21.332 ERROR [analytics-engine] Retry storm detected: 8665 retries/min to redis-cache
+2026-06-21 16:30:13.078 ERROR [analytics-engine] Connection refused to notification-service:9092 after 1 retries
+2026-06-21 16:32:18.372 ERROR [analytics-engine] No route to host
+2026-06-21 16:37:28.687 FATAL [analytics-engine] No route to host
+2026-06-21 18:34:35.915 ERROR [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-06-21 20:34:40.953 ERROR [analytics-engine] Slow query detected: 11620ms on orders
+2026-06-21 21:05:14.909 ERROR [analytics-engine] Timeout waiting for response from billing-service after 30000ms
+2026-06-21 21:45:20.899 ERROR [analytics-engine] p99 latency exceeded SLO threshold
+2026-06-21 21:54:34.020 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 30000ms
+2026-06-21 22:04:36.975 ERROR [analytics-engine] Slow query detected: 6669ms on sessions
+2026-06-21 22:08:41.783 ERROR [analytics-engine] Slow query detected: 13421ms on orders
+2026-06-21 22:30:00.304 INFO  [analytics-engine] JWT token validated for user_id=usr_68022
+2026-06-21 22:44:03.451 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 5000ms
+2026-06-21 22:54:45.245 ERROR [analytics-engine] p99 latency exceeded SLO threshold
+2026-06-21 23:13:00.315 INFO  [analytics-engine] Request processed successfully in 13387ms
+2026-06-22 01:18:00.649 INFO  [analytics-engine] JWT token validated for user_id=usr_70550
+2026-06-22 02:18:00.392 ERROR [analytics-engine] Connection refused to user-service:8080 after 4 retries
+2026-06-22 03:21:41.114 ERROR [analytics-engine] Health check failed: status=DOWN
+2026-06-22 03:23:00.463 ERROR [analytics-engine] Database query failed: SchemaValidationError on table=sessions
+2026-06-22 03:34:01.659 WARN  [analytics-engine] Connection pool utilization at 51%
+2026-06-22 03:41:00.977 ERROR [analytics-engine] Connection refused to postgres-primary:6379 after 2 retries
+2026-06-22 05:08:00.026 FATAL [analytics-engine] Unable to connect to billing-service: all 1 retries exhausted
+2026-06-22 10:00:00.266 INFO  [analytics-engine] JWT token validated for user_id=usr_88854
+2026-06-22 11:40:00.176 INFO  [analytics-engine] Processed 6487 messages from topic=analytics
+2026-06-22 12:03:16.428 WARN  [analytics-engine] Kafka consumer lag: 87896 messages on topic=auth-events
+2026-06-22 12:04:22.824 ERROR [analytics-engine] Circuit breaker opened for postgres-replica
+2026-06-22 12:05:19.828 ERROR [analytics-engine] Circuit breaker opened for elasticsearch
+2026-06-22 12:10:34.175 FATAL [analytics-engine] Circuit breaker opened for notification-service
+2026-06-22 12:30:15.186 ERROR [analytics-engine] Retry storm detected: 8603 retries/min to nginx-ingress
+2026-06-22 12:36:12.601 WARN  [analytics-engine] Memory usage at 58% — approaching threshold
+2026-06-22 12:55:29.119 ERROR [analytics-engine] Circuit breaker opened for user-service
+2026-06-22 13:20:33.632 ERROR [analytics-engine] Replication lag: 11659ms behind primary
+2026-06-22 13:23:31.103 ERROR [analytics-engine] Replication lag: 5127ms behind primary
+2026-06-22 13:31:25.636 FATAL [analytics-engine] WAL replay stalled on standby
+2026-06-22 13:32:14.724 FATAL [analytics-engine] WAL replay stalled on standby
+2026-06-22 13:32:50.398 WARN  [analytics-engine] Slow query detected: 5456ms on metrics
+2026-06-22 13:40:39.374 ERROR [analytics-engine] WAL replay stalled on standby
+2026-06-22 13:41:10.945 WARN  [analytics-engine] Connection pool utilization at 92%
+2026-06-22 15:23:00.017 FATAL [analytics-engine] Process killed by OOM killer: RSS=3857MB, limit=5747MB
+2026-06-22 18:51:00.735 INFO  [analytics-engine] Cache hit ratio: 91% (last 5min)
+2026-06-22 19:41:00.835 INFO  [analytics-engine] Cache hit ratio: 77% (last 5min)
+2026-06-22 22:29:00.044 ERROR [analytics-engine] Database query failed: NullPointerException on table=sessions
+2026-06-22 23:26:00.851 INFO  [analytics-engine] Request processed successfully in 12707ms
+2026-06-23 05:02:00.047 WARN  [analytics-engine] Retry attempt 3/3 for billing-service
+2026-06-23 06:10:00.373 WARN  [analytics-engine] Kafka consumer lag: 54032 messages on topic=payments
+2026-06-23 07:53:35.974 WARN  [analytics-engine] Kafka consumer lag: 9053 messages on topic=analytics
+2026-06-23 08:31:00.371 INFO  [analytics-engine] Cache hit ratio: 89% (last 5min)
+2026-06-23 09:08:43.572 WARN  [analytics-engine] Slow query detected: 6026ms on events
+2026-06-23 10:12:00.545 INFO  [analytics-engine] JWT token validated for user_id=usr_22376
+2026-06-23 10:28:00.363 WARN  [analytics-engine] Connection pool utilization at 99%
+2026-06-23 11:49:00.414 INFO  [analytics-engine] Cache hit ratio: 83% (last 5min)
+2026-06-23 16:58:00.744 INFO  [analytics-engine] Request processed successfully in 7626ms
+2026-06-23 18:24:00.098 WARN  [analytics-engine] Slow query detected: 6681ms on payments
+2026-06-23 19:25:00.494 WARN  [analytics-engine] Retry attempt 4/3 for auth-service
+2026-06-24 00:10:15.696 ERROR [analytics-engine] Record checksum mismatch detected for id=usr_19406
+2026-06-24 00:16:29.838 ERROR [analytics-engine] Reconciliation job found 8557 mismatched rows
+2026-06-24 00:23:39.292 ERROR [analytics-engine] Reconciliation job found 1524 mismatched rows
+2026-06-24 00:45:09.575 WARN  [analytics-engine] Slow query detected: 11897ms on sessions
+2026-06-24 03:30:00.220 DEBUG [analytics-engine] Cache lookup: key=dark_launch_v2 result=HIT
+2026-06-24 05:48:00.702 DEBUG [analytics-engine] Processing request: method=DELETE path=/api/v1/analytics
+2026-06-24 06:39:00.318 FATAL [analytics-engine] Unable to connect to postgres-primary: all 1 retries exhausted
+2026-06-24 06:53:00.977 INFO  [analytics-engine] Processed 7176 messages from topic=user-updates
+2026-06-24 07:42:25.624 ERROR [analytics-engine] Heap usage growing steadily, GC pause 12493ms
+2026-06-24 07:45:00.880 INFO  [analytics-engine] Connected to notification-service successfully
+2026-06-24 07:49:00.065 WARN  [analytics-engine] Slow query detected: 5864ms on users
+2026-06-24 08:02:17.761 WARN  [analytics-engine] Slow query detected: 6872ms on events
+2026-06-24 08:16:49.920 ERROR [analytics-engine] Process killed by OOM killer: RSS=731MB, limit=6948MB
+2026-06-24 08:30:39.252 WARN  [analytics-engine] Kafka consumer lag: 90183 messages on topic=notifications
+2026-06-24 08:33:00.394 INFO  [analytics-engine] Request processed successfully in 7877ms
+2026-06-24 11:27:00.846 INFO  [analytics-engine] Query executed in 9537ms: SELECT * FROM payments
+2026-06-24 12:00:58.353 ERROR [analytics-engine] Process killed by OOM killer: RSS=824MB, limit=6526MB
+2026-06-24 13:43:00.848 WARN  [analytics-engine] Connection pool utilization at 57%
+2026-06-24 14:28:18.660 ERROR [analytics-engine] Too many open files
+2026-06-24 21:03:23.109 ERROR [analytics-engine] HPA unable to fetch metrics for analytics-engine
+2026-06-24 21:03:32.371 FATAL [analytics-engine] Request queue depth exceeded capacity
+2026-06-24 21:04:05.581 WARN  [analytics-engine] Retry attempt 3/3 for redis-cache
+2026-06-24 21:07:56.512 FATAL [analytics-engine] Pod scheduling failed: insufficient resources
+2026-06-24 21:09:38.155 WARN  [analytics-engine] Certificate expires in 17 days for billing.nexora.io
+2026-06-24 21:18:08.642 ERROR [analytics-engine] HPA unable to fetch metrics for analytics-engine
+2026-06-24 21:20:11.599 ERROR [analytics-engine] Pod scheduling failed: insufficient resources
+2026-06-24 21:33:00.723 INFO  [analytics-engine] Cache hit ratio: 93% (last 5min)
+2026-06-24 22:03:00.580 ERROR [analytics-engine] Timeout waiting for response from user-service after 5000ms
+2026-06-24 23:28:00.400 INFO  [analytics-engine] Cache hit ratio: 63% (last 5min)
+2026-06-25 01:10:00.256 ERROR [analytics-engine] Connection refused to reporting-service:5432 after 5 retries
+2026-06-25 02:44:00.289 INFO  [analytics-engine] Query executed in 2041ms: SELECT * FROM payments
+2026-06-25 07:22:00.960 INFO  [analytics-engine] Cache hit ratio: 92% (last 5min)
+2026-06-25 08:38:08.914 ERROR [analytics-engine] Cache hit ratio dropped to 88%
+2026-06-25 09:04:16.115 FATAL [analytics-engine] Redis eviction rate elevated on search-service
+2026-06-25 09:56:46.276 FATAL [analytics-engine] Redis eviction rate elevated on search-service
+2026-06-25 10:06:11.546 ERROR [analytics-engine] Cache hit ratio dropped to 65%
+2026-06-25 12:44:00.983 INFO  [analytics-engine] Cache hit ratio: 74% (last 5min)
+2026-06-25 13:26:00.624 INFO  [analytics-engine] Connected to postgres-primary successfully
+2026-06-25 14:38:00.525 WARN  [analytics-engine] Slow query detected: 7401ms on orders
+2026-06-25 17:23:00.772 INFO  [analytics-engine] Connected to billing-service successfully
+2026-06-25 19:30:00.395 INFO  [analytics-engine] Processed 9896 messages from topic=analytics
+2026-06-25 19:52:00.342 WARN  [analytics-engine] Connection pool utilization at 88%
+2026-06-25 19:56:00.001 ERROR [analytics-engine] Database query failed: NullPointerException on table=payments
+2026-06-25 21:47:00.554 WARN  [analytics-engine] Connection pool utilization at 98%
+2026-06-25 22:35:00.197 INFO  [analytics-engine] Connected to notification-service successfully
+2026-06-25 23:30:00.159 WARN  [analytics-engine] Retry attempt 1/3 for auth-service
+2026-06-26 01:03:00.889 INFO  [analytics-engine] Processed 6783 messages from topic=auth-events
+2026-06-26 04:45:00.845 INFO  [analytics-engine] Cache hit ratio: 69% (last 5min)
+2026-06-26 12:32:00.034 INFO  [analytics-engine] JWT token validated for user_id=usr_75295
+2026-06-26 12:33:59.091 WARN  [analytics-engine] Retry attempt 4/3 for postgres-replica
+2026-06-26 12:43:39.558 ERROR [analytics-engine] Circuit breaker opened for search-service
+2026-06-26 12:46:22.849 WARN  [analytics-engine] Certificate expires in 28 days for api.nexora.io
+2026-06-26 13:09:15.841 FATAL [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-06-26 13:18:00.570 WARN  [analytics-engine] Kafka consumer lag: 42647 messages on topic=notifications
+2026-06-26 13:18:34.257 ERROR [analytics-engine] WAL replay stalled on standby
+2026-06-26 13:31:46.936 WARN  [analytics-engine] Certificate expires in 11 days for auth.nexora.io
+2026-06-26 13:37:00.668 WARN  [analytics-engine] Kafka consumer lag: 22705 messages on topic=payments
+2026-06-26 13:56:02.031 ERROR [analytics-engine] Replication lag: 8574ms behind primary
+2026-06-26 14:07:26.146 ERROR [analytics-engine] WAL replay stalled on standby
+2026-06-26 14:53:00.373 INFO  [analytics-engine] Query executed in 10142ms: SELECT * FROM payments
+2026-06-26 15:05:00.630 INFO  [analytics-engine] Health check passed: status=UP, uptime=73244s
+2026-06-26 17:07:00.468 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 10000ms
+2026-06-26 19:14:00.494 ERROR [analytics-engine] Timeout waiting for response from auth-service after 5000ms
+2026-06-27 01:23:00.788 INFO  [analytics-engine] Query executed in 9480ms: SELECT * FROM users
+2026-06-27 01:56:00.770 WARN  [analytics-engine] Memory usage at 56% — approaching threshold
+2026-06-27 02:57:00.125 FATAL [analytics-engine] Unable to connect to notification-service: all 4 retries exhausted
+2026-06-27 04:14:09.989 FATAL [analytics-engine] Migration lock held longer than expected
+2026-06-27 04:26:40.762 FATAL [analytics-engine] Database query failed: ConnectionTimeout on table=orders
+2026-06-27 04:29:31.767 FATAL [analytics-engine] Schema validation error: column not found
+2026-06-27 04:32:07.712 ERROR [analytics-engine] Database query failed: NullPointerException on table=users
+2026-06-27 05:40:00.096 INFO  [analytics-engine] Connected to billing-service successfully
+2026-06-27 09:22:00.137 DEBUG [analytics-engine] SQL: SELECT * FROM users WHERE id = usr_37567 LIMIT 1
+2026-06-27 13:42:59.262 ERROR [analytics-engine] Connection refused to notification-service:9092 after 4 retries
+2026-06-27 15:40:43.382 ERROR [analytics-engine] Stale endpoint resolved for elasticsearch, expected updated IP
+2026-06-27 16:58:00.532 INFO  [analytics-engine] JWT token validated for user_id=usr_55594
+2026-06-27 18:19:04.608 WARN  [analytics-engine] Kafka consumer lag: 76118 messages on topic=payments
+2026-06-27 18:21:54.845 ERROR [analytics-engine] Write failed: No space left on device
+2026-06-27 18:49:51.002 WARN  [analytics-engine] Certificate expires in 4 days for auth.nexora.io
+2026-06-27 19:13:53.062 ERROR [analytics-engine] Write failed: No space left on device
+2026-06-27 21:18:00.201 INFO  [analytics-engine] JWT token validated for user_id=usr_46396
+2026-06-27 23:01:00.273 DEBUG [analytics-engine] SQL: SELECT * FROM payments WHERE id = usr_28836 LIMIT 1
+2026-06-28 06:50:00.041 INFO  [analytics-engine] Request processed successfully in 13501ms
+2026-06-28 07:35:00.067 INFO  [analytics-engine] JWT token validated for user_id=usr_70907
+2026-06-28 12:29:00.675 INFO  [analytics-engine] Cache hit ratio: 75% (last 5min)
+2026-06-28 12:41:00.797 INFO  [analytics-engine] Query executed in 6855ms: SELECT * FROM events
+2026-06-28 15:30:00.913 INFO  [analytics-engine] Health check passed: status=UP, uptime=84576s
+2026-06-28 18:27:00.915 WARN  [analytics-engine] Slow query detected: 9621ms on orders
+2026-06-28 19:01:00.293 INFO  [analytics-engine] Processed 513 messages from topic=analytics
+2026-06-28 22:40:00.598 INFO  [analytics-engine] JWT token validated for user_id=usr_83160
+2026-06-29 03:33:00.081 INFO  [analytics-engine] Request processed successfully in 5714ms
+2026-06-29 05:12:00.519 INFO  [analytics-engine] Processed 3785 messages from topic=auth-events
+2026-06-29 08:45:00.664 FATAL [analytics-engine] Unable to connect to billing-service: all 2 retries exhausted
+2026-06-29 10:57:08.461 WARN  [analytics-engine] Kafka consumer lag: 9066 messages on topic=user-updates
+2026-06-29 11:34:00.162 INFO  [analytics-engine] Connected to search-service successfully
+2026-06-29 13:15:14.191 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-06-29 13:20:57.511 WARN  [analytics-engine] Certificate expires in 30 days for api.nexora.io
+2026-06-29 13:21:30.810 WARN  [analytics-engine] Connection pool utilization at 84%
+2026-06-29 13:25:57.117 WARN  [analytics-engine] Retry attempt 1/3 for search-service
+2026-06-29 13:26:11.448 ERROR [analytics-engine] Database query failed: SchemaValidationError on table=events
+2026-06-29 13:31:15.418 WARN  [analytics-engine] Kafka consumer lag: 40650 messages on topic=notifications
+2026-06-29 13:37:15.746 ERROR [analytics-engine] Deployed version v2.13.6 to production
+2026-06-29 13:39:24.719 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-06-29 13:50:00.460 INFO  [analytics-engine] Cache hit ratio: 79% (last 5min)
+2026-06-29 18:51:00.031 ERROR [analytics-engine] Database query failed: NullPointerException on table=sessions
+2026-06-29 22:54:00.531 ERROR [analytics-engine] Connection refused to postgres-primary:443 after 4 retries
+2026-06-30 02:34:00.924 WARN  [analytics-engine] Retry attempt 1/3 for user-service
+2026-06-30 05:04:00.111 ERROR [analytics-engine] Connection refused to elasticsearch:9092 after 2 retries
+2026-06-30 08:45:00.361 INFO  [analytics-engine] Health check passed: status=UP, uptime=33232s
+2026-06-30 08:50:00.212 INFO  [analytics-engine] Processed 1931 messages from topic=analytics
+2026-06-30 15:44:00.262 INFO  [analytics-engine] Processed 3347 messages from topic=analytics
+2026-06-30 16:51:00.056 WARN  [analytics-engine] Kafka consumer lag: 64536 messages on topic=user-updates
+2026-06-30 18:44:00.430 WARN  [analytics-engine] Slow query detected: 6934ms on sessions
+2026-06-30 19:23:00.966 WARN  [analytics-engine] Connection pool utilization at 83%
+2026-07-01 00:31:42.870 FATAL [analytics-engine] Write failed: No space left on device
+2026-07-01 00:40:00.931 DEBUG [analytics-engine] SQL: SELECT * FROM users WHERE id = usr_97505 LIMIT 1
+2026-07-01 01:27:00.171 WARN  [analytics-engine] Certificate expires in 25 days for api.nexora.io
+2026-07-01 03:22:38.459 ERROR [analytics-engine] Write failed: No space left on device
+2026-07-01 06:28:00.614 INFO  [analytics-engine] JWT token validated for user_id=usr_76289
+2026-07-01 07:12:00.793 INFO  [analytics-engine] Query executed in 3639ms: SELECT * FROM sessions
+2026-07-01 08:27:22.576 ERROR [analytics-engine] Circuit breaker opened for api-gateway
+2026-07-01 08:27:23.337 WARN  [analytics-engine] Memory usage at 99% — approaching threshold
+2026-07-01 08:27:23.944 FATAL [analytics-engine] Retry storm detected: 5024 retries/min to notification-service
+2026-07-01 08:31:45.460 FATAL [analytics-engine] Retry storm detected: 3794 retries/min to billing-service
+2026-07-01 08:32:15.329 ERROR [analytics-engine] Retry storm detected: 210 retries/min to auth-service
+2026-07-01 08:32:16.577 ERROR [analytics-engine] Retry storm detected: 2760 retries/min to redis-cache
+2026-07-01 08:37:16.607 FATAL [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-07-01 08:57:00.256 WARN  [analytics-engine] Connection pool utilization at 94%
+2026-07-01 09:48:00.676 INFO  [analytics-engine] JWT token validated for user_id=usr_37230
+2026-07-01 10:14:00.576 INFO  [analytics-engine] Query executed in 7514ms: SELECT * FROM metrics
+2026-07-01 11:37:00.826 ERROR [analytics-engine] Connection refused to postgres-replica:8080 after 2 retries
+2026-07-01 13:55:00.767 WARN  [analytics-engine] Certificate expires in 29 days for api.nexora.io
+2026-07-01 16:47:00.659 INFO  [analytics-engine] JWT token validated for user_id=usr_20887
+2026-07-01 16:52:08.857 ERROR [analytics-engine] Database query failed: NullPointerException on table=orders
+2026-07-01 17:06:11.987 FATAL [analytics-engine] Schema validation error: column not found
+2026-07-01 23:13:40.220 FATAL [analytics-engine] Thread pool exhausted, rejecting new requests
+2026-07-01 23:56:00.721 INFO  [analytics-engine] JWT token validated for user_id=usr_81227
+2026-07-02 00:10:42.128 FATAL [analytics-engine] Retry storm detected: 8926 retries/min to nginx-ingress
+2026-07-02 02:27:00.437 INFO  [analytics-engine] Query executed in 1720ms: SELECT * FROM users
+2026-07-02 02:38:00.723 INFO  [analytics-engine] Request processed successfully in 6697ms
+2026-07-02 04:02:00.588 DEBUG [analytics-engine] Processing request: method=DELETE path=/health
+2026-07-02 06:59:00.897 INFO  [analytics-engine] Processed 4638 messages from topic=notifications
+2026-07-02 09:20:00.361 DEBUG [analytics-engine] Processing request: method=DELETE path=/api/v1/users
+2026-07-02 17:37:00.299 DEBUG [analytics-engine] SQL: SELECT * FROM users WHERE id = usr_41193 LIMIT 1
+2026-07-02 19:22:00.638 INFO  [analytics-engine] Health check passed: status=UP, uptime=57966s
+2026-07-02 21:49:00.880 INFO  [analytics-engine] Processed 8821 messages from topic=notifications
+2026-07-03 00:08:00.938 INFO  [analytics-engine] Connected to notification-service successfully
+2026-07-03 02:16:00.617 ERROR [analytics-engine] Connection refused to kafka:5432 after 5 retries
+2026-07-03 02:19:49.853 ERROR [analytics-engine] Unexpected code path triggered: legacy_handler
+2026-07-03 02:54:09.779 ERROR [analytics-engine] Flag evaluation error, falling back to default
+2026-07-03 04:10:00.389 ERROR [analytics-engine] Connection refused to postgres-primary:5432 after 4 retries
+2026-07-03 04:28:00.374 WARN  [analytics-engine] Memory usage at 92% — approaching threshold
+2026-07-03 05:37:00.688 INFO  [analytics-engine] JWT token validated for user_id=usr_85085
+2026-07-03 05:37:28.563 FATAL [analytics-engine] Timeout waiting for response from api-gateway after 10000ms
+2026-07-03 06:48:00.789 INFO  [analytics-engine] Processed 4886 messages from topic=user-updates
+2026-07-03 07:27:48.937 ERROR [analytics-engine] HTTP 504 from reporting-service: Host is unreachable
+2026-07-03 07:59:00.149 FATAL [analytics-engine] Process killed by OOM killer: RSS=2270MB, limit=4433MB
+2026-07-03 08:58:00.784 DEBUG [analytics-engine] Cache lookup: key=dark_launch_v2 result=HIT
+2026-07-03 11:17:00.059 INFO  [analytics-engine] Cache hit ratio: 74% (last 5min)
+2026-07-03 12:43:00.564 WARN  [analytics-engine] Retry attempt 4/3 for search-service
+2026-07-03 13:02:00.364 INFO  [analytics-engine] JWT token validated for user_id=usr_35697
+2026-07-03 15:04:00.240 INFO  [analytics-engine] JWT token validated for user_id=usr_53052
+2026-07-03 15:06:00.292 DEBUG [analytics-engine] SQL: SELECT * FROM payments WHERE id = usr_13476 LIMIT 1
+2026-07-03 15:50:00.425 INFO  [analytics-engine] Cache hit ratio: 89% (last 5min)
+2026-07-03 20:23:00.454 INFO  [analytics-engine] JWT token validated for user_id=usr_23098
+2026-07-03 23:42:46.828 FATAL [analytics-engine] Memory usage at 56% — approaching threshold
+2026-07-03 23:51:00.871 INFO  [analytics-engine] JWT token validated for user_id=usr_72792
+2026-07-03 23:53:00.679 INFO  [analytics-engine] JWT token validated for user_id=usr_45882
+2026-07-04 00:38:00.231 WARN  [analytics-engine] Kafka consumer lag: 73203 messages on topic=payments
+2026-07-04 00:44:00.540 DEBUG [analytics-engine] Cache lookup: key=new_checkout_flow result=HIT
+2026-07-04 01:44:00.551 WARN  [analytics-engine] Certificate expires in 11 days for billing.nexora.io
+2026-07-04 01:47:33.472 FATAL [analytics-engine] Event loop lag: 5221ms — possible blocking operation
+2026-07-04 02:17:08.539 WARN  [analytics-engine] Retry attempt 3/3 for kafka
+2026-07-04 02:23:02.706 ERROR [analytics-engine] Memory usage at 84% — approaching threshold
+2026-07-04 03:04:00.670 INFO  [analytics-engine] Request processed successfully in 3445ms
+2026-07-04 10:25:50.854 ERROR [analytics-engine] Health check failed: status=DOWN
+2026-07-04 11:06:45.209 FATAL [analytics-engine] Region mismatch: expected staging received alternate region
+2026-07-04 11:58:00.981 INFO  [analytics-engine] Connected to user-service successfully
+2026-07-04 12:11:00.106 INFO  [analytics-engine] Connected to api-gateway successfully
+2026-07-04 18:35:00.151 INFO  [analytics-engine] JWT token validated for user_id=usr_95175
+2026-07-04 19:05:00.360 ERROR [analytics-engine] Timeout waiting for response from postgres-replica after 5000ms
+2026-07-04 19:45:00.032 FATAL [analytics-engine] Unable to connect to auth-service: all 2 retries exhausted
+2026-07-04 20:11:00.941 INFO  [analytics-engine] JWT token validated for user_id=usr_27329
+2026-07-04 21:51:00.056 INFO  [analytics-engine] Cache hit ratio: 77% (last 5min)
+2026-07-04 22:15:10.400 ERROR [analytics-engine] Record checksum mismatch detected for id=usr_75546
+2026-07-04 22:26:00.698 WARN  [analytics-engine] Retry attempt 3/3 for billing-service
+2026-07-04 23:08:49.557 ERROR [analytics-engine] Record checksum mismatch detected for id=usr_53928
+2026-07-04 23:10:00.909 INFO  [analytics-engine] Health check passed: status=UP, uptime=70988s
+2026-07-05 01:13:00.070 ERROR [analytics-engine] HTTP 503 from postgres-primary: Broken pipe
+2026-07-05 01:18:16.421 WARN  [analytics-engine] Certificate expires in 6 days for api.nexora.io
+2026-07-05 01:48:00.849 INFO  [analytics-engine] Cache hit ratio: 60% (last 5min)
+2026-07-05 01:52:34.510 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 30000ms
+2026-07-05 01:55:11.403 FATAL [analytics-engine] Vendor status page reports degraded performance
+2026-07-05 01:58:00.812 INFO  [analytics-engine] Processed 7176 messages from topic=user-updates
+2026-07-05 02:14:43.378 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 10000ms
+2026-07-05 04:21:49.138 ERROR [analytics-engine] Log rotation failed, disk nearly full
+2026-07-05 04:39:30.499 FATAL [analytics-engine] Write failed: No space left on device
+2026-07-05 06:44:00.520 WARN  [analytics-engine] Retry attempt 5/3 for postgres-replica
+2026-07-05 09:54:06.920 WARN  [analytics-engine] Connection pool utilization at 75%
+2026-07-05 09:57:42.689 ERROR [analytics-engine] Timeout waiting for response from api-gateway after 30000ms
+2026-07-05 10:01:00.639 INFO  [analytics-engine] JWT token validated for user_id=usr_33231
+2026-07-05 10:14:40.791 FATAL [analytics-engine] Deployed version v2.14.8 to staging
+2026-07-05 10:16:48.145 ERROR [analytics-engine] Deployed version v2.18.1 to staging
+2026-07-05 10:27:00.960 WARN  [analytics-engine] Retry attempt 3/3 for notification-service
+2026-07-05 10:30:45.253 ERROR [analytics-engine] Circuit breaker opened for kafka
+2026-07-05 10:40:14.532 FATAL [analytics-engine] Deployed version v2.18.0 to staging
+2026-07-05 10:43:33.822 ERROR [analytics-engine] Unexpected config value for key=timeout_ms
+2026-07-05 10:49:21.322 ERROR [analytics-engine] Timeout waiting for response from kafka after 10000ms
+2026-07-05 10:51:42.382 FATAL [analytics-engine] Deployed version v2.19.5 to production
+2026-07-05 10:52:41.450 ERROR [analytics-engine] Circuit breaker opened for kafka
+2026-07-05 10:53:39.416 WARN  [analytics-engine] Certificate expires in 18 days for auth.nexora.io
+2026-07-05 15:09:00.078 WARN  [analytics-engine] Retry attempt 5/3 for search-service
+2026-07-05 15:33:00.684 ERROR [analytics-engine] Database query failed: NullPointerException on table=sessions
+2026-07-05 17:50:00.637 INFO  [analytics-engine] Health check passed: status=UP, uptime=72179s
+2026-07-05 23:48:00.088 ERROR [analytics-engine] Connection refused to notification-service:9092 after 3 retries
+2026-07-05 23:57:00.493 INFO  [analytics-engine] Query executed in 11345ms: SELECT * FROM payments
+2026-07-06 04:36:00.135 ERROR [analytics-engine] HTTP 500 from reporting-service: Broken pipe
+2026-07-06 09:16:00.889 DEBUG [analytics-engine] SQL: SELECT * FROM payments WHERE id = usr_63211 LIMIT 1
+2026-07-06 10:27:00.073 INFO  [analytics-engine] Query executed in 83ms: SELECT * FROM users
+2026-07-06 11:36:46.181 ERROR [analytics-engine] Region mismatch: expected staging received alternate region
+2026-07-06 12:44:00.477 INFO  [analytics-engine] Processed 5084 messages from topic=user-updates
+2026-07-06 12:51:10.338 WARN  [analytics-engine] Kafka consumer lag: 72584 messages on topic=analytics
+2026-07-06 13:53:00.087 INFO  [analytics-engine] Query executed in 3674ms: SELECT * FROM users
+2026-07-06 14:34:00.118 INFO  [analytics-engine] Request processed successfully in 4183ms
+2026-07-06 19:54:00.816 WARN  [analytics-engine] Memory usage at 75% — approaching threshold
+2026-07-07 01:18:00.456 INFO  [analytics-engine] Processed 3649 messages from topic=user-updates
+2026-07-07 03:10:29.579 ERROR [analytics-engine] DNS resolution failed for billing-service
+2026-07-07 03:34:18.994 ERROR [analytics-engine] DNS resolution failed for billing-service
+2026-07-07 04:36:10.517 ERROR [analytics-engine] Stale endpoint resolved for kafka, expected updated IP
+2026-07-07 04:47:49.459 ERROR [analytics-engine] Connection refused to kafka:9092 after 3 retries
+2026-07-07 17:34:54.477 WARN  [analytics-engine] Memory usage at 85% — approaching threshold
+2026-07-07 17:56:55.514 ERROR [analytics-engine] Circuit breaker opened for redis-cache
+2026-07-07 18:29:50.191 ERROR [analytics-engine] Timeout waiting for response from postgres-primary after 30000ms
+2026-07-07 18:30:00.895 ERROR [analytics-engine] HTTP 503 from api-gateway: Too many open files
+2026-07-07 18:32:28.999 FATAL [analytics-engine] Timeout waiting for response from reporting-service after 10000ms
+2026-07-07 19:36:00.938 WARN  [analytics-engine] Kafka consumer lag: 59962 messages on topic=analytics
+2026-07-07 23:42:00.130 INFO  [analytics-engine] JWT token validated for user_id=usr_86224
+2026-07-08 00:09:00.906 INFO  [analytics-engine] Health check passed: status=UP, uptime=13166s
+2026-07-08 01:19:54.678 FATAL [analytics-engine] Connection refused to search-service:8080 after 3 retries
+2026-07-08 01:19:55.627 FATAL [analytics-engine] DNS resolution failed for kafka
+2026-07-08 01:28:20.605 ERROR [analytics-engine] Stale endpoint resolved for elasticsearch, expected updated IP
+2026-07-08 01:34:19.819 WARN  [analytics-engine] Slow query detected: 12830ms on metrics
+2026-07-08 01:36:00.850 ERROR [analytics-engine] DNS resolution failed for elasticsearch
+2026-07-08 01:54:05.588 FATAL [analytics-engine] Connection refused to postgres-replica:9092 after 3 retries
+2026-07-08 02:02:58.907 FATAL [analytics-engine] Connection refused to nginx-ingress:443 after 2 retries
+2026-07-08 02:11:25.727 ERROR [analytics-engine] Configuration checksum mismatch across replicas
+2026-07-08 02:28:55.892 WARN  [analytics-engine] Memory usage at 99% — approaching threshold
+2026-07-08 05:38:00.889 INFO  [analytics-engine] Request processed successfully in 2946ms
+2026-07-08 06:05:00.786 WARN  [analytics-engine] Certificate expires in 10 days for api.nexora.io
+2026-07-08 10:46:00.707 INFO  [analytics-engine] Query executed in 3662ms: SELECT * FROM payments
+2026-07-08 16:54:00.093 DEBUG [analytics-engine] Cache lookup: key=new_checkout_flow result=MISS
+2026-07-08 17:16:00.592 WARN  [analytics-engine] Slow query detected: 395ms on orders
+2026-07-08 18:36:00.572 ERROR [analytics-engine] Database query failed: SchemaValidationError on table=metrics
+2026-07-08 21:39:00.462 DEBUG [analytics-engine] Processing request: method=GET path=/api/v1/analytics
+2026-07-09 04:39:00.262 INFO  [analytics-engine] Request processed successfully in 4784ms
+2026-07-09 09:22:00.993 INFO  [analytics-engine] Connected to kafka successfully
+2026-07-09 10:33:00.414 WARN  [analytics-engine] Slow query detected: 13885ms on payments
+2026-07-09 11:16:00.841 INFO  [analytics-engine] JWT token validated for user_id=usr_91698
+2026-07-09 13:38:00.484 INFO  [analytics-engine] Request processed successfully in 159ms
+2026-07-09 15:17:33.698 FATAL [analytics-engine] Failed to process message: offset=395890, topic=analytics
+2026-07-09 15:40:00.762 INFO  [analytics-engine] Query executed in 13528ms: SELECT * FROM payments
+2026-07-09 16:52:11.992 WARN  [analytics-engine] Retry attempt 4/3 for billing-service
+2026-07-09 16:57:00.040 INFO  [analytics-engine] Cache hit ratio: 78% (last 5min)
+2026-07-09 17:16:00.687 INFO  [analytics-engine] Processed 6655 messages from topic=notifications
+2026-07-09 19:27:00.046 ERROR [analytics-engine] HTTP 503 from postgres-replica: Permission denied
+2026-07-09 23:58:00.349 INFO  [analytics-engine] Cache hit ratio: 63% (last 5min)
+2026-07-10 00:14:00.397 WARN  [analytics-engine] Certificate expires in 7 days for api.nexora.io
+2026-07-10 01:04:00.198 INFO  [analytics-engine] Request processed successfully in 3996ms
+2026-07-10 01:16:00.528 INFO  [analytics-engine] Connected to elasticsearch successfully
+2026-07-10 03:09:00.651 WARN  [analytics-engine] Slow query detected: 10264ms on sessions
+2026-07-10 08:21:00.313 INFO  [analytics-engine] Request processed successfully in 5763ms
